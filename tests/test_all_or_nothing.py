@@ -5,11 +5,25 @@ import unittest
 import numpy as np
 from All_Or_Nothing import all_or_nothing
 
+eps = 1e-8
 
 class TestAllOrNothing(unittest.TestCase):
 
     def test_all_or_nothing(self):
-        print 'run test_all_or_nothing'
+        # load the data
+        graph=np.loadtxt('data/braess_graph.csv', delimiter=',', skiprows=1)
+        od=np.loadtxt('data/braess_od.csv', delimiter=',', skiprows=1)
+
+        # all or nothing assignment
+        L = all_or_nothing(graph, od)
+        self.assertTrue(np.linalg.norm(L - np.array([2., 0., 2., 0., 2.])) < eps)
+
+        # modify graph
+        graph[2,3] = 1000.
+        graph[0,3] = 1.
+        L = all_or_nothing(graph, od)
+        self.assertTrue(np.linalg.norm(L - np.array([0., 2., 0., 0., 2.])) < eps)
+
 
 if __name__ == '__main__':
     unittest.main()

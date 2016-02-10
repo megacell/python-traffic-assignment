@@ -5,18 +5,14 @@ import numpy as np
 from scipy.sparse import csr_matrix
 from All_Or_Nothing import all_or_nothing
 
+def compute_potential(graph ,f):
+    # this routine is useful for doing a line search using amijo rule
+    pass
+
 
 def equilibrium_solver(graph, demand, max_iter=100):
-    
-    # load the data from graph and demand
-    graph = np.loadtxt(graph, delimiter=',', skiprows=1)
-    od = np.loadtxt(demand, delimiter=',', skiprows=1)
-
-    # Characteristics of the graph
-    zones = int(np.max(od[:,0:2])+1)
-    links = int(np.max(graph[:,0])+1)
-
     # Prepares arrays for assignment
+    links = int(np.max(graph[:,0])+1)
     f = np.zeros(links,dtype="float64") # initial flow assignment is null
     L = np.zeros(links,dtype="float64")
     g = np.copy(graph[:,:4])
@@ -27,14 +23,16 @@ def equilibrium_solver(graph, demand, max_iter=100):
         g[:,3] = np.einsum('ij,ij->i', x, graph[:,3:])
 
         # flow update
-        L = all_or_nothing(g, od)
+        L = all_or_nothing(g, demand)
         s = 2. / (i + 2.) if i>0 else 1.
         f = (1.-s) * f + s * L
     return f
 
 
 def main():
-    f = equilibrium_solver(graph='data/braess_net.csv', demand='data/braess_od.csv')
+    graph = np.loadtxt('data/braess_net.csv', delimiter=',', skiprows=1)
+    demand = np.loadtxt('data/braess_od.csv', delimiter=',', skiprows=1)
+    f = equilibrium_solver(graph, demand)
     print f
 
 if __name__ == '__main__':

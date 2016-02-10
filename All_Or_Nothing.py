@@ -31,7 +31,7 @@ def all_or_nothing(graph, od):
             demand[matrix.indices[matrix.indptr[i]:matrix.indptr[i+1]]]=matrix.data[matrix.indptr[i]:matrix.indptr[i+1]] #Fill it in with the new information
             zones, loads=AoN.AllOrNothing(graph,demand,i)  #And assign
             L=L+loads
-            print 'Origin ' + str(zones)+' assigned'
+            # print 'Origin ' + str(zones)+' assigned'
     return L
 
 
@@ -45,8 +45,8 @@ def main(graph='data/graph.csv', matrix='data/matrix.csv'):
     od=np.loadtxt(matrix, delimiter=',', skiprows=1)
 
     #Characteristics of the graph
-    zones=int(np.max(od[:,0:2])+1)
-    links=int(np.max(graph[:,0])+1)
+    #zones=int(np.max(od[:,0:2])+1)
+    #links=int(np.max(graph[:,0])+1)
 
     #Do all or nothing assignment
     print all_or_nothing(graph, od)
