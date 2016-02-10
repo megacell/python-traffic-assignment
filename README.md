@@ -11,3 +11,4 @@ Compile the Cython code with the following command:
 Test the compiled code:
 
 	python All_Or_Nothing.py
+

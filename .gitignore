@@ -4,3 +4,4 @@ AoN.so
 RESULT.CSV
 build/
 parameters.html
+*.pyc

@@ -34,7 +34,7 @@ def equilibrium_solver(graph, demand, max_iter=100):
 
 
 def main():
-    f = equilibrium_solver(graph='braess_net.csv', demand='braess_od.csv')
+    f = equilibrium_solver(graph='data/braess_net.csv', demand='data/braess_od.csv')
     print f
 
 if __name__ == '__main__':
