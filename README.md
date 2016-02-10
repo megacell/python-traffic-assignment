@@ -8,7 +8,7 @@ Compile the Cython code with the following command:
 
 	python setup_Assignment.py build_ext --inplace
 
-Test the compiled code:
+Test the compiled code with:
 
-	python All_Or_Nothing.py
+	python -m unittest discover
 
