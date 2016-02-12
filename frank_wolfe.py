@@ -56,7 +56,24 @@ def gauss_seidel(graphs, demands, max_cycles=10, max_iter=100, by_origin=False):
 def jacobi(graphs, demands, max_cycles=10, max_iter=100, by_origin=False):
     # given a list of graphs and demands specific for different types of players
     # the jacobi scheme updates simultenously for each type at the same time
-    pass
+
+    # prepare arrays for assignment by type
+    types = len(graphs)
+    links = int(np.max(graphs[0][:,0])+1)
+    fs = np.zeros((links,types),dtype="float64")
+    updates = np.copy(fs)
+    g = np.copy(graphs[0])
+
+    for cycle in range(max_cycles):
+        for i in range(types):
+            # construct graph with updated latencies
+            shift = np.sum(fs[:,range(i)+range(i+1,types)], axis=1)
+            shift_graph(graphs[i], g, shift)
+            # update flow assignment for this type
+            updates[:,i] = equilibrium_solver(g, demands[i], max_iter)
+        # batch update
+        fs = np.copy(updates)
+    return fs
 
 
 def shift_graph(graph1, graph2, d):

@@ -4,7 +4,7 @@ __email__ = "jerome.thai@berkeley.edu"
 import unittest
 import numpy as np
 from frank_wolfe import equilibrium_solver, shift_polynomial, \
-    shift_graph, gauss_seidel
+    shift_graph, gauss_seidel, jacobi
 
 
 class TestFrankWolfe(unittest.TestCase):
@@ -49,19 +49,45 @@ class TestFrankWolfe(unittest.TestCase):
         d2[0,2] = 0.25
         fs = gauss_seidel([g1,g2], [d1,d2], max_iter=200)
         a = np.array([[.125,.25],[.125,.0],[.0, .25],[.125, .0],[.125, .25]])
-        self.assertTrue(np.linalg.norm(fs - a)<1e-1)
+        self.assertTrue(np.linalg.norm(fs - a) < 1e-1)
         # routed = 1., non-routed = 1.
         d1[0,2] = 1.
         d2[0,2] = 1.
         a = np.array([[.5,.5],[.5,.5],[.0, .0],[.5, .5],[.5, .5]])
         fs = gauss_seidel([g1,g2], [d1,d2], max_iter=200) 
-        self.assertTrue(np.linalg.norm(fs - a)<1e-1)
+        self.assertTrue(np.linalg.norm(fs - a) < 1e-1)
         # routed = .75, non-routed = .75
         d1[0,2] = .75
         d2[0,2] = .75
         fs = gauss_seidel([g1,g2], [d1,d2], max_iter=200)
         a = np.array([[.375, .625],[.375, .125],[.0, .5],[.375, .125],[.375, .625]])
-        self.assertTrue(np.linalg.norm(fs - a)<1e-1)
+        self.assertTrue(np.linalg.norm(fs - a) < 1e-1)
+
+
+    def test_jacobi(self):
+        g2 = np.loadtxt('data/braess_net.csv', delimiter=',', skiprows=1)
+        g1 = np.copy(g2)
+        g1[2,3] = 1e8
+        d1 = np.loadtxt('data/braess_od.csv', delimiter=',', skiprows=1)
+        # routed = .25, non-routed = .25
+        d1[0,2] = 0.25
+        d2 = np.copy(d1)
+        d2[0,2] = 0.25
+        fs = jacobi([g1,g2], [d1,d2], max_iter=200)
+        a = np.array([[.125,.25],[.125,.0],[.0, .25],[.125, .0],[.125, .25]])
+        self.assertTrue(np.linalg.norm(fs - a) < 1e-1)
+        # routed = 1., non-routed = 1.
+        d1[0,2] = 1.
+        d2[0,2] = 1.
+        a = np.array([[.5,.5],[.5,.5],[.0, .0],[.5, .5],[.5, .5]])
+        fs = jacobi([g1,g2], [d1,d2], max_iter=200) 
+        self.assertTrue(np.linalg.norm(fs - a) < 1e-1)
+        # routed = .75, non-routed = .75
+        d1[0,2] = .75
+        d2[0,2] = .75
+        fs = jacobi([g1,g2], [d1,d2], max_iter=200)
+        a = np.array([[.375, .625],[.375, .125],[.0, .5],[.375, .125],[.375, .625]])
+        self.assertTrue(np.linalg.norm(fs - a) < 1e-1)
 
 if __name__ == '__main__':
     unittest.main()
