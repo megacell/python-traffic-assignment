@@ -3,7 +3,8 @@ __email__ = "jerome.thai@berkeley.edu"
 
 import unittest
 import numpy as np
-from frank_wolfe import equilibrium_solver
+from frank_wolfe import equilibrium_solver, shift_polynomial, \
+    shift_graph, gauss_seidel
 
 
 class TestFrankWolfe(unittest.TestCase):
@@ -11,14 +12,56 @@ class TestFrankWolfe(unittest.TestCase):
     def test_equilibrium_solver(self):
         graph = np.loadtxt('data/braess_net.csv', delimiter=',', skiprows=1)
         demand = np.loadtxt('data/braess_od.csv', delimiter=',', skiprows=1)
-        f = equilibrium_solver(graph, demand)
-        # not much precision with current implementation of Frank-Wolfe
-        self.assertTrue(np.linalg.norm(f - np.array([1.,1.,0.,1.,1.])) < 1e-1)
+        f = equilibrium_solver(graph, demand, max_iter=1000)
+        # current implementation of Frank-Wolfe need a lof of iterations
+        self.assertTrue(np.linalg.norm(f - np.array([1.,1.,0.,1.,1.])) < 1e-2)
 
         # modify demand
         demand[0,2] = 0.5
         f = equilibrium_solver(graph, demand)
         self.assertTrue(np.linalg.norm(f - np.array([.5,.0,.5,.0,.5])) < 1e-8)
+
+
+    def test_shift_polynomial(self):
+        b = shift_polynomial(np.array([1.,2.,3.,2.,1.]),2.)
+        a = np.array([49.,70.,39.,10.,1.])
+        self.assertTrue(np.linalg.norm(a-b)<1e-12)
+
+
+    def test_shift_graph(self):
+        graph1 = np.loadtxt('data/braess_net.csv', delimiter=',', skiprows=1)
+        graph1[:,5] = np.array([2.]*5)
+        graph2 = np.copy(graph1)
+        d = np.array([0.,1.,2.,3.,4.])
+        shift_graph(graph1, graph2, d)
+        #print graph1
+        #print graph2
+
+
+    def test_gauss_seidel(self):
+        g2 = np.loadtxt('data/braess_net.csv', delimiter=',', skiprows=1)
+        g1 = np.copy(g2)
+        g1[2,3] = 1e8
+        d1 = np.loadtxt('data/braess_od.csv', delimiter=',', skiprows=1)
+        # routed = .25, non-routed = .25
+        d1[0,2] = 0.25
+        d2 = np.copy(d1)
+        d2[0,2] = 0.25
+        fs = gauss_seidel([g1,g2], [d1,d2], max_iter=200)
+        a = np.array([[.125,.25],[.125,.0],[.0, .25],[.125, .0],[.125, .25]])
+        self.assertTrue(np.linalg.norm(fs - a)<1e-1)
+        # routed = 1., non-routed = 1.
+        d1[0,2] = 1.
+        d2[0,2] = 1.
+        a = np.array([[.5,.5],[.5,.5],[.0, .0],[.5, .5],[.5, .5]])
+        fs = gauss_seidel([g1,g2], [d1,d2], max_iter=200) 
+        self.assertTrue(np.linalg.norm(fs - a)<1e-1)
+        # routed = .75, non-routed = .75
+        d1[0,2] = .75
+        d2[0,2] = .75
+        fs = gauss_seidel([g1,g2], [d1,d2], max_iter=200)
+        a = np.array([[.375, .625],[.375, .125],[.0, .5],[.375, .125],[.375, .625]])
+        self.assertTrue(np.linalg.norm(fs - a)<1e-1)
 
 if __name__ == '__main__':
     unittest.main()
