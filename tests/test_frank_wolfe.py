@@ -65,19 +65,19 @@ class TestFrankWolfe(unittest.TestCase):
         d1[0,2] = 0.25
         d2 = np.copy(d1)
         d2[0,2] = 0.25
-        fs = gauss_seidel([g1,g2], [d1,d2], max_iter=200)
+        fs = gauss_seidel([g1,g2], [d1,d2], solver, max_iter=200)
         a = np.array([[.125,.25],[.125,.0],[.0, .25],[.125, .0],[.125, .25]])
         self.assertTrue(np.linalg.norm(fs - a) < 1e-1)
         # routed = 1., non-routed = 1.
         d1[0,2] = 1.
         d2[0,2] = 1.
         a = np.array([[.5,.5],[.5,.5],[.0, .0],[.5, .5],[.5, .5]])
-        fs = gauss_seidel([g1,g2], [d1,d2], max_iter=200) 
+        fs = gauss_seidel([g1,g2], [d1,d2], solver, max_iter=200) 
         self.assertTrue(np.linalg.norm(fs - a) < 1e-1)
         # routed = .75, non-routed = .75
         d1[0,2] = .75
         d2[0,2] = .75
-        fs = gauss_seidel([g1,g2], [d1,d2], max_iter=200)
+        fs = gauss_seidel([g1,g2], [d1,d2], solver, max_iter=200)
         a = np.array([[.375, .625],[.375, .125],[.0, .5],[.375, .125],[.375, .625]])
         self.assertTrue(np.linalg.norm(fs - a) < 1e-1)
 
@@ -91,19 +91,19 @@ class TestFrankWolfe(unittest.TestCase):
         d1[0,2] = 0.25
         d2 = np.copy(d1)
         d2[0,2] = 0.25
-        fs = jacobi([g1,g2], [d1,d2], max_iter=200)
+        fs = jacobi([g1,g2], [d1,d2], solver, max_iter=200)
         a = np.array([[.125,.25],[.125,.0],[.0, .25],[.125, .0],[.125, .25]])
         self.assertTrue(np.linalg.norm(fs - a) < 1e-1)
         # routed = 1., non-routed = 1.
         d1[0,2] = 1.
         d2[0,2] = 1.
         a = np.array([[.5,.5],[.5,.5],[.0, .0],[.5, .5],[.5, .5]])
-        fs = jacobi([g1,g2], [d1,d2], max_iter=200) 
+        fs = jacobi([g1,g2], [d1,d2], solver, max_iter=200) 
         self.assertTrue(np.linalg.norm(fs - a) < 1e-1)
         # routed = .75, non-routed = .75
         d1[0,2] = .75
         d2[0,2] = .75
-        fs = jacobi([g1,g2], [d1,d2], max_iter=200)
+        fs = jacobi([g1,g2], [d1,d2], solver, max_iter=200)
         a = np.array([[.375, .625],[.375, .125],[.0, .5],[.375, .125],[.375, .625]])
         self.assertTrue(np.linalg.norm(fs - a) < 1e-1)
 

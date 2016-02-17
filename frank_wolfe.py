@@ -94,7 +94,7 @@ def solver_3(graph, demand, q=5, max_iter=100):
         v = np.sum(f,1) / min(q,i+1) - f
 
 
-def gauss_seidel(graphs, demands, max_cycles=10, max_iter=100, by_origin=False):
+def gauss_seidel(graphs, demands, solver, max_cycles=10, max_iter=100, by_origin=False):
     # we are given a list of graphs and demands that are specific for different types of players
     # the gauss-seidel scheme updates cyclically for each type at a time
 
@@ -114,7 +114,7 @@ def gauss_seidel(graphs, demands, max_cycles=10, max_iter=100, by_origin=False):
     return fs
 
 
-def jacobi(graphs, demands, max_cycles=10, max_iter=100, by_origin=False):
+def jacobi(graphs, demands, solver, max_cycles=10, max_iter=100, by_origin=False):
     # given a list of graphs and demands specific for different types of players
     # the jacobi scheme updates simultenously for each type at the same time
 
