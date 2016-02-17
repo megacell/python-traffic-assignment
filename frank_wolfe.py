@@ -8,8 +8,29 @@ from scipy import special as sp
 
 
 def compute_potential(graph ,f):
-    # this routine is useful for doing a line search using amijo rule
-    pass
+    # this routine is useful for doing a line search
+    # computes the potential at flow assignment f
+    links = int(np.max(graph[:,0])+1)
+    g = np.copy(graph.dot(np.diag([1.,1.,1.,1.,1/2.,1/3.,1/4.,1/5.])))
+    x = np.power(f.reshape((links,1)), np.array([1,2,3,4,5]))
+    return np.sum(np.einsum('ij,ij->i', x, g[:,3:]))
+
+
+def line_search(f, res=20):
+    # on a grid of 2^res points bw 0 and 1, find global minimum
+    # of continuous convex function
+    d = 1./(2**res-1)
+    l, r = 0, 2**res-1
+    while r-l > 1:
+        if f(l*d) <= f(l*d+d): return l*d
+        if f(r*d-d) >= f(r*d): return r*d
+        # otherwise f(l) > f(l+d) and f(r-d) < f(r)
+        m1, m2 = (l+r)/2, 1+(l+r)/2
+        if f(m1*d) < f(m2*d): r = m1
+        if f(m1*d) > f(m2*d): l = m2
+        if f(m1*d) == f(m2*d): return m1*d
+    return l*d
+
 
 
 def equilibrium_solver(graph, demand, max_iter=100):
@@ -28,8 +49,26 @@ def equilibrium_solver(graph, demand, max_iter=100):
         L = all_or_nothing(g, demand)
         s = 2. / (i + 2.) if i>0 else 1.
         f = (1.-s) * f + s * L
+    return f
 
-    #import pdb; pdb.set_trace()
+
+def equilibrium_solver_2(graph, demand, max_iter=100):
+    # Prepares arrays for assignment
+    links = int(np.max(graph[:,0])+1)
+    f = np.zeros(links,dtype="float64") # initial flow assignment is null
+    L = np.zeros(links,dtype="float64")
+    g = np.copy(graph[:,:4])
+
+    for i in range(max_iter):
+        # construct weighted graph with latest flow assignment
+        x = np.power(f.reshape((links,1)), np.array([0,1,2,3,4]))
+        g[:,3] = np.einsum('ij,ij->i', x, graph[:,3:])
+
+        # flow update
+        L = all_or_nothing(g, demand)
+        def h(x): return compute_potential(graph, (1.-x)*f + x*L)
+        s = 2. / (i + 2.) if i>0 else line_search(h)
+        f = (1.-s) * f + s * L
     return f
 
 

@@ -4,7 +4,8 @@ __email__ = "jerome.thai@berkeley.edu"
 import unittest
 import numpy as np
 from frank_wolfe import equilibrium_solver, shift_polynomial, \
-    shift_graph, gauss_seidel, jacobi
+    shift_graph, gauss_seidel, jacobi, compute_potential, line_search, \
+    equilibrium_solver_2
 
 
 class TestFrankWolfe(unittest.TestCase):
@@ -12,14 +13,31 @@ class TestFrankWolfe(unittest.TestCase):
     def test_equilibrium_solver(self):
         graph = np.loadtxt('data/braess_net.csv', delimiter=',', skiprows=1)
         demand = np.loadtxt('data/braess_od.csv', delimiter=',', skiprows=1)
-        f = equilibrium_solver(graph, demand, max_iter=1000)
+        f = equilibrium_solver(graph, demand, max_iter=300)
         # current implementation of Frank-Wolfe need a lof of iterations
+        print 'error w/o line_search', np.linalg.norm(f - np.array([1.,1.,0.,1.,1.]))
         self.assertTrue(np.linalg.norm(f - np.array([1.,1.,0.,1.,1.])) < 1e-2)
 
         # modify demand
         demand[0,2] = 0.5
         f = equilibrium_solver(graph, demand)
+        print 'error w/o line_search', np.linalg.norm(f - np.array([.5,.0,.5,.0,.5]))
         self.assertTrue(np.linalg.norm(f - np.array([.5,.0,.5,.0,.5])) < 1e-8)
+
+
+    def test_equilibrium_solver_2(self):
+        graph = np.loadtxt('data/braess_net.csv', delimiter=',', skiprows=1)
+        demand = np.loadtxt('data/braess_od.csv', delimiter=',', skiprows=1)
+        f = equilibrium_solver_2(graph, demand, max_iter=300)
+        # current implementation of Frank-Wolfe need a lof of iterations
+        print 'error with line_search', np.linalg.norm(f - np.array([1.,1.,0.,1.,1.]))
+        self.assertTrue(np.linalg.norm(f - np.array([1.,1.,0.,1.,1.])) < 1e-2)
+
+        # modify demand
+        demand[0,2] = 0.5
+        f = equilibrium_solver_2(graph, demand)
+        print 'error with line_search', np.linalg.norm(f - np.array([.5,.0,.5,.0,.5]))
+        self.assertTrue(np.linalg.norm(f - np.array([.5,.0,.5,.0,.5])) < 1e-3)
 
 
     def test_shift_polynomial(self):
@@ -88,6 +106,22 @@ class TestFrankWolfe(unittest.TestCase):
         fs = jacobi([g1,g2], [d1,d2], max_iter=200)
         a = np.array([[.375, .625],[.375, .125],[.0, .5],[.375, .125],[.375, .625]])
         self.assertTrue(np.linalg.norm(fs - a) < 1e-1)
+
+
+    def test_compute_potential(self):
+        graph = np.loadtxt('data/braess_net.csv', delimiter=',', skiprows=1)
+        graph[:,5] = np.array([2.]*5)
+        #print graph
+        out = compute_potential(graph, np.array([2.,2.,2.,2.,2.]))
+        self.assertTrue(np.linalg.norm(out - 34.666666666) < 1e-5)
+
+
+    def test_line_search(self):
+        def f(x):
+            return (x-0.3)**2
+        out = line_search(f)
+        self.assertTrue(np.linalg.norm(out - .3) < 1e-3)
+
 
 if __name__ == '__main__':
     unittest.main()
