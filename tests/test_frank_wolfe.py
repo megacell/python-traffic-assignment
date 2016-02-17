@@ -10,34 +10,40 @@ from frank_wolfe import solver, shift_polynomial, \
 
 class TestFrankWolfe(unittest.TestCase):
 
+
+    def check(self, f, true, eps):
+        error = np.linalg.norm(f - true)
+        print 'error', error
+        self.assertTrue(error < eps)
+
+
     def test_solver(self):
+        # Frank-Wolfe from Algorithm 1 of Jaggi's paper
+        print 'test solver'
         graph = np.loadtxt('data/braess_net.csv', delimiter=',', skiprows=1)
         demand = np.loadtxt('data/braess_od.csv', delimiter=',', skiprows=1)
         f = solver(graph, demand, max_iter=300)
-        # current implementation of Frank-Wolfe need a lof of iterations
-        print 'error w/o line_search', np.linalg.norm(f - np.array([1.,1.,0.,1.,1.]))
-        self.assertTrue(np.linalg.norm(f - np.array([1.,1.,0.,1.,1.])) < 1e-2)
+        self.check(f, np.array([1.,1.,0.,1.,1.]), 1e-2)
 
         # modify demand
         demand[0,2] = 0.5
         f = solver(graph, demand)
-        print 'error w/o line_search', np.linalg.norm(f - np.array([.5,.0,.5,.0,.5]))
-        self.assertTrue(np.linalg.norm(f - np.array([.5,.0,.5,.0,.5])) < 1e-8)
+        self.check(f, np.array([.5,.0,.5,.0,.5]), 1e-8)
 
 
     def test_solver_2(self):
+        # Frank-Wolfe from Algorithm 3 of Jaggi's paper (without aprox.)
+        # already good improvement
+        print 'test solver_2'
         graph = np.loadtxt('data/braess_net.csv', delimiter=',', skiprows=1)
         demand = np.loadtxt('data/braess_od.csv', delimiter=',', skiprows=1)
         f = solver_2(graph, demand, max_iter=100)
-        # Frank-Wolfe with line-search for the last iterations is good
-        print 'error with line_search', np.linalg.norm(f - np.array([1.,1.,0.,1.,1.]))
-        self.assertTrue(np.linalg.norm(f - np.array([1.,1.,0.,1.,1.])) < 1e-3)
+        self.check(f, np.array([1.,1.,0.,1.,1.]), 1e-3)
 
         # modify demand
         demand[0,2] = 0.5
         f = solver_2(graph, demand)
-        print 'error with line_search', np.linalg.norm(f - np.array([.5,.0,.5,.0,.5]))
-        self.assertTrue(np.linalg.norm(f - np.array([.5,.0,.5,.0,.5])) < 1e-8)
+        self.check(f, np.array([.5,.0,.5,.0,.5]), 1e-8)
 
 
     def test_shift_polynomial(self):
@@ -56,56 +62,80 @@ class TestFrankWolfe(unittest.TestCase):
         #print graph2
 
 
-    def test_gauss_seidel(self):
+    def braess_heterogeneous(self, demand_r, demand_nr):
+        # generate heteregenous game on Braess network
         g2 = np.loadtxt('data/braess_net.csv', delimiter=',', skiprows=1)
         g1 = np.copy(g2)
         g1[2,3] = 1e8
         d1 = np.loadtxt('data/braess_od.csv', delimiter=',', skiprows=1)
-        # routed = .25, non-routed = .25
-        d1[0,2] = 0.25
+        d1[0,2] = demand_nr
         d2 = np.copy(d1)
-        d2[0,2] = 0.25
+        d2[0,2] = demand_r
+        return g1, g2, d1, d2
+
+
+    def test_gauss_seidel(self):
+        print 'test gauss_seidel'
+        g1,g2,d1,d2 = self.braess_heterogeneous(.25, .25)
         fs = gauss_seidel([g1,g2], [d1,d2], solver, max_iter=200)
         a = np.array([[.125,.25],[.125,.0],[.0, .25],[.125, .0],[.125, .25]])
-        self.assertTrue(np.linalg.norm(fs - a) < 1e-1)
-        # routed = 1., non-routed = 1.
-        d1[0,2] = 1.
-        d2[0,2] = 1.
+        self.check(fs, a, 1e-1)
+        g1,g2,d1,d2 = self.braess_heterogeneous(1., 1.)
         a = np.array([[.5,.5],[.5,.5],[.0, .0],[.5, .5],[.5, .5]])
         fs = gauss_seidel([g1,g2], [d1,d2], solver, max_iter=200) 
-        self.assertTrue(np.linalg.norm(fs - a) < 1e-1)
-        # routed = .75, non-routed = .75
-        d1[0,2] = .75
-        d2[0,2] = .75
+        self.check(fs, a, 1e-1)      
+        g1,g2,d1,d2 = self.braess_heterogeneous(.75, .75)
         fs = gauss_seidel([g1,g2], [d1,d2], solver, max_iter=200)
         a = np.array([[.375, .625],[.375, .125],[.0, .5],[.375, .125],[.375, .625]])
-        self.assertTrue(np.linalg.norm(fs - a) < 1e-1)
+        self.check(fs, a, 1e-1)
 
 
     def test_jacobi(self):
-        g2 = np.loadtxt('data/braess_net.csv', delimiter=',', skiprows=1)
-        g1 = np.copy(g2)
-        g1[2,3] = 1e8
-        d1 = np.loadtxt('data/braess_od.csv', delimiter=',', skiprows=1)
-        # routed = .25, non-routed = .25
-        d1[0,2] = 0.25
-        d2 = np.copy(d1)
-        d2[0,2] = 0.25
+        print 'test jacobi'
+        g1,g2,d1,d2 = self.braess_heterogeneous(.25, .25)
         fs = jacobi([g1,g2], [d1,d2], solver, max_iter=200)
         a = np.array([[.125,.25],[.125,.0],[.0, .25],[.125, .0],[.125, .25]])
-        self.assertTrue(np.linalg.norm(fs - a) < 1e-1)
-        # routed = 1., non-routed = 1.
-        d1[0,2] = 1.
-        d2[0,2] = 1.
+        self.check(fs, a, 1e-1)       
+        g1,g2,d1,d2 = self.braess_heterogeneous(1., 1.)
         a = np.array([[.5,.5],[.5,.5],[.0, .0],[.5, .5],[.5, .5]])
         fs = jacobi([g1,g2], [d1,d2], solver, max_iter=200) 
-        self.assertTrue(np.linalg.norm(fs - a) < 1e-1)
-        # routed = .75, non-routed = .75
-        d1[0,2] = .75
-        d2[0,2] = .75
+        self.check(fs, a, 1e-1)       
+        g1,g2,d1,d2 = self.braess_heterogeneous(.75, .75)
         fs = jacobi([g1,g2], [d1,d2], solver, max_iter=200)
         a = np.array([[.375, .625],[.375, .125],[.0, .5],[.375, .125],[.375, .625]])
-        self.assertTrue(np.linalg.norm(fs - a) < 1e-1)
+        self.check(fs, a, 1e-1)
+
+
+    def test_gauss_seidel_2(self):
+        print 'test gauss_seidel 2'
+        g1,g2,d1,d2 = self.braess_heterogeneous(.25, .25)
+        fs = gauss_seidel([g1,g2], [d1,d2], solver_2)
+        a = np.array([[.125,.25],[.125,.0],[.0, .25],[.125, .0],[.125, .25]])
+        self.check(fs, a, 1e-3)
+        g1,g2,d1,d2 = self.braess_heterogeneous(1., 1.)
+        a = np.array([[.5,.5],[.5,.5],[.0, .0],[.5, .5],[.5, .5]])
+        fs = gauss_seidel([g1,g2], [d1,d2], solver_2) 
+        self.check(fs, a, 1e-3)      
+        g1,g2,d1,d2 = self.braess_heterogeneous(.75, .75)
+        fs = gauss_seidel([g1,g2], [d1,d2], solver_2)
+        a = np.array([[.375, .625],[.375, .125],[.0, .5],[.375, .125],[.375, .625]])
+        self.check(fs, a, 1e-3)
+
+
+    def test_jacobi_2(self):
+        print 'test jacobi 2'
+        g1,g2,d1,d2 = self.braess_heterogeneous(.25, .25)
+        fs = jacobi([g1,g2], [d1,d2], solver_2)
+        a = np.array([[.125,.25],[.125,.0],[.0, .25],[.125, .0],[.125, .25]])
+        self.check(fs, a, 1e-3)       
+        g1,g2,d1,d2 = self.braess_heterogeneous(1., 1.)
+        a = np.array([[.5,.5],[.5,.5],[.0, .0],[.5, .5],[.5, .5]])
+        fs = jacobi([g1,g2], [d1,d2], solver_2) 
+        self.check(fs, a, 1e-3)       
+        g1,g2,d1,d2 = self.braess_heterogeneous(.75, .75)
+        fs = jacobi([g1,g2], [d1,d2], solver_2)
+        a = np.array([[.375, .625],[.375, .125],[.0, .5],[.375, .125],[.375, .625]])
+        self.check(fs, a, 1e-3)
 
 
     def test_potential(self):
