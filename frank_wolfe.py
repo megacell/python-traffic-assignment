@@ -7,7 +7,7 @@ from All_Or_Nothing import all_or_nothing
 from scipy import special as sp
 
 
-def compute_potential(graph ,f):
+def potential(graph ,f):
     # this routine is useful for doing a line search
     # computes the potential at flow assignment f
     links = int(np.max(graph[:,0])+1)
@@ -33,7 +33,7 @@ def line_search(f, res=20):
 
 
 
-def equilibrium_solver(graph, demand, max_iter=100):
+def solver(graph, demand, max_iter=100):
     # Prepares arrays for assignment
     links = int(np.max(graph[:,0])+1)
     f = np.zeros(links,dtype="float64") # initial flow assignment is null
@@ -47,12 +47,13 @@ def equilibrium_solver(graph, demand, max_iter=100):
 
         # flow update
         L = all_or_nothing(g, demand)
-        s = 2. / (i + 2.) if i>0 else 1.
+        s = 2. / (i + 2.)
         f = (1.-s) * f + s * L
     return f
 
 
-def equilibrium_solver_2(graph, demand, max_iter=100):
+def solver_2(graph, demand, max_iter=100, eps=1e-8):
+    # version with line search
     # Prepares arrays for assignment
     links = int(np.max(graph[:,0])+1)
     f = np.zeros(links,dtype="float64") # initial flow assignment is null
@@ -66,10 +67,31 @@ def equilibrium_solver_2(graph, demand, max_iter=100):
 
         # flow update
         L = all_or_nothing(g, demand)
-        def h(x): return compute_potential(graph, (1.-x)*f + x*L)
-        s = 2. / (i + 2.) if i>0 else line_search(h)
+        # def h(a): return compute_potential(graph, (1.-a)*f + a*L)
+        s = line_search(lambda a: potential(graph, (1.-a)*f+a*L)) if i>max_iter-10 \
+            else 2./(i+2.)
+        #s = line_search(lambda a: potential(graph, (1.-a)*f+a*L)) if i%10==9 \
+        #    else 2./(i+2.)
+        if s < eps: return f
+        # print 'line_search', s
+        # print h(s-1e-3), h(s), h(s+1e-3) 
         f = (1.-s) * f + s * L
     return f
+
+
+def solver_3(graph, demand, q=5, max_iter=100):
+    # modified Frank-Wolfe from Masao Fukushima
+    links = int(np.max(graph[:,0])+1)
+    f = np.zeros(links,dtype="float64") # initial flow assignment is null
+    L = np.zeros(links,dtype="float64")
+    g = np.copy(graph[:,:4])
+    for i in range(max_iter):
+        # construct weighted graph with latest flow assignment
+        x = np.power(f.reshape((links,1)), np.array([0,1,2,3,4]))
+        g[:,3] = np.einsum('ij,ij->i', x, graph[:,3:])
+        # flow update
+        f[:,i%q] = all_or_nothing(g, demand)
+        v = np.sum(f,1) / min(q,i+1) - f
 
 
 def gauss_seidel(graphs, demands, max_cycles=10, max_iter=100, by_origin=False):
@@ -88,7 +110,7 @@ def gauss_seidel(graphs, demands, max_cycles=10, max_iter=100, by_origin=False):
             shift = np.sum(fs[:,range(i)+range(i+1,types)], axis=1)
             shift_graph(graphs[i], g, shift)
             # update flow assignment for this type
-            fs[:,i] = equilibrium_solver(g, demands[i], max_iter)
+            fs[:,i] = solver(g, demands[i], max_iter)
     return fs
 
 
@@ -109,7 +131,7 @@ def jacobi(graphs, demands, max_cycles=10, max_iter=100, by_origin=False):
             shift = np.sum(fs[:,range(i)+range(i+1,types)], axis=1)
             shift_graph(graphs[i], g, shift)
             # update flow assignment for this type
-            updates[:,i] = equilibrium_solver(g, demands[i], max_iter)
+            updates[:,i] = solver(g, demands[i], max_iter)
         # batch update
         fs = np.copy(updates)
     return fs
