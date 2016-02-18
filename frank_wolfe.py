@@ -31,7 +31,7 @@ def line_search(f, res=20):
 
 
 
-def solver(graph, demand, max_iter=100):
+def solver(graph, demand, max_iter=100, display=0):
     # Prepares arrays for assignment
     links = int(np.max(graph[:,0])+1)
     f = np.zeros(links,dtype="float64") # initial flow assignment is null
@@ -39,6 +39,7 @@ def solver(graph, demand, max_iter=100):
     g = np.copy(graph[:,:4])
 
     for i in range(max_iter):
+        if display == 1: print 'iteration:', i
         # construct weighted graph with latest flow assignment
         x = np.power(f.reshape((links,1)), np.array([0,1,2,3,4]))
         # import pdb; pdb.set_trace()
@@ -51,7 +52,7 @@ def solver(graph, demand, max_iter=100):
     return f
 
 
-def solver_2(graph, demand, max_iter=100, eps=1e-8, q=10):
+def solver_2(graph, demand, max_iter=100, eps=1e-8, q=10, display=0):
     # version with line search
     # Prepares arrays for assignment
     links = int(np.max(graph[:,0])+1)
@@ -60,6 +61,7 @@ def solver_2(graph, demand, max_iter=100, eps=1e-8, q=10):
     g = np.copy(graph[:,:4])
 
     for i in range(max_iter):
+        if display == 1: print 'iteration:', i
         # construct weighted graph with latest flow assignment
         x = np.power(f.reshape((links,1)), np.array([0,1,2,3,4]))
         g[:,3] = np.einsum('ij,ij->i', x, graph[:,3:])
@@ -75,7 +77,7 @@ def solver_2(graph, demand, max_iter=100, eps=1e-8, q=10):
     return f
 
 
-def solver_3(graph, demand, q=10, max_iter=100, eps=1e-8, r=20):
+def solver_3(graph, demand, q=10, max_iter=100, eps=1e-8, r=20, display=0):
     # modified Frank-Wolfe from Masao Fukushima
     links = int(np.max(graph[:,0])+1)
     f = np.zeros(links,dtype="float64") # initial flow assignment is null
@@ -84,6 +86,7 @@ def solver_3(graph, demand, q=10, max_iter=100, eps=1e-8, r=20):
     g = np.copy(graph[:,:4])
 
     for i in range(max_iter):
+        if display == 1: print 'iteration:', i
         # construct weighted graph with latest flow assignment
         x = np.power(f.reshape((links,1)), np.array([0,1,2,3,4]))
         grad = np.einsum('ij,ij->i', x, graph[:,3:])

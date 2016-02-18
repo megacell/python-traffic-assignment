@@ -68,7 +68,7 @@ class TestFrankWolfe(unittest.TestCase):
 
 
     def test_solver_sioux_falls_2(self):
-        print 'test Frank-Wolfe on Sioux Falls'
+        print 'test Frank-Wolfe on Sioux Falls 2'
         graph = np.loadtxt('data/SiouxFalls_net.csv', delimiter=',', skiprows=1)
         demand = np.loadtxt('data/SiouxFalls_od.csv', delimiter=',', skiprows=1)
         demand[:,2] = demand[:,2] / 4000
@@ -78,7 +78,7 @@ class TestFrankWolfe(unittest.TestCase):
 
 
     def test_solver_sioux_falls_3(self):
-        print 'test Frank-Wolfe on Sioux Falls'
+        print 'test Frank-Wolfe on Sioux Falls 3'
         graph = np.loadtxt('data/SiouxFalls_net.csv', delimiter=',', skiprows=1)
         demand = np.loadtxt('data/SiouxFalls_od.csv', delimiter=',', skiprows=1)
         demand[:,2] = demand[:,2] / 4000
