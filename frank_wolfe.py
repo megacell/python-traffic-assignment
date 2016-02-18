@@ -41,6 +41,7 @@ def solver(graph, demand, max_iter=100):
     for i in range(max_iter):
         # construct weighted graph with latest flow assignment
         x = np.power(f.reshape((links,1)), np.array([0,1,2,3,4]))
+        # import pdb; pdb.set_trace()
         g[:,3] = np.einsum('ij,ij->i', x, graph[:,3:])
 
         # flow update
@@ -50,7 +51,7 @@ def solver(graph, demand, max_iter=100):
     return f
 
 
-def solver_2(graph, demand, max_iter=100, eps=1e-8):
+def solver_2(graph, demand, max_iter=100, eps=1e-8, q=10):
     # version with line search
     # Prepares arrays for assignment
     links = int(np.max(graph[:,0])+1)
@@ -65,7 +66,7 @@ def solver_2(graph, demand, max_iter=100, eps=1e-8):
 
         # flow update
         L = all_or_nothing(g, demand)
-        s = line_search(lambda a: potential(graph, (1.-a)*f+a*L)) if i>max_iter-10 \
+        s = line_search(lambda a: potential(graph, (1.-a)*f+a*L)) if i>max_iter-q \
             else 2./(i+2.)
         #s = line_search(lambda a: potential(graph, (1.-a)*f+a*L)) if i%10==9 \
         #    else 2./(i+2.)
@@ -74,7 +75,7 @@ def solver_2(graph, demand, max_iter=100, eps=1e-8):
     return f
 
 
-def solver_3(graph, demand, q=5, max_iter=100, eps=1e-8):
+def solver_3(graph, demand, q=10, max_iter=100, eps=1e-8, r=20):
     # modified Frank-Wolfe from Masao Fukushima
     links = int(np.max(graph[:,0])+1)
     f = np.zeros(links,dtype="float64") # initial flow assignment is null
@@ -91,7 +92,7 @@ def solver_3(graph, demand, q=5, max_iter=100, eps=1e-8):
         fs[:,i%q] = L
         w = L - f
         if np.linalg.norm(w) < eps: return f
-        if i > max_iter-10:
+        if i > max_iter-r:
             # step 3 of Fukushima
             v = np.sum(fs,1) / min(q,i+1) - f
             if np.linalg.norm(v) < eps: return f

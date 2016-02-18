@@ -11,7 +11,7 @@ class TestHeterogeneousSolver(unittest.TestCase):
 
 
     def check(self, f, true, eps):
-        error = np.linalg.norm(f - true)
+        error = np.linalg.norm(f - true) / np.linalg.norm(true)
         print 'error', error
         self.assertTrue(error < eps)
 
@@ -50,11 +50,11 @@ class TestHeterogeneousSolver(unittest.TestCase):
         g1,g2,d1,d2 = self.braess_heterogeneous(.25, .25)
         fs = gauss_seidel([g1,g2], [d1,d2], solver, max_iter=200)
         a = np.array([[.125,.25],[.125,.0],[.0, .25],[.125, .0],[.125, .25]])
-        self.check(fs, a, 1e-1)
+        self.check(fs, a, 1e-2)
         g1,g2,d1,d2 = self.braess_heterogeneous(1., 1.)
         a = np.array([[.5,.5],[.5,.5],[.0, .0],[.5, .5],[.5, .5]])
         fs = gauss_seidel([g1,g2], [d1,d2], solver, max_iter=200) 
-        self.check(fs, a, 1e-1)      
+        self.check(fs, a, 1e-2)      
         g1,g2,d1,d2 = self.braess_heterogeneous(.75, .75)
         fs = gauss_seidel([g1,g2], [d1,d2], solver, max_iter=200)
         a = np.array([[.375, .625],[.375, .125],[.0, .5],[.375, .125],[.375, .625]])
@@ -66,11 +66,11 @@ class TestHeterogeneousSolver(unittest.TestCase):
         g1,g2,d1,d2 = self.braess_heterogeneous(.25, .25)
         fs = jacobi([g1,g2], [d1,d2], solver, max_iter=200)
         a = np.array([[.125,.25],[.125,.0],[.0, .25],[.125, .0],[.125, .25]])
-        self.check(fs, a, 1e-1)       
+        self.check(fs, a, 1e-2)       
         g1,g2,d1,d2 = self.braess_heterogeneous(1., 1.)
         a = np.array([[.5,.5],[.5,.5],[.0, .0],[.5, .5],[.5, .5]])
         fs = jacobi([g1,g2], [d1,d2], solver, max_iter=200) 
-        self.check(fs, a, 1e-1)       
+        self.check(fs, a, 1e-2)       
         g1,g2,d1,d2 = self.braess_heterogeneous(.75, .75)
         fs = jacobi([g1,g2], [d1,d2], solver, max_iter=200)
         a = np.array([[.375, .625],[.375, .125],[.0, .5],[.375, .125],[.375, .625]])

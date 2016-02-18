@@ -10,7 +10,7 @@ class TestFrankWolfe(unittest.TestCase):
 
 
     def check(self, f, true, eps):
-        error = np.linalg.norm(f - true)
+        error = np.linalg.norm(f - true) / np.linalg.norm(true)
         print 'error', error
         self.assertTrue(error < eps)
 
@@ -55,6 +55,36 @@ class TestFrankWolfe(unittest.TestCase):
         demand[0,2] = 0.5
         f = solver_2(graph, demand)
         self.check(f, np.array([.5,.0,.5,.0,.5]), 1e-8)
+
+
+    def test_solver_sioux_falls(self):
+        print 'test Frank-Wolfe on Sioux Falls'
+        graph = np.loadtxt('data/SiouxFalls_net.csv', delimiter=',', skiprows=1)
+        demand = np.loadtxt('data/SiouxFalls_od.csv', delimiter=',', skiprows=1)
+        demand[:,2] = demand[:,2] / 4000
+        f = solver(graph, demand, max_iter=1000)
+        results = np.loadtxt('data/SiouxFalls_results.csv')
+        self.check(f*4000, results, 1e-3)
+
+
+    def test_solver_sioux_falls_2(self):
+        print 'test Frank-Wolfe on Sioux Falls'
+        graph = np.loadtxt('data/SiouxFalls_net.csv', delimiter=',', skiprows=1)
+        demand = np.loadtxt('data/SiouxFalls_od.csv', delimiter=',', skiprows=1)
+        demand[:,2] = demand[:,2] / 4000
+        f = solver_2(graph, demand, max_iter=1000, q=100)
+        results = np.loadtxt('data/SiouxFalls_results.csv')
+        self.check(f*4000, results, 1e-3)
+
+
+    def test_solver_sioux_falls_3(self):
+        print 'test Frank-Wolfe on Sioux Falls'
+        graph = np.loadtxt('data/SiouxFalls_net.csv', delimiter=',', skiprows=1)
+        demand = np.loadtxt('data/SiouxFalls_od.csv', delimiter=',', skiprows=1)
+        demand[:,2] = demand[:,2] / 4000
+        f = solver_3(graph, demand, max_iter=1000, r=200)
+        results = np.loadtxt('data/SiouxFalls_results.csv')
+        self.check(f*4000, results, 1e-3)
 
 
     def test_potential(self):

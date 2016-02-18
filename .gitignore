@@ -5,3 +5,6 @@ RESULT.CSV
 build/
 parameters.html
 *.pyc
+*.txt
+*.doc
+*.xls
