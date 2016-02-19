@@ -39,7 +39,7 @@ def solver(graph, demand, max_iter=100, display=0):
     g = np.copy(graph[:,:4])
 
     for i in range(max_iter):
-        if display == 1: print 'iteration:', i
+        if display >= 1: print 'iteration:', i
         # construct weighted graph with latest flow assignment
         x = np.power(f.reshape((links,1)), np.array([0,1,2,3,4]))
         # import pdb; pdb.set_trace()
@@ -61,7 +61,7 @@ def solver_2(graph, demand, max_iter=100, eps=1e-8, q=10, display=0):
     g = np.copy(graph[:,:4])
 
     for i in range(max_iter):
-        if display == 1: print 'iteration:', i
+        if display >= 1: print 'iteration:', i
         # construct weighted graph with latest flow assignment
         x = np.power(f.reshape((links,1)), np.array([0,1,2,3,4]))
         g[:,3] = np.einsum('ij,ij->i', x, graph[:,3:])
@@ -86,7 +86,7 @@ def solver_3(graph, demand, q=10, max_iter=100, eps=1e-8, r=20, display=0):
     g = np.copy(graph[:,:4])
 
     for i in range(max_iter):
-        if display == 1: print 'iteration:', i
+        if display >= 1: print 'iteration:', i
         # construct weighted graph with latest flow assignment
         x = np.power(f.reshape((links,1)), np.array([0,1,2,3,4]))
         grad = np.einsum('ij,ij->i', x, graph[:,3:])

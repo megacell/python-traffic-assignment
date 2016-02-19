@@ -26,12 +26,12 @@ class TestFrankWolfeOnLargeNetworks(unittest.TestCase):
         demand = np.loadtxt('data/Chicago_od.csv', delimiter=',', skiprows=1)
         results = np.loadtxt('data/Chicago_results.csv', delimiter=',', skiprows=1)     
         demand[:,2] = demand[:,2] / 4000
-        # f = solver(graph, demand, max_iter=1000, display=1)
+        f = solver(graph, demand, max_iter=1000, display=1)
         # error: 0.00647753330249, time: 664.151s
         # f = solver_2(graph, demand, max_iter=1000, q=100, display=1)
         # error: 0.00646125552755, time: 664.678s
-        f = solver_3(graph, demand, max_iter=1000, r=200, display=1)
-        # error:, time:
+        # f = solver_3(graph, demand, max_iter=1000, r=200, display=1)
+        # error: 0.00648532089623, time: 665.074s
         print np.linalg.norm(f*4000 - results[:,2]) / np.linalg.norm(results[:,2])
 
 

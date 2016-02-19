@@ -10,7 +10,7 @@ import AoN
 from scipy.sparse import csr_matrix
 
 
-def all_or_nothing(graph, od):
+def all_or_nothing(graph, od, display=0):
     '''do all or nothing assignment given numpy arrays of graph and OD flow
     '''
     #Characteristics of the graph
@@ -31,11 +31,11 @@ def all_or_nothing(graph, od):
             demand[matrix.indices[matrix.indptr[i]:matrix.indptr[i+1]]]=matrix.data[matrix.indptr[i]:matrix.indptr[i+1]] #Fill it in with the new information
             zones, loads=AoN.AllOrNothing(graph,demand,i)  #And assign
             L=L+loads
-            # print 'Origin ' + str(zones)+' assigned'
+            if display>=1: print 'Origin ' + str(zones)+' assigned'
     return L
 
 
-def main(graph='data/graph.csv', matrix='data/matrix.csv'):
+def main(graph='data/graph.csv', matrix='data/matrix.csv', display=0):
 
     #dire_data=os.getcwd()
     #dire=os.getcwd()
@@ -49,7 +49,7 @@ def main(graph='data/graph.csv', matrix='data/matrix.csv'):
     #links=int(np.max(graph[:,0])+1)
 
     #Do all or nothing assignment
-    print all_or_nothing(graph, od)
+    print all_or_nothing(graph, od, display=display)
     # w=open('RESULT.CSV','w')
     # print >> w, 'Link,NodeA,NodeB,LOAD'
     # for i in range(links-1):
@@ -63,6 +63,6 @@ def main(graph='data/graph.csv', matrix='data/matrix.csv'):
 
 
 if __name__ == '__main__':
-    main('data/braess_graph.csv', 'data/braess_od.csv')
-    # main()
+    # main('data/braess_graph.csv', 'data/braess_od.csv')
+    main(display=1)
 
