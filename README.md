@@ -13,16 +13,23 @@ Test the compiled code with:
 
 	python -m unittest discover
 
-
 Run on Chicago sketch network
 -----
-
-The Chicago sketch network (387 zones; 933 nodes; 2950 links) can be found in: http://www.bgu.ac.il/~bargera/tntp/. The .txt files have to be converted into .csv files compatible with our algorithm:
-
-	python process_data.py
-	python visualization/to_geojson.py
-
-Then Frank-Wolfe can be runned:
+Then Frank-Wolfe can be runned on Chicago sketch network (387 zones; 933 nodes; 2950 links):
 
 	python tests/frank_wolfe_large_networks.py
 
+Running on networks from Bar-Gera's test problems
+-----
+For example, the Chicago sketch network (387 zones; 933 nodes; 2950 links) can be found in: http://www.bgu.ac.il/~bargera/tntp/. Download 'ChicagoSketch_net.txt', 'ChicagoSketch_node.txt', and 'ChicagoSketch_trips.txt' files. Convert into .csv files compatible with our algorithm:
+
+	python process_data.py
+
+Visualization
+-----
+
+You can visualize by generating geojson file visualization/links.js
+
+	python visualization/to_geojson.py
+
+Then view the network with view_network.html
