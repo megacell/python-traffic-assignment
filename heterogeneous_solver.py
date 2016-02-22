@@ -5,7 +5,8 @@ import numpy as np
 from scipy import special as sp
 
 
-def gauss_seidel(graphs, demands, solver, max_cycles=10, max_iter=100, by_origin=False):
+def gauss_seidel(graphs, demands, solver, max_cycles=10, max_iter=100, \
+    by_origin=False, q=10, display=0):
     # we are given a list of graphs and demands that are specific for different types of players
     # the gauss-seidel scheme updates cyclically for each type at a time
 
@@ -16,16 +17,18 @@ def gauss_seidel(graphs, demands, solver, max_cycles=10, max_iter=100, by_origin
     g = np.copy(graphs[0])
 
     for cycle in range(max_cycles):
+        if display >= 1: print 'cycle:', cycle
         for i in range(types):
             # construct graph with updated latencies
             shift = np.sum(fs[:,range(i)+range(i+1,types)], axis=1)
             shift_graph(graphs[i], g, shift)
             # update flow assignment for this type
-            fs[:,i] = solver(g, demands[i], max_iter)
+            fs[:,i] = solver(g, demands[i], max_iter=max_iter, q=q, display=display)
     return fs
 
 
-def jacobi(graphs, demands, solver, max_cycles=10, max_iter=100, by_origin=False):
+def jacobi(graphs, demands, solver, max_cycles=10, max_iter=100, \
+    by_origin=False, q=10, display=0):
     # given a list of graphs and demands specific for different types of players
     # the jacobi scheme updates simultenously for each type at the same time
 
@@ -37,12 +40,13 @@ def jacobi(graphs, demands, solver, max_cycles=10, max_iter=100, by_origin=False
     g = np.copy(graphs[0])
 
     for cycle in range(max_cycles):
+        if display >= 1: print 'cycle:', cycle
         for i in range(types):
             # construct graph with updated latencies
             shift = np.sum(fs[:,range(i)+range(i+1,types)], axis=1)
             shift_graph(graphs[i], g, shift)
             # update flow assignment for this type
-            updates[:,i] = solver(g, demands[i], max_iter)
+            updates[:,i] = solver(g, demands[i], max_iter=max_iter, q=q, display=display)
         # batch update
         fs = np.copy(updates)
     return fs

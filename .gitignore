@@ -8,3 +8,4 @@ parameters.html
 *.txt
 *.doc
 *.xls
+data/test*.csv

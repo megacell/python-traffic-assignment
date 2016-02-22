@@ -31,7 +31,7 @@ def line_search(f, res=20):
 
 
 
-def solver(graph, demand, max_iter=100, display=0):
+def solver(graph, demand, max_iter=100, q=None, display=0):
     # Prepares arrays for assignment
     links = int(np.max(graph[:,0])+1)
     f = np.zeros(links,dtype="float64") # initial flow assignment is null
@@ -77,12 +77,12 @@ def solver_2(graph, demand, max_iter=100, eps=1e-8, q=10, display=0):
     return f
 
 
-def solver_3(graph, demand, q=10, max_iter=100, eps=1e-8, r=20, display=0):
+def solver_3(graph, demand, past=10, max_iter=100, eps=1e-8, q=20, display=0):
     # modified Frank-Wolfe from Masao Fukushima
     links = int(np.max(graph[:,0])+1)
     f = np.zeros(links,dtype="float64") # initial flow assignment is null
     L = np.zeros(links,dtype="float64")
-    fs = np.zeros((links,q),dtype="float64")
+    fs = np.zeros((links,past),dtype="float64")
     g = np.copy(graph[:,:4])
 
     for i in range(max_iter):
@@ -92,12 +92,12 @@ def solver_3(graph, demand, q=10, max_iter=100, eps=1e-8, r=20, display=0):
         grad = np.einsum('ij,ij->i', x, graph[:,3:])
         g[:,3] = grad
         L = all_or_nothing(g, demand)
-        fs[:,i%q] = L
+        fs[:,i%past] = L
         w = L - f
         if np.linalg.norm(w) < eps: return f
-        if i > max_iter-r:
+        if i > max_iter-q:
             # step 3 of Fukushima
-            v = np.sum(fs,1) / min(q,i+1) - f
+            v = np.sum(fs,1) / min(past,i+1) - f
             if np.linalg.norm(v) < eps: return f
             # step 4 of Fukushima
             gamma_1 = grad.dot(v) / np.linalg.norm(v)

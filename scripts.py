@@ -9,6 +9,8 @@ import numpy as np
 from process_data import extract_features, process_links, geojson_link, \
     process_trips, process_net, process_node, array_to_trips, process_results
 from metrics import average_cost, cost_ratio
+from frank_wolfe import solver, solver_2, solver_3
+from heterogeneous_solver import gauss_seidel, jacobi
 
 
 def test_anaheim(self):
@@ -92,7 +94,6 @@ def frank_wolfe_on_chicago_2():
     http://www.bgu.ac.il/~bargera/tntp/
     but we multiply the demand by 2 to have more congestion
     '''    
-    print 'test Chicago_2'
     graph = np.loadtxt('data/Chicago_net.csv', delimiter=',', skiprows=1)
     demand = np.loadtxt('data/Chicago_od.csv', delimiter=',', skiprows=1)
     results = np.loadtxt('data/Chicago_results_2.csv', delimiter=',') 
@@ -120,14 +121,101 @@ def equilibrium_in_chicago():
     geojson_link(links, ['capacity', 'length', 'fftt', 'tt_over_fftt'], color)
 
 
+def braess_heterogeneous(demand_r, demand_nr):
+    # generate heteregenous game on Braess network
+    g_r = np.loadtxt('data/braess_net.csv', delimiter=',', skiprows=1)
+    g_nr = np.copy(g_r)
+    g_nr[2,3] = 1e8
+    d_nr = np.loadtxt('data/braess_od.csv', delimiter=',', skiprows=1)
+    d_nr[0,2] = demand_nr
+    d_r = np.copy(d_nr)
+    d_r[0,2] = demand_r
+    return g_nr, g_r, d_nr, d_r
+
+
+def braess_parametric_study():
+    '''
+    parametric study of heterogeneous game on the Braess network 
+    '''
+    g1,g2,d1,d2 = braess_heterogeneous(.0, 1.5)
+    fs = solver_2(g1, d1)
+    print '.0, 1.5'
+    np.savetxt('data/test_1.csv', fs, delimiter=',')
+    g1,g2,d1,d2 = braess_heterogeneous(.5, 1.)
+    fs = gauss_seidel([g1,g2], [d1,d2], solver_2)
+    print '.5, 1.'
+    np.savetxt('data/test_2.csv', fs, delimiter=',')
+    g1,g2,d1,d2 = braess_heterogeneous(.75, .75)
+    fs = gauss_seidel([g1,g2], [d1,d2], solver_2)
+    print '.75, .75'
+    np.savetxt('data/test_3.csv', fs, delimiter=',')
+    g1,g2,d1,d2 = braess_heterogeneous(1., .5)
+    fs = gauss_seidel([g1,g2], [d1,d2], solver_2)
+    print '1., .5'
+    np.savetxt('data/test_4.csv', fs, delimiter=',')
+    g1,g2,d1,d2 = braess_heterogeneous(1.5, .0)
+    fs = solver_2(g2, d2)
+    print '1.5, .0'
+    np.savetxt('data/test_5.csv', fs, delimiter=',')
+
+
+def heterogeneous_demand(d, alpha):
+    d_nr = np.copy(d)
+    d_r = np.copy(d)
+    d_nr[:,2] = (1-alpha) * d_nr[:,2]
+    d_r[:,2] = alpha * d_r[:,2]
+    return d_nr, d_r
+
+
+def chicago_parametric_study():
+    '''
+    parametric study of heterogeneous game on Chicago sketch network
+    '''
+    # graphs
+    g_r = np.loadtxt('data/Chicago_net.csv', delimiter=',', skiprows=1)
+    g_nr = np.copy(g_r)
+    features = extract_features('data/ChicagoSketch_net.txt')
+    for row in range(g_nr.shape[0]):
+        if features[row,0] < 2000.:
+            g_nr[row,3] = g_nr[row,3] + 1000.
+    # demand
+    d = np.loadtxt('data/Chicago_od.csv', delimiter=',', skiprows=1)
+    d[:,2] = d[:,2] / 2000 # technically, it's 2*demand/4000
+
+    print 'non-routed = 1.0, routed = 0.0'
+    fs = solver_2(g_nr, d, max_iter=1000, q=100, display=1)    
+    np.savetxt('data/test_1.csv', fs, delimiter=',')
+    
+    print 'non-routed = .75, routed = .25'
+    d_nr, d_r = heterogeneous_demand(d, .25)
+    fs = gauss_seidel([g_nr,g_r], [d_nr,d_r], solver_2, max_iter=1000, display=1)
+    np.savetxt('data/test_2.csv', fs, delimiter=',')
+
+    print 'non-routed = .5, routed = .5'
+    d_nr, d_r = heterogeneous_demand(d, .5)
+    fs = gauss_seidel([g_nr,g_r], [d_nr,d_r], solver_2, max_iter=1000, display=1)
+    np.savetxt('data/test_3.csv', fs, delimiter=',')
+
+    print 'non-routed = .25, routed = .75'
+    d_nr, d_r = heterogeneous_demand(d, .75)
+    fs = gauss_seidel([g_nr,g_r], [d_nr,d_r], solver_2, max_iter=1000, display=1)
+    np.savetxt('data/test_4.csv', fs, delimiter=',')
+
+    print 'non-routed = 0.0, routed = 1.0'
+    fs = solver_2(g_r, d, max_iter=1000, q=100, display=1)    
+    np.savetxt('data/test_5.csv', fs, delimiter=',')
+
+
 def main():
     # process_chicago_network()
     # capacities_of_chicago()
-    equilibrium_in_chicago()
+    # equilibrium_in_chicago()
     # multiply_demand_by_2()
     # results_for_chicago()
     # frank_wolfe_on_chicago()
     # frank_wolfe_on_chicago_2()
+    # braess_parametric_study()
+    chicago_parametric_study()
 
 if __name__ == '__main__':
     main()

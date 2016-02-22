@@ -82,7 +82,7 @@ class TestFrankWolfe(unittest.TestCase):
         graph = np.loadtxt('data/SiouxFalls_net.csv', delimiter=',', skiprows=1)
         demand = np.loadtxt('data/SiouxFalls_od.csv', delimiter=',', skiprows=1)
         demand[:,2] = demand[:,2] / 4000
-        f = solver_3(graph, demand, max_iter=1000, r=200)
+        f = solver_3(graph, demand, max_iter=1000, q=200)
         results = np.loadtxt('data/SiouxFalls_results.csv')
         self.check(f*4000, results, 1e-3)
 

@@ -32,7 +32,6 @@ class TestHeterogeneousSolver(unittest.TestCase):
         #print graph2
 
 
-
     def braess_heterogeneous(self, demand_r, demand_nr):
         # generate heteregenous game on Braess network
         g2 = np.loadtxt('data/braess_net.csv', delimiter=',', skiprows=1)
