@@ -8,6 +8,7 @@ that can be found here: http://www.bgu.ac.il/~bargera/tntp/
 
 import csv
 import numpy as np
+from utils import digits, spaces
 
 
 def process_net(input, output):
@@ -55,6 +56,37 @@ def process_trips(input, output):
                             out.append('{},{},'.format(origin,e))
                         if i%3 == 2:
                             out.append('{}\n'.format(e[:-1]))
+    with open(output, "w") as text_file:
+        text_file.write(''.join(out))
+
+
+def array_to_trips(demand, output):
+    '''
+    convert numpy array into _trips.txt input file for Matthew Steele's solver
+    '''
+    row = 0
+    zones = int(np.max(demand[:,0]))
+    out = ['<NUMBER OF ZONES> {}\n'.format(zones)]
+    out.append('<TOTAL OD FLOW> {}\n'.format(np.sum(demand[:,2])))
+    out.append('<END OF METADATA>\n\n\n')
+    for i in range(zones):
+        out.append('Origin')
+        out.append(spaces(10-digits(i+1)))
+        out.append('{}\n'.format(i+1))
+
+        count = 0
+        while (row < demand.shape[0]) and (demand[row,0] == i+1):
+            count = count + 1
+            d = int(demand[row,1])
+            out.append(spaces(5-digits(d)))
+            out.append('{} :'.format(d))
+            out.append(spaces(8-digits(demand[row,2])))
+            out.append('{:.2f}; '.format(demand[row,2]))
+            row = row + 1
+            if count % 5 == 0:
+                out.append('\n')
+                count = 0
+        out.append('\n')
     with open(output, "w") as text_file:
         text_file.write(''.join(out))
 
@@ -138,16 +170,54 @@ def extract_features(input):
     return np.array(out)
 
 
-def process_chicago_network():
-    process_trips('data/ChicagoSketch_trips.txt', 'data/Chicago_od.csv')
-    process_net('data/ChicagoSketch_net.txt', 'data/Chicago_net.csv')
-    input = 'data/ChicagoSketch_node.csv'
-    output = 'data/Chicago_node.csv'
-    max_X = -87.110063
-    min_X = -88.9242653
-    max_Y = 42.711908
-    min_Y = 40.946233
-    process_node(input, output, min_X, max_X, min_Y, max_Y)
+begin = 'var geojson_features = [{\n'
+
+
+def begin_feature(type):
+    string = '    "type": "Feature",\n    "geometry": {\n'
+    begin_coord = '        "coordinates": [\n'
+    return string + '        "type": "{}",\n'.format(type) + begin_coord
+
+def coord(lat,lon,type):
+    if type == "LineString": return '            [{}, {}],\n'.format(lon,lat)
+    if type == "Point": return '            [{}, {}]'.format(lon,lat)
+
+begin_prop = '            ]},\n    "properties": {\n'
+
+def prop(name, value):
+    return '        "{}": "{}",\n'.format(name, value)
+
+def prop_numeric(name, value):
+    return '        "{}": {},\n'.format(name, value)
+
+
+def geojson_link(links, features, color):
+    """
+    from array of link coordinates and features, generate geojson file
+    links is numpy array where each row has [lat1, lon1, lat2, lon2, features]
+    color is an array that encodes the color of the link for visualization
+    if      color < 1: blue
+    if 1 <= color < 2: yellow
+    if 2 <= color < 3: orange
+    if 3 <= color < 4: orange-red
+    if 5 <= color    : red
+    """
+    type = 'LineString'
+    out = [begin]
+    for i in range(links.shape[0]):
+        out.append(begin_feature(type))
+        out.append(coord(links[i,0], links[i,1], type))
+        out.append(coord(links[i,2], links[i,3], type))
+        out.append(begin_prop)
+        for j,f in enumerate(features):
+            out.append(prop(f, links[i,j+4]))
+        out.append(prop('color', color[i]))
+        out.append('    }},{\n')
+    out[-1] = '    }}];\n\n'
+    out.append('var lat_center_map = {}\n'.format(np.mean(links[:,0])))
+    out.append('var lon_center_map = {}\n'.format(np.mean(links[:,1])))
+    with open('visualization/links.js', 'w') as f:
+        f.write(''.join(out))
 
                   
 def main():
@@ -156,6 +226,7 @@ def main():
     # process_results('data/Anaheim_raw_results.csv', 'data/Anaheim_results.csv',\
     #    'data/Anaheim_net.csv')
     process_chicago_network()
+
 
 if __name__ == '__main__':
     main()

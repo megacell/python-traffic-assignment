@@ -23,13 +23,15 @@ Running on networks from Bar-Gera's test problems
 -----
 For example, the Chicago sketch network (387 zones; 933 nodes; 2950 links) can be found in: http://www.bgu.ac.il/~bargera/tntp/. Download 'ChicagoSketch_net.txt', 'ChicagoSketch_node.txt', and 'ChicagoSketch_trips.txt' files. Convert into .csv files compatible with our algorithm:
 
-	python process_data.py
+	python scripts.py
+
+'process_chicago_network()' routine generates the right input files.
 
 Visualization
 -----
 
-You can visualize by generating geojson file visualization/links.js
+You can visualize:
 
-	python visualization/to_geojson.py
+	python scripts.py
 
-Then view the network with view_network.html
+'capacities_of_chicago()' routines generates geojson file 'visualization/links.js'. Then view the network with view_network.html.

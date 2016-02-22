@@ -97,18 +97,18 @@ function onEachFeature(feature, layer) {
 
 
 function getColor(x) {
-  return x < 2000     ?    '#00FFFF': // blue
-         x < 4000     ?   '#FFFF00': // yellow
-         x < 8000     ?   '#FFA500': // orange
-         x < 10000    ?   '#FF4500': // orangered
+  return x < 1     ?    '#00FFFF': // blue
+         x < 2     ?   '#FFFF00': // yellow
+         x < 3     ?   '#FFA500': // orange
+         x < 4    ?   '#FF4500': // orangered
                           '#FF0000'; // red
 };
 
 function getOpacity(x) {
-  return x < 2000     ?    0.5:
-         x < 4000     ?   0.5:
-         x < 8000     ?   0.5:
-         x < 10000    ?   0.5:
+  return x < 1     ?    0.5:
+         x < 2     ?   0.5:
+         x < 3     ?   0.5:
+         x < 4    ?   0.5:
                           0.5;
 };
 
@@ -116,9 +116,9 @@ L.geoJson(geojson_features, {
     onEachFeature: onEachFeature,
     style: function (feature) {
         return {
-         "color": getColor(feature.properties.capacity),
+         "color": getColor(feature.properties.color),
          //"opacity": 0.5,
-         "opacity": getOpacity(feature.properties.capacity),
+         "opacity": getOpacity(feature.properties.color),
         }}
 }).addTo(map);
 
