@@ -5,9 +5,6 @@ __email__ = "jerome.thai@berkeley.edu"
 Various scripts for processing data
 '''
 
-#Ceci est un test
-
-
 import numpy as np
 from process_data import extract_features, process_links, geojson_link, \
     process_trips, process_net, process_node, array_to_trips, process_results
