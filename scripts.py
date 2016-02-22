@@ -83,7 +83,7 @@ def frank_wolfe_on_chicago():
     # error: 0.00647753330249, time: 664.151s
     # f = solver_2(graph, demand, max_iter=1000, q=100, display=1)
     # error: 0.00646125552755, time: 664.678s
-    # f = solver_3(graph, demand, max_iter=1000, r=200, display=1)
+    # f = solver_3(graph, demand, max_iter=1000, q=200, display=1)
     # error: 0.00648532089623, time: 665.074s
     print np.linalg.norm(f*4000 - results[:,2]) / np.linalg.norm(results[:,2])
 
@@ -182,14 +182,14 @@ def chicago_parametric_study():
     d = np.loadtxt('data/Chicago_od.csv', delimiter=',', skiprows=1)
     d[:,2] = d[:,2] / 2000 # technically, it's 2*demand/4000
 
-    print 'non-routed = 1.0, routed = 0.0'
-    fs = solver_2(g_nr, d, max_iter=1000, q=100, display=1)    
-    np.savetxt('data/test_1.csv', fs, delimiter=',')
+    # print 'non-routed = 1.0, routed = 0.0'
+    # fs = solver_2(g_nr, d, max_iter=1000, q=100, display=1)    
+    # np.savetxt('data/test_1.csv', fs, delimiter=',')
     
-    print 'non-routed = .75, routed = .25'
-    d_nr, d_r = heterogeneous_demand(d, .25)
-    fs = gauss_seidel([g_nr,g_r], [d_nr,d_r], solver_2, max_iter=1000, display=1)
-    np.savetxt('data/test_2.csv', fs, delimiter=',')
+    # print 'non-routed = .75, routed = .25'
+    # d_nr, d_r = heterogeneous_demand(d, .25)
+    # fs = gauss_seidel([g_nr,g_r], [d_nr,d_r], solver_2, max_iter=1000, display=1)
+    # np.savetxt('data/test_2.csv', fs, delimiter=',')
 
     print 'non-routed = .5, routed = .5'
     d_nr, d_r = heterogeneous_demand(d, .5)
@@ -208,14 +208,14 @@ def chicago_parametric_study():
 
 def main():
     # process_chicago_network()
-    # capacities_of_chicago()
+    capacities_of_chicago()
     # equilibrium_in_chicago()
     # multiply_demand_by_2()
     # results_for_chicago()
     # frank_wolfe_on_chicago()
     # frank_wolfe_on_chicago_2()
     # braess_parametric_study()
-    chicago_parametric_study()
+    # chicago_parametric_study()
 
 if __name__ == '__main__':
     main()
