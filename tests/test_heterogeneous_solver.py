@@ -87,7 +87,7 @@ class TestHeterogeneousSolver(unittest.TestCase):
         fs = gauss_seidel([g1,g2], [d1,d2], solver_2) 
         self.check(fs, a, 1e-3)      
         g1,g2,d1,d2 = self.braess_heterogeneous(.75, .75)
-        fs = gauss_seidel([g1,g2], [d1,d2], solver_2)
+        fs = gauss_seidel([g1,g2], [d1,d2], solver_2, max_iter=200)
         a = np.array([[.375, .625],[.375, .125],[.0, .5],[.375, .125],[.375, .625]])
         self.check(fs, a, 1e-3)
 
@@ -103,9 +103,10 @@ class TestHeterogeneousSolver(unittest.TestCase):
         fs = jacobi([g1,g2], [d1,d2], solver_2) 
         self.check(fs, a, 1e-3)       
         g1,g2,d1,d2 = self.braess_heterogeneous(.75, .75)
-        fs = jacobi([g1,g2], [d1,d2], solver_2)
+        fs = jacobi([g1,g2], [d1,d2], solver_2, max_iter=200)
         a = np.array([[.375, .625],[.375, .125],[.0, .5],[.375, .125],[.375, .625]])
         self.check(fs, a, 1e-3)
+
 
     def test_gauss_seidel_3(self):
         print 'test gauss_seidel 3'
@@ -118,7 +119,7 @@ class TestHeterogeneousSolver(unittest.TestCase):
         fs = gauss_seidel([g1,g2], [d1,d2], solver_3) 
         self.check(fs, a, 1e-3)      
         g1,g2,d1,d2 = self.braess_heterogeneous(.75, .75)
-        fs = gauss_seidel([g1,g2], [d1,d2], solver_3)
+        fs = gauss_seidel([g1,g2], [d1,d2], solver_3, q=50)
         a = np.array([[.375, .625],[.375, .125],[.0, .5],[.375, .125],[.375, .625]])
         self.check(fs, a, 1e-3)
 
@@ -134,7 +135,7 @@ class TestHeterogeneousSolver(unittest.TestCase):
         fs = jacobi([g1,g2], [d1,d2], solver_3) 
         self.check(fs, a, 1e-3)       
         g1,g2,d1,d2 = self.braess_heterogeneous(.75, .75)
-        fs = jacobi([g1,g2], [d1,d2], solver_3)
+        fs = jacobi([g1,g2], [d1,d2], solver_3, q=50)
         a = np.array([[.375, .625],[.375, .125],[.0, .5],[.375, .125],[.375, .625]])
         self.check(fs, a, 1e-3)
 

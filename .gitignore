@@ -9,3 +9,4 @@ parameters.html
 *.doc
 *.xls
 data/test*.csv
+temp/

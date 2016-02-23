@@ -31,7 +31,7 @@ def line_search(f, res=20):
 
 
 
-def solver(graph, demand, max_iter=100, q=None, display=0):
+def solver(graph, demand, max_iter=100, eps=1e-8, q=None, display=0):
     # Prepares arrays for assignment
     links = int(np.max(graph[:,0])+1)
     f = np.zeros(links,dtype="float64") # initial flow assignment is null
@@ -39,14 +39,24 @@ def solver(graph, demand, max_iter=100, q=None, display=0):
     g = np.copy(graph[:,:4])
 
     for i in range(max_iter):
-        if display >= 1: print 'iteration:', i
+        if display >= 1:
+            if i <= 1:
+                print 'iteration: {}'.format(i+1)
+            else:
+                print 'iteration: {}, error: {}'.format(i+1, error)
         # construct weighted graph with latest flow assignment
         x = np.power(f.reshape((links,1)), np.array([0,1,2,3,4]))
         # import pdb; pdb.set_trace()
-        g[:,3] = np.einsum('ij,ij->i', x, graph[:,3:])
-
+        grad = np.einsum('ij,ij->i', x, graph[:,3:])
+        g[:,3] = grad
         # flow update
         L = all_or_nothing(g, demand)
+        if i >= 1:
+            w = f - L
+            norm_w = np.linalg.norm(w,1)
+            if norm_w < eps: return f
+            error = grad.dot(w) / norm_w
+            if error < eps: return f
         s = 2. / (i + 2.)
         f = (1.-s) * f + s * L
     return f
@@ -59,34 +69,47 @@ def solver_2(graph, demand, max_iter=100, eps=1e-8, q=10, display=0):
     f = np.zeros(links,dtype="float64") # initial flow assignment is null
     L = np.zeros(links,dtype="float64")
     g = np.copy(graph[:,:4])
-
+    ls = max_iter/q # frequency of line search
     for i in range(max_iter):
-        if display >= 1: print 'iteration:', i
+        if display >= 1:
+            if i <= 1:
+                print 'iteration: {}'.format(i+1)
+            else:
+                print 'iteration: {}, error: {}'.format(i+1, error)
         # construct weighted graph with latest flow assignment
         x = np.power(f.reshape((links,1)), np.array([0,1,2,3,4]))
-        g[:,3] = np.einsum('ij,ij->i', x, graph[:,3:])
-
+        grad = np.einsum('ij,ij->i', x, graph[:,3:])
+        g[:,3] = grad
         # flow update
         L = all_or_nothing(g, demand)
-        s = line_search(lambda a: potential(graph, (1.-a)*f+a*L)) if i>max_iter-q \
+        if i >= 1:
+            w = f - L
+            norm_w = np.linalg.norm(w,1)
+            if norm_w < eps: return f
+            error = grad.dot(w) / norm_w
+            if error < eps: return f
+        # s = line_search(lambda a: potential(graph, (1.-a)*f+a*L)) if i>max_iter-q \
+        #     else 2./(i+2.)
+        s = line_search(lambda a: potential(graph, (1.-a)*f+a*L)) if i%ls==(ls-1) \
             else 2./(i+2.)
-        #s = line_search(lambda a: potential(graph, (1.-a)*f+a*L)) if i%10==9 \
-        #    else 2./(i+2.)
         if s < eps: return f
         f = (1.-s) * f + s * L
     return f
 
 
-def solver_3(graph, demand, past=10, max_iter=100, eps=1e-8, q=20, display=0):
+def solver_3(graph, demand, past=10, max_iter=100, eps=1e-8, q=50, display=0):
     # modified Frank-Wolfe from Masao Fukushima
     links = int(np.max(graph[:,0])+1)
     f = np.zeros(links,dtype="float64") # initial flow assignment is null
     L = np.zeros(links,dtype="float64")
     fs = np.zeros((links,past),dtype="float64")
     g = np.copy(graph[:,:4])
-
     for i in range(max_iter):
-        if display >= 1: print 'iteration:', i
+        if display >= 1:
+            if i <= 1:
+                print 'iteration: {}'.format(i+1)
+            else:            
+                print 'iteration: {}, error: {}'.format(i+1, error)
         # construct weighted graph with latest flow assignment
         x = np.power(f.reshape((links,1)), np.array([0,1,2,3,4]))
         grad = np.einsum('ij,ij->i', x, graph[:,3:])
@@ -94,14 +117,19 @@ def solver_3(graph, demand, past=10, max_iter=100, eps=1e-8, q=20, display=0):
         L = all_or_nothing(g, demand)
         fs[:,i%past] = L
         w = L - f
-        if np.linalg.norm(w) < eps: return f
-        if i > max_iter-q:
+        if i >= 1:
+            norm_w = np.linalg.norm(w,1)
+            if norm_w < eps: return f
+            error = -grad.dot(w) / norm_w
+            if error < eps: return f
+        if i > q:
             # step 3 of Fukushima
             v = np.sum(fs,1) / min(past,i+1) - f
-            if np.linalg.norm(v) < eps: return f
+            norm_v = np.linalg.norm(v,1)
+            if norm_v < eps: return f
             # step 4 of Fukushima
-            gamma_1 = grad.dot(v) / np.linalg.norm(v)
-            gamma_2 = grad.dot(w) / np.linalg.norm(w)
+            gamma_1 = grad.dot(v) / norm_v
+            gamma_2 = -error
             if gamma_2 > -eps: return f
             d = v if gamma_1 < gamma_2 else w
             # step 5 of Fukushima
