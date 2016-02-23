@@ -31,12 +31,14 @@ def line_search(f, res=20):
 
 
 
-def solver(graph, demand, max_iter=100, eps=1e-8, q=None, display=0):
+def solver(graph, demand, max_iter=100, eps=1e-8, q=None, display=0, past=None,\
+    stop=1e-8):
     # Prepares arrays for assignment
     links = int(np.max(graph[:,0])+1)
     f = np.zeros(links,dtype="float64") # initial flow assignment is null
     L = np.zeros(links,dtype="float64")
     g = np.copy(graph[:,:4])
+    total_demand = np.sum(demand[:,2])
 
     for i in range(max_iter):
         if display >= 1:
@@ -52,17 +54,18 @@ def solver(graph, demand, max_iter=100, eps=1e-8, q=None, display=0):
         # flow update
         L = all_or_nothing(g, demand)
         if i >= 1:
-            w = f - L
-            norm_w = np.linalg.norm(w,1)
-            if norm_w < eps: return f
-            error = grad.dot(w) / norm_w
-            if error < eps: return f
+            # w = f - L
+            # norm_w = np.linalg.norm(w,1)
+            # if norm_w < eps: return f
+            error = grad.dot(f - L) / total_demand
+            if error < stop: return f
         s = 2. / (i + 2.)
         f = (1.-s) * f + s * L
     return f
 
 
-def solver_2(graph, demand, max_iter=100, eps=1e-8, q=10, display=0):
+def solver_2(graph, demand, max_iter=100, eps=1e-8, q=10, display=0, past=None,\
+    stop=1e-8):
     # version with line search
     # Prepares arrays for assignment
     links = int(np.max(graph[:,0])+1)
@@ -70,6 +73,8 @@ def solver_2(graph, demand, max_iter=100, eps=1e-8, q=10, display=0):
     L = np.zeros(links,dtype="float64")
     g = np.copy(graph[:,:4])
     ls = max_iter/q # frequency of line search
+    total_demand = np.sum(demand[:,2])
+
     for i in range(max_iter):
         if display >= 1:
             if i <= 1:
@@ -83,11 +88,11 @@ def solver_2(graph, demand, max_iter=100, eps=1e-8, q=10, display=0):
         # flow update
         L = all_or_nothing(g, demand)
         if i >= 1:
-            w = f - L
-            norm_w = np.linalg.norm(w,1)
-            if norm_w < eps: return f
-            error = grad.dot(w) / norm_w
-            if error < eps: return f
+            # w = f - L
+            # norm_w = np.linalg.norm(w,1)
+            # if norm_w < eps: return f
+            error = grad.dot(f - L) / total_demand
+            if error < stop: return f
         # s = line_search(lambda a: potential(graph, (1.-a)*f+a*L)) if i>max_iter-q \
         #     else 2./(i+2.)
         s = line_search(lambda a: potential(graph, (1.-a)*f+a*L)) if i%ls==(ls-1) \
@@ -97,13 +102,16 @@ def solver_2(graph, demand, max_iter=100, eps=1e-8, q=10, display=0):
     return f
 
 
-def solver_3(graph, demand, past=10, max_iter=100, eps=1e-8, q=50, display=0):
+def solver_3(graph, demand, past=10, max_iter=100, eps=1e-8, q=50, display=0,\
+    stop=1e-8):
     # modified Frank-Wolfe from Masao Fukushima
     links = int(np.max(graph[:,0])+1)
     f = np.zeros(links,dtype="float64") # initial flow assignment is null
     L = np.zeros(links,dtype="float64")
     fs = np.zeros((links,past),dtype="float64")
     g = np.copy(graph[:,:4])
+    total_demand = np.sum(demand[:,2])
+
     for i in range(max_iter):
         if display >= 1:
             if i <= 1:
@@ -118,18 +126,18 @@ def solver_3(graph, demand, past=10, max_iter=100, eps=1e-8, q=50, display=0):
         fs[:,i%past] = L
         w = L - f
         if i >= 1:
-            norm_w = np.linalg.norm(w,1)
-            if norm_w < eps: return f
-            error = -grad.dot(w) / norm_w
-            if error < eps: return f
+            error = -grad.dot(w) / total_demand
+            if error < stop: return f
         if i > q:
             # step 3 of Fukushima
             v = np.sum(fs,1) / min(past,i+1) - f
             norm_v = np.linalg.norm(v,1)
             if norm_v < eps: return f
+            norm_w = np.linalg.norm(w,1)
+            if norm_w < eps: return f
             # step 4 of Fukushima
             gamma_1 = grad.dot(v) / norm_v
-            gamma_2 = -error
+            gamma_2 = grad.dot(w) / norm_w
             if gamma_2 > -eps: return f
             d = v if gamma_1 < gamma_2 else w
             # step 5 of Fukushima

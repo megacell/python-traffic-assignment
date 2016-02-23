@@ -98,9 +98,9 @@ def frank_wolfe_on_chicago_2():
     demand = np.loadtxt('data/Chicago_od.csv', delimiter=',', skiprows=1)
     results = np.loadtxt('data/Chicago_results_2.csv', delimiter=',') 
     demand[:,2] = demand[:,2] / 2000 # technically, it's 2*demand/4000
-    # f = solver(graph, demand, max_iter=1000, display=1)
-    # f = solver_2(graph, demand, max_iter=1000, q=100, display=1)
-    f = solver_3(graph, demand, max_iter=1000, q=200, display=1)
+    # f = solver(graph, demand, max_iter=1000, display=1, stop=1e-2)
+    # f = solver_2(graph, demand, max_iter=1000, q=100, display=1, stop=1e-2)
+    f = solver_3(graph, demand, max_iter=1000, q=50, display=1, stop=1e-2)
     print np.linalg.norm(f*4000 - results) / np.linalg.norm(results)
 
 
@@ -206,9 +206,6 @@ def chicago_parametric_study():
     print 'non-routed = 0.0, routed = 1.0'
     fs = solver_2(g_r, d, max_iter=1000, q=100, display=1)    
     np.savetxt('data/test_5.csv', fs, delimiter=',')
-
-
-
 
 
 def main():

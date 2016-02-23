@@ -26,7 +26,7 @@ def total_cost(flow, net):
     return cost(flow, net).dot(flow)
 
 
-def average_cost(flow, net):
-    return total_cost(flow, net) / np.sum(flow)
+def average_cost(flow, net, od):
+    return total_cost(flow, net) / np.sum(od)
 
 

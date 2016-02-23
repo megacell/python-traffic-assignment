@@ -6,7 +6,7 @@ from scipy import special as sp
 
 
 def gauss_seidel(graphs, demands, solver, max_cycles=10, max_iter=100, \
-    by_origin=False, q=10, display=0):
+    by_origin=False, q=10, display=0, past=10, stop=1e-8):
     # we are given a list of graphs and demands that are specific for different types of players
     # the gauss-seidel scheme updates cyclically for each type at a time
 
@@ -23,12 +23,13 @@ def gauss_seidel(graphs, demands, solver, max_cycles=10, max_iter=100, \
             shift = np.sum(fs[:,range(i)+range(i+1,types)], axis=1)
             shift_graph(graphs[i], g, shift)
             # update flow assignment for this type
-            fs[:,i] = solver(g, demands[i], max_iter=max_iter, q=q, display=display)
+            fs[:,i] = solver(g, demands[i], max_iter=max_iter, q=q, \
+                display=display, past=past, stop=stop)
     return fs
 
 
 def jacobi(graphs, demands, solver, max_cycles=10, max_iter=100, \
-    by_origin=False, q=10, display=0):
+    by_origin=False, q=10, display=0, past=10, stop=1e-8):
     # given a list of graphs and demands specific for different types of players
     # the jacobi scheme updates simultenously for each type at the same time
 
@@ -46,7 +47,8 @@ def jacobi(graphs, demands, solver, max_cycles=10, max_iter=100, \
             shift = np.sum(fs[:,range(i)+range(i+1,types)], axis=1)
             shift_graph(graphs[i], g, shift)
             # update flow assignment for this type
-            updates[:,i] = solver(g, demands[i], max_iter=max_iter, q=q, display=display)
+            updates[:,i] = solver(g, demands[i], max_iter=max_iter, q=q, \
+                display=display, past=past, stop=stop)
         # batch update
         fs = np.copy(updates)
     return fs
