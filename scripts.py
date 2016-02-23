@@ -102,6 +102,7 @@ def frank_wolfe_on_chicago_2():
     # f = solver_2(graph, demand, max_iter=1000, q=100, display=1, stop=1e-2)
     f = solver_3(graph, demand, max_iter=1000, q=50, display=1, stop=1e-2)
     print np.linalg.norm(f*4000 - results) / np.linalg.norm(results)
+    print average_cost(f, graph, demand)
 
 
 def equilibrium_in_chicago():
@@ -193,19 +194,21 @@ def chicago_parametric_study():
     # fs = gauss_seidel([g_nr,g_r], [d_nr,d_r], solver_2, max_iter=1000, display=1)
     # np.savetxt('data/test_2.csv', fs, delimiter=',')
 
-    print 'non-routed = .5, routed = .5'
-    d_nr, d_r = heterogeneous_demand(d, .5)
-    fs = gauss_seidel([g_nr,g_r], [d_nr,d_r], solver_2, max_iter=1000, display=1)
-    np.savetxt('data/test_3.csv', fs, delimiter=',')
+    # print 'non-routed = .5, routed = .5'
+    # d_nr, d_r = heterogeneous_demand(d, .5)
+    # fs = gauss_seidel([g_nr,g_r], [d_nr,d_r], solver_3, max_iter=1000, display=1,\
+    #     stop=1e-2, q=50)
+    # np.savetxt('data/test_3.csv', fs, delimiter=',')
 
     print 'non-routed = .25, routed = .75'
     d_nr, d_r = heterogeneous_demand(d, .75)
-    fs = gauss_seidel([g_nr,g_r], [d_nr,d_r], solver_2, max_iter=1000, display=1)
+    fs = gauss_seidel([g_nr,g_r], [d_nr,d_r], solver_3, max_iter=1000, display=1,\
+        stop=1e-2, q=50)
     np.savetxt('data/test_4.csv', fs, delimiter=',')
 
-    print 'non-routed = 0.0, routed = 1.0'
-    fs = solver_2(g_r, d, max_iter=1000, q=100, display=1)    
-    np.savetxt('data/test_5.csv', fs, delimiter=',')
+    # print 'non-routed = 0.0, routed = 1.0'
+    # fs = solver_3(g_r, d, max_iter=1000, q=100, display=1, stop=1e-2)    
+    # np.savetxt('data/test_5.csv', fs, delimiter=',')
 
 
 def main():

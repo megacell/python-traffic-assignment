@@ -36,7 +36,7 @@ class TestMetrics(unittest.TestCase):
         net = np.loadtxt('data/braess_net.csv', delimiter=',', skiprows=1)
         net[:,5] = np.array([2.]*5)
         flow = np.array([0., 1., 2., 3., 4.])
-        od = flow
+        od = np.array([[0,0,0.],[0,0,1.],[0,0,2.],[0,0,3.],[0,0,4.]])
         self.assertTrue(np.linalg.norm(average_cost(flow, net, od) - 22.) < 1e-8)
 
 
