@@ -10,7 +10,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23,7 +24,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36,7 +38,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -49,7 +52,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -62,7 +66,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -75,7 +80,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -88,7 +94,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -101,7 +108,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -114,7 +122,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -127,7 +136,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -140,7 +150,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -153,7 +164,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -166,7 +178,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -179,7 +192,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -192,7 +206,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -205,7 +220,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -218,7 +234,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -231,7 +248,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -244,7 +262,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -257,7 +276,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -270,7 +290,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -283,7 +304,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -296,7 +318,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -309,7 +332,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -322,7 +346,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -335,7 +360,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -348,7 +374,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -361,7 +388,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -374,7 +402,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -387,7 +416,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -400,7 +430,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -413,7 +444,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -426,7 +458,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -439,7 +472,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -452,7 +486,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -465,7 +500,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -478,7 +514,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -491,7 +528,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -504,7 +542,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -517,7 +556,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -530,7 +570,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -543,7 +584,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -556,7 +598,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -569,7 +612,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -582,7 +626,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -595,7 +640,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -608,7 +654,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -621,7 +668,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -634,7 +682,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -647,7 +696,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -660,7 +710,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -673,7 +724,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -686,7 +738,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -699,7 +752,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -712,7 +766,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -725,7 +780,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -738,7 +794,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -751,7 +808,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -764,7 +822,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -777,7 +836,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -790,7 +850,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -803,7 +864,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -816,7 +878,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -829,7 +892,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -842,7 +906,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -855,7 +920,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -868,7 +934,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -881,7 +948,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -894,7 +962,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -907,7 +976,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -920,7 +990,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -933,7 +1004,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -946,7 +1018,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -959,7 +1032,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -972,7 +1046,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -985,7 +1060,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -998,7 +1074,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1011,7 +1088,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1024,7 +1102,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1037,7 +1116,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1050,7 +1130,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1063,7 +1144,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1076,7 +1158,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1089,7 +1172,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1102,7 +1186,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1115,7 +1200,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1128,7 +1214,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1141,7 +1228,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1154,7 +1242,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1167,7 +1256,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1180,7 +1270,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1193,7 +1284,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1206,7 +1298,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1219,7 +1312,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1232,7 +1326,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1245,7 +1340,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1258,7 +1354,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1271,7 +1368,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1284,7 +1382,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1297,7 +1396,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1310,7 +1410,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1323,7 +1424,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1336,7 +1438,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1349,7 +1452,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1362,7 +1466,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1375,7 +1480,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1388,7 +1494,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1401,7 +1508,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1414,7 +1522,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1427,7 +1536,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1440,7 +1550,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1453,7 +1564,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1466,7 +1578,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1479,7 +1592,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1492,7 +1606,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1505,7 +1620,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1518,7 +1634,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1531,7 +1648,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1544,7 +1662,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1557,7 +1676,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1570,7 +1690,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1583,7 +1704,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1596,7 +1718,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1609,7 +1732,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1622,7 +1746,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1635,7 +1760,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1648,7 +1774,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1661,7 +1788,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1674,7 +1802,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1687,7 +1816,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1700,7 +1830,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1713,7 +1844,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1726,7 +1858,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1739,7 +1872,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1752,7 +1886,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1765,7 +1900,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1778,7 +1914,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1791,7 +1928,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1804,7 +1942,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1817,7 +1956,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1830,7 +1970,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1843,7 +1984,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1856,7 +1998,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1869,7 +2012,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1882,7 +2026,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1895,7 +2040,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1908,7 +2054,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1921,7 +2068,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1934,7 +2082,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1947,7 +2096,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1960,7 +2110,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1973,7 +2124,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1986,7 +2138,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -1999,7 +2152,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2012,7 +2166,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2025,7 +2180,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2038,7 +2194,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2051,7 +2208,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2064,7 +2222,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2077,7 +2236,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2090,7 +2250,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2103,7 +2264,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2116,7 +2278,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2129,7 +2292,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2142,7 +2306,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2155,7 +2320,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2168,7 +2334,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2181,7 +2348,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2194,7 +2362,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2207,7 +2376,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2220,7 +2390,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2233,7 +2404,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2246,7 +2418,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2259,7 +2432,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2272,7 +2446,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2285,7 +2460,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2298,7 +2474,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2311,7 +2488,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2324,7 +2502,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2337,7 +2516,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2350,7 +2530,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2363,7 +2544,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2376,7 +2558,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2389,7 +2572,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2402,7 +2586,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2415,7 +2600,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2428,7 +2614,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2441,7 +2628,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2454,7 +2642,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2467,7 +2656,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2480,7 +2670,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2493,7 +2684,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2506,7 +2698,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2519,7 +2712,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2532,7 +2726,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2545,7 +2740,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2558,7 +2754,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2571,7 +2768,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2584,7 +2782,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2597,7 +2796,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2610,7 +2810,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2623,7 +2824,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2636,7 +2838,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2649,7 +2852,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2662,7 +2866,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2675,7 +2880,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2688,7 +2894,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2701,7 +2908,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2714,7 +2922,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2727,7 +2936,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2740,7 +2950,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2753,7 +2964,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2766,7 +2978,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2779,7 +2992,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2792,7 +3006,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2805,7 +3020,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2818,7 +3034,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2831,7 +3048,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2844,7 +3062,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2857,7 +3076,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2870,7 +3090,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2883,7 +3104,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2896,7 +3118,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2909,7 +3132,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2922,7 +3146,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2935,7 +3160,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2948,7 +3174,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2961,7 +3188,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2974,7 +3202,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -2987,7 +3216,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3000,7 +3230,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3013,7 +3244,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3026,7 +3258,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3039,7 +3272,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3052,7 +3286,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3065,7 +3300,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3078,7 +3314,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3091,7 +3328,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3104,7 +3342,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3117,7 +3356,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3130,7 +3370,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3143,7 +3384,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3156,7 +3398,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3169,7 +3412,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3182,7 +3426,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3195,7 +3440,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3208,7 +3454,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3221,7 +3468,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3234,7 +3482,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3247,7 +3496,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3260,7 +3510,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3273,7 +3524,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3286,7 +3538,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3299,7 +3552,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3312,7 +3566,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3325,7 +3580,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3338,7 +3594,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3351,7 +3608,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3364,7 +3622,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3377,7 +3636,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3390,7 +3650,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3403,7 +3664,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3416,7 +3678,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3429,7 +3692,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3442,7 +3706,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3455,7 +3720,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3468,7 +3734,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3481,7 +3748,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3494,7 +3762,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3507,7 +3776,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3520,7 +3790,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3533,7 +3804,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3546,7 +3818,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3559,7 +3832,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3572,7 +3846,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3585,7 +3860,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3598,7 +3874,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3611,7 +3888,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3624,7 +3902,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3637,7 +3916,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3650,7 +3930,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3663,7 +3944,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3676,7 +3958,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3689,7 +3972,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3702,7 +3986,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3715,7 +4000,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3728,7 +4014,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3741,7 +4028,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3754,7 +4042,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3767,7 +4056,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3780,7 +4070,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3793,7 +4084,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3806,7 +4098,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3819,7 +4112,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3832,7 +4126,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3845,7 +4140,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3858,7 +4154,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3871,7 +4168,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3884,7 +4182,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3897,7 +4196,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3910,7 +4210,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3923,7 +4224,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3936,7 +4238,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3949,7 +4252,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3962,7 +4266,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3975,7 +4280,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -3988,7 +4294,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4001,7 +4308,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4014,7 +4322,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4027,7 +4336,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4040,7 +4350,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4053,7 +4364,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4066,7 +4378,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4079,7 +4392,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4092,7 +4406,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4105,7 +4420,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4118,7 +4434,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4131,7 +4448,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4144,7 +4462,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4157,7 +4476,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4170,7 +4490,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4183,7 +4504,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4196,7 +4518,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4209,7 +4532,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4222,7 +4546,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4235,7 +4560,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4248,7 +4574,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4261,7 +4588,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4274,7 +4602,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4287,7 +4616,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4300,7 +4630,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4313,7 +4644,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4326,7 +4658,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4339,7 +4672,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4352,7 +4686,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4365,7 +4700,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4378,7 +4714,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4391,7 +4728,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4404,7 +4742,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4417,7 +4756,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4430,7 +4770,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4443,7 +4784,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4456,7 +4798,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4469,7 +4812,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4482,7 +4826,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4495,7 +4840,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4508,7 +4854,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4521,7 +4868,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4534,7 +4882,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4547,7 +4896,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4560,7 +4910,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4573,7 +4924,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4586,7 +4938,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4599,7 +4952,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4612,7 +4966,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4625,7 +4980,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4638,7 +4994,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4651,7 +5008,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4664,7 +5022,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4677,7 +5036,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4690,7 +5050,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4703,7 +5064,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4716,7 +5078,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4729,7 +5092,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4742,7 +5106,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4755,7 +5120,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4768,7 +5134,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4781,7 +5148,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4794,7 +5162,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4807,7 +5176,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4820,7 +5190,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4833,7 +5204,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4846,7 +5218,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4859,7 +5232,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4872,7 +5246,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4885,7 +5260,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4898,7 +5274,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4911,7 +5288,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4924,7 +5302,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4937,7 +5316,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4950,7 +5330,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4963,7 +5344,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4976,7 +5358,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -4989,7 +5372,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5002,7 +5386,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5015,7 +5400,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5028,7 +5414,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5041,7 +5428,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "12.0468",
         "fftt": "11.09",
-        "color": "1.75",
+        "r_non_routed": "0.483408012879",
+        "color": "2.41704006439",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5054,7 +5442,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "6.35718",
         "fftt": "5.98",
-        "color": "1.75",
+        "r_non_routed": "0.542698155172",
+        "color": "2.71349077586",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5067,7 +5456,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "1.81366",
         "fftt": "2.9",
-        "color": "1.0",
+        "r_non_routed": "0.488062365186",
+        "color": "2.44031182593",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5080,7 +5470,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "4.42618",
         "fftt": "4.78",
-        "color": "1.0",
+        "r_non_routed": "0.624235465883",
+        "color": "3.12117732942",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5093,7 +5484,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "4.70056",
         "fftt": "4.34",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5106,7 +5498,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "7.50969",
         "fftt": "9.58",
-        "color": "1.25",
+        "r_non_routed": "0.597986441506",
+        "color": "2.98993220753",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5119,7 +5512,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "3.3019",
         "fftt": "3.96",
-        "color": "1.25",
+        "r_non_routed": "0.433620471244",
+        "color": "2.16810235622",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5132,7 +5526,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "12.0468",
         "fftt": "11.09",
-        "color": "1.75",
+        "r_non_routed": "0.465155046202",
+        "color": "2.32577523101",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5145,7 +5540,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "4.70056",
         "fftt": "4.34",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5158,7 +5554,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "7.06021",
         "fftt": "6.93",
-        "color": "1.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5171,7 +5568,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "6.35718",
         "fftt": "5.98",
-        "color": "1.75",
+        "r_non_routed": "0.540658620566",
+        "color": "2.70329310283",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5184,7 +5582,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "4.5587",
         "fftt": "4.22",
-        "color": "1.75",
+        "r_non_routed": "0.703612752698",
+        "color": "3.51806376349",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5197,7 +5596,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "1.26933",
         "fftt": "0.53",
-        "color": "1.5",
+        "r_non_routed": "0.428125391084",
+        "color": "2.14062695542",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5210,7 +5610,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "4.71637",
         "fftt": "6.36",
-        "color": "1.5",
+        "r_non_routed": "0.453422791251",
+        "color": "2.26711395626",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5223,7 +5624,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "4.5587",
         "fftt": "4.22",
-        "color": "1.75",
+        "r_non_routed": "0.60872960364",
+        "color": "3.0436480182",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5236,7 +5638,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.70059",
         "fftt": "2.55",
-        "color": "1.75",
+        "r_non_routed": "0.680474828151",
+        "color": "3.40237414076",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5249,7 +5652,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "1.675",
         "fftt": "1.05",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5262,7 +5666,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "1.60466",
         "fftt": "2.98",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5275,7 +5680,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.70059",
         "fftt": "2.55",
-        "color": "1.75",
+        "r_non_routed": "0.631040500506",
+        "color": "3.15520250253",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5288,7 +5694,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.1116",
         "fftt": "3.42",
-        "color": "2.5",
+        "r_non_routed": "0.807197852367",
+        "color": "4.03598926184",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5301,7 +5708,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.70953",
         "fftt": "2.62",
-        "color": "1.75",
+        "r_non_routed": "0.744402546507",
+        "color": "3.72201273254",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5314,7 +5722,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "0.61304",
         "fftt": "1.87",
-        "color": "1.75",
+        "r_non_routed": "0.8066833715",
+        "color": "4.0334168575",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5327,7 +5736,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.1116",
         "fftt": "3.42",
-        "color": "2.5",
+        "r_non_routed": "0.789049817901",
+        "color": "3.9452490895",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5340,7 +5750,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.25782",
         "fftt": "2.42",
-        "color": "2.5",
+        "r_non_routed": "0.815140024912",
+        "color": "4.07570012456",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5353,7 +5764,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "4.77245",
         "fftt": "4.97",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5366,7 +5778,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "0.56239",
         "fftt": "1.75",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5379,7 +5792,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.25782",
         "fftt": "2.42",
-        "color": "2.5",
+        "r_non_routed": "0.835333690186",
+        "color": "4.17666845093",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5392,7 +5806,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.35722",
         "fftt": "3.65",
-        "color": "2.5",
+        "r_non_routed": "0.589608559995",
+        "color": "2.94804279997",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5405,7 +5820,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.87386",
         "fftt": "3.88",
-        "color": "1.75",
+        "r_non_routed": "0.667022707836",
+        "color": "3.33511353918",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5418,7 +5834,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "0.82969",
         "fftt": "1.36",
-        "color": "1.75",
+        "r_non_routed": "0.833331798385",
+        "color": "4.16665899192",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5431,7 +5848,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.35722",
         "fftt": "3.65",
-        "color": "2.5",
+        "r_non_routed": "0.637300905926",
+        "color": "3.18650452963",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5444,7 +5862,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.95295",
         "fftt": "2.11",
-        "color": "2.5",
+        "r_non_routed": "0.589608559995",
+        "color": "2.94804279997",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5457,7 +5876,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.95295",
         "fftt": "2.11",
-        "color": "2.5",
+        "r_non_routed": "0.637300905926",
+        "color": "3.18650452963",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5470,7 +5890,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.17728",
         "fftt": "2.36",
-        "color": "2.5",
+        "r_non_routed": "0.565671303103",
+        "color": "2.82835651551",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5483,7 +5904,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.501",
         "fftt": "3.02",
-        "color": "1.5",
+        "r_non_routed": "0.623112908757",
+        "color": "3.11556454379",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5496,7 +5918,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "1.10476",
         "fftt": "1.28",
-        "color": "1.5",
+        "r_non_routed": "0.543360468341",
+        "color": "2.71680234171",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5509,7 +5932,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.17728",
         "fftt": "2.36",
-        "color": "2.5",
+        "r_non_routed": "0.647610902031",
+        "color": "3.23805451016",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5522,7 +5946,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "0.62803",
         "fftt": "0.72",
-        "color": "2.5",
+        "r_non_routed": "0.537321473987",
+        "color": "2.68660736993",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5535,7 +5960,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "1.95581",
         "fftt": "2.11",
-        "color": "3.25",
+        "r_non_routed": "0.391777641867",
+        "color": "1.95888820934",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5548,7 +5974,8 @@ var geojson_features = [{
         "capacity": "8000.0",
         "length": "2.806",
         "fftt": "3.06",
-        "color": "4.0",
+        "r_non_routed": "0.442967606202",
+        "color": "2.21483803101",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5561,7 +5988,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "0.62803",
         "fftt": "0.72",
-        "color": "2.5",
+        "r_non_routed": "0.542476530775",
+        "color": "2.71238265387",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5574,7 +6002,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.93438",
         "fftt": "4.28",
-        "color": "2.5",
+        "r_non_routed": "0.608029190992",
+        "color": "3.04014595496",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5587,7 +6016,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "1.69926",
         "fftt": "3.32",
-        "color": "3.5",
+        "r_non_routed": "0.528185956004",
+        "color": "2.64092978002",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5600,7 +6030,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "1.364",
         "fftt": "0.88",
-        "color": "3.5",
+        "r_non_routed": "0.56355217032",
+        "color": "2.8177608516",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5613,7 +6044,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "1.95581",
         "fftt": "2.11",
-        "color": "3.25",
+        "r_non_routed": "0.447803888822",
+        "color": "2.23901944411",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5626,7 +6058,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.45553",
         "fftt": "4.09",
-        "color": "2.5",
+        "r_non_routed": "0.518808555485",
+        "color": "2.59404277742",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5639,7 +6072,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "1.00973",
         "fftt": "0.88",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5652,7 +6086,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "2.50769",
         "fftt": "6.72",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5665,7 +6100,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.45553",
         "fftt": "4.09",
-        "color": "2.5",
+        "r_non_routed": "0.495846809188",
+        "color": "2.47923404594",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5678,7 +6114,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.5004",
         "fftt": "1.69",
-        "color": "2.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5691,7 +6128,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "1.00047",
         "fftt": "1.7",
-        "color": "3.0",
+        "r_non_routed": "0.519152305219",
+        "color": "2.5957615261",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5704,7 +6142,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "2.22043",
         "fftt": "1.81",
-        "color": "3.0",
+        "r_non_routed": "0.548464202098",
+        "color": "2.74232101049",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5717,7 +6156,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.5004",
         "fftt": "1.69",
-        "color": "2.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5730,7 +6170,8 @@ var geojson_features = [{
         "capacity": "8000.0",
         "length": "2.806",
         "fftt": "3.06",
-        "color": "4.0",
+        "r_non_routed": "0.456757306216",
+        "color": "2.28378653108",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5743,7 +6184,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "3.00452",
         "fftt": "3.26",
-        "color": "3.25",
+        "r_non_routed": "0.451355681669",
+        "color": "2.25677840835",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5756,7 +6198,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "1.20311",
         "fftt": "2.84",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5769,7 +6212,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "1.92899",
         "fftt": "2.07",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5782,7 +6226,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "3.00452",
         "fftt": "3.26",
-        "color": "3.25",
+        "r_non_routed": "0.450853577354",
+        "color": "2.25426788677",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5795,7 +6240,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "0.91703",
         "fftt": "1.05",
-        "color": "2.5",
+        "r_non_routed": "0.494337680703",
+        "color": "2.47168840352",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5808,7 +6254,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "1.54319",
         "fftt": "3.14",
-        "color": "2.75",
+        "r_non_routed": "0.538225440752",
+        "color": "2.69112720376",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5821,7 +6268,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "1.61045",
         "fftt": "1.27",
-        "color": "2.75",
+        "r_non_routed": "0.504918846789",
+        "color": "2.52459423395",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5834,7 +6282,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "0.91703",
         "fftt": "1.05",
-        "color": "2.5",
+        "r_non_routed": "0.531792106951",
+        "color": "2.65896053476",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5847,7 +6296,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.18666",
         "fftt": "2.53",
-        "color": "2.5",
+        "r_non_routed": "0.493046410199",
+        "color": "2.46523205099",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5860,7 +6310,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "0.95285",
         "fftt": "1.01",
-        "color": "2.5",
+        "r_non_routed": "0.504368376468",
+        "color": "2.52184188234",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5873,7 +6324,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.18666",
         "fftt": "2.53",
-        "color": "2.5",
+        "r_non_routed": "0.56140174823",
+        "color": "2.80700874115",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5886,7 +6338,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.05061",
         "fftt": "3.31",
-        "color": "2.5",
+        "r_non_routed": "0.529426383537",
+        "color": "2.64713191769",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5899,7 +6352,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "0.82067",
         "fftt": "2.0",
-        "color": "1.5",
+        "r_non_routed": "0.497185562366",
+        "color": "2.48592781183",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5912,7 +6366,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.20446",
         "fftt": "2.45",
-        "color": "1.5",
+        "r_non_routed": "0.521730460165",
+        "color": "2.60865230082",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5925,7 +6380,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.05061",
         "fftt": "3.31",
-        "color": "2.5",
+        "r_non_routed": "0.571187073186",
+        "color": "2.85593536593",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5938,7 +6394,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.94384",
         "fftt": "3.25",
-        "color": "2.5",
+        "r_non_routed": "0.635770526339",
+        "color": "3.1788526317",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5951,7 +6408,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "0.82067",
         "fftt": "1.71",
-        "color": "3.25",
+        "r_non_routed": "0.535404446513",
+        "color": "2.67702223257",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5964,7 +6422,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.45596",
         "fftt": "2.47",
-        "color": "3.25",
+        "r_non_routed": "0.433339828039",
+        "color": "2.16669914019",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5977,7 +6436,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.94384",
         "fftt": "3.25",
-        "color": "2.5",
+        "r_non_routed": "0.542390885411",
+        "color": "2.71195442705",
     }},{
     "type": "Feature",
     "geometry": {
@@ -5990,7 +6450,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.91447",
         "fftt": "2.17",
-        "color": "2.5",
+        "r_non_routed": "0.642991527387",
+        "color": "3.21495763693",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6003,7 +6464,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "1.04948",
         "fftt": "2.19",
-        "color": "1.0",
+        "r_non_routed": "0.75805358829",
+        "color": "3.79026794145",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6016,7 +6478,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.10339",
         "fftt": "2.11",
-        "color": "1.0",
+        "r_non_routed": "0.592512123687",
+        "color": "2.96256061844",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6029,7 +6492,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.91447",
         "fftt": "2.17",
-        "color": "2.5",
+        "r_non_routed": "0.599748054243",
+        "color": "2.99874027122",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6042,7 +6506,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.58034",
         "fftt": "3.93",
-        "color": "2.5",
+        "r_non_routed": "0.590891232781",
+        "color": "2.95445616391",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6055,7 +6520,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.40829",
         "fftt": "1.47",
-        "color": "2.5",
+        "r_non_routed": "0.626950186108",
+        "color": "3.13475093054",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6068,7 +6534,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.55473",
         "fftt": "2.86",
-        "color": "2.5",
+        "r_non_routed": "0.57726676047",
+        "color": "2.88633380235",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6081,7 +6548,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.58034",
         "fftt": "3.93",
-        "color": "2.5",
+        "r_non_routed": "0.586650460901",
+        "color": "2.9332523045",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6094,7 +6562,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.99149",
         "fftt": "2.72",
-        "color": "1.75",
+        "r_non_routed": "0.512038679169",
+        "color": "2.56019339584",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6107,7 +6576,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.81196",
         "fftt": "2.9",
-        "color": "1.0",
+        "r_non_routed": "0.620175837411",
+        "color": "3.10087918706",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6120,7 +6590,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "0.63686",
         "fftt": "1.09",
-        "color": "1.0",
+        "r_non_routed": "0.577937637529",
+        "color": "2.88968818765",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6133,7 +6604,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.99149",
         "fftt": "2.72",
-        "color": "1.75",
+        "r_non_routed": "0.541546025234",
+        "color": "2.70773012617",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6146,7 +6618,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.93815",
         "fftt": "2.73",
-        "color": "1.75",
+        "r_non_routed": "0.659044257515",
+        "color": "3.29522128757",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6159,7 +6632,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "2.91909",
         "fftt": "3.04",
-        "color": "3.0",
+        "r_non_routed": "0.547092276426",
+        "color": "2.73546138213",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6172,7 +6646,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "0.63686",
         "fftt": "1.04",
-        "color": "3.0",
+        "r_non_routed": "0.613875084851",
+        "color": "3.06937542426",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6185,7 +6660,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.93815",
         "fftt": "2.73",
-        "color": "1.75",
+        "r_non_routed": "0.741767859651",
+        "color": "3.70883929825",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6198,7 +6674,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.87283",
         "fftt": "2.61",
-        "color": "1.75",
+        "r_non_routed": "0.659044257515",
+        "color": "3.29522128757",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6211,7 +6688,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.87283",
         "fftt": "2.61",
-        "color": "1.75",
+        "r_non_routed": "0.741767859651",
+        "color": "3.70883929825",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6224,7 +6702,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.80865",
         "fftt": "2.62",
-        "color": "1.75",
+        "r_non_routed": "0.603547692607",
+        "color": "3.01773846303",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6237,7 +6716,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "3.17024",
         "fftt": "3.35",
-        "color": "2.0",
+        "r_non_routed": "0.483292361736",
+        "color": "2.41646180868",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6250,7 +6730,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "0.62208",
         "fftt": "0.65",
-        "color": "2.0",
+        "r_non_routed": "0.554330117594",
+        "color": "2.77165058797",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6263,7 +6744,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.80865",
         "fftt": "2.62",
-        "color": "1.75",
+        "r_non_routed": "0.775721479169",
+        "color": "3.87860739585",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6276,7 +6758,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "4.37375",
         "fftt": "4.1",
-        "color": "1.75",
+        "r_non_routed": "0.701113164818",
+        "color": "3.50556582409",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6289,7 +6772,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.20061",
         "fftt": "3.29",
-        "color": "1.75",
+        "r_non_routed": "0.479590939747",
+        "color": "2.39795469873",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6302,7 +6786,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "0.63686",
         "fftt": "0.54",
-        "color": "1.75",
+        "r_non_routed": "0.451143864005",
+        "color": "2.25571932003",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6315,7 +6800,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "4.37375",
         "fftt": "4.1",
-        "color": "1.75",
+        "r_non_routed": "0.654301608266",
+        "color": "3.27150804133",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6328,7 +6814,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "6.15496",
         "fftt": "5.67",
-        "color": "1.75",
+        "r_non_routed": "0.623393851114",
+        "color": "3.11696925557",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6341,7 +6828,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "4.24465",
         "fftt": "4.8",
-        "color": "1.75",
+        "r_non_routed": "0.464155865269",
+        "color": "2.32077932634",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6354,7 +6842,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "1.75633",
         "fftt": "3.01",
-        "color": "1.75",
+        "r_non_routed": "0.542348696672",
+        "color": "2.71174348336",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6367,7 +6856,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "6.15496",
         "fftt": "5.67",
-        "color": "1.75",
+        "r_non_routed": "0.587130349582",
+        "color": "2.93565174791",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6380,7 +6870,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "5.59407",
         "fftt": "5.15",
-        "color": "1.75",
+        "r_non_routed": "0.534648831683",
+        "color": "2.67324415841",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6393,7 +6884,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.04509",
         "fftt": "1.54",
-        "color": "1.0",
+        "r_non_routed": "0.44794160159",
+        "color": "2.23970800795",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6406,7 +6898,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.95137",
         "fftt": "5.28",
-        "color": "1.0",
+        "r_non_routed": "0.0699503866765",
+        "color": "0.349751933382",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6419,7 +6912,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "5.59407",
         "fftt": "5.15",
-        "color": "1.75",
+        "r_non_routed": "0.524039686554",
+        "color": "2.62019843277",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6432,7 +6926,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "8.19718",
         "fftt": "9.84",
-        "color": "1.75",
+        "r_non_routed": "0.420126055672",
+        "color": "2.10063027836",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6445,7 +6940,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.12711",
         "fftt": "3.45",
-        "color": "1.75",
+        "r_non_routed": "0.506561538733",
+        "color": "2.53280769366",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6458,7 +6954,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "6.52016",
         "fftt": "6.29",
-        "color": "1.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6471,7 +6968,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "5.50658",
         "fftt": "5.27",
-        "color": "2.5",
+        "r_non_routed": "0.783071173951",
+        "color": "3.91535586976",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6484,7 +6982,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.33798",
         "fftt": "3.86",
-        "color": "1.0",
+        "r_non_routed": "0.888090495683",
+        "color": "4.44045247842",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6497,7 +6996,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "4.25297",
         "fftt": "4.77",
-        "color": "1.0",
+        "r_non_routed": "0.859996624978",
+        "color": "4.29998312489",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6510,6 +7010,7 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "10.3917",
         "fftt": "8.98",
+        "r_non_routed": "0.5",
         "color": "2.5",
     }},{
     "type": "Feature",
@@ -6523,7 +7024,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "5.50658",
         "fftt": "5.27",
-        "color": "2.5",
+        "r_non_routed": "0.657626960715",
+        "color": "3.28813480357",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6536,7 +7038,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "4.81398",
         "fftt": "4.47",
-        "color": "2.5",
+        "r_non_routed": "0.642513721357",
+        "color": "3.21256860678",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6549,7 +7052,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "3.41273",
         "fftt": "5.07",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6562,7 +7066,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "1.62768",
         "fftt": "1.44",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6575,7 +7080,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "4.81398",
         "fftt": "4.47",
-        "color": "2.5",
+        "r_non_routed": "0.635302269411",
+        "color": "3.17651134706",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6588,7 +7094,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.97089",
         "fftt": "3.29",
-        "color": "2.5",
+        "r_non_routed": "0.554312042421",
+        "color": "2.7715602121",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6601,7 +7108,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.501",
         "fftt": "2.57",
-        "color": "1.5",
+        "r_non_routed": "0.712406475172",
+        "color": "3.56203237586",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6614,7 +7122,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "0.90683",
         "fftt": "1.68",
-        "color": "1.5",
+        "r_non_routed": "0.673066056446",
+        "color": "3.36533028223",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6627,7 +7136,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.97089",
         "fftt": "3.29",
-        "color": "2.5",
+        "r_non_routed": "0.495582628801",
+        "color": "2.477913144",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6640,7 +7150,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.25194",
         "fftt": "3.53",
-        "color": "2.5",
+        "r_non_routed": "0.561782999943",
+        "color": "2.80891499972",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6653,7 +7164,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "1.47413",
         "fftt": "0.94",
-        "color": "1.0",
+        "r_non_routed": "0.807773220426",
+        "color": "4.03886610213",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6666,7 +7178,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "1.83508",
         "fftt": "2.86",
-        "color": "1.0",
+        "r_non_routed": "0.389398160426",
+        "color": "1.94699080213",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6679,7 +7192,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.25194",
         "fftt": "3.53",
-        "color": "2.5",
+        "r_non_routed": "0.552538159688",
+        "color": "2.76269079844",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6692,7 +7206,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.80865",
         "fftt": "3.11",
-        "color": "2.5",
+        "r_non_routed": "0.479639838",
+        "color": "2.39819919",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6705,7 +7220,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "0.61",
         "fftt": "0.87",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6718,7 +7234,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.05061",
         "fftt": "3.61",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6731,7 +7248,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.80865",
         "fftt": "3.11",
-        "color": "2.5",
+        "r_non_routed": "0.435636292282",
+        "color": "2.17818146141",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6744,7 +7262,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.09902",
         "fftt": "3.43",
-        "color": "2.5",
+        "r_non_routed": "0.505874277776",
+        "color": "2.52937138888",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6757,7 +7276,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "0.69551",
         "fftt": "0.6",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6770,7 +7290,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.49621",
         "fftt": "4.08",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6783,7 +7304,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.09902",
         "fftt": "3.43",
-        "color": "2.5",
+        "r_non_routed": "0.44209107087",
+        "color": "2.21045535435",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6796,7 +7318,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.06764",
         "fftt": "3.31",
-        "color": "2.5",
+        "r_non_routed": "0.444146958305",
+        "color": "2.22073479153",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6809,7 +7332,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "0.682",
         "fftt": "1.3",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6822,7 +7346,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.32995",
         "fftt": "3.72",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6835,7 +7360,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.06764",
         "fftt": "3.31",
-        "color": "2.5",
+        "r_non_routed": "0.416268004071",
+        "color": "2.08134002036",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6848,7 +7374,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.53594",
         "fftt": "1.71",
-        "color": "2.5",
+        "r_non_routed": "0.503646285591",
+        "color": "2.51823142795",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6861,7 +7388,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "1.47539",
         "fftt": "2.62",
-        "color": "1.0",
+        "r_non_routed": "0.802282299814",
+        "color": "4.01141149907",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6874,7 +7402,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "1.73609",
         "fftt": "1.48",
-        "color": "1.0",
+        "r_non_routed": "0.619937613553",
+        "color": "3.09968806776",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6887,7 +7416,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.53594",
         "fftt": "1.71",
-        "color": "2.5",
+        "r_non_routed": "0.479912902278",
+        "color": "2.39956451139",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6900,7 +7430,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "0.9548",
         "fftt": "1.11",
-        "color": "1.75",
+        "r_non_routed": "0.603838640766",
+        "color": "3.01919320383",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6913,7 +7444,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "4.40258",
         "fftt": "4.82",
-        "color": "2.5",
+        "r_non_routed": "0.501587310725",
+        "color": "2.50793655362",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6926,7 +7458,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "0.9548",
         "fftt": "1.11",
-        "color": "1.75",
+        "r_non_routed": "0.569373878411",
+        "color": "2.84686939205",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6939,7 +7472,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.24219",
         "fftt": "3.5",
-        "color": "1.75",
+        "r_non_routed": "0.529120909276",
+        "color": "2.64560454638",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6952,7 +7486,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "0.7446",
         "fftt": "1.43",
-        "color": "3.5",
+        "r_non_routed": "0.497944911579",
+        "color": "2.48972455789",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6965,7 +7500,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "2.57432",
         "fftt": "2.65",
-        "color": "3.5",
+        "r_non_routed": "0.494803142899",
+        "color": "2.4740157145",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6978,7 +7514,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.24219",
         "fftt": "3.5",
-        "color": "1.75",
+        "r_non_routed": "0.516837639254",
+        "color": "2.58418819627",
     }},{
     "type": "Feature",
     "geometry": {
@@ -6991,7 +7528,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "0.682",
         "fftt": "0.78",
-        "color": "1.75",
+        "r_non_routed": "0.4959036317",
+        "color": "2.4795181585",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7004,7 +7542,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "0.9548",
         "fftt": "1.04",
-        "color": "2.5",
+        "r_non_routed": "0.537030528159",
+        "color": "2.6851526408",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7017,7 +7556,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "0.682",
         "fftt": "0.78",
-        "color": "1.75",
+        "r_non_routed": "0.557058904132",
+        "color": "2.78529452066",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7030,7 +7570,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "0.60078",
         "fftt": "0.63",
-        "color": "1.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7043,7 +7584,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "1.00047",
         "fftt": "2.39",
-        "color": "3.25",
+        "r_non_routed": "0.461209281436",
+        "color": "2.30604640718",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7056,7 +7598,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.39692",
         "fftt": "2.77",
-        "color": "3.25",
+        "r_non_routed": "0.468388896693",
+        "color": "2.34194448346",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7069,7 +7612,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "0.60078",
         "fftt": "0.63",
-        "color": "1.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7082,7 +7626,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "0.9548",
         "fftt": "1.04",
-        "color": "2.5",
+        "r_non_routed": "0.501131409418",
+        "color": "2.50565704709",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7095,7 +7640,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.22089",
         "fftt": "3.52",
-        "color": "2.5",
+        "r_non_routed": "0.642670615211",
+        "color": "3.21335307605",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7108,7 +7654,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "0.682",
         "fftt": "1.27",
-        "color": "2.0",
+        "r_non_routed": "0.474907572033",
+        "color": "2.37453786016",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7121,7 +7668,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "2.42854",
         "fftt": "2.91",
-        "color": "2.0",
+        "r_non_routed": "0.199219460993",
+        "color": "0.996097304964",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7134,7 +7682,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.22089",
         "fftt": "3.52",
-        "color": "2.5",
+        "r_non_routed": "0.611702213707",
+        "color": "3.05851106854",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7147,7 +7696,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.37978",
         "fftt": "2.62",
-        "color": "2.5",
+        "r_non_routed": "0.682223621232",
+        "color": "3.41111810616",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7160,7 +7710,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "1.66609",
         "fftt": "3.16",
-        "color": "2.25",
+        "r_non_routed": "0.535197714894",
+        "color": "2.67598857447",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7173,7 +7724,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "1.56355",
         "fftt": "1.33",
-        "color": "2.25",
+        "r_non_routed": "0.625246653118",
+        "color": "3.12623326559",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7186,7 +7738,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.37978",
         "fftt": "2.62",
-        "color": "2.5",
+        "r_non_routed": "0.648923233555",
+        "color": "3.24461616778",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7199,7 +7752,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.01208",
         "fftt": "2.35",
-        "color": "2.5",
+        "r_non_routed": "0.648183608992",
+        "color": "3.24091804496",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7212,7 +7766,8 @@ var geojson_features = [{
         "capacity": "9500.0",
         "length": "2.79936",
         "fftt": "3.4",
-        "color": "4.75",
+        "r_non_routed": "0.622966383568",
+        "color": "3.11483191784",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7225,7 +7780,8 @@ var geojson_features = [{
         "capacity": "9500.0",
         "length": "0.76433",
         "fftt": "1.5",
-        "color": "4.75",
+        "r_non_routed": "0.506644698028",
+        "color": "2.53322349014",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7238,7 +7794,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.01208",
         "fftt": "2.35",
-        "color": "2.5",
+        "r_non_routed": "0.576993941456",
+        "color": "2.88496970728",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7251,7 +7808,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.60592",
         "fftt": "3.07",
-        "color": "2.5",
+        "r_non_routed": "0.607135729363",
+        "color": "3.03567864681",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7264,7 +7822,8 @@ var geojson_features = [{
         "capacity": "9000.0",
         "length": "3.17024",
         "fftt": "4.12",
-        "color": "4.5",
+        "r_non_routed": "0.474752417186",
+        "color": "2.37376208593",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7277,7 +7836,8 @@ var geojson_features = [{
         "capacity": "9000.0",
         "length": "0.63686",
         "fftt": "0.65",
-        "color": "4.5",
+        "r_non_routed": "0.526932628472",
+        "color": "2.63466314236",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7290,7 +7850,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.60592",
         "fftt": "3.07",
-        "color": "2.5",
+        "r_non_routed": "0.557838778437",
+        "color": "2.78919389219",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7303,7 +7864,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.78575",
         "fftt": "1.92",
-        "color": "2.5",
+        "r_non_routed": "0.634269015217",
+        "color": "3.17134507609",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7316,7 +7878,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "1.30973",
         "fftt": "0.89",
-        "color": "2.25",
+        "r_non_routed": "0.559873845297",
+        "color": "2.79936922649",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7329,7 +7892,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "1.76057",
         "fftt": "3.93",
-        "color": "2.25",
+        "r_non_routed": "0.518430488737",
+        "color": "2.59215244369",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7342,7 +7906,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.78575",
         "fftt": "1.92",
-        "color": "2.5",
+        "r_non_routed": "0.61748663875",
+        "color": "3.08743319375",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7355,7 +7920,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.75582",
         "fftt": "3.08",
-        "color": "2.5",
+        "r_non_routed": "0.557246896393",
+        "color": "2.78623448196",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7368,7 +7934,8 @@ var geojson_features = [{
         "capacity": "9000.0",
         "length": "0.95285",
         "fftt": "1.02",
-        "color": "4.5",
+        "r_non_routed": "0.589131119509",
+        "color": "2.94565559754",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7381,7 +7948,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.75582",
         "fftt": "3.08",
-        "color": "2.5",
+        "r_non_routed": "0.551872487556",
+        "color": "2.75936243778",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7394,7 +7962,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.79967",
         "fftt": "4.14",
-        "color": "2.5",
+        "r_non_routed": "0.52950182019",
+        "color": "2.64750910095",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7407,7 +7976,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "1.037",
         "fftt": "0.62",
-        "color": "2.0",
+        "r_non_routed": "0.544409168232",
+        "color": "2.72204584116",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7420,7 +7990,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "3.32156",
         "fftt": "7.18",
-        "color": "2.0",
+        "r_non_routed": "0.480357761849",
+        "color": "2.40178880924",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7433,7 +8004,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.79967",
         "fftt": "4.14",
-        "color": "2.5",
+        "r_non_routed": "0.541418113814",
+        "color": "2.70709056907",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7446,7 +8018,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.196",
         "fftt": "2.4",
-        "color": "2.5",
+        "r_non_routed": "0.482576662979",
+        "color": "2.4128833149",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7459,7 +8032,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "7.09097",
         "fftt": "8.17",
-        "color": "3.25",
+        "r_non_routed": "0.523690676961",
+        "color": "2.61845338481",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7472,7 +8046,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.85925",
         "fftt": "2.11",
-        "color": "2.5",
+        "r_non_routed": "0.542534728679",
+        "color": "2.7126736434",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7485,7 +8060,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "1.50659",
         "fftt": "1.68",
-        "color": "1.75",
+        "r_non_routed": "0.530391172553",
+        "color": "2.65195586277",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7498,7 +8074,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.196",
         "fftt": "2.4",
-        "color": "2.5",
+        "r_non_routed": "0.490409966181",
+        "color": "2.45204983091",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7511,7 +8088,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.318",
         "fftt": "2.53",
-        "color": "2.5",
+        "r_non_routed": "0.591117310007",
+        "color": "2.95558655003",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7524,7 +8102,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "2.33798",
         "fftt": "2.72",
-        "color": "3.0",
+        "r_non_routed": "0.44774494732",
+        "color": "2.2387247366",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7537,7 +8116,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "0.7764",
         "fftt": "1.94",
-        "color": "3.0",
+        "r_non_routed": "0.502249051643",
+        "color": "2.51124525821",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7550,7 +8130,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.318",
         "fftt": "2.53",
-        "color": "2.5",
+        "r_non_routed": "0.605127353265",
+        "color": "3.02563676633",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7563,7 +8144,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.44076",
         "fftt": "2.63",
-        "color": "2.5",
+        "r_non_routed": "0.590706040336",
+        "color": "2.95353020168",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7576,7 +8158,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.33798",
         "fftt": "2.64",
-        "color": "1.0",
+        "r_non_routed": "0.561789319567",
+        "color": "2.80894659784",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7589,7 +8172,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "0.86267",
         "fftt": "1.88",
-        "color": "1.0",
+        "r_non_routed": "0.567640155315",
+        "color": "2.83820077657",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7602,7 +8186,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "4.40258",
         "fftt": "4.82",
-        "color": "2.5",
+        "r_non_routed": "0.56324700016",
+        "color": "2.8162350008",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7615,7 +8200,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.44076",
         "fftt": "2.63",
-        "color": "2.5",
+        "r_non_routed": "0.571073607667",
+        "color": "2.85536803834",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7628,7 +8214,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "1.87122",
         "fftt": "3.19",
-        "color": "3.0",
+        "r_non_routed": "0.610603871883",
+        "color": "3.05301935941",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7641,7 +8228,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "1.30973",
         "fftt": "0.72",
-        "color": "3.0",
+        "r_non_routed": "0.614369785222",
+        "color": "3.07184892611",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7654,7 +8242,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.9287",
         "fftt": "3.59",
-        "color": "1.75",
+        "r_non_routed": "0.510222728854",
+        "color": "2.55111364427",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7667,7 +8256,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "6.25094",
         "fftt": "6.49",
-        "color": "0.25",
+        "r_non_routed": "0.0880038555394",
+        "color": "0.440019277697",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7680,7 +8270,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "1.5444",
         "fftt": "2.78",
-        "color": "0.25",
+        "r_non_routed": "0.0604805231276",
+        "color": "0.302402615638",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7693,7 +8284,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "32.8818",
         "fftt": "6.31",
-        "color": "1.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7706,7 +8298,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.9287",
         "fftt": "3.59",
-        "color": "1.75",
+        "r_non_routed": "0.517545425032",
+        "color": "2.58772712516",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7719,7 +8312,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "4.52881",
         "fftt": "4.45",
-        "color": "1.75",
+        "r_non_routed": "0.50690997969",
+        "color": "2.53454989845",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7732,7 +8326,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "1.00973",
         "fftt": "1.3",
-        "color": "0.25",
+        "r_non_routed": "0.777706466951",
+        "color": "3.88853233475",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7745,7 +8340,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "3.82164",
         "fftt": "3.98",
-        "color": "0.25",
+        "r_non_routed": "0.512511819533",
+        "color": "2.56255909766",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7758,7 +8354,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "4.52881",
         "fftt": "4.45",
-        "color": "1.75",
+        "r_non_routed": "0.559552546998",
+        "color": "2.79776273499",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7771,7 +8368,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "5.42934",
         "fftt": "5.0",
-        "color": "1.75",
+        "r_non_routed": "0.50690997969",
+        "color": "2.53454989845",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7784,7 +8382,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "5.42934",
         "fftt": "5.0",
-        "color": "1.75",
+        "r_non_routed": "0.559552546998",
+        "color": "2.79776273499",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7797,7 +8396,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "6.81154",
         "fftt": "6.27",
-        "color": "1.75",
+        "r_non_routed": "0.472401347957",
+        "color": "2.36200673978",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7810,7 +8410,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "4.73644",
         "fftt": "6.37",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7823,7 +8424,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "1.64248",
         "fftt": "1.05",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7836,7 +8438,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "6.81154",
         "fftt": "6.27",
-        "color": "1.75",
+        "r_non_routed": "0.621000230634",
+        "color": "3.10500115317",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7849,7 +8452,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "6.28774",
         "fftt": "5.78",
-        "color": "1.75",
+        "r_non_routed": "0.561490566128",
+        "color": "2.80745283064",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7862,7 +8466,8 @@ var geojson_features = [{
         "capacity": "8500.0",
         "length": "1.41882",
         "fftt": "2.41",
-        "color": "4.25",
+        "r_non_routed": "0.643053962784",
+        "color": "3.21526981392",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7875,7 +8480,8 @@ var geojson_features = [{
         "capacity": "8500.0",
         "length": "4.74469",
         "fftt": "5.21",
-        "color": "4.25",
+        "r_non_routed": "0.386431561181",
+        "color": "1.9321578059",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7888,7 +8494,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "6.28774",
         "fftt": "5.78",
-        "color": "1.75",
+        "r_non_routed": "0.618460876892",
+        "color": "3.09230438446",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7901,7 +8508,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "4.3224",
         "fftt": "3.98",
-        "color": "1.75",
+        "r_non_routed": "0.617721760326",
+        "color": "3.08860880163",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7914,7 +8522,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "3.81335",
         "fftt": "5.59",
-        "color": "2.0",
+        "r_non_routed": "0.345662590801",
+        "color": "1.72831295401",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7927,7 +8536,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "2.16185",
         "fftt": "1.87",
-        "color": "2.0",
+        "r_non_routed": "0.467139802462",
+        "color": "2.33569901231",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7940,7 +8550,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "4.3224",
         "fftt": "3.98",
-        "color": "1.75",
+        "r_non_routed": "0.580755426487",
+        "color": "2.90377713243",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7953,7 +8564,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.989",
         "fftt": "3.28",
-        "color": "2.5",
+        "r_non_routed": "0.604741757961",
+        "color": "3.02370878981",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7966,7 +8578,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.75245",
         "fftt": "2.78",
-        "color": "1.75",
+        "r_non_routed": "0.50256768326",
+        "color": "2.5128384163",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7979,7 +8592,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "0.65699",
         "fftt": "1.17",
-        "color": "1.75",
+        "r_non_routed": "0.479269800357",
+        "color": "2.39634900178",
     }},{
     "type": "Feature",
     "geometry": {
@@ -7992,7 +8606,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.989",
         "fftt": "3.28",
-        "color": "2.5",
+        "r_non_routed": "0.573331363971",
+        "color": "2.86665681985",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8005,7 +8620,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.83",
         "fftt": "2.0",
-        "color": "2.5",
+        "r_non_routed": "0.57316349314",
+        "color": "2.8658174657",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8018,7 +8634,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.63362",
         "fftt": "2.91",
-        "color": "1.0",
+        "r_non_routed": "0.490989282033",
+        "color": "2.45494641016",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8031,7 +8648,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "0.682",
         "fftt": "1.41",
-        "color": "1.0",
+        "r_non_routed": "0.751894248092",
+        "color": "3.75947124046",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8044,7 +8662,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.83",
         "fftt": "2.0",
-        "color": "2.5",
+        "r_non_routed": "0.545586429243",
+        "color": "2.72793214622",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8057,7 +8676,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.30973",
         "fftt": "1.44",
-        "color": "2.5",
+        "r_non_routed": "0.524577198568",
+        "color": "2.62288599284",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8070,7 +8690,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "4.05593",
         "fftt": "4.56",
-        "color": "2.5",
+        "r_non_routed": "0.631946703771",
+        "color": "3.15973351886",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8083,7 +8704,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.51955",
         "fftt": "3.8",
-        "color": "2.5",
+        "r_non_routed": "0.709296112249",
+        "color": "3.54648056124",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8096,7 +8718,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.30973",
         "fftt": "1.44",
-        "color": "2.5",
+        "r_non_routed": "0.556790994852",
+        "color": "2.78395497426",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8109,7 +8732,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.00095",
         "fftt": "2.18",
-        "color": "2.5",
+        "r_non_routed": "0.519587577128",
+        "color": "2.59793788564",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8122,7 +8746,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.00652",
         "fftt": "1.81",
-        "color": "2.5",
+        "r_non_routed": "0.407072220985",
+        "color": "2.03536110492",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8135,7 +8760,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.2276",
         "fftt": "2.48",
-        "color": "2.5",
+        "r_non_routed": "0.417548152465",
+        "color": "2.08774076232",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8148,7 +8774,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.00095",
         "fftt": "2.18",
-        "color": "2.5",
+        "r_non_routed": "0.506667670116",
+        "color": "2.53333835058",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8161,7 +8788,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.15668",
         "fftt": "2.32",
-        "color": "2.5",
+        "r_non_routed": "0.651646191383",
+        "color": "3.25823095692",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8174,7 +8802,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "2.16185",
         "fftt": "2.17",
-        "color": "3.5",
+        "r_non_routed": "0.429926120307",
+        "color": "2.14963060153",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8187,7 +8816,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "1.13467",
         "fftt": "2.28",
-        "color": "3.5",
+        "r_non_routed": "0.543647957247",
+        "color": "2.71823978623",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8200,7 +8830,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "4.05593",
         "fftt": "4.56",
-        "color": "2.5",
+        "r_non_routed": "0.572741868989",
+        "color": "2.86370934495",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8213,7 +8844,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "9.13311",
         "fftt": "10.27",
-        "color": "1.75",
+        "r_non_routed": "0.71867707051",
+        "color": "3.59338535255",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8226,7 +8858,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "2.62016",
         "fftt": "2.82",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8239,7 +8872,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "0.7446",
         "fftt": "1.48",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8252,7 +8886,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "9.13311",
         "fftt": "10.27",
-        "color": "1.75",
+        "r_non_routed": "0.686870250791",
+        "color": "3.43435125396",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8265,7 +8900,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.99894",
         "fftt": "3.23",
-        "color": "1.75",
+        "r_non_routed": "0.724901686623",
+        "color": "3.62450843312",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8278,7 +8914,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "1.98695",
         "fftt": "1.93",
-        "color": "1.5",
+        "r_non_routed": "0.359092527936",
+        "color": "1.79546263968",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8291,7 +8928,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "1.20311",
         "fftt": "2.45",
-        "color": "1.5",
+        "r_non_routed": "0.483664786439",
+        "color": "2.41832393219",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8304,7 +8942,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.99894",
         "fftt": "3.23",
-        "color": "1.75",
+        "r_non_routed": "0.706146755477",
+        "color": "3.53073377738",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8317,7 +8956,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.92864",
         "fftt": "2.7",
-        "color": "1.75",
+        "r_non_routed": "0.693436811143",
+        "color": "3.46718405572",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8330,7 +8970,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.14543",
         "fftt": "2.7",
-        "color": "1.5",
+        "r_non_routed": "0.56340331041",
+        "color": "2.81701655205",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8343,7 +8984,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "1.18441",
         "fftt": "2.85",
-        "color": "1.5",
+        "r_non_routed": "0.489098695502",
+        "color": "2.44549347751",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8356,7 +8998,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.92864",
         "fftt": "2.7",
-        "color": "1.75",
+        "r_non_routed": "0.669179275102",
+        "color": "3.34589637551",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8369,7 +9012,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.18429",
         "fftt": "2.93",
-        "color": "1.75",
+        "r_non_routed": "0.668164080995",
+        "color": "3.34082040497",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8382,7 +9026,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "1.96908",
         "fftt": "2.01",
-        "color": "2.75",
+        "r_non_routed": "0.562331411079",
+        "color": "2.8116570554",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8395,7 +9040,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "1.13467",
         "fftt": "2.41",
-        "color": "2.75",
+        "r_non_routed": "0.585502092567",
+        "color": "2.92751046283",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8408,7 +9054,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.18429",
         "fftt": "2.93",
-        "color": "1.75",
+        "r_non_routed": "0.653097056412",
+        "color": "3.26548528206",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8421,7 +9068,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "1.58248",
         "fftt": "1.5",
-        "color": "1.75",
+        "r_non_routed": "0.723825565771",
+        "color": "3.61912782885",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8434,7 +9082,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.05061",
         "fftt": "3.65",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8447,7 +9096,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "0.682",
         "fftt": "0.72",
-        "color": "0.5",
+        "r_non_routed": "0.313555644731",
+        "color": "1.56777822366",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8460,7 +9110,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "1.58248",
         "fftt": "1.5",
-        "color": "1.75",
+        "r_non_routed": "0.696370574194",
+        "color": "3.48185287097",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8473,7 +9124,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.3708",
         "fftt": "1.43",
-        "color": "2.5",
+        "r_non_routed": "0.63412820037",
+        "color": "3.17064100185",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8486,7 +9138,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "5.6173",
         "fftt": "5.17",
-        "color": "1.75",
+        "r_non_routed": "0.605254556851",
+        "color": "3.02627278425",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8499,7 +9152,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.08879",
         "fftt": "2.91",
-        "color": "1.75",
+        "r_non_routed": "0.588068927149",
+        "color": "2.94034463574",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8512,7 +9166,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.3708",
         "fftt": "1.43",
-        "color": "2.5",
+        "r_non_routed": "0.645037832721",
+        "color": "3.2251891636",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8525,7 +9180,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "5.04681",
         "fftt": "4.66",
-        "color": "1.75",
+        "r_non_routed": "0.555600496421",
+        "color": "2.7780024821",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8538,7 +9194,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "1.27372",
         "fftt": "1.27",
-        "color": "1.0",
+        "r_non_routed": "0.764055031912",
+        "color": "3.82027515956",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8551,7 +9208,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.63808",
         "fftt": "7.72",
-        "color": "1.0",
+        "r_non_routed": "0.319873166499",
+        "color": "1.5993658325",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8564,7 +9222,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "5.04681",
         "fftt": "4.66",
-        "color": "1.75",
+        "r_non_routed": "0.571859914023",
+        "color": "2.85929957011",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8577,7 +9236,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "6.78445",
         "fftt": "6.3",
-        "color": "1.75",
+        "r_non_routed": "0.589360874634",
+        "color": "2.94680437317",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8590,7 +9250,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "4.80508",
         "fftt": "5.86",
-        "color": "1.75",
+        "r_non_routed": "0.638665311508",
+        "color": "3.19332655754",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8603,7 +9264,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "1.09969",
         "fftt": "2.21",
-        "color": "1.75",
+        "r_non_routed": "0.472576378464",
+        "color": "2.36288189232",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8616,7 +9278,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "6.78445",
         "fftt": "6.3",
-        "color": "1.75",
+        "r_non_routed": "0.619995304343",
+        "color": "3.09997652172",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8629,7 +9292,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "5.79725",
         "fftt": "5.39",
-        "color": "1.75",
+        "r_non_routed": "0.501640245314",
+        "color": "2.50820122657",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8642,7 +9306,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.42854",
         "fftt": "2.35",
-        "color": "1.0",
+        "r_non_routed": "0.305326510334",
+        "color": "1.52663255167",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8655,7 +9320,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.93675",
         "fftt": "5.87",
-        "color": "1.0",
+        "r_non_routed": "0.452887639041",
+        "color": "2.26443819521",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8668,7 +9334,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "5.79725",
         "fftt": "5.39",
-        "color": "1.75",
+        "r_non_routed": "0.49615294858",
+        "color": "2.4807647429",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8681,7 +9348,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "3.26108",
         "fftt": "3.45",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8694,7 +9362,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.74025",
         "fftt": "4.35",
-        "color": "0.75",
+        "r_non_routed": "0.469776310547",
+        "color": "2.34888155273",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8707,7 +9376,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "7.7268",
         "fftt": "7.78",
-        "color": "1.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8720,7 +9390,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "4.16322",
         "fftt": "3.9",
-        "color": "1.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8733,7 +9404,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "16.654",
         "fftt": "15.96",
-        "color": "1.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8746,7 +9418,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "4.16322",
         "fftt": "3.9",
-        "color": "1.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8759,7 +9432,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "7.80824",
         "fftt": "7.21",
-        "color": "1.75",
+        "r_non_routed": "0.507390045322",
+        "color": "2.53695022661",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8772,7 +9446,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.78804",
         "fftt": "3.92",
-        "color": "1.0",
+        "r_non_routed": "0.365561812132",
+        "color": "1.82780906066",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8785,7 +9460,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.36165",
         "fftt": "3.18",
-        "color": "1.0",
+        "r_non_routed": "0.579052946635",
+        "color": "2.89526473317",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8798,7 +9474,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "7.80824",
         "fftt": "7.21",
-        "color": "1.75",
+        "r_non_routed": "0.518681160416",
+        "color": "2.59340580208",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8811,7 +9488,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "6.00285",
         "fftt": "5.74",
-        "color": "1.75",
+        "r_non_routed": "0.55603603378",
+        "color": "2.7801801689",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8824,7 +9502,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "4.47426",
         "fftt": "4.5",
-        "color": "1.75",
+        "r_non_routed": "0.301641611484",
+        "color": "1.50820805742",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8837,7 +9516,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "1.54319",
         "fftt": "2.48",
-        "color": "1.75",
+        "r_non_routed": "0.581760241316",
+        "color": "2.90880120658",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8850,7 +9530,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "6.00285",
         "fftt": "5.74",
-        "color": "1.75",
+        "r_non_routed": "0.546894918051",
+        "color": "2.73447459026",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8863,7 +9544,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "5.7353",
         "fftt": "5.33",
-        "color": "1.75",
+        "r_non_routed": "0.499946883698",
+        "color": "2.49973441849",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8876,7 +9558,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.10339",
         "fftt": "1.67",
-        "color": "2.5",
+        "r_non_routed": "0.623147423856",
+        "color": "3.11573711928",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8889,7 +9572,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.97203",
         "fftt": "5.4",
-        "color": "2.5",
+        "r_non_routed": "0.458331907594",
+        "color": "2.29165953797",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8902,7 +9586,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "5.6173",
         "fftt": "5.17",
-        "color": "1.75",
+        "r_non_routed": "0.611982558177",
+        "color": "3.05991279088",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8915,7 +9600,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "5.7353",
         "fftt": "5.33",
-        "color": "1.75",
+        "r_non_routed": "0.535168941973",
+        "color": "2.67584470987",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8928,7 +9614,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.20446",
         "fftt": "2.09",
-        "color": "1.25",
+        "r_non_routed": "0.616497046661",
+        "color": "3.08248523331",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8941,7 +9628,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "3.79232",
         "fftt": "5.88",
-        "color": "1.25",
+        "r_non_routed": "0.670626401413",
+        "color": "3.35313200707",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8954,7 +9642,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.08879",
         "fftt": "2.91",
-        "color": "1.75",
+        "r_non_routed": "0.545330631419",
+        "color": "2.7266531571",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8967,7 +9656,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.18429",
         "fftt": "2.92",
-        "color": "1.75",
+        "r_non_routed": "0.571311334283",
+        "color": "2.85655667142",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8980,7 +9670,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "1.66609",
         "fftt": "1.33",
-        "color": "1.25",
+        "r_non_routed": "0.594239193874",
+        "color": "2.97119596937",
     }},{
     "type": "Feature",
     "geometry": {
@@ -8993,7 +9684,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "1.50659",
         "fftt": "2.85",
-        "color": "1.25",
+        "r_non_routed": "0.5985959855",
+        "color": "2.9929799275",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9006,7 +9698,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.18429",
         "fftt": "2.92",
-        "color": "1.75",
+        "r_non_routed": "0.538836391241",
+        "color": "2.6941819562",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9019,7 +9712,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.94384",
         "fftt": "2.73",
-        "color": "1.75",
+        "r_non_routed": "0.534238584505",
+        "color": "2.67119292253",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9032,7 +9726,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "0.65982",
         "fftt": "0.34",
-        "color": "1.5",
+        "r_non_routed": "0.508553543602",
+        "color": "2.54276771801",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9045,7 +9740,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "3.54115",
         "fftt": "4.01",
-        "color": "1.5",
+        "r_non_routed": "0.390682464093",
+        "color": "1.95341232047",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9058,7 +9754,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.94384",
         "fftt": "2.73",
-        "color": "1.75",
+        "r_non_routed": "0.483705442403",
+        "color": "2.41852721202",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9071,7 +9768,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "4.14441",
         "fftt": "4.12",
-        "color": "1.75",
+        "r_non_routed": "0.528120476733",
+        "color": "2.64060238366",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9084,7 +9782,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "0.61304",
         "fftt": "0.74",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9097,7 +9796,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.19596",
         "fftt": "3.36",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9110,7 +9810,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "4.14441",
         "fftt": "4.12",
-        "color": "1.75",
+        "r_non_routed": "0.47591635661",
+        "color": "2.37958178305",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9123,7 +9824,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.17259",
         "fftt": "2.92",
-        "color": "1.75",
+        "r_non_routed": "0.540794441121",
+        "color": "2.7039722056",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9136,7 +9838,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "3.24219",
         "fftt": "3.84",
-        "color": "1.5",
+        "r_non_routed": "0.559309937559",
+        "color": "2.79654968779",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9149,7 +9852,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "0.65699",
         "fftt": "0.61",
-        "color": "1.5",
+        "r_non_routed": "0.513679570742",
+        "color": "2.56839785371",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9162,7 +9866,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.17259",
         "fftt": "2.92",
-        "color": "1.75",
+        "r_non_routed": "0.513670686233",
+        "color": "2.56835343117",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9175,7 +9880,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.5552",
         "fftt": "1.75",
-        "color": "2.5",
+        "r_non_routed": "0.665699000372",
+        "color": "3.32849500186",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9188,7 +9894,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "1.87122",
         "fftt": "1.39",
-        "color": "1.5",
+        "r_non_routed": "0.545844527924",
+        "color": "2.72922263962",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9201,7 +9908,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "1.4461",
         "fftt": "2.22",
-        "color": "1.5",
+        "r_non_routed": "0.525098651027",
+        "color": "2.62549325513",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9214,7 +9922,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.5552",
         "fftt": "1.75",
-        "color": "2.5",
+        "r_non_routed": "0.56609804133",
+        "color": "2.83049020665",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9227,7 +9936,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.98962",
         "fftt": "3.23",
-        "color": "2.5",
+        "r_non_routed": "0.393918806413",
+        "color": "1.96959403206",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9240,7 +9950,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.92355",
         "fftt": "3.17",
-        "color": "2.5",
+        "r_non_routed": "0.631730153476",
+        "color": "3.15865076738",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9253,7 +9964,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.85219",
         "fftt": "4.39",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9266,7 +9978,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "0.7446",
         "fftt": "1.44",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9279,7 +9992,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.98962",
         "fftt": "3.23",
-        "color": "2.5",
+        "r_non_routed": "0.322471741765",
+        "color": "1.61235870883",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9292,7 +10006,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.99149",
         "fftt": "3.32",
-        "color": "2.5",
+        "r_non_routed": "0.508381208051",
+        "color": "2.54190604026",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9305,7 +10020,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "0.82067",
         "fftt": "1.73",
-        "color": "1.75",
+        "r_non_routed": "0.542480149923",
+        "color": "2.71240074962",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9318,7 +10034,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.41317",
         "fftt": "2.45",
-        "color": "1.75",
+        "r_non_routed": "0.587865166356",
+        "color": "2.93932583178",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9331,7 +10048,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.92355",
         "fftt": "3.17",
-        "color": "2.5",
+        "r_non_routed": "0.493084160949",
+        "color": "2.46542080475",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9344,7 +10062,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.52866",
         "fftt": "1.68",
-        "color": "2.5",
+        "r_non_routed": "0.634674519359",
+        "color": "3.1733725968",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9357,7 +10076,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.51953",
         "fftt": "3.08",
-        "color": "1.75",
+        "r_non_routed": "0.528195191086",
+        "color": "2.64097595543",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9370,7 +10090,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "1.17811",
         "fftt": "1.74",
-        "color": "1.75",
+        "r_non_routed": "0.679691294184",
+        "color": "3.39845647092",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9383,7 +10104,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.52866",
         "fftt": "1.68",
-        "color": "2.5",
+        "r_non_routed": "0.508411523739",
+        "color": "2.5420576187",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9396,7 +10118,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.38371",
         "fftt": "3.71",
-        "color": "2.5",
+        "r_non_routed": "0.557899322882",
+        "color": "2.78949661441",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9409,7 +10132,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.28404",
         "fftt": "2.02",
-        "color": "1.75",
+        "r_non_routed": "0.490135953132",
+        "color": "2.45067976566",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9422,7 +10146,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "1.18441",
         "fftt": "2.79",
-        "color": "1.75",
+        "r_non_routed": "0.53408134644",
+        "color": "2.6704067322",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9435,7 +10160,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.38371",
         "fftt": "3.71",
-        "color": "2.5",
+        "r_non_routed": "0.521680414225",
+        "color": "2.60840207112",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9448,7 +10174,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.29704",
         "fftt": "2.53",
-        "color": "3.25",
+        "r_non_routed": "0.504244928164",
+        "color": "2.52122464082",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9461,7 +10188,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "0.793",
         "fftt": "0.88",
-        "color": "3.25",
+        "r_non_routed": "0.572778490517",
+        "color": "2.86389245258",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9474,7 +10202,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "0.87339",
         "fftt": "0.95",
-        "color": "3.25",
+        "r_non_routed": "0.553884949706",
+        "color": "2.76942474853",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9487,7 +10216,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.29704",
         "fftt": "2.53",
-        "color": "3.25",
+        "r_non_routed": "0.564544148814",
+        "color": "2.82272074407",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9500,7 +10230,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "3.01935",
         "fftt": "3.24",
-        "color": "3.25",
+        "r_non_routed": "0.511038429043",
+        "color": "2.55519214522",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9513,7 +10244,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "1.97097",
         "fftt": "1.91",
-        "color": "2.75",
+        "r_non_routed": "0.426721046287",
+        "color": "2.13360523143",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9526,7 +10258,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "1.31398",
         "fftt": "2.69",
-        "color": "2.75",
+        "r_non_routed": "0.501319939828",
+        "color": "2.50659969914",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9539,7 +10272,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "3.01935",
         "fftt": "3.24",
-        "color": "3.25",
+        "r_non_routed": "0.513582884181",
+        "color": "2.5679144209",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9552,7 +10286,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "1.17336",
         "fftt": "1.32",
-        "color": "3.25",
+        "r_non_routed": "0.508981469764",
+        "color": "2.54490734882",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9565,7 +10300,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.23796",
         "fftt": "2.12",
-        "color": "1.5",
+        "r_non_routed": "0.502362238435",
+        "color": "2.51181119217",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9578,7 +10314,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "0.96449",
         "fftt": "1.88",
-        "color": "1.5",
+        "r_non_routed": "0.50737549058",
+        "color": "2.5368774529",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9591,7 +10328,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "1.17336",
         "fftt": "1.32",
-        "color": "3.25",
+        "r_non_routed": "0.509747472609",
+        "color": "2.54873736305",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9604,7 +10342,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.29401",
         "fftt": "1.41",
-        "color": "2.5",
+        "r_non_routed": "0.423315909025",
+        "color": "2.11657954513",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9617,7 +10356,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.525",
         "fftt": "1.68",
-        "color": "2.5",
+        "r_non_routed": "0.553670836529",
+        "color": "2.76835418265",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9630,7 +10370,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.80131",
         "fftt": "2.13",
-        "color": "2.5",
+        "r_non_routed": "0.57550670203",
+        "color": "2.87753351015",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9643,7 +10384,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "1.89493",
         "fftt": "2.03",
-        "color": "3.25",
+        "r_non_routed": "0.5273187156",
+        "color": "2.636593578",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9656,7 +10398,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.29401",
         "fftt": "1.41",
-        "color": "2.5",
+        "r_non_routed": "0.448068546505",
+        "color": "2.24034273252",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9669,7 +10412,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "0.488",
         "fftt": "0.54",
-        "color": "2.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9682,7 +10426,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "1.09969",
         "fftt": "1.67",
-        "color": "3.25",
+        "r_non_routed": "0.464189115635",
+        "color": "2.32094557817",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9695,7 +10440,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.30915",
         "fftt": "2.42",
-        "color": "3.25",
+        "r_non_routed": "0.493028658476",
+        "color": "2.46514329238",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9708,7 +10454,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "0.488",
         "fftt": "0.54",
-        "color": "2.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9721,7 +10468,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.525",
         "fftt": "1.68",
-        "color": "2.5",
+        "r_non_routed": "0.623193415179",
+        "color": "3.1159670759",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9734,7 +10482,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "1.09969",
         "fftt": "1.67",
-        "color": "3.25",
+        "r_non_routed": "0.433356794393",
+        "color": "2.16678397196",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9747,7 +10496,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.07733",
         "fftt": "3.33",
-        "color": "2.5",
+        "r_non_routed": "0.575098420465",
+        "color": "2.87549210232",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9760,7 +10510,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "0.682",
         "fftt": "0.5",
-        "color": "3.25",
+        "r_non_routed": "0.495493243491",
+        "color": "2.47746621746",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9773,7 +10524,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.80131",
         "fftt": "2.13",
-        "color": "2.5",
+        "r_non_routed": "0.523678054727",
+        "color": "2.61839027364",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9786,7 +10538,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.98962",
         "fftt": "3.26",
-        "color": "2.5",
+        "r_non_routed": "0.637338180637",
+        "color": "3.18669090318",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9799,7 +10552,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "1.73609",
         "fftt": "1.98",
-        "color": "3.0",
+        "r_non_routed": "0.490106346894",
+        "color": "2.45053173447",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9812,7 +10566,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "1.52866",
         "fftt": "3.65",
-        "color": "3.0",
+        "r_non_routed": "0.571515062151",
+        "color": "2.85757531075",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9825,7 +10580,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.98962",
         "fftt": "3.26",
-        "color": "2.5",
+        "r_non_routed": "0.667823619599",
+        "color": "3.339118098",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9838,7 +10594,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.44",
         "fftt": "2.66",
-        "color": "2.5",
+        "r_non_routed": "0.61867742758",
+        "color": "3.0933871379",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9851,7 +10608,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "1.75633",
         "fftt": "1.68",
-        "color": "3.25",
+        "r_non_routed": "0.603709026934",
+        "color": "3.01854513467",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9864,7 +10622,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "1.364",
         "fftt": "2.84",
-        "color": "3.25",
+        "r_non_routed": "0.490331743746",
+        "color": "2.45165871873",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9877,7 +10636,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "1.89493",
         "fftt": "2.03",
-        "color": "3.25",
+        "r_non_routed": "0.499386567806",
+        "color": "2.49693283903",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9890,7 +10650,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "0.25151",
         "fftt": "0.29",
-        "color": "3.25",
+        "r_non_routed": "0.510365572398",
+        "color": "2.55182786199",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9903,7 +10664,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.10339",
         "fftt": "2.22",
-        "color": "3.25",
+        "r_non_routed": "0.491298790288",
+        "color": "2.45649395144",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9916,7 +10678,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "1.06706",
         "fftt": "2.4",
-        "color": "3.25",
+        "r_non_routed": "0.514354662418",
+        "color": "2.57177331209",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9929,7 +10692,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.4039",
         "fftt": "2.65",
-        "color": "2.5",
+        "r_non_routed": "0.492211314401",
+        "color": "2.461056572",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9942,7 +10706,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "3.49621",
         "fftt": "4.12",
-        "color": "3.25",
+        "r_non_routed": "0.497292823987",
+        "color": "2.48646411993",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9955,7 +10720,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "1.64248",
         "fftt": "1.36",
-        "color": "1.5",
+        "r_non_routed": "0.501730386729",
+        "color": "2.50865193364",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9968,7 +10734,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "1.50659",
         "fftt": "3.04",
-        "color": "1.5",
+        "r_non_routed": "0.528439799061",
+        "color": "2.64219899531",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9981,7 +10748,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "0.95285",
         "fftt": "1.01",
-        "color": "2.5",
+        "r_non_routed": "0.500777777558",
+        "color": "2.50388888779",
     }},{
     "type": "Feature",
     "geometry": {
@@ -9994,7 +10762,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.4039",
         "fftt": "2.65",
-        "color": "2.5",
+        "r_non_routed": "0.508205564764",
+        "color": "2.54102782382",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10007,7 +10776,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.29623",
         "fftt": "2.97",
-        "color": "1.25",
+        "r_non_routed": "0.500198138235",
+        "color": "2.50099069118",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10020,7 +10790,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "1.01524",
         "fftt": "2.77",
-        "color": "1.25",
+        "r_non_routed": "0.502546866039",
+        "color": "2.51273433019",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10033,7 +10804,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.44",
         "fftt": "2.66",
-        "color": "2.5",
+        "r_non_routed": "0.701659332107",
+        "color": "3.50829666054",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10046,7 +10818,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "0.9779",
         "fftt": "1.06",
-        "color": "3.25",
+        "r_non_routed": "0.563258148534",
+        "color": "2.81629074267",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10059,7 +10832,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "1.72534",
         "fftt": "2.68",
-        "color": "1.75",
+        "r_non_routed": "0.358781864402",
+        "color": "1.79390932201",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10072,7 +10846,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "1.769",
         "fftt": "4.23",
-        "color": "1.75",
+        "r_non_routed": "0.539975377499",
+        "color": "2.69987688749",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10085,7 +10860,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "0.9779",
         "fftt": "1.06",
-        "color": "3.25",
+        "r_non_routed": "0.587743359085",
+        "color": "2.93871679543",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10098,7 +10874,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.39847",
         "fftt": "2.61",
-        "color": "3.25",
+        "r_non_routed": "0.566689469596",
+        "color": "2.83344734798",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10111,7 +10888,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.43542",
         "fftt": "3.59",
-        "color": "2.5",
+        "r_non_routed": "0.51316749747",
+        "color": "2.56583748735",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10124,7 +10902,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.19846",
         "fftt": "3.8",
-        "color": "2.5",
+        "r_non_routed": "0.524703939143",
+        "color": "2.62351969571",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10137,7 +10916,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.39847",
         "fftt": "2.61",
-        "color": "3.25",
+        "r_non_routed": "0.610800449999",
+        "color": "3.05400225",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10150,7 +10930,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.63432",
         "fftt": "2.84",
-        "color": "3.25",
+        "r_non_routed": "0.65629648024",
+        "color": "3.2814824012",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10163,7 +10944,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.34672",
         "fftt": "3.2",
-        "color": "3.25",
+        "r_non_routed": "0.500504526894",
+        "color": "2.50252263447",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10176,7 +10958,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "0.73707",
         "fftt": "0.6",
-        "color": "3.25",
+        "r_non_routed": "0.572162020413",
+        "color": "2.86081010207",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10189,7 +10972,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.63432",
         "fftt": "2.84",
-        "color": "3.25",
+        "r_non_routed": "0.660384829005",
+        "color": "3.30192414503",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10202,7 +10986,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "0.99301",
         "fftt": "1.37",
-        "color": "3.25",
+        "r_non_routed": "0.639554437752",
+        "color": "3.19777218876",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10215,7 +11000,8 @@ var geojson_features = [{
         "capacity": "9000.0",
         "length": "2.19685",
         "fftt": "3.09",
-        "color": "4.5",
+        "r_non_routed": "0.464454805177",
+        "color": "2.32227402588",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10228,7 +11014,8 @@ var geojson_features = [{
         "capacity": "9000.0",
         "length": "0.73707",
         "fftt": "0.49",
-        "color": "4.5",
+        "r_non_routed": "0.495574124642",
+        "color": "2.47787062321",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10241,7 +11028,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "0.99301",
         "fftt": "1.37",
-        "color": "3.25",
+        "r_non_routed": "0.645570211634",
+        "color": "3.22785105817",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10254,7 +11042,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "1.9096",
         "fftt": "2.24",
-        "color": "3.25",
+        "r_non_routed": "0.637390790695",
+        "color": "3.18695395347",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10267,7 +11056,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "1.40829",
         "fftt": "1.94",
-        "color": "3.25",
+        "r_non_routed": "0.597786136568",
+        "color": "2.98893068284",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10280,7 +11070,8 @@ var geojson_features = [{
         "capacity": "14500.0",
         "length": "0.57547",
         "fftt": "1.26",
-        "color": "7.25",
+        "r_non_routed": "0.465974778433",
+        "color": "2.32987389216",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10293,7 +11084,8 @@ var geojson_features = [{
         "capacity": "14500.0",
         "length": "1.82797",
         "fftt": "1.37",
-        "color": "7.25",
+        "r_non_routed": "0.541054712545",
+        "color": "2.70527356273",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10306,7 +11098,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "1.9096",
         "fftt": "2.24",
-        "color": "3.25",
+        "r_non_routed": "0.61497915064",
+        "color": "3.0748957532",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10319,7 +11112,8 @@ var geojson_features = [{
         "capacity": "9000.0",
         "length": "2.58801",
         "fftt": "2.81",
-        "color": "4.5",
+        "r_non_routed": "0.552806782301",
+        "color": "2.76403391151",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10332,7 +11126,8 @@ var geojson_features = [{
         "capacity": "10000.0",
         "length": "0.67377",
         "fftt": "1.0",
-        "color": "5.0",
+        "r_non_routed": "0.516277056822",
+        "color": "2.58138528411",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10345,7 +11140,8 @@ var geojson_features = [{
         "capacity": "10000.0",
         "length": "2.20446",
         "fftt": "2.33",
-        "color": "5.0",
+        "r_non_routed": "0.467793797918",
+        "color": "2.33896898959",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10358,7 +11154,8 @@ var geojson_features = [{
         "capacity": "9000.0",
         "length": "2.58801",
         "fftt": "2.81",
-        "color": "4.5",
+        "r_non_routed": "0.621514068292",
+        "color": "3.10757034146",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10371,7 +11168,8 @@ var geojson_features = [{
         "capacity": "9000.0",
         "length": "2.37274",
         "fftt": "2.56",
-        "color": "4.5",
+        "r_non_routed": "0.55236825405",
+        "color": "2.76184127025",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10384,7 +11182,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "3.26962",
         "fftt": "4.69",
-        "color": "3.5",
+        "r_non_routed": "0.491846019301",
+        "color": "2.45923009651",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10397,7 +11196,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "0.61304",
         "fftt": "0.94",
-        "color": "3.5",
+        "r_non_routed": "0.531642414164",
+        "color": "2.65821207082",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10410,7 +11210,8 @@ var geojson_features = [{
         "capacity": "9000.0",
         "length": "0.95285",
         "fftt": "1.02",
-        "color": "4.5",
+        "r_non_routed": "0.585533541102",
+        "color": "2.92766770551",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10423,7 +11224,8 @@ var geojson_features = [{
         "capacity": "9000.0",
         "length": "2.37274",
         "fftt": "2.56",
-        "color": "4.5",
+        "r_non_routed": "0.570008230576",
+        "color": "2.85004115288",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10436,7 +11238,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "1.46907",
         "fftt": "1.3",
-        "color": "3.0",
+        "r_non_routed": "0.494560825398",
+        "color": "2.47280412699",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10449,7 +11252,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "0.9836",
         "fftt": "3.71",
-        "color": "3.0",
+        "r_non_routed": "0.489351128875",
+        "color": "2.44675564437",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10462,7 +11266,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "1.40829",
         "fftt": "1.94",
-        "color": "3.25",
+        "r_non_routed": "0.533347505993",
+        "color": "2.66673752996",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10475,7 +11280,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "0.5787",
         "fftt": "0.66",
-        "color": "3.25",
+        "r_non_routed": "0.597786136568",
+        "color": "2.98893068284",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10488,7 +11294,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "0.5787",
         "fftt": "0.66",
-        "color": "3.25",
+        "r_non_routed": "0.533347505993",
+        "color": "2.66673752996",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10501,7 +11308,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.25755",
         "fftt": "1.34",
-        "color": "2.5",
+        "r_non_routed": "0.598104804642",
+        "color": "2.99052402321",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10514,7 +11322,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "1.2276",
         "fftt": "1.61",
-        "color": "3.25",
+        "r_non_routed": "0.591909982915",
+        "color": "2.95954991458",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10527,7 +11336,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.25755",
         "fftt": "1.34",
-        "color": "2.5",
+        "r_non_routed": "0.622453883552",
+        "color": "3.11226941776",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10540,7 +11350,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.60592",
         "fftt": "2.84",
-        "color": "2.5",
+        "r_non_routed": "0.620151504246",
+        "color": "3.10075752123",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10553,7 +11364,8 @@ var geojson_features = [{
         "capacity": "12500.0",
         "length": "1.525",
         "fftt": "1.56",
-        "color": "6.25",
+        "r_non_routed": "0.467382789488",
+        "color": "2.33691394744",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10566,7 +11378,8 @@ var geojson_features = [{
         "capacity": "12500.0",
         "length": "1.04948",
         "fftt": "2.32",
-        "color": "6.25",
+        "r_non_routed": "0.463834301506",
+        "color": "2.31917150753",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10579,7 +11392,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.60592",
         "fftt": "2.84",
-        "color": "2.5",
+        "r_non_routed": "0.653866088494",
+        "color": "3.26933044247",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10592,7 +11406,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.30809",
         "fftt": "3.61",
-        "color": "2.5",
+        "r_non_routed": "0.543997620016",
+        "color": "2.71998810008",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10605,7 +11420,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "1.54319",
         "fftt": "1.82",
-        "color": "2.25",
+        "r_non_routed": "0.533023317303",
+        "color": "2.66511658651",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10618,7 +11434,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "0.671",
         "fftt": "1.36",
-        "color": "2.25",
+        "r_non_routed": "0.554838573529",
+        "color": "2.77419286765",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10631,7 +11448,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.30809",
         "fftt": "3.61",
-        "color": "2.5",
+        "r_non_routed": "0.592187653699",
+        "color": "2.9609382685",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10644,7 +11462,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.19188",
         "fftt": "3.49",
-        "color": "2.5",
+        "r_non_routed": "0.46065157125",
+        "color": "2.30325785625",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10657,7 +11476,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "1.12478",
         "fftt": "2.49",
-        "color": "2.75",
+        "r_non_routed": "0.52249041907",
+        "color": "2.61245209535",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10670,7 +11490,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "1.06706",
         "fftt": "0.62",
-        "color": "2.75",
+        "r_non_routed": "0.494792270695",
+        "color": "2.47396135348",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10683,7 +11504,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.19188",
         "fftt": "3.49",
-        "color": "2.5",
+        "r_non_routed": "0.475523434498",
+        "color": "2.37761717249",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10696,7 +11518,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "3.32995",
         "fftt": "3.87",
-        "color": "3.25",
+        "r_non_routed": "0.440802789826",
+        "color": "2.20401394913",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10709,7 +11532,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "1.64248",
         "fftt": "1.67",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10722,7 +11546,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "1.586",
         "fftt": "3.91",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10735,7 +11560,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "0.793",
         "fftt": "0.88",
-        "color": "3.25",
+        "r_non_routed": "0.501009196155",
+        "color": "2.50504598078",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10748,7 +11574,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "3.32995",
         "fftt": "3.87",
-        "color": "3.25",
+        "r_non_routed": "0.45976968287",
+        "color": "2.29884841435",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10761,7 +11588,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "0.366",
         "fftt": "0.52",
-        "color": "3.5",
+        "r_non_routed": "0.553381501326",
+        "color": "2.76690750663",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10774,7 +11602,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "3.05061",
         "fftt": "3.5",
-        "color": "3.5",
+        "r_non_routed": "0.611656499787",
+        "color": "3.05828249893",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10787,7 +11616,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "0.87339",
         "fftt": "0.95",
-        "color": "3.25",
+        "r_non_routed": "0.518791018066",
+        "color": "2.59395509033",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10800,7 +11630,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "0.366",
         "fftt": "0.52",
-        "color": "3.5",
+        "r_non_routed": "0.525365487766",
+        "color": "2.62682743883",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10813,7 +11644,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "3.22839",
         "fftt": "3.51",
-        "color": "3.25",
+        "r_non_routed": "0.608538213775",
+        "color": "3.04269106888",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10826,7 +11658,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "0.71138",
         "fftt": "0.45",
-        "color": "3.5",
+        "r_non_routed": "0.556345255913",
+        "color": "2.78172627957",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10839,7 +11672,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "3.22839",
         "fftt": "3.51",
-        "color": "3.25",
+        "r_non_routed": "0.619127728956",
+        "color": "3.09563864478",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10852,7 +11686,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.2338",
         "fftt": "2.42",
-        "color": "3.25",
+        "r_non_routed": "0.478673993338",
+        "color": "2.39336996669",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10865,7 +11700,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "1.79406",
         "fftt": "1.48",
-        "color": "3.0",
+        "r_non_routed": "0.409105629023",
+        "color": "2.04552814512",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10878,7 +11714,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "1.39235",
         "fftt": "2.42",
-        "color": "3.0",
+        "r_non_routed": "0.624120683871",
+        "color": "3.12060341935",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10891,7 +11728,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.2338",
         "fftt": "2.42",
-        "color": "3.25",
+        "r_non_routed": "0.470201859599",
+        "color": "2.35100929799",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10904,7 +11742,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.58034",
         "fftt": "3.92",
-        "color": "2.5",
+        "r_non_routed": "0.413814467124",
+        "color": "2.06907233562",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10917,7 +11756,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "0.86267",
         "fftt": "1.8",
-        "color": "2.5",
+        "r_non_routed": "0.459657840738",
+        "color": "2.29828920369",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10930,7 +11770,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.41317",
         "fftt": "2.59",
-        "color": "2.5",
+        "r_non_routed": "0.565126693087",
+        "color": "2.82563346544",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10943,7 +11784,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.58034",
         "fftt": "3.92",
-        "color": "2.5",
+        "r_non_routed": "0.425574951141",
+        "color": "2.1278747557",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10956,7 +11798,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "7.0739",
         "fftt": "7.86",
-        "color": "2.5",
+        "r_non_routed": "0.488451399006",
+        "color": "2.44225699503",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10969,7 +11812,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "5.15657",
         "fftt": "8.09",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10982,7 +11826,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "0.2728",
         "fftt": "1.51",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -10995,7 +11840,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.51955",
         "fftt": "3.8",
-        "color": "2.5",
+        "r_non_routed": "0.787862483196",
+        "color": "3.93931241598",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11008,7 +11854,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "7.0739",
         "fftt": "7.86",
-        "color": "2.5",
+        "r_non_routed": "0.478019682811",
+        "color": "2.39009841406",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11021,7 +11868,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.89198",
         "fftt": "2.41",
-        "color": "2.5",
+        "r_non_routed": "0.591925465803",
+        "color": "2.95962732901",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11034,7 +11882,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.89198",
         "fftt": "2.41",
-        "color": "2.5",
+        "r_non_routed": "0.548663044877",
+        "color": "2.74331522439",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11047,7 +11896,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.98962",
         "fftt": "3.24",
-        "color": "2.5",
+        "r_non_routed": "0.66993122189",
+        "color": "3.34965610945",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11060,7 +11910,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.09969",
         "fftt": "0.59",
-        "color": "2.5",
+        "r_non_routed": "0.479395941233",
+        "color": "2.39697970617",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11073,7 +11924,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.16185",
         "fftt": "5.05",
-        "color": "2.5",
+        "r_non_routed": "0.489248145425",
+        "color": "2.44624072713",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11086,7 +11938,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.98962",
         "fftt": "3.24",
-        "color": "2.5",
+        "r_non_routed": "0.602905388948",
+        "color": "3.01452694474",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11099,7 +11952,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "0.244",
         "fftt": "0.3",
-        "color": "2.5",
+        "r_non_routed": "0.622174326552",
+        "color": "3.11087163276",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11112,7 +11966,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "1.04948",
         "fftt": "0.37",
-        "color": "2.0",
+        "r_non_routed": "0.561153451762",
+        "color": "2.80576725881",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11125,7 +11980,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "2.22043",
         "fftt": "4.08",
-        "color": "2.0",
+        "r_non_routed": "0.556384660897",
+        "color": "2.78192330448",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11138,7 +11994,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "0.244",
         "fftt": "0.3",
-        "color": "2.5",
+        "r_non_routed": "0.596055526235",
+        "color": "2.98027763118",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11151,7 +12008,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.074",
         "fftt": "2.21",
-        "color": "2.5",
+        "r_non_routed": "0.648083609219",
+        "color": "3.24041804609",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11164,7 +12022,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.86765",
         "fftt": "3.12",
-        "color": "2.5",
+        "r_non_routed": "0.526455328977",
+        "color": "2.63227664489",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11177,7 +12036,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "4.27174",
         "fftt": "4.7",
-        "color": "2.5",
+        "r_non_routed": "0.483880009114",
+        "color": "2.41940004557",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11190,7 +12050,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.074",
         "fftt": "2.21",
-        "color": "2.5",
+        "r_non_routed": "0.637515391103",
+        "color": "3.18757695551",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11203,7 +12064,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.42959",
         "fftt": "3.73",
-        "color": "2.5",
+        "r_non_routed": "0.61521454277",
+        "color": "3.07607271385",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11216,7 +12078,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "1.09969",
         "fftt": "0.58",
-        "color": "1.0",
+        "r_non_routed": "0.444916772149",
+        "color": "2.22458386074",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11229,7 +12092,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.42144",
         "fftt": "7.48",
-        "color": "1.0",
+        "r_non_routed": "0.484929443641",
+        "color": "2.42464721821",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11242,7 +12106,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.42959",
         "fftt": "3.73",
-        "color": "2.5",
+        "r_non_routed": "0.623755510602",
+        "color": "3.11877755301",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11255,7 +12120,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "4.8861",
         "fftt": "5.31",
-        "color": "2.5",
+        "r_non_routed": "0.576779537163",
+        "color": "2.88389768581",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11268,7 +12134,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.14017",
         "fftt": "3.59",
-        "color": "1.75",
+        "r_non_routed": "0.54276419775",
+        "color": "2.71382098875",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11281,7 +12148,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "5.8981",
         "fftt": "9.12",
-        "color": "1.75",
+        "r_non_routed": "0.552320380975",
+        "color": "2.76160190487",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11294,7 +12162,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "4.8861",
         "fftt": "5.31",
-        "color": "2.5",
+        "r_non_routed": "0.565507150478",
+        "color": "2.82753575239",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11307,7 +12176,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "4.02785",
         "fftt": "4.43",
-        "color": "2.5",
+        "r_non_routed": "0.531059102482",
+        "color": "2.65529551241",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11320,7 +12190,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.56273",
         "fftt": "2.61",
-        "color": "1.5",
+        "r_non_routed": "0.507695132606",
+        "color": "2.53847566303",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11333,7 +12204,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "6.71693",
         "fftt": "11.27",
-        "color": "1.5",
+        "r_non_routed": "0.352098130478",
+        "color": "1.76049065239",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11346,7 +12218,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "4.02785",
         "fftt": "4.43",
-        "color": "2.5",
+        "r_non_routed": "0.527602558899",
+        "color": "2.6380127945",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11359,7 +12232,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "5.28768",
         "fftt": "5.77",
-        "color": "2.5",
+        "r_non_routed": "0.526289906563",
+        "color": "2.63144953281",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11372,7 +12246,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "1.49543",
         "fftt": "1.61",
-        "color": "1.75",
+        "r_non_routed": "0.512433402461",
+        "color": "2.56216701231",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11385,7 +12260,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "0.305",
         "fftt": "0.29",
-        "color": "1.75",
+        "r_non_routed": "0.573774812561",
+        "color": "2.8688740628",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11398,6 +12274,7 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "10.4426",
         "fftt": "5.93",
+        "r_non_routed": "0.5",
         "color": "2.5",
     }},{
     "type": "Feature",
@@ -11411,7 +12288,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "5.28768",
         "fftt": "5.77",
-        "color": "2.5",
+        "r_non_routed": "0.488664611745",
+        "color": "2.44332305873",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11424,7 +12302,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "6.58828",
         "fftt": "6.07",
-        "color": "1.75",
+        "r_non_routed": "0.530331412378",
+        "color": "2.65165706189",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11437,7 +12316,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "7.21375",
         "fftt": "8.96",
-        "color": "3.0",
+        "r_non_routed": "0.502439976833",
+        "color": "2.51219988417",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11450,7 +12330,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "1.11981",
         "fftt": "1.62",
-        "color": "3.0",
+        "r_non_routed": "0.522240586261",
+        "color": "2.61120293131",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11463,7 +12344,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "6.58828",
         "fftt": "6.07",
-        "color": "1.75",
+        "r_non_routed": "0.528259863957",
+        "color": "2.64129931979",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11476,7 +12358,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "7.19102",
         "fftt": "6.64",
-        "color": "1.75",
+        "r_non_routed": "0.514424432515",
+        "color": "2.57212216258",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11489,7 +12372,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "1.64248",
         "fftt": "2.55",
-        "color": "1.25",
+        "r_non_routed": "0.512022820022",
+        "color": "2.56011410011",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11502,7 +12386,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "4.31335",
         "fftt": "4.39",
-        "color": "1.25",
+        "r_non_routed": "0.592230388481",
+        "color": "2.9611519424",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11515,7 +12400,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "7.19102",
         "fftt": "6.64",
-        "color": "1.75",
+        "r_non_routed": "0.445854578914",
+        "color": "2.22927289457",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11528,7 +12414,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.62732",
         "fftt": "5.26",
-        "color": "1.75",
+        "r_non_routed": "0.499972170058",
+        "color": "2.49986085029",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11541,7 +12428,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.16614",
         "fftt": "1.64",
-        "color": "1.75",
+        "r_non_routed": "0.517827181208",
+        "color": "2.58913590604",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11554,7 +12442,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "38.3558",
         "fftt": "9.32",
-        "color": "1.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11567,7 +12456,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "0.682",
         "fftt": "0.75",
-        "color": "2.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11580,7 +12470,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.50769",
         "fftt": "2.72",
-        "color": "2.5",
+        "r_non_routed": "0.815193685878",
+        "color": "4.07596842939",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11593,7 +12484,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "0.35569",
         "fftt": "0.64",
-        "color": "1.0",
+        "r_non_routed": "0.604972172979",
+        "color": "3.02486086489",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11606,7 +12498,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.21048",
         "fftt": "3.14",
-        "color": "1.0",
+        "r_non_routed": "0.39971828192",
+        "color": "1.9985914096",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11619,7 +12512,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "0.682",
         "fftt": "0.75",
-        "color": "2.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11632,7 +12526,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.86765",
         "fftt": "3.12",
-        "color": "2.5",
+        "r_non_routed": "0.436811283094",
+        "color": "2.18405641547",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11645,7 +12540,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.50769",
         "fftt": "2.72",
-        "color": "2.5",
+        "r_non_routed": "0.784327774538",
+        "color": "3.92163887269",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11658,7 +12554,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "0.793",
         "fftt": "0.55",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11671,7 +12568,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.728",
         "fftt": "3.93",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11684,7 +12582,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "4.27174",
         "fftt": "4.7",
-        "color": "2.5",
+        "r_non_routed": "0.51123983399",
+        "color": "2.55619916995",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11697,7 +12596,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "5.70472",
         "fftt": "7.31",
-        "color": "2.5",
+        "r_non_routed": "0.483880009114",
+        "color": "2.41940004557",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11710,7 +12610,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "5.70472",
         "fftt": "7.31",
-        "color": "2.5",
+        "r_non_routed": "0.51123983399",
+        "color": "2.55619916995",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11723,7 +12624,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.074",
         "fftt": "2.24",
-        "color": "2.5",
+        "r_non_routed": "0.596077777726",
+        "color": "2.98038888863",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11736,7 +12638,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "0.061",
         "fftt": "0.12",
-        "color": "2.5",
+        "r_non_routed": "0.511349377573",
+        "color": "2.55674688787",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11749,7 +12652,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.94447",
         "fftt": "3.24",
-        "color": "2.5",
+        "r_non_routed": "0.451231923261",
+        "color": "2.2561596163",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11762,7 +12666,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.715",
         "fftt": "4.42",
-        "color": "2.5",
+        "r_non_routed": "0.652431026489",
+        "color": "3.26215513245",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11775,7 +12680,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.74568",
         "fftt": "4.67",
-        "color": "2.75",
+        "r_non_routed": "0.557509513237",
+        "color": "2.78754756619",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11788,7 +12694,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "0.80233",
         "fftt": "1.58",
-        "color": "2.75",
+        "r_non_routed": "0.678676776796",
+        "color": "3.39338388398",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11801,7 +12708,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.15668",
         "fftt": "2.32",
-        "color": "2.5",
+        "r_non_routed": "0.507809292115",
+        "color": "2.53904646057",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11814,7 +12722,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.94447",
         "fftt": "3.24",
-        "color": "2.5",
+        "r_non_routed": "0.606864858243",
+        "color": "3.03432429121",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11827,7 +12736,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.06706",
         "fftt": "2.57",
-        "color": "2.5",
+        "r_non_routed": "0.473880862308",
+        "color": "2.36940431154",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11840,7 +12750,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.23796",
         "fftt": "2.51",
-        "color": "2.5",
+        "r_non_routed": "0.404623266791",
+        "color": "2.02311633395",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11853,7 +12764,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "5.36835",
         "fftt": "6.01",
-        "color": "1.75",
+        "r_non_routed": "0.699334868118",
+        "color": "3.49667434059",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11866,7 +12778,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "8.59494",
         "fftt": "9.84",
-        "color": "2.5",
+        "r_non_routed": "0.533623788824",
+        "color": "2.66811894412",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11879,7 +12792,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "0.43988",
         "fftt": "0.44",
-        "color": "1.75",
+        "r_non_routed": "0.457460045326",
+        "color": "2.28730022663",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11892,7 +12806,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.93815",
         "fftt": "3.23",
-        "color": "1.75",
+        "r_non_routed": "0.13972567031",
+        "color": "0.698628351548",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11905,7 +12820,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "5.36835",
         "fftt": "6.01",
-        "color": "1.75",
+        "r_non_routed": "0.672790970298",
+        "color": "3.36395485149",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11918,7 +12834,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "0.61304",
         "fftt": "0.65",
-        "color": "1.75",
+        "r_non_routed": "0.478809651945",
+        "color": "2.39404825973",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11931,7 +12848,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.66203",
         "fftt": "3.97",
-        "color": "1.75",
+        "r_non_routed": "0.485860408486",
+        "color": "2.42930204243",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11944,7 +12862,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.24678",
         "fftt": "4.24",
-        "color": "1.75",
+        "r_non_routed": "0.274717879249",
+        "color": "1.37358939625",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11957,7 +12876,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "8.59494",
         "fftt": "9.84",
-        "color": "2.5",
+        "r_non_routed": "0.513316036235",
+        "color": "2.56658018117",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11970,7 +12890,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "1.30546",
         "fftt": "1.43",
-        "color": "3.25",
+        "r_non_routed": "0.516060669189",
+        "color": "2.58030334595",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11983,7 +12904,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "2.39148",
         "fftt": "5.67",
-        "color": "2.0",
+        "r_non_routed": "0.504676218351",
+        "color": "2.52338109176",
     }},{
     "type": "Feature",
     "geometry": {
@@ -11996,7 +12918,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "1.14609",
         "fftt": "0.88",
-        "color": "2.0",
+        "r_non_routed": "0.619051150723",
+        "color": "3.09525575362",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12009,7 +12932,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "1.30546",
         "fftt": "1.43",
-        "color": "3.25",
+        "r_non_routed": "0.623997428714",
+        "color": "3.11998714357",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12022,7 +12946,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "1.89493",
         "fftt": "2.05",
-        "color": "3.25",
+        "r_non_routed": "0.511709970199",
+        "color": "2.55854985099",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12035,7 +12960,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "1.12478",
         "fftt": "1.22",
-        "color": "3.25",
+        "r_non_routed": "0.59054787784",
+        "color": "2.9527393892",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12048,7 +12974,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.074",
         "fftt": "2.24",
-        "color": "2.5",
+        "r_non_routed": "0.531986024409",
+        "color": "2.65993012205",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12061,7 +12988,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "1.89493",
         "fftt": "2.05",
-        "color": "3.25",
+        "r_non_routed": "0.629017296871",
+        "color": "3.14508648435",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12074,7 +13002,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.51509",
         "fftt": "2.74",
-        "color": "2.5",
+        "r_non_routed": "0.472392656924",
+        "color": "2.36196328462",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12087,7 +13016,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "0.8184",
         "fftt": "2.81",
-        "color": "2.5",
+        "r_non_routed": "0.492100791341",
+        "color": "2.4605039567",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12100,7 +13030,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "1.12478",
         "fftt": "1.22",
-        "color": "3.25",
+        "r_non_routed": "0.569548483107",
+        "color": "2.84774241554",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12113,7 +13044,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "1.403",
         "fftt": "1.65",
-        "color": "3.25",
+        "r_non_routed": "0.598949727193",
+        "color": "2.99474863596",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12126,7 +13058,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "0.7446",
         "fftt": "3.42",
-        "color": "1.75",
+        "r_non_routed": "0.538292495731",
+        "color": "2.69146247865",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12139,7 +13072,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.24957",
         "fftt": "2.95",
-        "color": "1.75",
+        "r_non_routed": "0.486197719206",
+        "color": "2.43098859603",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12152,7 +13086,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "1.403",
         "fftt": "1.65",
-        "color": "3.25",
+        "r_non_routed": "0.589846407159",
+        "color": "2.9492320358",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12165,7 +13100,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "1.22152",
         "fftt": "1.51",
-        "color": "3.25",
+        "r_non_routed": "0.629347150004",
+        "color": "3.14673575002",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12178,7 +13114,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.45508",
         "fftt": "2.95",
-        "color": "2.5",
+        "r_non_routed": "0.489013063524",
+        "color": "2.44506531762",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12191,7 +13128,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.70909",
         "fftt": "2.23",
-        "color": "2.5",
+        "r_non_routed": "0.476008015598",
+        "color": "2.38004007799",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12204,7 +13142,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "1.2276",
         "fftt": "1.61",
-        "color": "3.25",
+        "r_non_routed": "0.515338982833",
+        "color": "2.57669491417",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12217,7 +13156,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "1.22152",
         "fftt": "1.51",
-        "color": "3.25",
+        "r_non_routed": "0.597607737819",
+        "color": "2.9880386891",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12230,7 +13170,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.4892",
         "fftt": "1.26",
-        "color": "2.5",
+        "r_non_routed": "0.615835509695",
+        "color": "3.07917754847",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12243,7 +13184,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "0.854",
         "fftt": "2.98",
-        "color": "2.5",
+        "r_non_routed": "0.591967439821",
+        "color": "2.9598371991",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12256,7 +13198,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "1.49543",
         "fftt": "1.61",
-        "color": "1.75",
+        "r_non_routed": "0.51514927591",
+        "color": "2.57574637955",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12269,7 +13212,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.95646",
         "fftt": "3.31",
-        "color": "1.75",
+        "r_non_routed": "0.483205558685",
+        "color": "2.41602779343",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12282,7 +13226,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "6.10762",
         "fftt": "5.96",
-        "color": "1.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12295,7 +13240,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "7.09097",
         "fftt": "8.17",
-        "color": "3.25",
+        "r_non_routed": "0.503710562081",
+        "color": "2.51855281041",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12308,7 +13254,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "0.25151",
         "fftt": "0.29",
-        "color": "3.25",
+        "r_non_routed": "0.510510720424",
+        "color": "2.55255360212",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12321,7 +13268,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "3.49621",
         "fftt": "4.12",
-        "color": "3.25",
+        "r_non_routed": "0.520418620446",
+        "color": "2.60209310223",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12334,7 +13282,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.85925",
         "fftt": "2.11",
-        "color": "2.5",
+        "r_non_routed": "0.579078064313",
+        "color": "2.89539032157",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12347,7 +13296,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.94826",
         "fftt": "3.23",
-        "color": "2.5",
+        "r_non_routed": "0.537027013945",
+        "color": "2.68513506972",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12360,7 +13310,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "1.74784",
         "fftt": "1.52",
-        "color": "1.0",
+        "r_non_routed": "0.580039555613",
+        "color": "2.90019777807",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12373,7 +13324,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.93438",
         "fftt": "4.28",
-        "color": "2.5",
+        "r_non_routed": "0.525071619099",
+        "color": "2.6253580955",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12386,7 +13338,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.94826",
         "fftt": "3.23",
-        "color": "2.5",
+        "r_non_routed": "0.601672560148",
+        "color": "3.00836280074",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12399,7 +13352,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.693",
         "fftt": "3.31",
-        "color": "2.75",
+        "r_non_routed": "0.519379497983",
+        "color": "2.59689748992",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12412,7 +13366,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "0.62208",
         "fftt": "0.81",
-        "color": "2.75",
+        "r_non_routed": "0.555473894846",
+        "color": "2.77736947423",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12425,7 +13380,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.40829",
         "fftt": "1.47",
-        "color": "2.5",
+        "r_non_routed": "0.622021809824",
+        "color": "3.11010904912",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12438,7 +13394,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.99149",
         "fftt": "3.32",
-        "color": "2.5",
+        "r_non_routed": "0.49250140921",
+        "color": "2.46250704605",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12451,7 +13408,8 @@ var geojson_features = [{
         "capacity": "8000.0",
         "length": "0.71138",
         "fftt": "0.45",
-        "color": "4.0",
+        "r_non_routed": "0.465544208842",
+        "color": "2.32772104421",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12464,7 +13422,8 @@ var geojson_features = [{
         "capacity": "8000.0",
         "length": "3.37435",
         "fftt": "4.18",
-        "color": "4.0",
+        "r_non_routed": "0.442792066589",
+        "color": "2.21396033294",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12477,7 +13436,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.55473",
         "fftt": "2.86",
-        "color": "2.5",
+        "r_non_routed": "0.507912246111",
+        "color": "2.53956123055",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12490,7 +13450,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.07733",
         "fftt": "3.33",
-        "color": "2.5",
+        "r_non_routed": "0.585833292544",
+        "color": "2.92916646272",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12503,7 +13464,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.15095",
         "fftt": "0.62",
-        "color": "2.5",
+        "r_non_routed": "0.527276837408",
+        "color": "2.63638418704",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12516,7 +13478,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.14196",
         "fftt": "4.88",
-        "color": "2.5",
+        "r_non_routed": "0.499134158673",
+        "color": "2.49567079337",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12529,7 +13492,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "1.50659",
         "fftt": "1.68",
-        "color": "1.75",
+        "r_non_routed": "0.508289291901",
+        "color": "2.54144645951",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12542,7 +13506,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "0.7421",
         "fftt": "0.56",
-        "color": "1.5",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12555,7 +13520,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.046",
         "fftt": "1.75",
-        "color": "1.5",
+        "r_non_routed": "0.563023013005",
+        "color": "2.81511506502",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12568,7 +13534,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "0.43988",
         "fftt": "0.44",
-        "color": "1.75",
+        "r_non_routed": "0.502088165015",
+        "color": "2.51044082507",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12581,7 +13548,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.91335",
         "fftt": "5.76",
-        "color": "1.25",
+        "r_non_routed": "0.351423895956",
+        "color": "1.75711947978",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12594,7 +13562,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "3.77264",
         "fftt": "8.02",
-        "color": "1.25",
+        "r_non_routed": "0.341859919619",
+        "color": "1.70929959809",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12607,7 +13576,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "0.61304",
         "fftt": "0.65",
-        "color": "1.75",
+        "r_non_routed": "0.42587937775",
+        "color": "2.12939688875",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12620,7 +13590,8 @@ var geojson_features = [{
         "capacity": "10500.0",
         "length": "2.16614",
         "fftt": "4.21",
-        "color": "5.25",
+        "r_non_routed": "0.498558098269",
+        "color": "2.49279049135",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12633,7 +13604,8 @@ var geojson_features = [{
         "capacity": "10500.0",
         "length": "4.21298",
         "fftt": "6.14",
-        "color": "5.25",
+        "r_non_routed": "0.496352175909",
+        "color": "2.48176087954",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12646,7 +13618,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.66203",
         "fftt": "3.97",
-        "color": "1.75",
+        "r_non_routed": "0.52291905444",
+        "color": "2.6145952722",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12659,7 +13632,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.95646",
         "fftt": "3.31",
-        "color": "1.75",
+        "r_non_routed": "0.485876977979",
+        "color": "2.4293848899",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12672,7 +13646,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "0.90683",
         "fftt": "1.4",
-        "color": "1.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12685,7 +13660,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "0.305",
         "fftt": "0.29",
-        "color": "1.75",
+        "r_non_routed": "0.570330097324",
+        "color": "2.85165048662",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12698,7 +13674,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.28268",
         "fftt": "5.39",
-        "color": "2.5",
+        "r_non_routed": "0.49553260043",
+        "color": "2.47766300215",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12711,7 +13688,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.51953",
         "fftt": "3.25",
-        "color": "2.5",
+        "r_non_routed": "0.508435750714",
+        "color": "2.54217875357",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12724,7 +13702,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "0.061",
         "fftt": "0.12",
-        "color": "2.5",
+        "r_non_routed": "0.624673874588",
+        "color": "3.12336937294",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12737,7 +13716,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.715",
         "fftt": "4.42",
-        "color": "2.5",
+        "r_non_routed": "0.563649484151",
+        "color": "2.81824742076",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12750,7 +13730,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "1.83508",
         "fftt": "3.61",
-        "color": "2.0",
+        "r_non_routed": "0.470738784824",
+        "color": "2.35369392412",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12763,7 +13744,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "1.10476",
         "fftt": "1.5",
-        "color": "2.0",
+        "r_non_routed": "0.518456701328",
+        "color": "2.59228350664",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12776,7 +13758,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.93815",
         "fftt": "3.23",
-        "color": "1.75",
+        "r_non_routed": "0.274717879249",
+        "color": "1.37358939625",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12789,7 +13772,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.24678",
         "fftt": "4.24",
-        "color": "1.75",
+        "r_non_routed": "0.13972567031",
+        "color": "0.698628351548",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12802,7 +13786,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12815,7 +13800,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "1.33783",
         "fftt": "3.26",
-        "color": "1.5",
+        "r_non_routed": "0.5051460615",
+        "color": "2.5257303075",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12828,7 +13814,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.38213",
         "fftt": "4.89",
-        "color": "2.25",
+        "r_non_routed": "0.468630609749",
+        "color": "2.34315304874",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12841,7 +13828,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "1.58365",
         "fftt": "2.89",
-        "color": "2.75",
+        "r_non_routed": "0.540255331626",
+        "color": "2.70127665813",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12854,7 +13842,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12867,7 +13856,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "1.33783",
         "fftt": "3.26",
-        "color": "1.5",
+        "r_non_routed": "0.443539420546",
+        "color": "2.21769710273",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12880,7 +13870,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "2.728",
         "fftt": "5.81",
-        "color": "3.5",
+        "r_non_routed": "0.481322016911",
+        "color": "2.40661008456",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12893,7 +13884,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.43542",
         "fftt": "4.49",
-        "color": "1.5",
+        "r_non_routed": "0.50034190058",
+        "color": "2.5017095029",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12906,7 +13898,8 @@ var geojson_features = [{
         "capacity": "7500.0",
         "length": "1.95295",
         "fftt": "3.52",
-        "color": "3.75",
+        "r_non_routed": "0.443996632745",
+        "color": "2.21998316373",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12919,7 +13912,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12932,7 +13926,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.38213",
         "fftt": "4.89",
-        "color": "2.25",
+        "r_non_routed": "0.554604989099",
+        "color": "2.77302494549",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12945,7 +13940,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.57423",
         "fftt": "3.28",
-        "color": "2.5",
+        "r_non_routed": "0.457358664666",
+        "color": "2.28679332333",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12958,7 +13954,8 @@ var geojson_features = [{
         "capacity": "15500.0",
         "length": "3.1104",
         "fftt": "4.21",
-        "color": "7.75",
+        "r_non_routed": "0.487964810745",
+        "color": "2.43982405373",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12971,7 +13968,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12984,7 +13982,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "2.728",
         "fftt": "5.81",
-        "color": "3.5",
+        "r_non_routed": "0.432392244222",
+        "color": "2.16196122111",
     }},{
     "type": "Feature",
     "geometry": {
@@ -12997,7 +13996,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.57423",
         "fftt": "3.28",
-        "color": "2.5",
+        "r_non_routed": "0.504665702323",
+        "color": "2.52332851162",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13010,7 +14010,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "2.85204",
         "fftt": "5.18",
-        "color": "3.5",
+        "r_non_routed": "0.489084781312",
+        "color": "2.44542390656",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13023,7 +14024,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.26564",
         "fftt": "7.77",
-        "color": "1.0",
+        "r_non_routed": "0.515905580796",
+        "color": "2.57952790398",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13036,7 +14038,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "1.84619",
         "fftt": "3.92",
-        "color": "1.75",
+        "r_non_routed": "0.47683222364",
+        "color": "2.3841611182",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13049,7 +14052,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.61945",
         "fftt": "5.4",
-        "color": "1.75",
+        "r_non_routed": "0.497830291548",
+        "color": "2.48915145774",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13062,7 +14066,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13075,7 +14080,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "3.26962",
         "fftt": "4.69",
-        "color": "3.5",
+        "r_non_routed": "0.525565180523",
+        "color": "2.62782590261",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13088,7 +14094,8 @@ var geojson_features = [{
         "capacity": "15500.0",
         "length": "3.1104",
         "fftt": "4.21",
-        "color": "7.75",
+        "r_non_routed": "0.510538503933",
+        "color": "2.55269251967",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13101,7 +14108,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "2.85204",
         "fftt": "5.18",
-        "color": "3.5",
+        "r_non_routed": "0.448121796897",
+        "color": "2.24060898448",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13114,7 +14122,8 @@ var geojson_features = [{
         "capacity": "20000.0",
         "length": "2.22043",
         "fftt": "3.08",
-        "color": "10.0",
+        "r_non_routed": "0.492351724291",
+        "color": "2.46175862146",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13127,7 +14136,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13140,7 +14150,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "1.30973",
         "fftt": "0.89",
-        "color": "2.25",
+        "r_non_routed": "0.565392123545",
+        "color": "2.82696061773",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13153,7 +14164,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.43542",
         "fftt": "4.49",
-        "color": "1.5",
+        "r_non_routed": "0.500642360899",
+        "color": "2.5032118045",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13166,7 +14178,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.26564",
         "fftt": "7.77",
-        "color": "1.0",
+        "r_non_routed": "0.51697967323",
+        "color": "2.58489836615",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13179,7 +14192,8 @@ var geojson_features = [{
         "capacity": "8500.0",
         "length": "2.2112",
         "fftt": "4.56",
-        "color": "4.25",
+        "r_non_routed": "0.416733439669",
+        "color": "2.08366719835",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13192,7 +14206,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.65122",
         "fftt": "4.34",
-        "color": "2.5",
+        "r_non_routed": "0.490203486413",
+        "color": "2.45101743206",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13205,7 +14220,8 @@ var geojson_features = [{
         "capacity": "9500.0",
         "length": "3.08699",
         "fftt": "4.8",
-        "color": "4.75",
+        "r_non_routed": "0.481522037961",
+        "color": "2.40761018981",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13218,7 +14234,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13231,7 +14248,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "1.46907",
         "fftt": "1.3",
-        "color": "3.0",
+        "r_non_routed": "0.519804557364",
+        "color": "2.59902278682",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13244,7 +14262,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "1.84619",
         "fftt": "3.92",
-        "color": "1.75",
+        "r_non_routed": "0.507599620205",
+        "color": "2.53799810103",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13257,7 +14276,8 @@ var geojson_features = [{
         "capacity": "8500.0",
         "length": "2.2112",
         "fftt": "4.56",
-        "color": "4.25",
+        "r_non_routed": "0.426618637462",
+        "color": "2.13309318731",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13270,7 +14290,8 @@ var geojson_features = [{
         "capacity": "7500.0",
         "length": "2.16185",
         "fftt": "3.97",
-        "color": "3.75",
+        "r_non_routed": "0.429980660061",
+        "color": "2.14990330031",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13283,7 +14304,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13296,7 +14318,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "1.76057",
         "fftt": "3.93",
-        "color": "2.25",
+        "r_non_routed": "0.48467254222",
+        "color": "2.4233627111",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13309,7 +14332,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "1.037",
         "fftt": "0.62",
-        "color": "2.0",
+        "r_non_routed": "0.524888144011",
+        "color": "2.62444072006",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13322,7 +14346,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.02427",
         "fftt": "5.04",
-        "color": "1.75",
+        "r_non_routed": "0.486153049376",
+        "color": "2.43076524688",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13335,7 +14360,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.7987",
         "fftt": "4.97",
-        "color": "1.25",
+        "r_non_routed": "0.505084781188",
+        "color": "2.52542390594",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13348,7 +14374,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.73248",
         "fftt": "5.79",
-        "color": "1.0",
+        "r_non_routed": "0.608720003825",
+        "color": "3.04360001912",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13361,7 +14388,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "1.84418",
         "fftt": "3.39",
-        "color": "3.5",
+        "r_non_routed": "0.487241886107",
+        "color": "2.43620943054",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13374,7 +14402,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13387,7 +14416,8 @@ var geojson_features = [{
         "capacity": "7500.0",
         "length": "3.06339",
         "fftt": "6.36",
-        "color": "3.75",
+        "r_non_routed": "0.558796133894",
+        "color": "2.79398066947",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13400,7 +14430,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "3.13542",
         "fftt": "4.89",
-        "color": "2.25",
+        "r_non_routed": "0.545106701145",
+        "color": "2.72553350572",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13413,7 +14444,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "1.6116",
         "fftt": "2.68",
-        "color": "2.75",
+        "r_non_routed": "0.557035241569",
+        "color": "2.78517620784",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13426,7 +14458,8 @@ var geojson_features = [{
         "capacity": "13500.0",
         "length": "1.10476",
         "fftt": "1.58",
-        "color": "6.75",
+        "r_non_routed": "0.453480090399",
+        "color": "2.267400452",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13439,7 +14472,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13452,7 +14486,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "3.32156",
         "fftt": "7.18",
-        "color": "2.0",
+        "r_non_routed": "0.49190483753",
+        "color": "2.45952418765",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13465,7 +14500,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "0.9836",
         "fftt": "3.71",
-        "color": "3.0",
+        "r_non_routed": "0.498616923064",
+        "color": "2.49308461532",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13478,7 +14514,8 @@ var geojson_features = [{
         "capacity": "7500.0",
         "length": "3.06339",
         "fftt": "6.36",
-        "color": "3.75",
+        "r_non_routed": "0.548969463983",
+        "color": "2.74484731991",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13491,7 +14528,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.86959",
         "fftt": "5.92",
-        "color": "3.25",
+        "r_non_routed": "0.504741007306",
+        "color": "2.52370503653",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13504,7 +14542,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.63362",
         "fftt": "5.63",
-        "color": "2.25",
+        "r_non_routed": "0.505841416496",
+        "color": "2.52920708248",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13517,7 +14556,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.85219",
         "fftt": "9.28",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13530,7 +14570,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13543,7 +14584,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.43542",
         "fftt": "3.59",
-        "color": "2.5",
+        "r_non_routed": "0.514900138368",
+        "color": "2.57450069184",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13556,7 +14598,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.86959",
         "fftt": "5.92",
-        "color": "3.25",
+        "r_non_routed": "0.52179024832",
+        "color": "2.6089512416",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13569,7 +14612,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.86624",
         "fftt": "3.99",
-        "color": "2.5",
+        "r_non_routed": "0.490338150979",
+        "color": "2.4516907549",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13582,7 +14626,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.69645",
         "fftt": "5.64",
-        "color": "2.75",
+        "r_non_routed": "0.460834888942",
+        "color": "2.30417444471",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13595,7 +14640,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "4.44966",
         "fftt": "9.25",
-        "color": "1.0",
+        "r_non_routed": "0.502848268029",
+        "color": "2.51424134015",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13608,7 +14654,8 @@ var geojson_features = [{
         "capacity": "8500.0",
         "length": "1.71778",
         "fftt": "3.75",
-        "color": "4.25",
+        "r_non_routed": "0.464445406251",
+        "color": "2.32222703125",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13621,7 +14668,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13634,7 +14682,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.34672",
         "fftt": "3.2",
-        "color": "3.25",
+        "r_non_routed": "0.540878860933",
+        "color": "2.70439430467",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13647,7 +14696,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.86624",
         "fftt": "3.99",
-        "color": "2.5",
+        "r_non_routed": "0.505198848302",
+        "color": "2.52599424151",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13660,7 +14710,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "1.98695",
         "fftt": "4.03",
-        "color": "2.0",
+        "r_non_routed": "0.585014372035",
+        "color": "2.92507186018",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13673,7 +14724,8 @@ var geojson_features = [{
         "capacity": "10000.0",
         "length": "2.32121",
         "fftt": "4.26",
-        "color": "5.0",
+        "r_non_routed": "0.414516572423",
+        "color": "2.07258286212",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13686,7 +14738,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13699,7 +14752,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "0.73707",
         "fftt": "0.6",
-        "color": "3.25",
+        "r_non_routed": "0.596510442952",
+        "color": "2.98255221476",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13712,7 +14766,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.69645",
         "fftt": "5.64",
-        "color": "2.75",
+        "r_non_routed": "0.433097841278",
+        "color": "2.16548920639",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13725,7 +14780,8 @@ var geojson_features = [{
         "capacity": "12000.0",
         "length": "2.63432",
         "fftt": "5.66",
-        "color": "6.0",
+        "r_non_routed": "0.370403203647",
+        "color": "1.85201601823",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13738,7 +14794,8 @@ var geojson_features = [{
         "capacity": "7500.0",
         "length": "2.13848",
         "fftt": "4.58",
-        "color": "3.75",
+        "r_non_routed": "0.563675909515",
+        "color": "2.81837954757",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13751,7 +14808,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.26564",
         "fftt": "6.1",
-        "color": "2.5",
+        "r_non_routed": "0.391144487228",
+        "color": "1.95572243614",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13764,7 +14822,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13777,7 +14836,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "0.61304",
         "fftt": "0.94",
-        "color": "3.5",
+        "r_non_routed": "0.5885433573",
+        "color": "2.9427167865",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13790,7 +14850,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.61945",
         "fftt": "5.4",
-        "color": "1.75",
+        "r_non_routed": "0.493830577583",
+        "color": "2.46915288791",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13803,7 +14864,8 @@ var geojson_features = [{
         "capacity": "7500.0",
         "length": "2.16185",
         "fftt": "3.97",
-        "color": "3.75",
+        "r_non_routed": "0.464127037728",
+        "color": "2.32063518864",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13816,7 +14878,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.63362",
         "fftt": "5.63",
-        "color": "2.25",
+        "r_non_routed": "0.491809892866",
+        "color": "2.45904946433",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13829,7 +14892,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "1.98695",
         "fftt": "4.03",
-        "color": "2.0",
+        "r_non_routed": "0.534260507853",
+        "color": "2.67130253927",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13842,7 +14906,8 @@ var geojson_features = [{
         "capacity": "11000.0",
         "length": "2.45899",
         "fftt": "4.38",
-        "color": "5.5",
+        "r_non_routed": "0.391022409373",
+        "color": "1.95511204686",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13855,7 +14920,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13868,7 +14934,8 @@ var geojson_features = [{
         "capacity": "9000.0",
         "length": "2.19685",
         "fftt": "3.09",
-        "color": "4.5",
+        "r_non_routed": "0.448981768391",
+        "color": "2.24490884195",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13881,7 +14948,8 @@ var geojson_features = [{
         "capacity": "10000.0",
         "length": "0.67377",
         "fftt": "1.0",
-        "color": "5.0",
+        "r_non_routed": "0.42689572758",
+        "color": "2.1344786379",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13894,7 +14962,8 @@ var geojson_features = [{
         "capacity": "10000.0",
         "length": "2.32121",
         "fftt": "4.26",
-        "color": "5.0",
+        "r_non_routed": "0.477241086639",
+        "color": "2.3862054332",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13907,7 +14976,8 @@ var geojson_features = [{
         "capacity": "11000.0",
         "length": "2.45899",
         "fftt": "4.38",
-        "color": "5.5",
+        "r_non_routed": "0.407192468393",
+        "color": "2.03596234196",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13920,7 +14990,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13933,7 +15004,8 @@ var geojson_features = [{
         "capacity": "9000.0",
         "length": "0.73707",
         "fftt": "0.49",
-        "color": "4.5",
+        "r_non_routed": "0.49457997877",
+        "color": "2.47289989385",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13946,7 +15018,8 @@ var geojson_features = [{
         "capacity": "14500.0",
         "length": "0.57547",
         "fftt": "1.26",
-        "color": "7.25",
+        "r_non_routed": "0.453484815402",
+        "color": "2.26742407701",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13959,7 +15032,8 @@ var geojson_features = [{
         "capacity": "12000.0",
         "length": "2.63432",
         "fftt": "5.66",
-        "color": "6.0",
+        "r_non_routed": "0.329993397695",
+        "color": "1.64996698847",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13972,7 +15046,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "2.37587",
         "fftt": "5.61",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13985,7 +15060,8 @@ var geojson_features = [{
         "capacity": "12000.0",
         "length": "1.46907",
         "fftt": "3.21",
-        "color": "6.0",
+        "r_non_routed": "0.461210050493",
+        "color": "2.30605025247",
     }},{
     "type": "Feature",
     "geometry": {
@@ -13998,7 +15074,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14011,7 +15088,8 @@ var geojson_features = [{
         "capacity": "10000.0",
         "length": "2.20446",
         "fftt": "2.33",
-        "color": "5.0",
+        "r_non_routed": "0.430364398296",
+        "color": "2.15182199148",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14024,7 +15102,8 @@ var geojson_features = [{
         "capacity": "20000.0",
         "length": "2.22043",
         "fftt": "3.08",
-        "color": "10.0",
+        "r_non_routed": "0.498801872105",
+        "color": "2.49400936052",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14037,7 +15116,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "2.37587",
         "fftt": "5.61",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14050,7 +15130,8 @@ var geojson_features = [{
         "capacity": "24000.0",
         "length": "1.50906",
         "fftt": "2.14",
-        "color": "12.0",
+        "r_non_routed": "0.480927802968",
+        "color": "2.40463901484",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14063,7 +15144,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14076,7 +15158,8 @@ var geojson_features = [{
         "capacity": "14500.0",
         "length": "1.82797",
         "fftt": "1.37",
-        "color": "7.25",
+        "r_non_routed": "0.597242122989",
+        "color": "2.98621061494",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14089,7 +15172,8 @@ var geojson_features = [{
         "capacity": "24000.0",
         "length": "1.50906",
         "fftt": "2.14",
-        "color": "12.0",
+        "r_non_routed": "0.485933111839",
+        "color": "2.4296655592",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14102,7 +15186,8 @@ var geojson_features = [{
         "capacity": "14000.0",
         "length": "1.48419",
         "fftt": "2.16",
-        "color": "7.0",
+        "r_non_routed": "0.460902702426",
+        "color": "2.30451351213",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14115,7 +15200,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14128,7 +15214,8 @@ var geojson_features = [{
         "capacity": "14000.0",
         "length": "1.48419",
         "fftt": "2.16",
-        "color": "7.0",
+        "r_non_routed": "0.502231138522",
+        "color": "2.51115569261",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14141,7 +15228,8 @@ var geojson_features = [{
         "capacity": "12000.0",
         "length": "1.53594",
         "fftt": "2.08",
-        "color": "6.0",
+        "r_non_routed": "0.4578162744",
+        "color": "2.289081372",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14154,7 +15242,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "3.039",
         "fftt": "6.55",
-        "color": "3.25",
+        "r_non_routed": "0.44975976138",
+        "color": "2.2487988069",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14167,7 +15256,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14180,7 +15270,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "1.54319",
         "fftt": "1.82",
-        "color": "2.25",
+        "r_non_routed": "0.499986113113",
+        "color": "2.49993056556",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14193,7 +15284,8 @@ var geojson_features = [{
         "capacity": "7500.0",
         "length": "2.13848",
         "fftt": "4.58",
-        "color": "3.75",
+        "r_non_routed": "0.434035862638",
+        "color": "2.17017931319",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14206,7 +15298,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.5489",
         "fftt": "5.43",
-        "color": "2.5",
+        "r_non_routed": "0.605592674641",
+        "color": "3.0279633732",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14219,7 +15312,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.89027",
         "fftt": "7.28",
-        "color": "1.0",
+        "r_non_routed": "0.469428842348",
+        "color": "2.34714421174",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14232,7 +15326,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14245,7 +15340,8 @@ var geojson_features = [{
         "capacity": "12500.0",
         "length": "1.525",
         "fftt": "1.56",
-        "color": "6.25",
+        "r_non_routed": "0.488596696318",
+        "color": "2.44298348159",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14258,7 +15354,8 @@ var geojson_features = [{
         "capacity": "12000.0",
         "length": "1.46907",
         "fftt": "3.21",
-        "color": "6.0",
+        "r_non_routed": "0.515796253993",
+        "color": "2.57898126996",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14271,7 +15368,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.5489",
         "fftt": "5.43",
-        "color": "2.5",
+        "r_non_routed": "0.332768366843",
+        "color": "1.66384183421",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14284,7 +15382,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14297,7 +15396,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.4892",
         "fftt": "1.26",
-        "color": "2.5",
+        "r_non_routed": "0.449216705148",
+        "color": "2.24608352574",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14310,7 +15410,8 @@ var geojson_features = [{
         "capacity": "12000.0",
         "length": "1.53594",
         "fftt": "2.08",
-        "color": "6.0",
+        "r_non_routed": "0.51184822687",
+        "color": "2.55924113435",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14323,7 +15424,8 @@ var geojson_features = [{
         "capacity": "17500.0",
         "length": "2.05779",
         "fftt": "3.08",
-        "color": "8.75",
+        "r_non_routed": "0.466537427697",
+        "color": "2.33268713849",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14336,7 +15438,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14349,7 +15452,8 @@ var geojson_features = [{
         "capacity": "12500.0",
         "length": "1.04948",
         "fftt": "2.32",
-        "color": "6.25",
+        "r_non_routed": "0.438565684112",
+        "color": "2.19282842056",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14362,7 +15466,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.45508",
         "fftt": "2.95",
-        "color": "2.5",
+        "r_non_routed": "0.453984608974",
+        "color": "2.26992304487",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14375,7 +15480,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "0.854",
         "fftt": "2.98",
-        "color": "2.5",
+        "r_non_routed": "0.49942135924",
+        "color": "2.4971067962",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14388,7 +15494,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "3.039",
         "fftt": "6.55",
-        "color": "3.25",
+        "r_non_routed": "0.477111159857",
+        "color": "2.38555579928",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14401,7 +15508,8 @@ var geojson_features = [{
         "capacity": "9000.0",
         "length": "2.64067",
         "fftt": "5.59",
-        "color": "4.5",
+        "r_non_routed": "0.446471395854",
+        "color": "2.23235697927",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14414,7 +15522,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.7185",
         "fftt": "7.9",
-        "color": "1.75",
+        "r_non_routed": "0.446873294676",
+        "color": "2.23436647338",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14427,7 +15536,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "3.05549",
         "fftt": "5.09",
-        "color": "3.0",
+        "r_non_routed": "0.489006440346",
+        "color": "2.44503220173",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14440,7 +15550,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14453,7 +15564,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "0.671",
         "fftt": "1.36",
-        "color": "2.25",
+        "r_non_routed": "0.559316305009",
+        "color": "2.79658152505",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14466,7 +15578,8 @@ var geojson_features = [{
         "capacity": "9000.0",
         "length": "2.64067",
         "fftt": "5.59",
-        "color": "4.5",
+        "r_non_routed": "0.31967433511",
+        "color": "1.59837167555",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14479,7 +15592,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "3.50312",
         "fftt": "6.49",
-        "color": "1.5",
+        "r_non_routed": "0.428626901649",
+        "color": "2.14313450825",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14492,7 +15606,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.50769",
         "fftt": "5.31",
-        "color": "2.75",
+        "r_non_routed": "0.555905166973",
+        "color": "2.77952583487",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14505,7 +15620,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14518,7 +15634,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "1.12478",
         "fftt": "2.49",
-        "color": "2.75",
+        "r_non_routed": "0.607245461341",
+        "color": "3.03622730671",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14531,7 +15648,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "3.50312",
         "fftt": "6.49",
-        "color": "1.5",
+        "r_non_routed": "0.357724553016",
+        "color": "1.78862276508",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14544,7 +15662,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "3.08879",
         "fftt": "5.79",
-        "color": "3.0",
+        "r_non_routed": "0.51388082423",
+        "color": "2.56940412115",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14557,7 +15676,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.84735",
         "fftt": "6.73",
-        "color": "1.0",
+        "r_non_routed": "0.602052082293",
+        "color": "3.01026041147",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14570,7 +15690,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "3.22609",
         "fftt": "7.76",
-        "color": "1.25",
+        "r_non_routed": "0.494782029517",
+        "color": "2.47391014758",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14583,7 +15704,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.77313",
         "fftt": "6.3",
-        "color": "1.0",
+        "r_non_routed": "0.634364683131",
+        "color": "3.17182341566",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14596,7 +15718,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.14283",
         "fftt": "4.49",
-        "color": "1.75",
+        "r_non_routed": "0.530829022525",
+        "color": "2.65414511263",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14609,7 +15732,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14622,7 +15746,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.7185",
         "fftt": "7.9",
-        "color": "1.75",
+        "r_non_routed": "0.589300712615",
+        "color": "2.94650356308",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14635,7 +15760,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.50769",
         "fftt": "5.31",
-        "color": "2.75",
+        "r_non_routed": "0.436956559602",
+        "color": "2.18478279801",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14648,7 +15774,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "3.08879",
         "fftt": "5.79",
-        "color": "3.0",
+        "r_non_routed": "0.503810808411",
+        "color": "2.51905404205",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14661,7 +15788,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.63432",
         "fftt": "4.91",
-        "color": "3.25",
+        "r_non_routed": "0.51302903088",
+        "color": "2.5651451544",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14674,7 +15802,8 @@ var geojson_features = [{
         "capacity": "8500.0",
         "length": "2.37978",
         "fftt": "4.2",
-        "color": "4.25",
+        "r_non_routed": "0.500412319824",
+        "color": "2.50206159912",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14687,7 +15816,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "3.62835",
         "fftt": "6.45",
-        "color": "1.25",
+        "r_non_routed": "0.499373263071",
+        "color": "2.49686631536",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14700,7 +15830,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14713,7 +15844,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "2.39148",
         "fftt": "5.67",
-        "color": "2.0",
+        "r_non_routed": "0.518741222643",
+        "color": "2.59370611322",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14726,7 +15858,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "0.7446",
         "fftt": "3.42",
-        "color": "1.75",
+        "r_non_routed": "0.468878152005",
+        "color": "2.34439076002",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14739,7 +15872,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "3.05549",
         "fftt": "5.09",
-        "color": "3.0",
+        "r_non_routed": "0.44876709669",
+        "color": "2.24383548345",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14752,7 +15886,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.63432",
         "fftt": "4.91",
-        "color": "3.25",
+        "r_non_routed": "0.505405732483",
+        "color": "2.52702866241",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14765,7 +15900,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.93815",
         "fftt": "4.91",
-        "color": "3.25",
+        "r_non_routed": "0.50757511457",
+        "color": "2.53787557285",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14778,7 +15914,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14791,7 +15928,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.24957",
         "fftt": "2.95",
-        "color": "1.75",
+        "r_non_routed": "0.519262940226",
+        "color": "2.59631470113",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14804,7 +15942,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.70909",
         "fftt": "2.23",
-        "color": "2.5",
+        "r_non_routed": "0.521502923652",
+        "color": "2.60751461826",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14817,7 +15956,8 @@ var geojson_features = [{
         "capacity": "17500.0",
         "length": "2.05779",
         "fftt": "3.08",
-        "color": "8.75",
+        "r_non_routed": "0.469030560108",
+        "color": "2.34515280054",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14830,7 +15970,8 @@ var geojson_features = [{
         "capacity": "16000.0",
         "length": "2.93118",
         "fftt": "4.87",
-        "color": "8.0",
+        "r_non_routed": "0.442988589607",
+        "color": "2.21494294803",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14843,7 +15984,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14856,7 +15998,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "1.14609",
         "fftt": "0.88",
-        "color": "2.0",
+        "r_non_routed": "0.501969586728",
+        "color": "2.50984793364",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14869,7 +16012,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.51509",
         "fftt": "2.74",
-        "color": "2.5",
+        "r_non_routed": "0.510043974589",
+        "color": "2.55021987295",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14882,7 +16026,8 @@ var geojson_features = [{
         "capacity": "16000.0",
         "length": "2.93118",
         "fftt": "4.87",
-        "color": "8.0",
+        "r_non_routed": "0.478771394116",
+        "color": "2.39385697058",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14895,7 +16040,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "3.6544",
         "fftt": "6.05",
-        "color": "2.0",
+        "r_non_routed": "0.533842899774",
+        "color": "2.66921449887",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14908,7 +16054,8 @@ var geojson_features = [{
         "capacity": "15000.0",
         "length": "2.62371",
         "fftt": "4.12",
-        "color": "7.5",
+        "r_non_routed": "0.518377079226",
+        "color": "2.59188539613",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14921,7 +16068,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14934,7 +16082,8 @@ var geojson_features = [{
         "capacity": "8500.0",
         "length": "2.37978",
         "fftt": "4.2",
-        "color": "4.25",
+        "r_non_routed": "0.471327943837",
+        "color": "2.35663971919",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14947,7 +16096,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.03349",
         "fftt": "6.38",
-        "color": "1.0",
+        "r_non_routed": "0.506166831538",
+        "color": "2.53083415769",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14960,7 +16110,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.44258",
         "fftt": "6.34",
-        "color": "1.0",
+        "r_non_routed": "0.483666255514",
+        "color": "2.41833127757",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14973,7 +16124,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "3.25537",
         "fftt": "5.8",
-        "color": "2.0",
+        "r_non_routed": "0.505022453851",
+        "color": "2.52511226925",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14986,7 +16138,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "1.65714",
         "fftt": "3.53",
-        "color": "1.5",
+        "r_non_routed": "0.492079887641",
+        "color": "2.46039943821",
     }},{
     "type": "Feature",
     "geometry": {
@@ -14999,7 +16152,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15012,7 +16166,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "0.8184",
         "fftt": "2.81",
-        "color": "2.5",
+        "r_non_routed": "0.513569986974",
+        "color": "2.56784993487",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15025,7 +16180,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "1.83508",
         "fftt": "3.61",
-        "color": "2.0",
+        "r_non_routed": "0.489927003845",
+        "color": "2.44963501922",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15038,7 +16194,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.93815",
         "fftt": "4.91",
-        "color": "3.25",
+        "r_non_routed": "0.442798793954",
+        "color": "2.21399396977",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15051,7 +16208,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.03349",
         "fftt": "6.38",
-        "color": "1.0",
+        "r_non_routed": "0.496729510956",
+        "color": "2.48364755478",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15064,7 +16222,8 @@ var geojson_features = [{
         "capacity": "8000.0",
         "length": "2.51213",
         "fftt": "4.63",
-        "color": "4.0",
+        "r_non_routed": "0.490310823632",
+        "color": "2.45155411816",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15077,7 +16236,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15090,7 +16250,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "5.15657",
         "fftt": "8.09",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15103,7 +16264,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.74568",
         "fftt": "4.67",
-        "color": "2.75",
+        "r_non_routed": "0.508657996461",
+        "color": "2.54328998231",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15116,7 +16278,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.44258",
         "fftt": "6.34",
-        "color": "1.0",
+        "r_non_routed": "0.53505908599",
+        "color": "2.67529542995",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15129,7 +16292,8 @@ var geojson_features = [{
         "capacity": "8000.0",
         "length": "2.51213",
         "fftt": "4.63",
-        "color": "4.0",
+        "r_non_routed": "0.452973148773",
+        "color": "2.26486574387",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15142,7 +16306,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.51902",
         "fftt": "7.28",
-        "color": "1.0",
+        "r_non_routed": "0.467612030566",
+        "color": "2.33806015283",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15155,7 +16320,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "3.05061",
         "fftt": "6.38",
-        "color": "1.25",
+        "r_non_routed": "0.536562411085",
+        "color": "2.68281205543",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15168,7 +16334,8 @@ var geojson_features = [{
         "capacity": "12000.0",
         "length": "2.3188",
         "fftt": "3.79",
-        "color": "6.0",
+        "r_non_routed": "0.519725910824",
+        "color": "2.59862955412",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15181,7 +16348,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "3.14904",
         "fftt": "5.85",
-        "color": "3.0",
+        "r_non_routed": "0.557456637224",
+        "color": "2.78728318612",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15194,7 +16362,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15207,7 +16376,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.51902",
         "fftt": "7.28",
-        "color": "1.0",
+        "r_non_routed": "0.520537574735",
+        "color": "2.60268787368",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15220,7 +16390,8 @@ var geojson_features = [{
         "capacity": "7500.0",
         "length": "2.56273",
         "fftt": "4.25",
-        "color": "3.75",
+        "r_non_routed": "0.494121935786",
+        "color": "2.47060967893",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15233,7 +16404,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "3.41872",
         "fftt": "5.09",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15246,7 +16418,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.26687",
         "fftt": "3.52",
-        "color": "2.75",
+        "r_non_routed": "0.40227082",
+        "color": "2.0113541",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15259,7 +16432,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "3.49195",
         "fftt": "6.63",
-        "color": "1.5",
+        "r_non_routed": "0.499429372151",
+        "color": "2.49714686075",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15272,7 +16446,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15285,7 +16460,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "1.10476",
         "fftt": "1.5",
-        "color": "2.0",
+        "r_non_routed": "0.527111946423",
+        "color": "2.63555973211",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15298,7 +16474,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "3.6544",
         "fftt": "6.05",
-        "color": "2.0",
+        "r_non_routed": "0.464039918551",
+        "color": "2.32019959276",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15311,7 +16488,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "3.05061",
         "fftt": "6.38",
-        "color": "1.25",
+        "r_non_routed": "0.483374804166",
+        "color": "2.41687402083",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15324,7 +16502,8 @@ var geojson_features = [{
         "capacity": "7500.0",
         "length": "2.56273",
         "fftt": "4.25",
-        "color": "3.75",
+        "r_non_routed": "0.568032898743",
+        "color": "2.84016449372",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15337,7 +16516,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.6544",
         "fftt": "9.79",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15350,7 +16530,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.62835",
         "fftt": "6.48",
-        "color": "1.75",
+        "r_non_routed": "0.70649393895",
+        "color": "3.53246969475",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15363,7 +16544,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15376,7 +16558,8 @@ var geojson_features = [{
         "capacity": "15000.0",
         "length": "2.62371",
         "fftt": "4.12",
-        "color": "7.5",
+        "r_non_routed": "0.496623373943",
+        "color": "2.48311686972",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15389,7 +16572,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.6544",
         "fftt": "9.79",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15402,7 +16586,8 @@ var geojson_features = [{
         "capacity": "7500.0",
         "length": "3.66457",
         "fftt": "6.8",
-        "color": "3.75",
+        "r_non_routed": "0.510893252224",
+        "color": "2.55446626112",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15415,7 +16600,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15428,7 +16614,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.91335",
         "fftt": "5.76",
-        "color": "1.25",
+        "r_non_routed": "0.289117624583",
+        "color": "1.44558812291",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15441,7 +16628,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "3.41872",
         "fftt": "5.09",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15454,7 +16642,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.62835",
         "fftt": "6.48",
-        "color": "1.75",
+        "r_non_routed": "0.631534164458",
+        "color": "3.15767082229",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15467,7 +16656,8 @@ var geojson_features = [{
         "capacity": "7500.0",
         "length": "3.66457",
         "fftt": "6.8",
-        "color": "3.75",
+        "r_non_routed": "0.529389318726",
+        "color": "2.64694659363",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15480,7 +16670,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "4.07195",
         "fftt": "5.88",
-        "color": "1.75",
+        "r_non_routed": "0.663970940756",
+        "color": "3.31985470378",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15493,7 +16684,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15506,7 +16698,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "0.7421",
         "fftt": "0.56",
-        "color": "1.5",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15519,7 +16712,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15532,7 +16726,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "4.77245",
         "fftt": "4.97",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15545,7 +16740,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.87386",
         "fftt": "3.88",
-        "color": "1.75",
+        "r_non_routed": "0.649496422247",
+        "color": "3.24748211123",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15558,7 +16754,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "4.41776",
         "fftt": "6.15",
-        "color": "2.0",
+        "r_non_routed": "0.691741154597",
+        "color": "3.45870577298",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15571,7 +16768,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "4.55503",
         "fftt": "6.06",
-        "color": "1.25",
+        "r_non_routed": "0.605076227851",
+        "color": "3.02538113925",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15584,7 +16782,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "5.24742",
         "fftt": "8.07",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15597,7 +16796,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "4.70926",
         "fftt": "5.72",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15610,7 +16810,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "4.70689",
         "fftt": "7.48",
-        "color": "1.0",
+        "r_non_routed": "0.61485113197",
+        "color": "3.07425565985",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15623,7 +16824,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "5.97831",
         "fftt": "10.15",
-        "color": "2.5",
+        "r_non_routed": "0.80655540013",
+        "color": "4.03277700065",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15636,7 +16838,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "6.26996",
         "fftt": "10.64",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15649,7 +16852,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15662,7 +16866,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "1.00047",
         "fftt": "1.7",
-        "color": "3.0",
+        "r_non_routed": "0.499376897466",
+        "color": "2.49688448733",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15675,7 +16880,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "3.05",
         "fftt": "4.01",
-        "color": "1.5",
+        "r_non_routed": "0.462444216615",
+        "color": "2.31222108307",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15688,7 +16894,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "2.928",
         "fftt": "4.63",
-        "color": "3.0",
+        "r_non_routed": "0.450863660777",
+        "color": "2.25431830389",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15701,7 +16908,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "3.05",
         "fftt": "3.88",
-        "color": "1.5",
+        "r_non_routed": "0.284512360182",
+        "color": "1.42256180091",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15714,7 +16922,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15727,7 +16936,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "4.41776",
         "fftt": "6.15",
-        "color": "2.0",
+        "r_non_routed": "0.544758771628",
+        "color": "2.72379385814",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15740,7 +16950,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "3.05",
         "fftt": "4.01",
-        "color": "1.5",
+        "r_non_routed": "0.544848426501",
+        "color": "2.7242421325",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15753,7 +16964,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.92864",
         "fftt": "4.44",
-        "color": "2.75",
+        "r_non_routed": "0.330447498123",
+        "color": "1.65223749061",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15766,7 +16978,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.86765",
         "fftt": "3.83",
-        "color": "1.5",
+        "r_non_routed": "0.745813589204",
+        "color": "3.72906794602",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15779,7 +16992,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15792,7 +17006,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "1.00973",
         "fftt": "0.88",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15805,7 +17020,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "2.928",
         "fftt": "4.63",
-        "color": "3.0",
+        "r_non_routed": "0.488550276131",
+        "color": "2.44275138065",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15818,7 +17034,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "2.989",
         "fftt": "4.73",
-        "color": "3.0",
+        "r_non_routed": "0.56782551025",
+        "color": "2.83912755125",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15831,7 +17048,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.86959",
         "fftt": "5.37",
-        "color": "3.25",
+        "r_non_routed": "0.507926062606",
+        "color": "2.53963031303",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15844,7 +17062,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.8922",
         "fftt": "4.12",
-        "color": "1.75",
+        "r_non_routed": "0.594545995093",
+        "color": "2.97272997547",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15857,7 +17076,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15870,7 +17090,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.501",
         "fftt": "3.02",
-        "color": "1.5",
+        "r_non_routed": "0.449127186913",
+        "color": "2.24563593457",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15883,7 +17104,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "4.55503",
         "fftt": "6.06",
-        "color": "1.25",
+        "r_non_routed": "0.568125889569",
+        "color": "2.84062944784",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15896,7 +17118,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.92864",
         "fftt": "4.44",
-        "color": "2.75",
+        "r_non_routed": "0.420244055841",
+        "color": "2.1012202792",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15909,7 +17132,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "2.989",
         "fftt": "4.73",
-        "color": "3.0",
+        "r_non_routed": "0.543190785485",
+        "color": "2.71595392743",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15922,7 +17146,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15935,7 +17160,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.98962",
         "fftt": "4.48",
-        "color": "2.25",
+        "r_non_routed": "0.431048027626",
+        "color": "2.15524013813",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15948,7 +17174,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.867",
         "fftt": "3.67",
-        "color": "2.75",
+        "r_non_routed": "0.654241402326",
+        "color": "3.27120701163",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15961,7 +17188,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.92864",
         "fftt": "4.18",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15974,7 +17202,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "3.172",
         "fftt": "4.97",
-        "color": "1.25",
+        "r_non_routed": "0.56915392823",
+        "color": "2.84576964115",
     }},{
     "type": "Feature",
     "geometry": {
@@ -15987,7 +17216,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16000,7 +17230,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "2.22043",
         "fftt": "1.81",
-        "color": "3.0",
+        "r_non_routed": "0.561534487995",
+        "color": "2.80767243997",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16013,7 +17244,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.98962",
         "fftt": "4.48",
-        "color": "2.25",
+        "r_non_routed": "0.448726347975",
+        "color": "2.24363173987",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16026,7 +17258,8 @@ var geojson_features = [{
         "capacity": "10000.0",
         "length": "3.05061",
         "fftt": "4.28",
-        "color": "5.0",
+        "r_non_routed": "0.509534340227",
+        "color": "2.54767170114",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16039,7 +17272,8 @@ var geojson_features = [{
         "capacity": "7500.0",
         "length": "3.111",
         "fftt": "4.76",
-        "color": "3.75",
+        "r_non_routed": "0.570094014933",
+        "color": "2.85047007467",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16052,7 +17286,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16065,7 +17300,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "1.87122",
         "fftt": "3.19",
-        "color": "3.0",
+        "r_non_routed": "0.620697726333",
+        "color": "3.10348863167",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16078,7 +17314,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.867",
         "fftt": "3.67",
-        "color": "2.75",
+        "r_non_routed": "0.620601311773",
+        "color": "3.10300655886",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16091,7 +17328,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "3.05244",
         "fftt": "4.61",
-        "color": "2.75",
+        "r_non_routed": "0.521424877637",
+        "color": "2.60712438818",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16104,7 +17342,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.9946",
         "fftt": "5.22",
-        "color": "1.75",
+        "r_non_routed": "0.519323524454",
+        "color": "2.59661762227",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16117,7 +17356,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.728",
         "fftt": "3.78",
-        "color": "2.5",
+        "r_non_routed": "0.539015463135",
+        "color": "2.69507731567",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16130,7 +17370,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16143,7 +17384,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.86959",
         "fftt": "5.37",
-        "color": "3.25",
+        "r_non_routed": "0.585958702892",
+        "color": "2.92979351446",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16156,7 +17398,8 @@ var geojson_features = [{
         "capacity": "10000.0",
         "length": "3.05061",
         "fftt": "4.28",
-        "color": "5.0",
+        "r_non_routed": "0.46261320318",
+        "color": "2.3130660159",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16169,7 +17412,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "3.05244",
         "fftt": "4.61",
-        "color": "2.75",
+        "r_non_routed": "0.510199820041",
+        "color": "2.5509991002",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16182,7 +17426,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "2.76189",
         "fftt": "4.37",
-        "color": "2.0",
+        "r_non_routed": "0.508047132186",
+        "color": "2.54023566093",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16195,7 +17440,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.81461",
         "fftt": "5.04",
-        "color": "1.25",
+        "r_non_routed": "0.547815180857",
+        "color": "2.73907590428",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16208,7 +17454,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16221,7 +17468,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "1.00047",
         "fftt": "2.39",
-        "color": "3.25",
+        "r_non_routed": "0.402726076684",
+        "color": "2.01363038342",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16234,7 +17482,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "0.682",
         "fftt": "1.27",
-        "color": "2.0",
+        "r_non_routed": "0.411165957228",
+        "color": "2.05582978614",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16247,7 +17496,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.928",
         "fftt": "4.54",
-        "color": "3.25",
+        "r_non_routed": "0.397020017019",
+        "color": "1.9851000851",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16260,7 +17510,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.92864",
         "fftt": "4.19",
-        "color": "1.75",
+        "r_non_routed": "0.434503323939",
+        "color": "2.17251661969",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16273,7 +17524,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16286,7 +17538,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "0.7446",
         "fftt": "1.43",
-        "color": "3.5",
+        "r_non_routed": "0.464676264092",
+        "color": "2.32338132046",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16299,7 +17552,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.92864",
         "fftt": "4.18",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16312,7 +17566,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.928",
         "fftt": "4.54",
-        "color": "3.25",
+        "r_non_routed": "0.424396051284",
+        "color": "2.12198025642",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16325,7 +17580,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.928",
         "fftt": "4.63",
-        "color": "1.5",
+        "r_non_routed": "0.662620322383",
+        "color": "3.31310161192",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16338,7 +17594,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16351,7 +17608,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "1.66609",
         "fftt": "3.16",
-        "color": "2.25",
+        "r_non_routed": "0.512923835467",
+        "color": "2.56461917734",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16364,7 +17622,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.92864",
         "fftt": "4.19",
-        "color": "1.75",
+        "r_non_routed": "0.355565066598",
+        "color": "1.77782533299",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16377,7 +17636,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.867",
         "fftt": "4.09",
-        "color": "1.75",
+        "r_non_routed": "0.653051759699",
+        "color": "3.26525879849",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16390,7 +17650,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.9784",
         "fftt": "7.06",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16403,7 +17664,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.67358",
         "fftt": "4.67",
-        "color": "1.0",
+        "r_non_routed": "0.523075475685",
+        "color": "2.61537737843",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16416,7 +17678,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16429,7 +17692,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "1.30973",
         "fftt": "0.72",
-        "color": "3.0",
+        "r_non_routed": "0.642162062284",
+        "color": "3.21081031142",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16442,7 +17706,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.928",
         "fftt": "4.63",
-        "color": "1.5",
+        "r_non_routed": "0.70167577712",
+        "color": "3.5083788856",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16455,7 +17720,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.867",
         "fftt": "4.09",
-        "color": "1.75",
+        "r_non_routed": "0.61664643152",
+        "color": "3.0832321576",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16468,7 +17734,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.70127",
         "fftt": "4.23",
-        "color": "1.5",
+        "r_non_routed": "0.586234559825",
+        "color": "2.93117279913",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16481,7 +17748,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "2.9784",
         "fftt": "6.09",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16494,7 +17762,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16507,7 +17776,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "2.42854",
         "fftt": "2.91",
-        "color": "2.0",
+        "r_non_routed": "0.250285173331",
+        "color": "1.25142586665",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16520,7 +17790,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.89862",
         "fftt": "4.53",
-        "color": "1.75",
+        "r_non_routed": "0.215928002084",
+        "color": "1.07964001042",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16533,7 +17804,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "4.13587",
         "fftt": "10.64",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16546,7 +17818,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16559,7 +17832,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.57432",
         "fftt": "4.25",
-        "color": "3.25",
+        "r_non_routed": "0.519316615857",
+        "color": "2.59658307928",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16572,7 +17846,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.11486",
         "fftt": "4.51",
-        "color": "1.25",
+        "r_non_routed": "0.511669111149",
+        "color": "2.55834555575",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16585,7 +17860,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "1.85825",
         "fftt": "3.95",
-        "color": "1.75",
+        "r_non_routed": "0.446047329088",
+        "color": "2.23023664544",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16598,7 +17874,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16611,7 +17888,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "1.56355",
         "fftt": "1.33",
-        "color": "2.25",
+        "r_non_routed": "0.680406068477",
+        "color": "3.40203034238",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16624,7 +17902,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.89862",
         "fftt": "4.53",
-        "color": "1.75",
+        "r_non_routed": "0.19916189552",
+        "color": "0.9958094776",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16637,7 +17916,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.57432",
         "fftt": "4.25",
-        "color": "3.25",
+        "r_non_routed": "0.447636853945",
+        "color": "2.23818426972",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16650,7 +17930,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.73141",
         "fftt": "5.88",
-        "color": "1.5",
+        "r_non_routed": "0.377987897004",
+        "color": "1.88993948502",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16663,7 +17944,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.86765",
         "fftt": "4.54",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16676,7 +17958,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16689,7 +17972,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "0.82969",
         "fftt": "1.36",
-        "color": "1.75",
+        "r_non_routed": "0.651514040502",
+        "color": "3.25757020251",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16702,7 +17986,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "3.05244",
         "fftt": "3.74",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16715,7 +18000,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "2.623",
         "fftt": "3.32",
-        "color": "3.0",
+        "r_non_routed": "0.693167511925",
+        "color": "3.46583755962",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16728,7 +18014,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.86765",
         "fftt": "3.66",
-        "color": "2.5",
+        "r_non_routed": "0.560478132159",
+        "color": "2.8023906608",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16741,7 +18028,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16754,7 +18042,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "0.56239",
         "fftt": "1.75",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16767,7 +18056,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "3.05244",
         "fftt": "3.74",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16780,7 +18070,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.501",
         "fftt": "3.9",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16793,7 +18084,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.928",
         "fftt": "5.17",
-        "color": "1.5",
+        "r_non_routed": "0.581190537054",
+        "color": "2.90595268527",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16806,7 +18098,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16819,7 +18112,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "2.623",
         "fftt": "3.32",
-        "color": "3.0",
+        "r_non_routed": "0.666474450222",
+        "color": "3.33237225111",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16832,7 +18126,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "3.05",
         "fftt": "3.82",
-        "color": "2.0",
+        "r_non_routed": "0.461176748653",
+        "color": "2.30588374326",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16845,7 +18140,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.87283",
         "fftt": "4.53",
-        "color": "1.5",
+        "r_non_routed": "0.526851672703",
+        "color": "2.63425836351",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16858,7 +18154,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.86959",
         "fftt": "4.72",
-        "color": "1.75",
+        "r_non_routed": "0.599138954167",
+        "color": "2.99569477083",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16871,7 +18168,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16884,7 +18182,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.501",
         "fftt": "3.9",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16897,7 +18196,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "3.05",
         "fftt": "3.82",
-        "color": "2.0",
+        "r_non_routed": "0.449990438875",
+        "color": "2.24995219438",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16910,7 +18210,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.05061",
         "fftt": "3.78",
-        "color": "1.0",
+        "r_non_routed": "0.411974318154",
+        "color": "2.05987159077",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16923,7 +18224,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "2.99149",
         "fftt": "3.99",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16936,7 +18238,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16949,7 +18252,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "1.10476",
         "fftt": "1.28",
-        "color": "1.5",
+        "r_non_routed": "0.641000512073",
+        "color": "3.20500256037",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16962,7 +18266,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "1.69926",
         "fftt": "3.32",
-        "color": "3.5",
+        "r_non_routed": "0.629732808693",
+        "color": "3.14866404347",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16975,7 +18280,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.8922",
         "fftt": "4.12",
-        "color": "1.75",
+        "r_non_routed": "0.507844541348",
+        "color": "2.53922270674",
     }},{
     "type": "Feature",
     "geometry": {
@@ -16988,7 +18294,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.86959",
         "fftt": "4.09",
-        "color": "1.75",
+        "r_non_routed": "0.51299640122",
+        "color": "2.5649820061",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17001,7 +18308,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.501",
         "fftt": "3.71",
-        "color": "1.75",
+        "r_non_routed": "0.562272722452",
+        "color": "2.81136361226",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17014,7 +18322,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17027,7 +18336,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "5.24742",
         "fftt": "8.07",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17040,7 +18350,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.86765",
         "fftt": "3.66",
-        "color": "2.5",
+        "r_non_routed": "0.557999992588",
+        "color": "2.78999996294",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17053,7 +18364,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.86959",
         "fftt": "4.09",
-        "color": "1.75",
+        "r_non_routed": "0.536729825555",
+        "color": "2.68364912777",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17066,7 +18378,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.501",
         "fftt": "5.5",
-        "color": "1.0",
+        "r_non_routed": "0.357041226843",
+        "color": "1.78520613421",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17079,7 +18392,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17092,7 +18406,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "1.20311",
         "fftt": "2.84",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17105,7 +18420,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.501",
         "fftt": "3.71",
-        "color": "1.75",
+        "r_non_routed": "0.631110259043",
+        "color": "3.15555129521",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17118,7 +18434,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.86959",
         "fftt": "4.09",
-        "color": "1.75",
+        "r_non_routed": "0.525381242162",
+        "color": "2.62690621081",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17131,7 +18448,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.11339",
         "fftt": "6.4",
-        "color": "1.75",
+        "r_non_routed": "0.601723095577",
+        "color": "3.00861547789",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17144,7 +18462,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17157,7 +18476,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.87283",
         "fftt": "4.53",
-        "color": "1.5",
+        "r_non_routed": "0.606541359893",
+        "color": "3.03270679946",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17170,7 +18490,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.501",
         "fftt": "5.5",
-        "color": "1.0",
+        "r_non_routed": "0.41789677851",
+        "color": "2.08948389255",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17183,7 +18504,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.86959",
         "fftt": "4.09",
-        "color": "1.75",
+        "r_non_routed": "0.486501614338",
+        "color": "2.43250807169",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17196,7 +18518,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "3.111",
         "fftt": "6.87",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17209,7 +18532,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17222,7 +18546,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.693",
         "fftt": "3.31",
-        "color": "2.75",
+        "r_non_routed": "0.523930090081",
+        "color": "2.61965045041",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17235,7 +18560,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.9946",
         "fftt": "5.22",
-        "color": "1.75",
+        "r_non_routed": "0.527052841027",
+        "color": "2.63526420514",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17248,7 +18574,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "2.76189",
         "fftt": "4.37",
-        "color": "2.0",
+        "r_non_routed": "0.526015598119",
+        "color": "2.6300779906",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17261,7 +18588,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.80666",
         "fftt": "4.42",
-        "color": "3.25",
+        "r_non_routed": "0.51353803401",
+        "color": "2.56769017005",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17274,7 +18602,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.86765",
         "fftt": "4.3",
-        "color": "2.25",
+        "r_non_routed": "0.488993669052",
+        "color": "2.44496834526",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17287,7 +18616,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17300,7 +18630,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "1.364",
         "fftt": "0.88",
-        "color": "3.5",
+        "r_non_routed": "0.52015813016",
+        "color": "2.6007906508",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17313,7 +18644,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "2.50769",
         "fftt": "6.72",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17326,7 +18658,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.81461",
         "fftt": "5.04",
-        "color": "1.25",
+        "r_non_routed": "0.597244563515",
+        "color": "2.98622281757",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17339,7 +18672,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.80666",
         "fftt": "4.42",
-        "color": "3.25",
+        "r_non_routed": "0.522683496559",
+        "color": "2.61341748279",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17352,7 +18686,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.50174",
         "fftt": "3.81",
-        "color": "1.5",
+        "r_non_routed": "0.584604467164",
+        "color": "2.92302233582",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17365,7 +18700,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17378,7 +18714,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "0.62208",
         "fftt": "0.81",
-        "color": "2.75",
+        "r_non_routed": "0.555441551808",
+        "color": "2.77720775904",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17391,7 +18728,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.74568",
         "fftt": "3.73",
-        "color": "3.25",
+        "r_non_routed": "0.468162717704",
+        "color": "2.34081358852",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17404,7 +18742,8 @@ var geojson_features = [{
         "capacity": "8500.0",
         "length": "2.93371",
         "fftt": "4.19",
-        "color": "4.25",
+        "r_non_routed": "0.442294325859",
+        "color": "2.21147162929",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17417,7 +18756,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "3.05061",
         "fftt": "4.77",
-        "color": "3.25",
+        "r_non_routed": "0.512218300438",
+        "color": "2.56109150219",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17430,7 +18770,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17443,7 +18784,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "1.92899",
         "fftt": "2.07",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17456,7 +18798,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.50174",
         "fftt": "3.81",
-        "color": "1.5",
+        "r_non_routed": "0.568707906963",
+        "color": "2.84353953481",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17469,7 +18812,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.74568",
         "fftt": "3.73",
-        "color": "3.25",
+        "r_non_routed": "0.40449120364",
+        "color": "2.0224560182",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17482,7 +18826,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.92864",
         "fftt": "4.34",
-        "color": "2.25",
+        "r_non_routed": "0.511068158385",
+        "color": "2.55534079192",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17495,7 +18840,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17508,7 +18854,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.33798",
         "fftt": "2.64",
-        "color": "1.0",
+        "r_non_routed": "0.626791525036",
+        "color": "3.13395762518",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17521,7 +18868,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.9784",
         "fftt": "7.06",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17534,7 +18882,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.70127",
         "fftt": "4.23",
-        "color": "1.5",
+        "r_non_routed": "0.611232052982",
+        "color": "3.05616026491",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17547,7 +18896,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.318",
         "fftt": "4.27",
-        "color": "2.75",
+        "r_non_routed": "0.408141749913",
+        "color": "2.04070874956",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17560,7 +18910,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.92864",
         "fftt": "4.39",
-        "color": "2.5",
+        "r_non_routed": "0.524825175475",
+        "color": "2.62412587737",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17573,7 +18924,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17586,7 +18938,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "0.86267",
         "fftt": "1.88",
-        "color": "1.0",
+        "r_non_routed": "0.582422329419",
+        "color": "2.91211164709",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17599,7 +18952,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.728",
         "fftt": "3.78",
-        "color": "2.5",
+        "r_non_routed": "0.53565748315",
+        "color": "2.67828741575",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17612,7 +18966,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "2.9784",
         "fftt": "6.09",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17625,7 +18980,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.86765",
         "fftt": "4.3",
-        "color": "2.25",
+        "r_non_routed": "0.507479922705",
+        "color": "2.53739961353",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17638,7 +18994,8 @@ var geojson_features = [{
         "capacity": "10000.0",
         "length": "2.37978",
         "fftt": "3.61",
-        "color": "5.0",
+        "r_non_routed": "0.492408923099",
+        "color": "2.4620446155",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17651,7 +19008,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17664,7 +19022,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "2.33798",
         "fftt": "2.72",
-        "color": "3.0",
+        "r_non_routed": "0.430838601073",
+        "color": "2.15419300537",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17677,7 +19036,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.02427",
         "fftt": "5.04",
-        "color": "1.75",
+        "r_non_routed": "0.473477184996",
+        "color": "2.36738592498",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17690,7 +19050,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.318",
         "fftt": "4.27",
-        "color": "2.75",
+        "r_non_routed": "0.440504742887",
+        "color": "2.20252371444",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17703,7 +19064,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.01132",
         "fftt": "5.65",
-        "color": "1.75",
+        "r_non_routed": "0.4624853776",
+        "color": "2.312426888",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17716,7 +19078,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "3.41273",
         "fftt": "6.06",
-        "color": "2.0",
+        "r_non_routed": "0.458424762264",
+        "color": "2.29212381132",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17729,7 +19092,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17742,7 +19106,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "0.7764",
         "fftt": "1.94",
-        "color": "3.0",
+        "r_non_routed": "0.482322978059",
+        "color": "2.4116148903",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17755,7 +19120,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "1.74784",
         "fftt": "1.52",
-        "color": "1.0",
+        "r_non_routed": "0.534565335679",
+        "color": "2.6728266784",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17768,7 +19134,8 @@ var geojson_features = [{
         "capacity": "8500.0",
         "length": "2.93371",
         "fftt": "4.19",
-        "color": "4.25",
+        "r_non_routed": "0.49487697888",
+        "color": "2.4743848944",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17781,7 +19148,8 @@ var geojson_features = [{
         "capacity": "10000.0",
         "length": "2.37978",
         "fftt": "3.61",
-        "color": "5.0",
+        "r_non_routed": "0.479607425864",
+        "color": "2.39803712932",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17794,7 +19162,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "3.14904",
         "fftt": "5.03",
-        "color": "2.0",
+        "r_non_routed": "0.489957520643",
+        "color": "2.44978760321",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17807,7 +19176,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17820,7 +19190,8 @@ var geojson_features = [{
         "capacity": "9500.0",
         "length": "2.79936",
         "fftt": "3.4",
-        "color": "4.75",
+        "r_non_routed": "0.566132298092",
+        "color": "2.83066149046",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17833,7 +19204,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.11486",
         "fftt": "4.51",
-        "color": "1.25",
+        "r_non_routed": "0.547964277312",
+        "color": "2.73982138656",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17846,7 +19218,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.73141",
         "fftt": "5.88",
-        "color": "1.5",
+        "r_non_routed": "0.298106480404",
+        "color": "1.49053240202",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17859,7 +19232,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "1.89493",
         "fftt": "3.18",
-        "color": "3.25",
+        "r_non_routed": "0.506586585761",
+        "color": "2.5329329288",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17872,7 +19246,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "1.89198",
         "fftt": "3.79",
-        "color": "2.75",
+        "r_non_routed": "0.504006223222",
+        "color": "2.52003111611",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17885,7 +19260,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17898,7 +19274,8 @@ var geojson_features = [{
         "capacity": "9500.0",
         "length": "0.76433",
         "fftt": "1.5",
-        "color": "4.75",
+        "r_non_routed": "0.605641672666",
+        "color": "3.02820836333",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17911,7 +19288,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.67358",
         "fftt": "4.67",
-        "color": "1.0",
+        "r_non_routed": "0.461170759882",
+        "color": "2.30585379941",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17924,7 +19302,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.86765",
         "fftt": "4.54",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17937,7 +19316,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.92864",
         "fftt": "4.39",
-        "color": "2.5",
+        "r_non_routed": "0.513579017913",
+        "color": "2.56789508956",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17950,7 +19330,8 @@ var geojson_features = [{
         "capacity": "10500.0",
         "length": "2.01392",
         "fftt": "3.36",
-        "color": "5.25",
+        "r_non_routed": "0.428500360843",
+        "color": "2.14250180421",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17963,7 +19344,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17976,7 +19358,8 @@ var geojson_features = [{
         "capacity": "9000.0",
         "length": "3.17024",
         "fftt": "4.12",
-        "color": "4.5",
+        "r_non_routed": "0.45136543395",
+        "color": "2.25682716975",
     }},{
     "type": "Feature",
     "geometry": {
@@ -17989,7 +19372,8 @@ var geojson_features = [{
         "capacity": "7500.0",
         "length": "1.95295",
         "fftt": "3.52",
-        "color": "3.75",
+        "r_non_routed": "0.462121107757",
+        "color": "2.31060553878",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18002,7 +19386,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.65122",
         "fftt": "4.34",
-        "color": "2.5",
+        "r_non_routed": "0.529799865928",
+        "color": "2.64899932964",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18015,7 +19400,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "1.89493",
         "fftt": "3.18",
-        "color": "3.25",
+        "r_non_routed": "0.467519945029",
+        "color": "2.33759972515",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18028,7 +19414,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.08652",
         "fftt": "3.88",
-        "color": "1.75",
+        "r_non_routed": "0.547295862154",
+        "color": "2.73647931077",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18041,7 +19428,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18054,7 +19442,8 @@ var geojson_features = [{
         "capacity": "9000.0",
         "length": "0.63686",
         "fftt": "0.65",
-        "color": "4.5",
+        "r_non_routed": "0.525206495219",
+        "color": "2.6260324761",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18067,7 +19456,8 @@ var geojson_features = [{
         "capacity": "9500.0",
         "length": "3.08699",
         "fftt": "4.8",
-        "color": "4.75",
+        "r_non_routed": "0.438101025688",
+        "color": "2.19050512844",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18080,7 +19470,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.7987",
         "fftt": "4.97",
-        "color": "1.25",
+        "r_non_routed": "0.477461553794",
+        "color": "2.38730776897",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18093,7 +19484,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.01132",
         "fftt": "5.65",
-        "color": "1.75",
+        "r_non_routed": "0.469992984491",
+        "color": "2.34996492245",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18106,7 +19498,8 @@ var geojson_features = [{
         "capacity": "10500.0",
         "length": "2.01392",
         "fftt": "3.36",
-        "color": "5.25",
+        "r_non_routed": "0.450008293785",
+        "color": "2.25004146892",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18119,7 +19512,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18132,7 +19526,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "1.85825",
         "fftt": "3.95",
-        "color": "1.75",
+        "r_non_routed": "0.520573088733",
+        "color": "2.60286544367",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18145,7 +19540,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "1.89198",
         "fftt": "3.79",
-        "color": "2.75",
+        "r_non_routed": "0.543616603683",
+        "color": "2.71808301842",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18158,7 +19554,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "1.403",
         "fftt": "2.61",
-        "color": "1.5",
+        "r_non_routed": "0.452569175109",
+        "color": "2.26284587555",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18171,7 +19568,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18184,7 +19582,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "1.58365",
         "fftt": "2.89",
-        "color": "2.75",
+        "r_non_routed": "0.479717218483",
+        "color": "2.39858609241",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18197,7 +19596,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.08652",
         "fftt": "3.88",
-        "color": "1.75",
+        "r_non_routed": "0.515582584298",
+        "color": "2.57791292149",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18210,7 +19610,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "1.403",
         "fftt": "2.61",
-        "color": "1.5",
+        "r_non_routed": "0.546591268814",
+        "color": "2.73295634407",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18223,7 +19624,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18236,7 +19638,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.046",
         "fftt": "1.75",
-        "color": "1.5",
+        "r_non_routed": "0.491299566468",
+        "color": "2.45649783234",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18249,7 +19652,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.73248",
         "fftt": "5.79",
-        "color": "1.0",
+        "r_non_routed": "0.537053076766",
+        "color": "2.68526538383",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18262,7 +19666,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "3.13542",
         "fftt": "4.89",
-        "color": "2.25",
+        "r_non_routed": "0.48982506818",
+        "color": "2.4491253409",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18275,7 +19680,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "3.41273",
         "fftt": "6.06",
-        "color": "2.0",
+        "r_non_routed": "0.469219888805",
+        "color": "2.34609944403",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18288,7 +19694,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "3.14904",
         "fftt": "5.03",
-        "color": "2.0",
+        "r_non_routed": "0.512521124684",
+        "color": "2.56260562342",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18301,7 +19708,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.22839",
         "fftt": "5.02",
-        "color": "1.75",
+        "r_non_routed": "0.497458033286",
+        "color": "2.48729016643",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18314,7 +19722,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.74025",
         "fftt": "4.8",
-        "color": "1.25",
+        "r_non_routed": "0.516402581184",
+        "color": "2.58201290592",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18327,7 +19736,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18340,7 +19750,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.22839",
         "fftt": "5.02",
-        "color": "1.75",
+        "r_non_routed": "0.503403142994",
+        "color": "2.51701571497",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18353,7 +19764,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.94384",
         "fftt": "6.26",
-        "color": "3.25",
+        "r_non_routed": "0.505583256619",
+        "color": "2.5279162831",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18366,7 +19778,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "3.05061",
         "fftt": "4.83",
-        "color": "2.75",
+        "r_non_routed": "0.472641242509",
+        "color": "2.36320621255",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18379,7 +19792,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "2.87736",
         "fftt": "4.31",
-        "color": "2.0",
+        "r_non_routed": "0.482607988312",
+        "color": "2.41303994156",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18392,7 +19806,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18405,7 +19820,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "1.6116",
         "fftt": "2.68",
-        "color": "2.75",
+        "r_non_routed": "0.541012450004",
+        "color": "2.70506225002",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18418,7 +19834,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.85219",
         "fftt": "9.28",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18431,7 +19848,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "4.44966",
         "fftt": "9.25",
-        "color": "1.0",
+        "r_non_routed": "0.471144750765",
+        "color": "2.35572375383",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18444,7 +19862,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.94384",
         "fftt": "6.26",
-        "color": "3.25",
+        "r_non_routed": "0.48061863286",
+        "color": "2.4030931643",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18457,7 +19876,8 @@ var geojson_features = [{
         "capacity": "9500.0",
         "length": "2.69023",
         "fftt": "4.43",
-        "color": "4.75",
+        "r_non_routed": "0.512163959831",
+        "color": "2.56081979916",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18470,7 +19890,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18483,7 +19904,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "1.84418",
         "fftt": "3.39",
-        "color": "3.5",
+        "r_non_routed": "0.492145229697",
+        "color": "2.46072614848",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18496,7 +19918,8 @@ var geojson_features = [{
         "capacity": "13500.0",
         "length": "1.10476",
         "fftt": "1.58",
-        "color": "6.75",
+        "r_non_routed": "0.499424227209",
+        "color": "2.49712113605",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18509,7 +19932,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.74025",
         "fftt": "4.8",
-        "color": "1.25",
+        "r_non_routed": "0.342722337274",
+        "color": "1.71361168637",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18522,7 +19946,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18535,7 +19960,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "1.75633",
         "fftt": "1.68",
-        "color": "3.25",
+        "r_non_routed": "0.585983451721",
+        "color": "2.9299172586",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18548,7 +19974,8 @@ var geojson_features = [{
         "capacity": "9500.0",
         "length": "2.69023",
         "fftt": "4.43",
-        "color": "4.75",
+        "r_non_routed": "0.482298399512",
+        "color": "2.41149199756",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18561,7 +19988,8 @@ var geojson_features = [{
         "capacity": "13000.0",
         "length": "3.05061",
         "fftt": "5.1",
-        "color": "6.5",
+        "r_non_routed": "0.460754818003",
+        "color": "2.30377409001",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18574,7 +20002,8 @@ var geojson_features = [{
         "capacity": "11000.0",
         "length": "2.0749",
         "fftt": "4.32",
-        "color": "5.5",
+        "r_non_routed": "0.466061247089",
+        "color": "2.33030623545",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18587,7 +20016,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18600,7 +20030,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "1.73609",
         "fftt": "1.98",
-        "color": "3.0",
+        "r_non_routed": "0.477049305927",
+        "color": "2.38524652963",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18613,7 +20044,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.10339",
         "fftt": "2.22",
-        "color": "3.25",
+        "r_non_routed": "0.476385969081",
+        "color": "2.3819298454",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18626,7 +20058,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "3.05061",
         "fftt": "4.83",
-        "color": "2.75",
+        "r_non_routed": "0.506175188378",
+        "color": "2.53087594189",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18639,7 +20072,8 @@ var geojson_features = [{
         "capacity": "13000.0",
         "length": "3.05061",
         "fftt": "5.1",
-        "color": "6.5",
+        "r_non_routed": "0.460029456202",
+        "color": "2.30014728101",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18652,7 +20086,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18665,7 +20100,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "1.364",
         "fftt": "2.84",
-        "color": "3.25",
+        "r_non_routed": "0.488205902807",
+        "color": "2.44102951403",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18678,7 +20114,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "2.87283",
         "fftt": "4.78",
-        "color": "3.0",
+        "r_non_routed": "0.42667418498",
+        "color": "2.1333709249",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18691,7 +20128,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "3.111",
         "fftt": "6.55",
-        "color": "3.25",
+        "r_non_routed": "0.439423231656",
+        "color": "2.19711615828",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18704,7 +20142,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.9946",
         "fftt": "4.99",
-        "color": "2.5",
+        "r_non_routed": "0.498540103515",
+        "color": "2.49270051757",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18717,7 +20156,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18730,7 +20170,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.23796",
         "fftt": "2.12",
-        "color": "1.5",
+        "r_non_routed": "0.502405388427",
+        "color": "2.51202694213",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18743,7 +20184,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "1.52866",
         "fftt": "3.65",
-        "color": "3.0",
+        "r_non_routed": "0.464688897878",
+        "color": "2.32344448939",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18756,7 +20198,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "2.87283",
         "fftt": "4.78",
-        "color": "3.0",
+        "r_non_routed": "0.453548225694",
+        "color": "2.26774112847",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18769,7 +20212,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "2.93054",
         "fftt": "4.89",
-        "color": "3.0",
+        "r_non_routed": "0.515652498288",
+        "color": "2.57826249144",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18782,7 +20226,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18795,7 +20240,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "1.72534",
         "fftt": "2.68",
-        "color": "1.75",
+        "r_non_routed": "0.456403773477",
+        "color": "2.28201886738",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18808,7 +20254,8 @@ var geojson_features = [{
         "capacity": "8500.0",
         "length": "1.71778",
         "fftt": "3.75",
-        "color": "4.25",
+        "r_non_routed": "0.488129261607",
+        "color": "2.44064630803",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18821,7 +20268,8 @@ var geojson_features = [{
         "capacity": "11000.0",
         "length": "2.0749",
         "fftt": "4.32",
-        "color": "5.5",
+        "r_non_routed": "0.411766453103",
+        "color": "2.05883226552",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18834,7 +20282,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18847,7 +20296,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "1.769",
         "fftt": "4.23",
-        "color": "1.75",
+        "r_non_routed": "0.515582362618",
+        "color": "2.57791181309",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18860,7 +20310,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.19846",
         "fftt": "3.8",
-        "color": "2.5",
+        "r_non_routed": "0.516148486963",
+        "color": "2.58074243482",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18873,7 +20324,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.26564",
         "fftt": "6.1",
-        "color": "2.5",
+        "r_non_routed": "0.443746636222",
+        "color": "2.21873318111",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18886,7 +20338,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.89027",
         "fftt": "7.28",
-        "color": "1.0",
+        "r_non_routed": "0.466938772618",
+        "color": "2.33469386309",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18899,7 +20352,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.84735",
         "fftt": "6.73",
-        "color": "1.0",
+        "r_non_routed": "0.659362584682",
+        "color": "3.29681292341",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18912,7 +20366,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "3.111",
         "fftt": "6.55",
-        "color": "3.25",
+        "r_non_routed": "0.47699995172",
+        "color": "2.3849997586",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18925,7 +20380,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.19939",
         "fftt": "4.37",
-        "color": "3.25",
+        "r_non_routed": "0.436680308659",
+        "color": "2.1834015433",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18938,7 +20394,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18951,7 +20408,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "1.64248",
         "fftt": "1.67",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18964,7 +20422,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "3.22609",
         "fftt": "7.76",
-        "color": "1.25",
+        "r_non_routed": "0.519927888342",
+        "color": "2.59963944171",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18977,7 +20436,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.9946",
         "fftt": "4.99",
-        "color": "2.5",
+        "r_non_routed": "0.449495731928",
+        "color": "2.24747865964",
     }},{
     "type": "Feature",
     "geometry": {
@@ -18990,7 +20450,8 @@ var geojson_features = [{
         "capacity": "8000.0",
         "length": "2.93054",
         "fftt": "4.53",
-        "color": "4.0",
+        "r_non_routed": "0.58440716936",
+        "color": "2.9220358468",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19003,7 +20464,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.9159",
         "fftt": "4.17",
-        "color": "1.25",
+        "r_non_routed": "0.490113480222",
+        "color": "2.45056740111",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19016,7 +20478,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19029,7 +20492,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "1.97097",
         "fftt": "1.91",
-        "color": "2.75",
+        "r_non_routed": "0.503693549193",
+        "color": "2.51846774596",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19042,7 +20506,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "3.05061",
         "fftt": "3.5",
-        "color": "3.5",
+        "r_non_routed": "0.623391299049",
+        "color": "3.11695649524",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19055,7 +20520,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "2.93054",
         "fftt": "4.89",
-        "color": "3.0",
+        "r_non_routed": "0.459517318156",
+        "color": "2.29758659078",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19068,7 +20534,8 @@ var geojson_features = [{
         "capacity": "8000.0",
         "length": "2.93054",
         "fftt": "4.53",
-        "color": "4.0",
+        "r_non_routed": "0.587179451962",
+        "color": "2.93589725981",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19081,7 +20548,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19094,7 +20562,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "1.586",
         "fftt": "3.91",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19107,7 +20576,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "1.79406",
         "fftt": "1.48",
-        "color": "3.0",
+        "r_non_routed": "0.409136027342",
+        "color": "2.04568013671",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19120,7 +20590,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.77313",
         "fftt": "6.3",
-        "color": "1.0",
+        "r_non_routed": "0.592779718263",
+        "color": "2.96389859131",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19133,7 +20604,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.93054",
         "fftt": "3.86",
-        "color": "1.75",
+        "r_non_routed": "0.538581608556",
+        "color": "2.69290804278",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19146,7 +20618,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.928",
         "fftt": "5.42",
-        "color": "2.25",
+        "r_non_routed": "0.474493154524",
+        "color": "2.37246577262",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19159,7 +20632,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19172,7 +20646,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "0.71138",
         "fftt": "0.45",
-        "color": "3.5",
+        "r_non_routed": "0.465569469087",
+        "color": "2.32784734544",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19185,7 +20660,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.93054",
         "fftt": "3.86",
-        "color": "1.75",
+        "r_non_routed": "0.539503027311",
+        "color": "2.69751513655",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19198,7 +20674,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "2.93054",
         "fftt": "3.64",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19211,7 +20688,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.928",
         "fftt": "4.23",
-        "color": "2.75",
+        "r_non_routed": "0.511494358647",
+        "color": "2.55747179323",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19224,7 +20702,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19237,7 +20716,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "1.06706",
         "fftt": "0.62",
-        "color": "2.75",
+        "r_non_routed": "0.455785578815",
+        "color": "2.27892789408",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19250,7 +20730,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.19939",
         "fftt": "4.37",
-        "color": "3.25",
+        "r_non_routed": "0.485334781749",
+        "color": "2.42667390875",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19263,7 +20744,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.9159",
         "fftt": "4.17",
-        "color": "1.25",
+        "r_non_routed": "0.476588523203",
+        "color": "2.38294261602",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19276,7 +20758,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19289,7 +20772,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.14283",
         "fftt": "4.49",
-        "color": "1.75",
+        "r_non_routed": "0.546719709263",
+        "color": "2.73359854631",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19302,7 +20786,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "3.62835",
         "fftt": "6.45",
-        "color": "1.25",
+        "r_non_routed": "0.579845209192",
+        "color": "2.89922604596",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19315,7 +20800,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "3.25537",
         "fftt": "5.8",
-        "color": "2.0",
+        "r_non_routed": "0.397525792185",
+        "color": "1.98762896092",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19328,7 +20814,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.928",
         "fftt": "5.42",
-        "color": "2.25",
+        "r_non_routed": "0.477874142508",
+        "color": "2.38937071254",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19341,7 +20828,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.86959",
         "fftt": "4.49",
-        "color": "2.5",
+        "r_non_routed": "0.514408810807",
+        "color": "2.57204405403",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19354,7 +20842,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19367,7 +20856,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "5.47847",
         "fftt": "6.63",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19380,7 +20870,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "4.47343",
         "fftt": "5.44",
-        "color": "1.5",
+        "r_non_routed": "0.672701803422",
+        "color": "3.36350901711",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19393,7 +20884,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "3.24219",
         "fftt": "4.12",
-        "color": "1.25",
+        "r_non_routed": "0.327368334581",
+        "color": "1.63684167291",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19406,7 +20898,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "4.39242",
         "fftt": "5.72",
-        "color": "1.0",
+        "r_non_routed": "0.541231246057",
+        "color": "2.70615623029",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19419,7 +20912,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.0341",
         "fftt": "3.63",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19432,7 +20926,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "3.0008",
         "fftt": "4.8",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19445,7 +20940,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19458,7 +20954,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "1.39235",
         "fftt": "2.42",
-        "color": "3.0",
+        "r_non_routed": "0.593371183558",
+        "color": "2.96685591779",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19471,7 +20968,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "0.86267",
         "fftt": "1.8",
-        "color": "2.5",
+        "r_non_routed": "0.473179724847",
+        "color": "2.36589862423",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19484,7 +20982,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.93054",
         "fftt": "3.51",
-        "color": "1.5",
+        "r_non_routed": "0.38488724956",
+        "color": "1.9244362478",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19497,7 +20996,8 @@ var geojson_features = [{
         "capacity": "8500.0",
         "length": "3.05061",
         "fftt": "4.75",
-        "color": "4.25",
+        "r_non_routed": "0.633764537223",
+        "color": "3.16882268611",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19510,7 +21010,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19523,7 +21024,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "2.93054",
         "fftt": "3.64",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19536,7 +21038,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "5.47847",
         "fftt": "6.63",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19549,7 +21052,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.93054",
         "fftt": "3.51",
-        "color": "1.5",
+        "r_non_routed": "0.261328716806",
+        "color": "1.30664358403",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19562,7 +21066,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.93054",
         "fftt": "4.39",
-        "color": "1.0",
+        "r_non_routed": "0.544332018294",
+        "color": "2.72166009147",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19575,7 +21080,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19588,7 +21094,8 @@ var geojson_features = [{
         "capacity": "8500.0",
         "length": "3.05061",
         "fftt": "4.75",
-        "color": "4.25",
+        "r_non_routed": "0.651064974234",
+        "color": "3.25532487117",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19601,7 +21108,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.867",
         "fftt": "3.55",
-        "color": "3.25",
+        "r_non_routed": "0.437587304781",
+        "color": "2.1879365239",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19614,7 +21122,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "2.93054",
         "fftt": "3.9",
-        "color": "3.5",
+        "r_non_routed": "0.579049354984",
+        "color": "2.89524677492",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19627,7 +21136,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "2.98962",
         "fftt": "4.68",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19640,7 +21150,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19653,7 +21164,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "4.47343",
         "fftt": "5.44",
-        "color": "1.5",
+        "r_non_routed": "0.659092693773",
+        "color": "3.29546346886",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19666,7 +21178,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.93054",
         "fftt": "4.39",
-        "color": "1.0",
+        "r_non_routed": "0.295456173363",
+        "color": "1.47728086681",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19679,7 +21192,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.867",
         "fftt": "3.55",
-        "color": "3.25",
+        "r_non_routed": "0.582583585354",
+        "color": "2.91291792677",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19692,7 +21206,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.05244",
         "fftt": "4.29",
-        "color": "1.0",
+        "r_non_routed": "0.671538078029",
+        "color": "3.35769039015",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19705,7 +21220,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19718,7 +21234,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "1.65714",
         "fftt": "3.53",
-        "color": "1.5",
+        "r_non_routed": "0.477313882466",
+        "color": "2.38656941233",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19731,7 +21248,8 @@ var geojson_features = [{
         "capacity": "12000.0",
         "length": "2.3188",
         "fftt": "3.79",
-        "color": "6.0",
+        "r_non_routed": "0.541055463854",
+        "color": "2.70527731927",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19744,7 +21262,8 @@ var geojson_features = [{
         "capacity": "8000.0",
         "length": "2.90824",
         "fftt": "4.93",
-        "color": "4.0",
+        "r_non_routed": "0.538196737848",
+        "color": "2.69098368924",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19757,7 +21276,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19770,7 +21290,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.41317",
         "fftt": "2.59",
-        "color": "2.5",
+        "r_non_routed": "0.540872743796",
+        "color": "2.70436371898",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19783,7 +21304,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.86959",
         "fftt": "4.49",
-        "color": "2.5",
+        "r_non_routed": "0.52062452133",
+        "color": "2.60312260665",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19796,7 +21318,8 @@ var geojson_features = [{
         "capacity": "8000.0",
         "length": "2.90824",
         "fftt": "4.93",
-        "color": "4.0",
+        "r_non_routed": "0.537979742053",
+        "color": "2.68989871027",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19809,7 +21332,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.98962",
         "fftt": "5.23",
-        "color": "2.75",
+        "r_non_routed": "0.502564711662",
+        "color": "2.51282355831",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19822,7 +21346,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19835,7 +21360,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "3.14904",
         "fftt": "5.85",
-        "color": "3.0",
+        "r_non_routed": "0.440752205244",
+        "color": "2.20376102622",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19848,7 +21374,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "3.09902",
         "fftt": "4.42",
-        "color": "3.0",
+        "r_non_routed": "0.552218481373",
+        "color": "2.76109240686",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19861,7 +21388,8 @@ var geojson_features = [{
         "capacity": "10000.0",
         "length": "2.50769",
         "fftt": "3.97",
-        "color": "5.0",
+        "r_non_routed": "0.462141986823",
+        "color": "2.31070993412",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19874,7 +21402,8 @@ var geojson_features = [{
         "capacity": "10000.0",
         "length": "2.38213",
         "fftt": "3.82",
-        "color": "5.0",
+        "r_non_routed": "0.496579191168",
+        "color": "2.48289595584",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19887,7 +21416,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19900,7 +21430,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "0.2728",
         "fftt": "1.51",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19913,7 +21444,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "2.93054",
         "fftt": "3.9",
-        "color": "3.5",
+        "r_non_routed": "0.60108065929",
+        "color": "3.00540329645",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19926,7 +21458,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.98962",
         "fftt": "5.23",
-        "color": "2.75",
+        "r_non_routed": "0.497527204139",
+        "color": "2.4876360207",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19939,7 +21472,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "3.09902",
         "fftt": "4.42",
-        "color": "3.0",
+        "r_non_routed": "0.563966383118",
+        "color": "2.81983191559",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19952,7 +21486,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.93054",
         "fftt": "4.14",
-        "color": "2.25",
+        "r_non_routed": "0.587190848703",
+        "color": "2.93595424351",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19965,7 +21500,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19978,7 +21514,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "0.80233",
         "fftt": "1.58",
-        "color": "2.75",
+        "r_non_routed": "0.596050442848",
+        "color": "2.98025221424",
     }},{
     "type": "Feature",
     "geometry": {
@@ -19991,7 +21528,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.26687",
         "fftt": "3.52",
-        "color": "2.75",
+        "r_non_routed": "0.359217139067",
+        "color": "1.79608569534",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20004,7 +21542,8 @@ var geojson_features = [{
         "capacity": "10000.0",
         "length": "2.50769",
         "fftt": "3.97",
-        "color": "5.0",
+        "r_non_routed": "0.485950849643",
+        "color": "2.42975424821",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20017,7 +21556,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.17984",
         "fftt": "3.63",
-        "color": "1.75",
+        "r_non_routed": "0.613858413102",
+        "color": "3.06929206551",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20030,7 +21570,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20043,7 +21584,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "2.98962",
         "fftt": "4.68",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20056,7 +21598,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.80666",
         "fftt": "4.48",
-        "color": "1.5",
+        "r_non_routed": "0.350454398407",
+        "color": "1.75227199204",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20069,7 +21612,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.93371",
         "fftt": "3.99",
-        "color": "1.75",
+        "r_non_routed": "0.479846863804",
+        "color": "2.39923431902",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20082,7 +21626,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.9946",
         "fftt": "3.95",
-        "color": "2.5",
+        "r_non_routed": "0.508735912807",
+        "color": "2.54367956403",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20095,7 +21640,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20108,7 +21654,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.05244",
         "fftt": "4.29",
-        "color": "1.0",
+        "r_non_routed": "0.595433089136",
+        "color": "2.97716544568",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20121,7 +21668,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.80666",
         "fftt": "4.48",
-        "color": "1.5",
+        "r_non_routed": "0.318634555171",
+        "color": "1.59317277585",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20134,7 +21682,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.92864",
         "fftt": "3.9",
-        "color": "1.0",
+        "r_non_routed": "0.591278358016",
+        "color": "2.95639179008",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20147,7 +21696,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "3.05",
         "fftt": "4.01",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20160,7 +21710,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20173,7 +21724,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "2.62016",
         "fftt": "2.82",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20186,7 +21738,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.93371",
         "fftt": "3.99",
-        "color": "1.75",
+        "r_non_routed": "0.474748149597",
+        "color": "2.37374074798",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20199,7 +21752,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "3.05061",
         "fftt": "4.35",
-        "color": "1.25",
+        "r_non_routed": "0.442051604191",
+        "color": "2.21025802096",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20212,7 +21766,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.928",
         "fftt": "4.94",
-        "color": "1.5",
+        "r_non_routed": "0.448824810037",
+        "color": "2.24412405019",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20225,7 +21780,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20238,7 +21794,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.92864",
         "fftt": "3.9",
-        "color": "1.0",
+        "r_non_routed": "0.651865935975",
+        "color": "3.25932967987",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20251,7 +21808,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "3.05061",
         "fftt": "4.35",
-        "color": "1.25",
+        "r_non_routed": "0.412536266439",
+        "color": "2.06268133219",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20264,7 +21822,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "2.93054",
         "fftt": "3.99",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20277,7 +21836,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.93371",
         "fftt": "4.5",
-        "color": "1.0",
+        "r_non_routed": "0.694349887907",
+        "color": "3.47174943953",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20290,7 +21850,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20303,7 +21864,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "2.16185",
         "fftt": "2.17",
-        "color": "3.5",
+        "r_non_routed": "0.552975222541",
+        "color": "2.7648761127",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20316,7 +21878,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.06706",
         "fftt": "2.57",
-        "color": "2.5",
+        "r_non_routed": "0.43878465873",
+        "color": "2.19392329365",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20329,7 +21892,8 @@ var geojson_features = [{
         "capacity": "10000.0",
         "length": "2.38213",
         "fftt": "3.82",
-        "color": "5.0",
+        "r_non_routed": "0.440459725702",
+        "color": "2.20229862851",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20342,7 +21906,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "3.05",
         "fftt": "4.29",
-        "color": "2.25",
+        "r_non_routed": "0.44788265646",
+        "color": "2.2394132823",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20355,7 +21920,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20368,7 +21934,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.93054",
         "fftt": "4.14",
-        "color": "2.25",
+        "r_non_routed": "0.587625555823",
+        "color": "2.93812777911",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20381,7 +21948,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.9946",
         "fftt": "3.95",
-        "color": "2.5",
+        "r_non_routed": "0.477055430978",
+        "color": "2.38527715489",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20394,7 +21962,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "3.05",
         "fftt": "4.29",
-        "color": "2.25",
+        "r_non_routed": "0.452501171925",
+        "color": "2.26250585963",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20407,7 +21976,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "3.11339",
         "fftt": "4.81",
-        "color": "1.25",
+        "r_non_routed": "0.533729675187",
+        "color": "2.66864837593",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20420,7 +21990,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20433,7 +22004,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.00652",
         "fftt": "1.81",
-        "color": "2.5",
+        "r_non_routed": "0.45688561366",
+        "color": "2.2844280683",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20446,7 +22018,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "1.13467",
         "fftt": "2.28",
-        "color": "3.5",
+        "r_non_routed": "0.544303557399",
+        "color": "2.721517787",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20459,7 +22032,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "3.05061",
         "fftt": "4.81",
-        "color": "2.75",
+        "r_non_routed": "0.450931658433",
+        "color": "2.25465829216",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20472,7 +22046,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.05061",
         "fftt": "4.35",
-        "color": "2.5",
+        "r_non_routed": "0.511428399732",
+        "color": "2.55714199866",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20485,7 +22060,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20498,7 +22074,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.2276",
         "fftt": "2.48",
-        "color": "2.5",
+        "r_non_routed": "0.438438453161",
+        "color": "2.1921922658",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20511,7 +22088,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.928",
         "fftt": "4.94",
-        "color": "1.5",
+        "r_non_routed": "0.446941372515",
+        "color": "2.23470686257",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20524,7 +22102,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "3.11339",
         "fftt": "4.81",
-        "color": "1.25",
+        "r_non_routed": "0.571574119559",
+        "color": "2.8578705978",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20537,7 +22116,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "2.93371",
         "fftt": "4.39",
-        "color": "3.0",
+        "r_non_routed": "0.645743663394",
+        "color": "3.22871831697",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20550,7 +22130,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20563,7 +22144,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "3.49195",
         "fftt": "6.63",
-        "color": "1.5",
+        "r_non_routed": "0.476744886924",
+        "color": "2.38372443462",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20576,7 +22158,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "2.99149",
         "fftt": "5.64",
-        "color": "3.5",
+        "r_non_routed": "0.504817686931",
+        "color": "2.52408843465",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20589,7 +22172,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "3.05061",
         "fftt": "4.75",
-        "color": "2.0",
+        "r_non_routed": "0.480784019328",
+        "color": "2.40392009664",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20602,7 +22186,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.318",
         "fftt": "3.83",
-        "color": "1.5",
+        "r_non_routed": "0.537649010405",
+        "color": "2.68824505202",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20615,7 +22200,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20628,7 +22214,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.23796",
         "fftt": "2.51",
-        "color": "2.5",
+        "r_non_routed": "0.441408089064",
+        "color": "2.20704044532",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20641,7 +22228,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.17984",
         "fftt": "3.63",
-        "color": "1.75",
+        "r_non_routed": "0.545417972072",
+        "color": "2.72708986036",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20654,7 +22242,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "2.99149",
         "fftt": "5.64",
-        "color": "3.5",
+        "r_non_routed": "0.475909456636",
+        "color": "2.37954728318",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20667,7 +22256,8 @@ var geojson_features = [{
         "capacity": "15000.0",
         "length": "3.17259",
         "fftt": "5.22",
-        "color": "7.5",
+        "r_non_routed": "0.511713353918",
+        "color": "2.55856676959",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20680,7 +22270,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20693,7 +22284,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "1.04948",
         "fftt": "0.37",
-        "color": "2.0",
+        "r_non_routed": "0.47568728112",
+        "color": "2.3784364056",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20706,7 +22298,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "3.05061",
         "fftt": "4.75",
-        "color": "2.0",
+        "r_non_routed": "0.487394118432",
+        "color": "2.43697059216",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20719,7 +22312,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.989",
         "fftt": "5.56",
-        "color": "2.75",
+        "r_non_routed": "0.452937033974",
+        "color": "2.26468516987",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20732,7 +22326,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "2.3188",
         "fftt": "3.63",
-        "color": "3.0",
+        "r_non_routed": "0.518712857321",
+        "color": "2.5935642866",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20745,7 +22340,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20758,7 +22354,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.09969",
         "fftt": "0.59",
-        "color": "2.5",
+        "r_non_routed": "0.548940743605",
+        "color": "2.74470371803",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20771,7 +22368,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "3.05061",
         "fftt": "4.81",
-        "color": "2.75",
+        "r_non_routed": "0.50187603089",
+        "color": "2.50938015445",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20784,7 +22382,8 @@ var geojson_features = [{
         "capacity": "15000.0",
         "length": "3.17259",
         "fftt": "5.22",
-        "color": "7.5",
+        "r_non_routed": "0.438247723179",
+        "color": "2.1912386159",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20797,7 +22396,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.989",
         "fftt": "5.56",
-        "color": "2.75",
+        "r_non_routed": "0.364936611747",
+        "color": "1.82468305873",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20810,7 +22410,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20823,7 +22424,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "4.07195",
         "fftt": "5.88",
-        "color": "1.75",
+        "r_non_routed": "0.585435410319",
+        "color": "2.9271770516",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20836,7 +22438,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.318",
         "fftt": "3.83",
-        "color": "1.5",
+        "r_non_routed": "0.546377982122",
+        "color": "2.73188991061",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20849,7 +22452,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.98962",
         "fftt": "4.61",
-        "color": "2.5",
+        "r_non_routed": "0.515864628359",
+        "color": "2.5793231418",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20862,7 +22466,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "3.47218",
         "fftt": "6.04",
-        "color": "2.25",
+        "r_non_routed": "0.556260920314",
+        "color": "2.78130460157",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20875,7 +22480,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20888,7 +22494,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "1.09969",
         "fftt": "0.58",
-        "color": "1.0",
+        "r_non_routed": "0.389127974783",
+        "color": "1.94563987392",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20901,7 +22508,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "2.3188",
         "fftt": "3.63",
-        "color": "3.0",
+        "r_non_routed": "0.498808078719",
+        "color": "2.4940403936",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20914,7 +22522,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.98962",
         "fftt": "4.61",
-        "color": "2.5",
+        "r_non_routed": "0.548735588073",
+        "color": "2.74367794037",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20927,7 +22536,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.74542",
         "fftt": "7.95",
-        "color": "1.75",
+        "r_non_routed": "0.557397580284",
+        "color": "2.78698790142",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20940,7 +22550,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20953,7 +22564,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.63362",
         "fftt": "2.91",
-        "color": "1.0",
+        "r_non_routed": "0.495473811226",
+        "color": "2.47736905613",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20966,7 +22578,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.05061",
         "fftt": "4.35",
-        "color": "2.5",
+        "r_non_routed": "0.523244842569",
+        "color": "2.61622421285",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20979,7 +22592,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.99149",
         "fftt": "3.79",
-        "color": "2.25",
+        "r_non_routed": "0.506117615634",
+        "color": "2.53058807817",
     }},{
     "type": "Feature",
     "geometry": {
@@ -20992,7 +22606,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.989",
         "fftt": "5.39",
-        "color": "1.25",
+        "r_non_routed": "0.486446344874",
+        "color": "2.43223172437",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21005,7 +22620,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21018,7 +22634,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "0.682",
         "fftt": "1.41",
-        "color": "1.0",
+        "r_non_routed": "0.718571312111",
+        "color": "3.59285656055",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21031,7 +22648,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "2.93371",
         "fftt": "4.39",
-        "color": "3.0",
+        "r_non_routed": "0.609414645528",
+        "color": "3.04707322764",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21044,7 +22662,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.98962",
         "fftt": "4.29",
-        "color": "1.0",
+        "r_non_routed": "0.668064894648",
+        "color": "3.34032447324",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21057,7 +22676,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.05061",
         "fftt": "4.16",
-        "color": "1.75",
+        "r_non_routed": "0.76625349135",
+        "color": "3.83126745675",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21070,7 +22690,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21083,7 +22704,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.75245",
         "fftt": "2.78",
-        "color": "1.75",
+        "r_non_routed": "0.518457451223",
+        "color": "2.59228725611",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21096,7 +22718,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.99149",
         "fftt": "3.79",
-        "color": "2.25",
+        "r_non_routed": "0.521063765178",
+        "color": "2.60531882589",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21109,7 +22732,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.92864",
         "fftt": "3.84",
-        "color": "2.75",
+        "r_non_routed": "0.497959460913",
+        "color": "2.48979730457",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21122,7 +22746,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "4.45801",
         "fftt": "5.88",
-        "color": "2.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21135,7 +22760,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21148,7 +22774,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "0.65699",
         "fftt": "1.17",
-        "color": "1.75",
+        "r_non_routed": "0.493105809125",
+        "color": "2.46552904562",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21161,7 +22788,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.98962",
         "fftt": "4.29",
-        "color": "1.0",
+        "r_non_routed": "0.588620861432",
+        "color": "2.94310430716",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21174,7 +22802,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.928",
         "fftt": "3.73",
-        "color": "1.0",
+        "r_non_routed": "0.430309254815",
+        "color": "2.15154627407",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21187,7 +22816,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "4.57663",
         "fftt": "6.48",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21200,7 +22830,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21213,7 +22844,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "2.22043",
         "fftt": "4.08",
-        "color": "2.0",
+        "r_non_routed": "0.628022059896",
+        "color": "3.14011029948",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21226,7 +22858,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "0.793",
         "fftt": "0.55",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21239,7 +22872,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.989",
         "fftt": "4.68",
-        "color": "1.0",
+        "r_non_routed": "0.457091957944",
+        "color": "2.28545978972",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21252,7 +22886,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.92864",
         "fftt": "4.18",
-        "color": "1.5",
+        "r_non_routed": "0.396372289796",
+        "color": "1.98186144898",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21265,7 +22900,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21278,7 +22914,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.16185",
         "fftt": "5.05",
-        "color": "2.5",
+        "r_non_routed": "0.454842511184",
+        "color": "2.27421255592",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21291,7 +22928,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.989",
         "fftt": "5.39",
-        "color": "1.25",
+        "r_non_routed": "0.498769651813",
+        "color": "2.49384825906",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21304,7 +22942,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.989",
         "fftt": "4.68",
-        "color": "1.0",
+        "r_non_routed": "0.460646431159",
+        "color": "2.30323215579",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21317,7 +22956,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "2.92864",
         "fftt": "4.32",
-        "color": "3.5",
+        "r_non_routed": "0.51890438457",
+        "color": "2.59452192285",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21330,7 +22970,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21343,7 +22984,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "0.35569",
         "fftt": "0.64",
-        "color": "1.0",
+        "r_non_routed": "0.600579622395",
+        "color": "3.00289811198",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21356,7 +22998,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.92864",
         "fftt": "4.18",
-        "color": "1.5",
+        "r_non_routed": "0.465771274415",
+        "color": "2.32885637208",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21369,7 +23012,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.989",
         "fftt": "4.75",
-        "color": "1.75",
+        "r_non_routed": "0.521790837988",
+        "color": "2.60895418994",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21382,7 +23026,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.989",
         "fftt": "3.84",
-        "color": "2.25",
+        "r_non_routed": "0.637662500956",
+        "color": "3.18831250478",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21395,7 +23040,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21408,7 +23054,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.92864",
         "fftt": "3.84",
-        "color": "2.75",
+        "r_non_routed": "0.519223667576",
+        "color": "2.59611833788",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21421,7 +23068,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "2.92864",
         "fftt": "4.32",
-        "color": "3.5",
+        "r_non_routed": "0.477162986028",
+        "color": "2.38581493014",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21434,7 +23082,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.989",
         "fftt": "4.75",
-        "color": "1.75",
+        "r_non_routed": "0.506623348034",
+        "color": "2.53311674017",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21447,7 +23096,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.93054",
         "fftt": "4.62",
-        "color": "2.75",
+        "r_non_routed": "0.562368333538",
+        "color": "2.81184166769",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21460,7 +23110,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21473,7 +23124,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.42144",
         "fftt": "7.48",
-        "color": "1.0",
+        "r_non_routed": "0.451520436603",
+        "color": "2.25760218302",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21486,7 +23138,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.21048",
         "fftt": "3.14",
-        "color": "1.0",
+        "r_non_routed": "0.553231364863",
+        "color": "2.76615682431",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21499,7 +23152,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.728",
         "fftt": "3.93",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21512,7 +23166,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "5.91731",
         "fftt": "10.31",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21525,7 +23180,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "6.92961",
         "fftt": "10.36",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21538,7 +23194,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "4.72268",
         "fftt": "10.0",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21551,7 +23208,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21564,7 +23222,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.86959",
         "fftt": "4.72",
-        "color": "1.75",
+        "r_non_routed": "0.622774422588",
+        "color": "3.11387211294",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21577,7 +23236,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.87283",
         "fftt": "3.66",
-        "color": "1.25",
+        "r_non_routed": "0.33217321059",
+        "color": "1.66086605295",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21590,7 +23250,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.99149",
         "fftt": "3.99",
-        "color": "2.25",
+        "r_non_routed": "0.53303789271",
+        "color": "2.66518946355",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21603,7 +23264,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.98962",
         "fftt": "3.91",
-        "color": "1.5",
+        "r_non_routed": "0.462670561259",
+        "color": "2.3133528063",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21616,7 +23278,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21629,7 +23292,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.05061",
         "fftt": "3.78",
-        "color": "1.0",
+        "r_non_routed": "0.530022831005",
+        "color": "2.65011415502",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21642,7 +23306,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.87283",
         "fftt": "3.66",
-        "color": "1.25",
+        "r_non_routed": "0.320946751866",
+        "color": "1.60473375933",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21655,7 +23320,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.98962",
         "fftt": "3.99",
-        "color": "1.0",
+        "r_non_routed": "0.46064871061",
+        "color": "2.30324355305",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21668,7 +23334,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "2.86959",
         "fftt": "3.58",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21681,7 +23348,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21694,7 +23362,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.99149",
         "fftt": "3.99",
-        "color": "2.25",
+        "r_non_routed": "0.505153391379",
+        "color": "2.5257669569",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21707,7 +23376,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.05549",
         "fftt": "3.83",
-        "color": "1.75",
+        "r_non_routed": "0.489650918873",
+        "color": "2.44825459436",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21720,7 +23390,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "2.86765",
         "fftt": "3.66",
-        "color": "2.0",
+        "r_non_routed": "0.473606448857",
+        "color": "2.36803224428",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21733,7 +23404,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "3.11339",
         "fftt": "4.27",
-        "color": "1.5",
+        "r_non_routed": "0.538311392923",
+        "color": "2.69155696462",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21746,7 +23418,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21759,7 +23432,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.98962",
         "fftt": "3.99",
-        "color": "1.0",
+        "r_non_routed": "0.678108365054",
+        "color": "3.39054182527",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21772,7 +23446,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.05549",
         "fftt": "3.83",
-        "color": "1.75",
+        "r_non_routed": "0.405879335251",
+        "color": "2.02939667625",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21785,7 +23460,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.928",
         "fftt": "4.29",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21798,7 +23474,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.928",
         "fftt": "4.5",
-        "color": "1.0",
+        "r_non_routed": "0.797644542286",
+        "color": "3.98822271143",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21811,7 +23488,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21824,7 +23502,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "1.54319",
         "fftt": "3.14",
-        "color": "2.75",
+        "r_non_routed": "0.496809400495",
+        "color": "2.48404700248",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21837,7 +23516,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.11339",
         "fftt": "6.4",
-        "color": "1.75",
+        "r_non_routed": "0.567952435741",
+        "color": "2.83976217871",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21850,7 +23530,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.74771",
         "fftt": "4.32",
-        "color": "2.75",
+        "r_non_routed": "0.522201156806",
+        "color": "2.61100578403",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21863,7 +23544,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.80865",
         "fftt": "4.0",
-        "color": "2.25",
+        "r_non_routed": "0.502027924628",
+        "color": "2.51013962314",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21876,7 +23558,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21889,7 +23572,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "3.111",
         "fftt": "6.87",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21902,7 +23586,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.98962",
         "fftt": "3.91",
-        "color": "1.5",
+        "r_non_routed": "0.589674149995",
+        "color": "2.94837074998",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21915,7 +23600,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.74771",
         "fftt": "4.32",
-        "color": "2.75",
+        "r_non_routed": "0.467287105231",
+        "color": "2.33643552615",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21928,7 +23614,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.867",
         "fftt": "4.09",
-        "color": "1.75",
+        "r_non_routed": "0.433923260212",
+        "color": "2.16961630106",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21941,7 +23628,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21954,7 +23642,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "0.82067",
         "fftt": "2.0",
-        "color": "1.5",
+        "r_non_routed": "0.526502962398",
+        "color": "2.63251481199",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21967,7 +23656,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.80865",
         "fftt": "4.0",
-        "color": "2.25",
+        "r_non_routed": "0.473112545726",
+        "color": "2.36556272863",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21980,7 +23670,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.87283",
         "fftt": "4.53",
-        "color": "2.75",
+        "r_non_routed": "0.41091035006",
+        "color": "2.0545517503",
     }},{
     "type": "Feature",
     "geometry": {
@@ -21993,7 +23684,8 @@ var geojson_features = [{
         "capacity": "8000.0",
         "length": "3.05061",
         "fftt": "4.37",
-        "color": "4.0",
+        "r_non_routed": "0.386243603063",
+        "color": "1.93121801532",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22006,7 +23698,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22019,7 +23712,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "2.86765",
         "fftt": "3.66",
-        "color": "2.0",
+        "r_non_routed": "0.475817254678",
+        "color": "2.37908627339",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22032,7 +23726,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.867",
         "fftt": "4.09",
-        "color": "1.75",
+        "r_non_routed": "0.444353370142",
+        "color": "2.22176685071",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22045,7 +23740,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.87283",
         "fftt": "4.53",
-        "color": "2.75",
+        "r_non_routed": "0.379569927444",
+        "color": "1.89784963722",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22058,7 +23754,8 @@ var geojson_features = [{
         "capacity": "7500.0",
         "length": "2.989",
         "fftt": "4.18",
-        "color": "3.75",
+        "r_non_routed": "0.550472095786",
+        "color": "2.75236047893",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22071,7 +23768,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22084,7 +23782,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "3.05061",
         "fftt": "4.77",
-        "color": "3.25",
+        "r_non_routed": "0.503179302826",
+        "color": "2.51589651413",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22097,7 +23796,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.196",
         "fftt": "3.4",
-        "color": "1.75",
+        "r_non_routed": "0.500327917757",
+        "color": "2.50163958878",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22110,7 +23810,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "3.05061",
         "fftt": "4.69",
-        "color": "2.0",
+        "r_non_routed": "0.493807900694",
+        "color": "2.46903950347",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22123,7 +23824,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22136,7 +23838,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "1.61045",
         "fftt": "1.27",
-        "color": "2.75",
+        "r_non_routed": "0.488149429662",
+        "color": "2.44074714831",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22149,7 +23852,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.29623",
         "fftt": "2.97",
-        "color": "1.25",
+        "r_non_routed": "0.511431145614",
+        "color": "2.55715572807",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22162,7 +23866,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.92864",
         "fftt": "4.34",
-        "color": "2.25",
+        "r_non_routed": "0.532121046556",
+        "color": "2.66060523278",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22175,7 +23880,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.196",
         "fftt": "3.4",
-        "color": "1.75",
+        "r_non_routed": "0.485079950153",
+        "color": "2.42539975077",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22188,7 +23894,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22201,7 +23908,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "1.64248",
         "fftt": "1.36",
-        "color": "1.5",
+        "r_non_routed": "0.487752136482",
+        "color": "2.43876068241",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22214,7 +23922,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "2.87736",
         "fftt": "4.31",
-        "color": "2.0",
+        "r_non_routed": "0.485770925186",
+        "color": "2.42885462593",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22227,7 +23936,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "3.05061",
         "fftt": "4.69",
-        "color": "2.0",
+        "r_non_routed": "0.495425899811",
+        "color": "2.47712949906",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22240,7 +23950,8 @@ var geojson_features = [{
         "capacity": "12000.0",
         "length": "2.867",
         "fftt": "4.0",
-        "color": "6.0",
+        "r_non_routed": "0.509780490402",
+        "color": "2.54890245201",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22253,7 +23964,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22266,7 +23978,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.20446",
         "fftt": "2.45",
-        "color": "1.5",
+        "r_non_routed": "0.521200346005",
+        "color": "2.60600173003",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22279,7 +23992,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "1.50659",
         "fftt": "3.04",
-        "color": "1.5",
+        "r_non_routed": "0.4803201682",
+        "color": "2.401600841",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22292,7 +24006,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "1.01524",
         "fftt": "2.77",
-        "color": "1.25",
+        "r_non_routed": "0.515246096721",
+        "color": "2.57623048361",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22305,7 +24020,8 @@ var geojson_features = [{
         "capacity": "8000.0",
         "length": "2.9946",
         "fftt": "4.0",
-        "color": "4.0",
+        "r_non_routed": "0.521908305457",
+        "color": "2.60954152728",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22318,7 +24034,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22331,7 +24048,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "3.11339",
         "fftt": "4.27",
-        "color": "1.5",
+        "r_non_routed": "0.564230977645",
+        "color": "2.82115488822",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22344,7 +24062,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.928",
         "fftt": "4.5",
-        "color": "1.25",
+        "r_non_routed": "0.606630661399",
+        "color": "3.03315330699",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22357,7 +24076,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "2.80666",
         "fftt": "3.73",
-        "color": "2.0",
+        "r_non_routed": "0.544022949102",
+        "color": "2.72011474551",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22370,7 +24090,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.9946",
         "fftt": "4.19",
-        "color": "1.75",
+        "r_non_routed": "0.613721628846",
+        "color": "3.06860814423",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22383,7 +24104,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22396,7 +24118,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.928",
         "fftt": "4.29",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22409,7 +24132,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.928",
         "fftt": "4.5",
-        "color": "1.25",
+        "r_non_routed": "0.638155764578",
+        "color": "3.19077882289",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22422,7 +24146,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.92864",
         "fftt": "3.91",
-        "color": "1.75",
+        "r_non_routed": "0.430836653364",
+        "color": "2.15418326682",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22435,7 +24160,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22448,7 +24174,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "2.91909",
         "fftt": "3.04",
-        "color": "3.0",
+        "r_non_routed": "0.530240821486",
+        "color": "2.65120410743",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22461,7 +24188,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "2.80666",
         "fftt": "3.73",
-        "color": "2.0",
+        "r_non_routed": "0.594304770261",
+        "color": "2.97152385131",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22474,7 +24202,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.80865",
         "fftt": "3.5",
-        "color": "0.75",
+        "r_non_routed": "0.437222192356",
+        "color": "2.18611096178",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22487,7 +24216,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "3.05",
         "fftt": "3.82",
-        "color": "2.0",
+        "r_non_routed": "0.455832941934",
+        "color": "2.27916470967",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22500,7 +24230,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22513,7 +24244,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.80865",
         "fftt": "3.5",
-        "color": "0.75",
+        "r_non_routed": "0.342792601707",
+        "color": "1.71396300854",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22526,7 +24258,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "2.92864",
         "fftt": "3.91",
-        "color": "0.5",
+        "r_non_routed": "0.377306632957",
+        "color": "1.88653316478",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22539,7 +24272,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22552,7 +24286,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "0.82067",
         "fftt": "1.71",
-        "color": "3.25",
+        "r_non_routed": "0.530519974786",
+        "color": "2.65259987393",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22565,7 +24300,8 @@ var geojson_features = [{
         "capacity": "8000.0",
         "length": "3.05061",
         "fftt": "4.37",
-        "color": "4.0",
+        "r_non_routed": "0.461265611581",
+        "color": "2.3063280579",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22578,7 +24314,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.80865",
         "fftt": "4.42",
-        "color": "3.25",
+        "r_non_routed": "0.482959338456",
+        "color": "2.41479669228",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22591,7 +24328,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "2.928",
         "fftt": "5.02",
-        "color": "3.5",
+        "r_non_routed": "0.379797654456",
+        "color": "1.89898827228",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22604,7 +24342,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22617,7 +24356,8 @@ var geojson_features = [{
         "capacity": "7500.0",
         "length": "2.989",
         "fftt": "4.18",
-        "color": "3.75",
+        "r_non_routed": "0.502395941753",
+        "color": "2.51197970876",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22630,7 +24370,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.9946",
         "fftt": "4.19",
-        "color": "1.75",
+        "r_non_routed": "0.549540161912",
+        "color": "2.74770080956",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22643,7 +24384,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.80865",
         "fftt": "4.42",
-        "color": "3.25",
+        "r_non_routed": "0.524022326833",
+        "color": "2.62011163416",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22656,7 +24398,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.989",
         "fftt": "5.32",
-        "color": "2.5",
+        "r_non_routed": "0.597073807037",
+        "color": "2.98536903518",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22669,7 +24412,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22682,7 +24426,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "1.04948",
         "fftt": "2.19",
-        "color": "1.0",
+        "r_non_routed": "0.592854321215",
+        "color": "2.96427160608",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22695,7 +24440,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "2.928",
         "fftt": "5.02",
-        "color": "3.5",
+        "r_non_routed": "0.46095530719",
+        "color": "2.30477653595",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22708,7 +24454,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.81196",
         "fftt": "4.0",
-        "color": "1.75",
+        "r_non_routed": "0.483815780331",
+        "color": "2.41907890166",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22721,7 +24468,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "3.1116",
         "fftt": "4.83",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22734,7 +24482,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22747,7 +24496,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.81196",
         "fftt": "2.9",
-        "color": "1.0",
+        "r_non_routed": "0.621846600546",
+        "color": "3.10923300273",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22760,7 +24510,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "3.05",
         "fftt": "3.82",
-        "color": "2.0",
+        "r_non_routed": "0.507959838965",
+        "color": "2.53979919482",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22773,7 +24524,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.989",
         "fftt": "5.32",
-        "color": "2.5",
+        "r_non_routed": "0.460843685901",
+        "color": "2.30421842951",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22786,7 +24538,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.81196",
         "fftt": "4.0",
-        "color": "1.75",
+        "r_non_routed": "0.52682711334",
+        "color": "2.6341355667",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22799,7 +24552,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22812,7 +24566,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.30915",
         "fftt": "2.42",
-        "color": "3.25",
+        "r_non_routed": "0.522924139654",
+        "color": "2.61462069827",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22825,7 +24580,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "1.06706",
         "fftt": "2.4",
-        "color": "3.25",
+        "r_non_routed": "0.494881787794",
+        "color": "2.47440893897",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22838,7 +24594,8 @@ var geojson_features = [{
         "capacity": "12000.0",
         "length": "2.867",
         "fftt": "4.0",
-        "color": "6.0",
+        "r_non_routed": "0.501693462727",
+        "color": "2.50846731363",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22851,7 +24608,8 @@ var geojson_features = [{
         "capacity": "8000.0",
         "length": "2.75109",
         "fftt": "4.22",
-        "color": "4.0",
+        "r_non_routed": "0.494628725483",
+        "color": "2.47314362742",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22864,7 +24622,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22877,7 +24636,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.45596",
         "fftt": "2.47",
-        "color": "3.25",
+        "r_non_routed": "0.461713211295",
+        "color": "2.30856605648",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22890,7 +24650,8 @@ var geojson_features = [{
         "capacity": "8000.0",
         "length": "2.9946",
         "fftt": "4.0",
-        "color": "4.0",
+        "r_non_routed": "0.482100012524",
+        "color": "2.41050006262",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22903,7 +24664,8 @@ var geojson_features = [{
         "capacity": "8000.0",
         "length": "2.75109",
         "fftt": "4.22",
-        "color": "4.0",
+        "r_non_routed": "0.502612552416",
+        "color": "2.51306276208",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22916,7 +24678,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.92864",
         "fftt": "5.17",
-        "color": "2.75",
+        "r_non_routed": "0.406441040384",
+        "color": "2.03220520192",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22929,7 +24692,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22942,7 +24706,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "0.96449",
         "fftt": "1.88",
-        "color": "1.5",
+        "r_non_routed": "0.50776144484",
+        "color": "2.5388072242",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22955,7 +24720,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "0.682",
         "fftt": "0.5",
-        "color": "3.25",
+        "r_non_routed": "0.49696352116",
+        "color": "2.4848176058",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22968,7 +24734,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.98962",
         "fftt": "4.28",
-        "color": "2.25",
+        "r_non_routed": "0.443483719069",
+        "color": "2.21741859535",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22981,7 +24748,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.05",
         "fftt": "5.13",
-        "color": "1.0",
+        "r_non_routed": "0.49151823636",
+        "color": "2.4575911818",
     }},{
     "type": "Feature",
     "geometry": {
@@ -22994,7 +24762,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23007,7 +24776,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.10339",
         "fftt": "2.11",
-        "color": "1.0",
+        "r_non_routed": "0.586794619733",
+        "color": "2.93397309866",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23020,7 +24790,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "1.15095",
         "fftt": "0.62",
-        "color": "2.5",
+        "r_non_routed": "0.521342461629",
+        "color": "2.60671230815",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23033,7 +24804,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.92864",
         "fftt": "5.17",
-        "color": "2.75",
+        "r_non_routed": "0.453708427118",
+        "color": "2.26854213559",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23046,7 +24818,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.98962",
         "fftt": "4.28",
-        "color": "2.25",
+        "r_non_routed": "0.467068182478",
+        "color": "2.33534091239",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23059,7 +24832,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23072,7 +24846,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "0.63686",
         "fftt": "1.04",
-        "color": "3.0",
+        "r_non_routed": "0.556525847384",
+        "color": "2.78262923692",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23085,7 +24860,8 @@ var geojson_features = [{
         "capacity": "8500.0",
         "length": "2.989",
         "fftt": "3.99",
-        "color": "4.25",
+        "r_non_routed": "0.424530799858",
+        "color": "2.12265399929",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23098,7 +24874,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.92864",
         "fftt": "4.63",
-        "color": "2.25",
+        "r_non_routed": "0.524617842918",
+        "color": "2.62308921459",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23111,7 +24888,8 @@ var geojson_features = [{
         "capacity": "10500.0",
         "length": "2.99149",
         "fftt": "5.5",
-        "color": "5.25",
+        "r_non_routed": "0.480392457326",
+        "color": "2.40196228663",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23124,7 +24902,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23137,7 +24916,8 @@ var geojson_features = [{
         "capacity": "8500.0",
         "length": "2.989",
         "fftt": "3.99",
-        "color": "4.25",
+        "r_non_routed": "0.353373106376",
+        "color": "1.76686553188",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23150,7 +24930,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.05061",
         "fftt": "4.31",
-        "color": "2.5",
+        "r_non_routed": "0.518524082275",
+        "color": "2.59262041138",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23163,7 +24944,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.80865",
         "fftt": "4.2",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23176,7 +24958,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23189,7 +24972,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.92864",
         "fftt": "4.63",
-        "color": "2.25",
+        "r_non_routed": "0.540187907881",
+        "color": "2.7009395394",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23202,7 +24986,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "2.99149",
         "fftt": "3.95",
-        "color": "2.0",
+        "r_non_routed": "0.50195241589",
+        "color": "2.50976207945",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23215,7 +25000,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.989",
         "fftt": "3.97",
-        "color": "2.75",
+        "r_non_routed": "0.586797709105",
+        "color": "2.93398854552",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23228,7 +25014,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.989",
         "fftt": "3.95",
-        "color": "1.25",
+        "r_non_routed": "0.546448842626",
+        "color": "2.73224421313",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23241,7 +25028,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23254,7 +25042,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.05061",
         "fftt": "4.31",
-        "color": "2.5",
+        "r_non_routed": "0.430029113401",
+        "color": "2.15014556701",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23267,7 +25056,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "2.99149",
         "fftt": "3.95",
-        "color": "2.0",
+        "r_non_routed": "0.608745716011",
+        "color": "3.04372858005",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23280,7 +25070,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.867",
         "fftt": "4.32",
-        "color": "2.25",
+        "r_non_routed": "0.677348220217",
+        "color": "3.38674110109",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23293,7 +25084,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.86765",
         "fftt": "4.67",
-        "color": "1.0",
+        "r_non_routed": "0.716559727232",
+        "color": "3.58279863616",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23306,7 +25098,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23319,7 +25112,8 @@ var geojson_features = [{
         "capacity": "8000.0",
         "length": "0.71138",
         "fftt": "0.45",
-        "color": "4.0",
+        "r_non_routed": "0.476232656935",
+        "color": "2.38116328468",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23332,7 +25126,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "3.1116",
         "fftt": "4.83",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23345,7 +25140,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.867",
         "fftt": "4.09",
-        "color": "2.5",
+        "r_non_routed": "0.505751176919",
+        "color": "2.52875588459",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23358,7 +25154,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.86765",
         "fftt": "3.66",
-        "color": "2.5",
+        "r_non_routed": "0.488743642373",
+        "color": "2.44371821186",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23371,7 +25168,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23384,7 +25182,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "0.63686",
         "fftt": "1.09",
-        "color": "1.0",
+        "r_non_routed": "0.587783956954",
+        "color": "2.93891978477",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23397,7 +25196,8 @@ var geojson_features = [{
         "capacity": "10500.0",
         "length": "2.99149",
         "fftt": "5.5",
-        "color": "5.25",
+        "r_non_routed": "0.516221588019",
+        "color": "2.58110794009",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23410,7 +25210,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.867",
         "fftt": "4.09",
-        "color": "2.5",
+        "r_non_routed": "0.424444459847",
+        "color": "2.12222229923",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23423,7 +25224,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "3.05061",
         "fftt": "5.1",
-        "color": "2.25",
+        "r_non_routed": "0.519656790145",
+        "color": "2.59828395072",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23436,7 +25238,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23449,7 +25252,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "0.82067",
         "fftt": "1.73",
-        "color": "1.75",
+        "r_non_routed": "0.535139992017",
+        "color": "2.67569996008",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23462,7 +25266,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.86765",
         "fftt": "3.66",
-        "color": "2.5",
+        "r_non_routed": "0.590259292707",
+        "color": "2.95129646353",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23475,7 +25280,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.87283",
         "fftt": "3.44",
-        "color": "1.25",
+        "r_non_routed": "0.49910542697",
+        "color": "2.49552713485",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23488,7 +25294,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.93054",
         "fftt": "4.43",
-        "color": "1.0",
+        "r_non_routed": "0.519053541418",
+        "color": "2.59526770709",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23501,7 +25308,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23514,7 +25322,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.989",
         "fftt": "3.97",
-        "color": "2.75",
+        "r_non_routed": "0.47895449152",
+        "color": "2.3947724576",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23527,7 +25336,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "3.05061",
         "fftt": "5.1",
-        "color": "2.25",
+        "r_non_routed": "0.444608508974",
+        "color": "2.22304254487",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23540,7 +25350,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.87283",
         "fftt": "3.44",
-        "color": "1.25",
+        "r_non_routed": "0.631826502227",
+        "color": "3.15913251113",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23553,7 +25364,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.92864",
         "fftt": "4.55",
-        "color": "1.75",
+        "r_non_routed": "0.487165648544",
+        "color": "2.43582824272",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23566,7 +25378,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23579,7 +25392,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "1.31398",
         "fftt": "2.69",
-        "color": "2.75",
+        "r_non_routed": "0.467629963082",
+        "color": "2.33814981541",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23592,7 +25406,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.05",
         "fftt": "5.13",
-        "color": "1.0",
+        "r_non_routed": "0.496418429928",
+        "color": "2.48209214964",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23605,7 +25420,8 @@ var geojson_features = [{
         "capacity": "7500.0",
         "length": "2.867",
         "fftt": "4.29",
-        "color": "3.75",
+        "r_non_routed": "0.491179592802",
+        "color": "2.45589796401",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23618,7 +25434,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.74771",
         "fftt": "4.18",
-        "color": "1.75",
+        "r_non_routed": "0.469080715223",
+        "color": "2.34540357611",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23631,7 +25448,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23644,7 +25462,8 @@ var geojson_features = [{
         "capacity": "8000.0",
         "length": "3.37435",
         "fftt": "4.18",
-        "color": "4.0",
+        "r_non_routed": "0.459273003426",
+        "color": "2.29636501713",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23657,7 +25476,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.14196",
         "fftt": "4.88",
-        "color": "2.5",
+        "r_non_routed": "0.484626931212",
+        "color": "2.42313465606",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23670,7 +25490,8 @@ var geojson_features = [{
         "capacity": "7500.0",
         "length": "2.867",
         "fftt": "4.29",
-        "color": "3.75",
+        "r_non_routed": "0.463025301053",
+        "color": "2.31512650527",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23683,7 +25504,8 @@ var geojson_features = [{
         "capacity": "8500.0",
         "length": "2.86765",
         "fftt": "4.55",
-        "color": "4.25",
+        "r_non_routed": "0.443146414948",
+        "color": "2.21573207474",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23696,7 +25518,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23709,7 +25532,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.28404",
         "fftt": "2.02",
-        "color": "1.75",
+        "r_non_routed": "0.492014306781",
+        "color": "2.4600715339",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23722,7 +25546,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.928",
         "fftt": "4.23",
-        "color": "2.75",
+        "r_non_routed": "0.471712559009",
+        "color": "2.35856279504",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23735,7 +25560,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.74771",
         "fftt": "4.18",
-        "color": "1.75",
+        "r_non_routed": "0.481443983787",
+        "color": "2.40721991893",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23748,7 +25574,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.93054",
         "fftt": "4.14",
-        "color": "2.5",
+        "r_non_routed": "0.526691767121",
+        "color": "2.63345883561",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23761,7 +25588,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23774,7 +25602,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.41317",
         "fftt": "2.45",
-        "color": "1.75",
+        "r_non_routed": "0.661625787824",
+        "color": "3.30812893912",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23787,7 +25616,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.51953",
         "fftt": "3.08",
-        "color": "1.75",
+        "r_non_routed": "0.628530674266",
+        "color": "3.14265337133",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23800,7 +25630,8 @@ var geojson_features = [{
         "capacity": "8500.0",
         "length": "2.86765",
         "fftt": "4.55",
-        "color": "4.25",
+        "r_non_routed": "0.458376758232",
+        "color": "2.29188379116",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23813,7 +25644,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.93054",
         "fftt": "4.14",
-        "color": "2.5",
+        "r_non_routed": "0.47588637174",
+        "color": "2.3794318587",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23826,7 +25658,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23839,7 +25672,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.85219",
         "fftt": "4.39",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23852,7 +25686,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "1.17811",
         "fftt": "1.74",
-        "color": "1.75",
+        "r_non_routed": "0.53608645439",
+        "color": "2.68043227195",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23865,7 +25700,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "1.18441",
         "fftt": "2.79",
-        "color": "1.75",
+        "r_non_routed": "0.342308620366",
+        "color": "1.71154310183",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23878,7 +25714,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "3.24219",
         "fftt": "4.12",
-        "color": "1.25",
+        "r_non_routed": "0.427641204036",
+        "color": "2.13820602018",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23891,7 +25728,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23904,7 +25742,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "1.81366",
         "fftt": "2.9",
-        "color": "1.0",
+        "r_non_routed": "0.471386668335",
+        "color": "2.35693334168",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23917,7 +25756,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "5.856",
         "fftt": "6.96",
-        "color": "1.5",
+        "r_non_routed": "0.498814844964",
+        "color": "2.49407422482",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23930,7 +25770,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "5.81647",
         "fftt": "6.99",
-        "color": "2.0",
+        "r_non_routed": "0.475233489653",
+        "color": "2.37616744826",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23943,7 +25784,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "16.7325",
         "fftt": "20.04",
-        "color": "1.5",
+        "r_non_routed": "0.552669939808",
+        "color": "2.76334969904",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23956,7 +25798,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23969,7 +25812,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "1.26933",
         "fftt": "0.53",
-        "color": "1.5",
+        "r_non_routed": "0.542848368635",
+        "color": "2.71424184317",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23982,7 +25826,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "5.856",
         "fftt": "6.96",
-        "color": "1.5",
+        "r_non_routed": "0.551541944915",
+        "color": "2.75770972458",
     }},{
     "type": "Feature",
     "geometry": {
@@ -23995,7 +25840,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "4.64922",
         "fftt": "5.49",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24008,7 +25854,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "4.59164",
         "fftt": "5.92",
-        "color": "1.25",
+        "r_non_routed": "0.625984460494",
+        "color": "3.12992230247",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24021,7 +25868,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "6.1003",
         "fftt": "7.69",
-        "color": "1.25",
+        "r_non_routed": "0.607023232841",
+        "color": "3.0351161642",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24034,7 +25882,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24047,7 +25896,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "4.70926",
         "fftt": "5.72",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24060,7 +25910,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.86765",
         "fftt": "5.11",
-        "color": "1.5",
+        "r_non_routed": "0.77221529772",
+        "color": "3.8610764886",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24073,7 +25924,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.867",
         "fftt": "3.52",
-        "color": "1.25",
+        "r_non_routed": "0.560864005589",
+        "color": "2.80432002795",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24086,7 +25938,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24099,7 +25952,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "4.64922",
         "fftt": "5.49",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24112,7 +25966,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.05061",
         "fftt": "4.09",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24125,7 +25980,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.74568",
         "fftt": "3.19",
-        "color": "1.25",
+        "r_non_routed": "0.223480574927",
+        "color": "1.11740287464",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24138,7 +25994,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24151,7 +26008,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.70953",
         "fftt": "2.62",
-        "color": "1.75",
+        "r_non_routed": "0.733407998019",
+        "color": "3.6670399901",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24164,7 +26022,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "4.70689",
         "fftt": "7.48",
-        "color": "1.0",
+        "r_non_routed": "0.728629802561",
+        "color": "3.64314901281",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24177,7 +26036,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.86765",
         "fftt": "5.11",
-        "color": "1.5",
+        "r_non_routed": "0.744171920681",
+        "color": "3.72085960341",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24190,7 +26050,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.05061",
         "fftt": "4.28",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24203,7 +26064,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24216,7 +26078,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "1.675",
         "fftt": "1.05",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24229,7 +26092,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "4.59164",
         "fftt": "5.92",
-        "color": "1.25",
+        "r_non_routed": "0.877483025926",
+        "color": "4.38741512963",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24242,7 +26106,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.05061",
         "fftt": "4.09",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24255,7 +26120,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.05061",
         "fftt": "4.28",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24268,7 +26134,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.33721",
         "fftt": "6.77",
-        "color": "1.0",
+        "r_non_routed": "0.485085985101",
+        "color": "2.42542992551",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24281,7 +26148,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24294,7 +26162,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "5.81647",
         "fftt": "6.99",
-        "color": "2.0",
+        "r_non_routed": "0.459989587306",
+        "color": "2.29994793653",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24307,7 +26176,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "5.673",
         "fftt": "6.66",
-        "color": "2.25",
+        "r_non_routed": "0.493589164829",
+        "color": "2.46794582415",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24320,7 +26190,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "5.79532",
         "fftt": "6.95",
-        "color": "1.75",
+        "r_non_routed": "0.486561495986",
+        "color": "2.43280747993",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24333,7 +26204,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "11.385",
         "fftt": "13.61",
-        "color": "1.75",
+        "r_non_routed": "0.412530487805",
+        "color": "2.06265243902",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24346,7 +26218,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24359,7 +26232,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "4.71637",
         "fftt": "6.36",
-        "color": "1.5",
+        "r_non_routed": "0.575826158686",
+        "color": "2.87913079343",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24372,7 +26246,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "5.673",
         "fftt": "6.66",
-        "color": "2.25",
+        "r_non_routed": "0.387333810754",
+        "color": "1.93666905377",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24385,7 +26260,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "4.49955",
         "fftt": "5.36",
-        "color": "1.25",
+        "r_non_routed": "0.562359786345",
+        "color": "2.81179893172",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24398,7 +26274,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "4.51647",
         "fftt": "5.28",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24411,7 +26288,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "5.673",
         "fftt": "6.62",
-        "color": "1.25",
+        "r_non_routed": "0.634410008821",
+        "color": "3.1720500441",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24424,7 +26302,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24437,7 +26316,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "0.61304",
         "fftt": "1.87",
-        "color": "1.75",
+        "r_non_routed": "0.867129714899",
+        "color": "4.3356485745",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24450,7 +26330,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.928",
         "fftt": "5.17",
-        "color": "1.5",
+        "r_non_routed": "0.295569052518",
+        "color": "1.47784526259",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24463,7 +26344,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.33721",
         "fftt": "6.77",
-        "color": "1.0",
+        "r_non_routed": "0.550696467391",
+        "color": "2.75348233696",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24476,7 +26358,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "2.86959",
         "fftt": "4.09",
-        "color": "2.0",
+        "r_non_routed": "0.594358054381",
+        "color": "2.97179027191",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24489,7 +26372,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "2.62371",
         "fftt": "4.45",
-        "color": "3.5",
+        "r_non_routed": "0.623602240329",
+        "color": "3.11801120164",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24502,7 +26386,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24515,7 +26400,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "1.60466",
         "fftt": "2.98",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24528,7 +26414,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "4.49955",
         "fftt": "5.36",
-        "color": "1.25",
+        "r_non_routed": "0.830045978033",
+        "color": "4.15022989017",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24541,7 +26428,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "2.86959",
         "fftt": "4.09",
-        "color": "2.0",
+        "r_non_routed": "0.518755871818",
+        "color": "2.59377935909",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24554,7 +26442,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.501",
         "fftt": "3.9",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24567,7 +26456,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24580,7 +26470,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "2.99149",
         "fftt": "3.99",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24593,7 +26484,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "2.62371",
         "fftt": "4.45",
-        "color": "3.5",
+        "r_non_routed": "0.600095871807",
+        "color": "3.00047935903",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24606,7 +26498,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "2.806",
         "fftt": "3.73",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24619,7 +26512,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "3.05549",
         "fftt": "3.79",
-        "color": "1.25",
+        "r_non_routed": "0.538235375665",
+        "color": "2.69117687833",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24632,7 +26526,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24645,7 +26540,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "4.51647",
         "fftt": "5.28",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24658,7 +26554,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.501",
         "fftt": "3.9",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24671,7 +26568,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "2.806",
         "fftt": "3.73",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24684,7 +26582,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.989",
         "fftt": "3.95",
-        "color": "1.0",
+        "r_non_routed": "0.269672819952",
+        "color": "1.34836409976",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24697,7 +26596,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24710,7 +26610,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "5.79532",
         "fftt": "6.95",
-        "color": "1.75",
+        "r_non_routed": "0.465516067462",
+        "color": "2.32758033731",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24723,7 +26624,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "5.61333",
         "fftt": "6.58",
-        "color": "2.0",
+        "r_non_routed": "0.504707268561",
+        "color": "2.52353634281",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24736,7 +26638,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "5.91731",
         "fftt": "7.07",
-        "color": "1.5",
+        "r_non_routed": "0.484141513018",
+        "color": "2.42070756509",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24749,7 +26652,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "7.75444",
         "fftt": "9.25",
-        "color": "1.5",
+        "r_non_routed": "0.539471925772",
+        "color": "2.69735962886",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24762,7 +26666,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24775,7 +26680,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "5.673",
         "fftt": "6.62",
-        "color": "1.25",
+        "r_non_routed": "0.570394804472",
+        "color": "2.85197402236",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24788,7 +26694,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "5.61333",
         "fftt": "6.58",
-        "color": "2.0",
+        "r_non_routed": "0.555747224878",
+        "color": "2.77873612439",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24801,7 +26708,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "4.55258",
         "fftt": "5.41",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24814,7 +26722,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "4.71242",
         "fftt": "5.5",
-        "color": "1.25",
+        "r_non_routed": "0.649194469772",
+        "color": "3.24597234886",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24827,7 +26736,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "5.85632",
         "fftt": "7.03",
-        "color": "1.5",
+        "r_non_routed": "0.499057959793",
+        "color": "2.49528979896",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24840,7 +26750,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24853,7 +26764,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "2.86959",
         "fftt": "3.58",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24866,7 +26778,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "3.05549",
         "fftt": "3.79",
-        "color": "1.25",
+        "r_non_routed": "0.519016199862",
+        "color": "2.59508099931",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24879,7 +26792,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.98962",
         "fftt": "4.28",
-        "color": "1.0",
+        "r_non_routed": "0.972818171732",
+        "color": "4.86409085866",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24892,7 +26806,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "2.86959",
         "fftt": "4.0",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24905,7 +26820,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24918,7 +26834,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.989",
         "fftt": "3.95",
-        "color": "1.0",
+        "r_non_routed": "0.28446649782",
+        "color": "1.4223324891",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24931,7 +26848,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "4.55258",
         "fftt": "5.41",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24944,7 +26862,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.98962",
         "fftt": "4.28",
-        "color": "1.0",
+        "r_non_routed": "0.680043955619",
+        "color": "3.40021977809",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24957,7 +26876,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.1116",
         "fftt": "4.08",
-        "color": "1.0",
+        "r_non_routed": "0.769670968755",
+        "color": "3.84835484377",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24970,7 +26890,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24983,7 +26904,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.928",
         "fftt": "4.5",
-        "color": "1.0",
+        "r_non_routed": "0.816450178668",
+        "color": "4.08225089334",
     }},{
     "type": "Feature",
     "geometry": {
@@ -24996,7 +26918,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "2.86959",
         "fftt": "4.0",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25009,7 +26932,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.81196",
         "fftt": "4.0",
-        "color": "1.5",
+        "r_non_routed": "0.750053356595",
+        "color": "3.75026678297",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25022,7 +26946,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.989",
         "fftt": "3.74",
-        "color": "2.25",
+        "r_non_routed": "0.490289715189",
+        "color": "2.45144857595",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25035,7 +26960,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25048,7 +26974,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "4.71242",
         "fftt": "5.5",
-        "color": "1.25",
+        "r_non_routed": "0.707613460007",
+        "color": "3.53806730004",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25061,7 +26988,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.1116",
         "fftt": "4.08",
-        "color": "1.0",
+        "r_non_routed": "0.682642769862",
+        "color": "3.41321384931",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25074,7 +27002,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.81196",
         "fftt": "4.0",
-        "color": "1.5",
+        "r_non_routed": "0.727934049226",
+        "color": "3.63967024613",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25087,7 +27016,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.928",
         "fftt": "4.39",
-        "color": "2.25",
+        "r_non_routed": "0.618265987483",
+        "color": "3.09132993742",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25100,7 +27030,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25113,7 +27044,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.04509",
         "fftt": "1.54",
-        "color": "1.0",
+        "r_non_routed": "0.48151972735",
+        "color": "2.40759863675",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25126,7 +27058,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "5.91731",
         "fftt": "7.07",
-        "color": "1.5",
+        "r_non_routed": "0.459919244193",
+        "color": "2.29959622097",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25139,7 +27072,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "5.73692",
         "fftt": "6.74",
-        "color": "2.0",
+        "r_non_routed": "0.418774324544",
+        "color": "2.09387162272",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25152,7 +27086,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "7.53294",
         "fftt": "9.38",
-        "color": "2.0",
+        "r_non_routed": "0.461666957541",
+        "color": "2.3083347877",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25165,7 +27100,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25178,7 +27114,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "4.24465",
         "fftt": "4.8",
-        "color": "1.75",
+        "r_non_routed": "0.369959628228",
+        "color": "1.84979814114",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25191,7 +27128,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "5.85632",
         "fftt": "7.03",
-        "color": "1.5",
+        "r_non_routed": "0.512846511096",
+        "color": "2.56423255548",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25204,7 +27142,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "5.73692",
         "fftt": "6.74",
-        "color": "2.0",
+        "r_non_routed": "0.384733103037",
+        "color": "1.92366551519",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25217,7 +27156,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "4.49955",
         "fftt": "5.71",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25230,7 +27170,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "4.51977",
         "fftt": "5.26",
-        "color": "1.0",
+        "r_non_routed": "0.673850703079",
+        "color": "3.36925351539",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25243,7 +27184,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25256,7 +27198,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.92864",
         "fftt": "3.91",
-        "color": "1.75",
+        "r_non_routed": "0.470066826992",
+        "color": "2.35033413496",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25269,7 +27212,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.989",
         "fftt": "3.74",
-        "color": "2.25",
+        "r_non_routed": "0.565750670511",
+        "color": "2.82875335256",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25282,7 +27226,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.80865",
         "fftt": "4.0",
-        "color": "2.5",
+        "r_non_routed": "0.487057165453",
+        "color": "2.43528582726",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25295,7 +27240,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.92864",
         "fftt": "4.18",
-        "color": "1.75",
+        "r_non_routed": "0.427604914794",
+        "color": "2.13802457397",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25308,7 +27254,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25321,7 +27268,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.928",
         "fftt": "4.39",
-        "color": "2.25",
+        "r_non_routed": "0.494882642003",
+        "color": "2.47441321002",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25334,7 +27282,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "4.49955",
         "fftt": "5.71",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25347,7 +27296,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.80865",
         "fftt": "4.0",
-        "color": "2.5",
+        "r_non_routed": "0.558583364306",
+        "color": "2.79291682153",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25360,7 +27310,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "2.86959",
         "fftt": "4.3",
-        "color": "2.0",
+        "r_non_routed": "0.530488863429",
+        "color": "2.65244431715",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25373,7 +27324,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25386,7 +27338,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "3.17024",
         "fftt": "3.35",
-        "color": "2.0",
+        "r_non_routed": "0.489769580744",
+        "color": "2.44884790372",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25399,7 +27352,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "2.92864",
         "fftt": "3.91",
-        "color": "0.5",
+        "r_non_routed": "0.319708181027",
+        "color": "1.59854090513",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25412,7 +27366,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.92864",
         "fftt": "4.18",
-        "color": "1.75",
+        "r_non_routed": "0.453171852988",
+        "color": "2.26585926494",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25425,7 +27380,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.98962",
         "fftt": "4.49",
-        "color": "1.5",
+        "r_non_routed": "0.427230011038",
+        "color": "2.13615005519",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25438,7 +27394,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25451,7 +27408,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.20061",
         "fftt": "3.29",
-        "color": "1.75",
+        "r_non_routed": "0.555768887019",
+        "color": "2.77884443509",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25464,7 +27422,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "4.51977",
         "fftt": "5.26",
-        "color": "1.0",
+        "r_non_routed": "0.673579313271",
+        "color": "3.36789656635",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25477,7 +27436,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "2.86959",
         "fftt": "4.3",
-        "color": "2.0",
+        "r_non_routed": "0.554800840767",
+        "color": "2.77400420383",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25490,7 +27450,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.98962",
         "fftt": "4.49",
-        "color": "1.5",
+        "r_non_routed": "0.426669275794",
+        "color": "2.13334637897",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25503,7 +27464,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25516,7 +27478,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.95137",
         "fftt": "5.28",
-        "color": "1.0",
+        "r_non_routed": "0.101086130938",
+        "color": "0.50543065469",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25529,7 +27492,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "8.19718",
         "fftt": "9.84",
-        "color": "1.75",
+        "r_non_routed": "0.430175935824",
+        "color": "2.15087967912",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25542,7 +27506,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "5.79789",
         "fftt": "6.82",
-        "color": "1.5",
+        "r_non_routed": "0.52423513715",
+        "color": "2.62117568575",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25555,7 +27520,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "6.222",
         "fftt": "7.94",
-        "color": "2.0",
+        "r_non_routed": "0.14513505812",
+        "color": "0.725675290599",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25568,7 +27534,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25581,7 +27548,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "1.75633",
         "fftt": "3.01",
-        "color": "1.75",
+        "r_non_routed": "0.618099167316",
+        "color": "3.09049583658",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25594,7 +27562,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "5.79789",
         "fftt": "6.82",
-        "color": "1.5",
+        "r_non_routed": "0.626882933087",
+        "color": "3.13441466544",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25607,7 +27576,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "4.49955",
         "fftt": "5.96",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25620,7 +27590,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "4.70175",
         "fftt": "5.9",
-        "color": "1.25",
+        "r_non_routed": "0.73651416427",
+        "color": "3.68257082135",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25633,7 +27604,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "5.85886",
         "fftt": "6.95",
-        "color": "2.5",
+        "r_non_routed": "0.399307868678",
+        "color": "1.99653934339",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25646,7 +27618,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25659,7 +27632,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "0.62208",
         "fftt": "0.65",
-        "color": "2.0",
+        "r_non_routed": "0.526292120877",
+        "color": "2.63146060438",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25672,7 +27646,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.80865",
         "fftt": "4.2",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25685,7 +27660,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.80666",
         "fftt": "3.91",
-        "color": "2.25",
+        "r_non_routed": "0.447696679834",
+        "color": "2.23848339917",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25698,7 +27674,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.928",
         "fftt": "4.88",
-        "color": "2.5",
+        "r_non_routed": "0.597279523874",
+        "color": "2.98639761937",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25711,7 +27688,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25724,7 +27702,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "0.63686",
         "fftt": "0.54",
-        "color": "1.75",
+        "r_non_routed": "0.53335890749",
+        "color": "2.66679453745",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25737,7 +27716,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "4.49955",
         "fftt": "5.96",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25750,7 +27730,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.80666",
         "fftt": "3.91",
-        "color": "2.25",
+        "r_non_routed": "0.335601870111",
+        "color": "1.67800935056",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25763,7 +27744,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "3.05",
         "fftt": "5.19",
-        "color": "1.5",
+        "r_non_routed": "0.484826300432",
+        "color": "2.42413150216",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25776,7 +27758,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25789,7 +27772,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.867",
         "fftt": "4.32",
-        "color": "2.25",
+        "r_non_routed": "0.568062959362",
+        "color": "2.84031479681",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25802,7 +27786,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.928",
         "fftt": "4.88",
-        "color": "2.5",
+        "r_non_routed": "0.594522655832",
+        "color": "2.97261327916",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25815,7 +27800,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.81196",
         "fftt": "4.67",
-        "color": "3.25",
+        "r_non_routed": "0.589369892314",
+        "color": "2.94684946157",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25828,7 +27814,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "4.70926",
         "fftt": "6.66",
-        "color": "1.75",
+        "r_non_routed": "0.513026636895",
+        "color": "2.56513318448",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25841,7 +27828,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25854,7 +27842,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "4.70175",
         "fftt": "5.9",
-        "color": "1.25",
+        "r_non_routed": "0.833533156104",
+        "color": "4.16766578052",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25867,7 +27856,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "3.05",
         "fftt": "5.19",
-        "color": "1.5",
+        "r_non_routed": "0.513071652382",
+        "color": "2.56535826191",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25880,7 +27870,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.81196",
         "fftt": "4.67",
-        "color": "3.25",
+        "r_non_routed": "0.571636322739",
+        "color": "2.85818161369",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25893,7 +27884,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "4.57175",
         "fftt": "5.36",
-        "color": "1.0",
+        "r_non_routed": "0.674967108258",
+        "color": "3.37483554129",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25906,7 +27898,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25919,7 +27912,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.47218",
         "fftt": "4.28",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25932,7 +27926,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.85267",
         "fftt": "5.38",
-        "color": "1.0",
+        "r_non_routed": "0.608429881281",
+        "color": "3.04214940641",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25945,7 +27940,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "5.79789",
         "fftt": "8.62",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25958,7 +27954,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.867",
         "fftt": "3.52",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25971,7 +27968,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "5.81551",
         "fftt": "8.24",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25984,7 +27982,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -25997,7 +27996,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "3.41273",
         "fftt": "5.07",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26010,7 +28010,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.05244",
         "fftt": "4.11",
-        "color": "1.0",
+        "r_non_routed": "0.731536769113",
+        "color": "3.65768384556",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26023,7 +28024,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.68469",
         "fftt": "3.38",
-        "color": "1.0",
+        "r_non_routed": "0.95405473986",
+        "color": "4.7702736993",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26036,7 +28038,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "4.60136",
         "fftt": "5.84",
-        "color": "1.0",
+        "r_non_routed": "0.887640103152",
+        "color": "4.43820051576",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26049,7 +28052,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26062,7 +28066,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.47218",
         "fftt": "4.28",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26075,7 +28080,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.05244",
         "fftt": "4.11",
-        "color": "1.0",
+        "r_non_routed": "0.871783646986",
+        "color": "4.35891823493",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26088,7 +28094,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.63432",
         "fftt": "3.99",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26101,7 +28108,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "4.84825",
         "fftt": "7.59",
-        "color": "1.0",
+        "r_non_routed": "0.911752906869",
+        "color": "4.55876453435",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26114,7 +28122,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26127,7 +28136,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.68469",
         "fftt": "3.38",
-        "color": "1.0",
+        "r_non_routed": "0.936702816657",
+        "color": "4.68351408329",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26140,7 +28150,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "2.86765",
         "fftt": "4.07",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26153,7 +28164,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "4.72701",
         "fftt": "6.77",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26166,7 +28178,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "3.05061",
         "fftt": "3.8",
-        "color": "1.25",
+        "r_non_routed": "0.875173930137",
+        "color": "4.37586965069",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26179,7 +28192,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26192,7 +28206,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.85267",
         "fftt": "5.38",
-        "color": "1.0",
+        "r_non_routed": "0.636633909933",
+        "color": "3.18316954966",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26205,7 +28220,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.63432",
         "fftt": "3.99",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26218,7 +28234,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "2.86765",
         "fftt": "4.07",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26231,7 +28248,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.99149",
         "fftt": "3.74",
-        "color": "1.25",
+        "r_non_routed": "0.57785575487",
+        "color": "2.88927877435",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26244,7 +28262,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26257,7 +28276,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "1.62768",
         "fftt": "1.44",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26270,7 +28290,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "4.72701",
         "fftt": "6.77",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26283,7 +28304,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "5.38599",
         "fftt": "7.11",
-        "color": "1.25",
+        "r_non_routed": "0.744442731329",
+        "color": "3.72221365664",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26296,7 +28318,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "5.38772",
         "fftt": "7.62",
-        "color": "1.0",
+        "r_non_routed": "0.670348725351",
+        "color": "3.35174362675",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26309,7 +28332,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "4.84211",
         "fftt": "6.11",
-        "color": "1.5",
+        "r_non_routed": "0.411468819307",
+        "color": "2.05734409653",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26322,7 +28346,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "4.68748",
         "fftt": "6.51",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26335,7 +28360,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "6.67441",
         "fftt": "8.94",
-        "color": "1.25",
+        "r_non_routed": "0.756803205617",
+        "color": "3.78401602809",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26348,7 +28374,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "6.49471",
         "fftt": "9.71",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26361,7 +28388,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26374,7 +28402,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "5.38599",
         "fftt": "7.11",
-        "color": "1.25",
+        "r_non_routed": "0.433563366238",
+        "color": "2.16781683119",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26387,7 +28416,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "2.68469",
         "fftt": "3.79",
-        "color": "3.0",
+        "r_non_routed": "0.282931571117",
+        "color": "1.41465785558",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26400,7 +28430,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "5.01982",
         "fftt": "6.24",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26413,7 +28444,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26426,7 +28458,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "5.38772",
         "fftt": "7.62",
-        "color": "1.0",
+        "r_non_routed": "0.432097611029",
+        "color": "2.16048805515",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26439,7 +28472,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "2.68469",
         "fftt": "3.79",
-        "color": "3.0",
+        "r_non_routed": "0.271102948099",
+        "color": "1.35551474049",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26452,7 +28486,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "2.92864",
         "fftt": "4.75",
-        "color": "2.0",
+        "r_non_routed": "0.459902423586",
+        "color": "2.29951211793",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26465,7 +28500,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26478,7 +28514,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "5.79789",
         "fftt": "8.62",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26491,7 +28528,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.47754",
         "fftt": "4.66",
-        "color": "1.0",
+        "r_non_routed": "0.673356228191",
+        "color": "3.36678114096",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26504,7 +28542,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.60107",
         "fftt": "4.84",
-        "color": "1.0",
+        "r_non_routed": "0.654341559466",
+        "color": "3.27170779733",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26517,7 +28556,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "5.91826",
         "fftt": "7.09",
-        "color": "2.0",
+        "r_non_routed": "0.546188756254",
+        "color": "2.73094378127",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26530,7 +28570,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.05",
         "fftt": "3.98",
-        "color": "0.5",
+        "r_non_routed": "0.550523054877",
+        "color": "2.75261527439",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26543,7 +28584,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26556,7 +28598,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "3.05061",
         "fftt": "3.8",
-        "color": "1.25",
+        "r_non_routed": "0.849232682684",
+        "color": "4.24616341342",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26569,7 +28612,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "3.05",
         "fftt": "4.52",
-        "color": "1.5",
+        "r_non_routed": "0.755049901507",
+        "color": "3.77524950754",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26582,7 +28626,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.806",
         "fftt": "3.85",
-        "color": "1.0",
+        "r_non_routed": "0.685621648496",
+        "color": "3.42810824248",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26595,7 +28640,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.989",
         "fftt": "4.47",
-        "color": "1.25",
+        "r_non_routed": "0.73333131402",
+        "color": "3.6666565701",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26608,7 +28654,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26621,7 +28668,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.99149",
         "fftt": "3.74",
-        "color": "1.25",
+        "r_non_routed": "0.617023344175",
+        "color": "3.08511672087",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26634,7 +28682,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.47754",
         "fftt": "4.66",
-        "color": "1.0",
+        "r_non_routed": "0.700416648529",
+        "color": "3.50208324265",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26647,7 +28696,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "3.05",
         "fftt": "4.52",
-        "color": "1.5",
+        "r_non_routed": "0.750592697894",
+        "color": "3.75296348947",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26660,7 +28710,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.867",
         "fftt": "4.92",
-        "color": "2.25",
+        "r_non_routed": "0.245692870393",
+        "color": "1.22846435196",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26673,7 +28724,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26686,7 +28738,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.806",
         "fftt": "3.85",
-        "color": "1.0",
+        "r_non_routed": "0.556891458932",
+        "color": "2.78445729466",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26699,7 +28752,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.05061",
         "fftt": "5.32",
-        "color": "1.0",
+        "r_non_routed": "0.628719167829",
+        "color": "3.14359583914",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26712,7 +28766,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.867",
         "fftt": "4.1",
-        "color": "1.75",
+        "r_non_routed": "0.637159318791",
+        "color": "3.18579659395",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26725,7 +28780,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.98962",
         "fftt": "3.65",
-        "color": "1.5",
+        "r_non_routed": "0.646212628211",
+        "color": "3.23106314105",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26738,7 +28794,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26751,7 +28808,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.60107",
         "fftt": "4.84",
-        "color": "1.0",
+        "r_non_routed": "0.681395981785",
+        "color": "3.40697990893",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26764,7 +28822,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.867",
         "fftt": "4.92",
-        "color": "2.25",
+        "r_non_routed": "0.385864550659",
+        "color": "1.92932275329",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26777,7 +28836,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.05061",
         "fftt": "5.32",
-        "color": "1.0",
+        "r_non_routed": "0.700709127112",
+        "color": "3.50354563556",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26790,7 +28850,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "2.92864",
         "fftt": "4.09",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26803,7 +28864,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26816,7 +28878,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.501",
         "fftt": "2.57",
-        "color": "1.5",
+        "r_non_routed": "0.670032466655",
+        "color": "3.35016233327",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26829,7 +28892,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "4.84211",
         "fftt": "6.11",
-        "color": "1.5",
+        "r_non_routed": "0.5419264241",
+        "color": "2.7096321205",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26842,7 +28906,8 @@ var geojson_features = [{
         "capacity": "8000.0",
         "length": "2.74771",
         "fftt": "4.36",
-        "color": "4.0",
+        "r_non_routed": "0.531966639767",
+        "color": "2.65983319883",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26855,7 +28920,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "3.66457",
         "fftt": "4.87",
-        "color": "1.5",
+        "r_non_routed": "0.632172275393",
+        "color": "3.16086137697",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26868,7 +28934,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26881,7 +28948,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "0.90683",
         "fftt": "1.68",
-        "color": "1.5",
+        "r_non_routed": "0.657648908721",
+        "color": "3.28824454361",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26894,7 +28962,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "4.68748",
         "fftt": "6.51",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26907,7 +28976,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.989",
         "fftt": "4.47",
-        "color": "1.25",
+        "r_non_routed": "0.677769546077",
+        "color": "3.38884773039",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26920,7 +28990,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.80865",
         "fftt": "3.69",
-        "color": "1.0",
+        "r_non_routed": "0.335128586717",
+        "color": "1.67564293359",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26933,7 +29004,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26946,7 +29018,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "1.47413",
         "fftt": "0.94",
-        "color": "1.0",
+        "r_non_routed": "0.640259729682",
+        "color": "3.20129864841",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26959,7 +29032,8 @@ var geojson_features = [{
         "capacity": "8000.0",
         "length": "2.74771",
         "fftt": "4.36",
-        "color": "4.0",
+        "r_non_routed": "0.638364602263",
+        "color": "3.19182301131",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26972,7 +29046,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "3.29456",
         "fftt": "4.66",
-        "color": "2.25",
+        "r_non_routed": "0.690450691668",
+        "color": "3.45225345834",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26985,7 +29060,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.98962",
         "fftt": "3.45",
-        "color": "1.75",
+        "r_non_routed": "0.635492638521",
+        "color": "3.1774631926",
     }},{
     "type": "Feature",
     "geometry": {
@@ -26998,7 +29074,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27011,7 +29088,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "1.83508",
         "fftt": "2.86",
-        "color": "1.0",
+        "r_non_routed": "0.585941956881",
+        "color": "2.92970978441",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27024,7 +29102,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.867",
         "fftt": "4.1",
-        "color": "1.75",
+        "r_non_routed": "0.566059776212",
+        "color": "2.83029888106",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27037,7 +29116,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.80865",
         "fftt": "3.69",
-        "color": "1.0",
+        "r_non_routed": "0.384775707317",
+        "color": "1.92387853659",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27050,7 +29130,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.1116",
         "fftt": "3.86",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27063,7 +29144,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27076,7 +29158,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "2.92864",
         "fftt": "4.75",
-        "color": "2.0",
+        "r_non_routed": "0.425930012237",
+        "color": "2.12965006118",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27089,7 +29172,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "3.66457",
         "fftt": "4.87",
-        "color": "1.5",
+        "r_non_routed": "0.599200698927",
+        "color": "2.99600349464",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27102,7 +29186,8 @@ var geojson_features = [{
         "capacity": "9000.0",
         "length": "2.90824",
         "fftt": "4.52",
-        "color": "4.5",
+        "r_non_routed": "0.490124463648",
+        "color": "2.45062231824",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27115,7 +29200,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27128,7 +29214,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "3.29456",
         "fftt": "4.66",
-        "color": "2.25",
+        "r_non_routed": "0.665943606163",
+        "color": "3.32971803081",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27141,7 +29228,8 @@ var geojson_features = [{
         "capacity": "9000.0",
         "length": "2.90824",
         "fftt": "4.52",
-        "color": "4.5",
+        "r_non_routed": "0.461911474248",
+        "color": "2.30955737124",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27154,7 +29242,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "3.07188",
         "fftt": "4.83",
-        "color": "3.25",
+        "r_non_routed": "0.575056616429",
+        "color": "2.87528308214",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27167,7 +29256,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27180,7 +29270,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "5.91826",
         "fftt": "7.09",
-        "color": "2.0",
+        "r_non_routed": "0.73046570224",
+        "color": "3.6523285112",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27193,7 +29284,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "3.69289",
         "fftt": "4.43",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27206,7 +29298,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "3.74095",
         "fftt": "4.7",
-        "color": "1.5",
+        "r_non_routed": "0.408882313485",
+        "color": "2.04441156743",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27219,7 +29312,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "5.856",
         "fftt": "7.48",
-        "color": "1.0",
+        "r_non_routed": "0.937399170439",
+        "color": "4.68699585219",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27232,7 +29326,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.93054",
         "fftt": "3.71",
-        "color": "1.5",
+        "r_non_routed": "0.228035775655",
+        "color": "1.14017887827",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27245,7 +29340,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27258,7 +29354,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.98962",
         "fftt": "3.65",
-        "color": "1.5",
+        "r_non_routed": "0.663941336596",
+        "color": "3.31970668298",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27271,7 +29368,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "2.928",
         "fftt": "3.87",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27284,7 +29382,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.111",
         "fftt": "3.87",
-        "color": "1.0",
+        "r_non_routed": "0.549802388641",
+        "color": "2.74901194321",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27297,7 +29396,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.99149",
         "fftt": "4.07",
-        "color": "2.75",
+        "r_non_routed": "0.576117913257",
+        "color": "2.88058956629",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27310,7 +29410,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27323,7 +29424,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "2.92864",
         "fftt": "4.09",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27336,7 +29438,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "3.69289",
         "fftt": "4.43",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27349,7 +29452,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "2.928",
         "fftt": "3.87",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27362,7 +29466,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.928",
         "fftt": "3.59",
-        "color": "1.0",
+        "r_non_routed": "0.0486032059209",
+        "color": "0.243016029605",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27375,7 +29480,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27388,7 +29494,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.111",
         "fftt": "3.87",
-        "color": "1.0",
+        "r_non_routed": "0.556123657442",
+        "color": "2.78061828721",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27401,7 +29508,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.93371",
         "fftt": "3.63",
-        "color": "1.25",
+        "r_non_routed": "0.58456288876",
+        "color": "2.9228144438",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27414,7 +29522,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "2.93054",
         "fftt": "4.63",
-        "color": "3.0",
+        "r_non_routed": "0.58968731526",
+        "color": "2.9484365763",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27427,7 +29536,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "2.80666",
         "fftt": "3.6",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27440,7 +29550,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27453,7 +29564,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "3.74095",
         "fftt": "4.7",
-        "color": "1.5",
+        "r_non_routed": "0.510777887643",
+        "color": "2.55388943821",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27466,7 +29578,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.928",
         "fftt": "3.59",
-        "color": "1.0",
+        "r_non_routed": "0.233973847208",
+        "color": "1.16986923604",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27479,7 +29592,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.93371",
         "fftt": "3.63",
-        "color": "1.25",
+        "r_non_routed": "0.497200241068",
+        "color": "2.48600120534",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27492,7 +29606,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.928",
         "fftt": "3.82",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27505,7 +29620,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27518,7 +29634,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "0.61",
         "fftt": "0.87",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27531,7 +29648,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.98962",
         "fftt": "3.45",
-        "color": "1.75",
+        "r_non_routed": "0.644862632263",
+        "color": "3.22431316131",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27544,7 +29662,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.92864",
         "fftt": "4.19",
-        "color": "1.25",
+        "r_non_routed": "0.844831260156",
+        "color": "4.22415630078",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27557,7 +29676,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "2.74568",
         "fftt": "4.48",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27570,7 +29690,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27583,7 +29704,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.1116",
         "fftt": "3.86",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27596,7 +29718,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.99149",
         "fftt": "4.07",
-        "color": "2.75",
+        "r_non_routed": "0.360480522247",
+        "color": "1.80240261124",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27609,7 +29732,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.92864",
         "fftt": "4.19",
-        "color": "1.25",
+        "r_non_routed": "0.701359514633",
+        "color": "3.50679757316",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27622,7 +29746,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.86765",
         "fftt": "4.7",
-        "color": "2.25",
+        "r_non_routed": "0.63635495339",
+        "color": "3.18177476695",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27635,7 +29760,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27648,7 +29774,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "0.69551",
         "fftt": "0.6",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27661,7 +29788,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "2.74568",
         "fftt": "4.48",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27674,7 +29802,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.05549",
         "fftt": "4.25",
-        "color": "1.75",
+        "r_non_routed": "0.421390463361",
+        "color": "2.1069523168",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27687,7 +29816,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "3.1116",
         "fftt": "4.13",
-        "color": "1.5",
+        "r_non_routed": "0.50197671502",
+        "color": "2.5098835751",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27700,7 +29830,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27713,7 +29844,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "2.93054",
         "fftt": "4.63",
-        "color": "3.0",
+        "r_non_routed": "0.575400864859",
+        "color": "2.8770043243",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27726,7 +29858,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.86765",
         "fftt": "4.7",
-        "color": "2.25",
+        "r_non_routed": "0.72226604142",
+        "color": "3.6113302071",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27739,7 +29872,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.05549",
         "fftt": "4.25",
-        "color": "1.75",
+        "r_non_routed": "0.523869326901",
+        "color": "2.61934663451",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27752,7 +29886,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "2.86765",
         "fftt": "4.01",
-        "color": "3.0",
+        "r_non_routed": "0.641839884821",
+        "color": "3.20919942411",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27765,7 +29900,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27778,7 +29914,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.05061",
         "fftt": "3.61",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27791,7 +29928,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "3.07188",
         "fftt": "4.83",
-        "color": "3.25",
+        "r_non_routed": "0.597774145916",
+        "color": "2.98887072958",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27804,7 +29942,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.07188",
         "fftt": "3.66",
-        "color": "1.75",
+        "r_non_routed": "0.58997135633",
+        "color": "2.94985678165",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27817,7 +29956,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27830,7 +29970,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.49621",
         "fftt": "4.08",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27843,7 +29984,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.07188",
         "fftt": "3.66",
-        "color": "1.75",
+        "r_non_routed": "0.592529547735",
+        "color": "2.96264773867",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27856,7 +29998,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "2.95079",
         "fftt": "4.58",
-        "color": "3.0",
+        "r_non_routed": "0.51866107537",
+        "color": "2.59330537685",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27869,7 +30012,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27882,7 +30026,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "5.97831",
         "fftt": "10.15",
-        "color": "2.5",
+        "r_non_routed": "0.919241078954",
+        "color": "4.59620539477",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27895,7 +30040,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "5.856",
         "fftt": "7.48",
-        "color": "1.0",
+        "r_non_routed": "0.932785877159",
+        "color": "4.66392938579",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27908,7 +30054,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "3.69289",
         "fftt": "6.33",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27921,7 +30068,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "3.8192",
         "fftt": "5.19",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27934,7 +30082,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.928",
         "fftt": "3.59",
-        "color": "2.25",
+        "r_non_routed": "0.705800907567",
+        "color": "3.52900453784",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27947,7 +30096,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27960,7 +30110,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "2.80666",
         "fftt": "3.6",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27973,7 +30124,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.86765",
         "fftt": "3.79",
-        "color": "1.25",
+        "r_non_routed": "0.155257370348",
+        "color": "0.776286851739",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27986,7 +30138,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.86959",
         "fftt": "4.54",
-        "color": "1.0",
+        "r_non_routed": "0.182022317772",
+        "color": "0.910111588858",
     }},{
     "type": "Feature",
     "geometry": {
@@ -27999,7 +30152,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.05061",
         "fftt": "5.21",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28012,7 +30166,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28025,7 +30180,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.928",
         "fftt": "3.82",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28038,7 +30194,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "3.69289",
         "fftt": "6.33",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28051,7 +30208,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.86765",
         "fftt": "3.79",
-        "color": "1.25",
+        "r_non_routed": "0.130141478633",
+        "color": "0.650707393166",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28064,7 +30222,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "3.111",
         "fftt": "4.05",
-        "color": "2.75",
+        "r_non_routed": "0.281750120367",
+        "color": "1.40875060183",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28077,7 +30236,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28090,7 +30250,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "3.05",
         "fftt": "3.88",
-        "color": "1.5",
+        "r_non_routed": "0.286579688427",
+        "color": "1.43289844214",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28103,7 +30264,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.86959",
         "fftt": "4.54",
-        "color": "1.0",
+        "r_non_routed": "0.385675734949",
+        "color": "1.92837867474",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28116,7 +30278,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.9946",
         "fftt": "3.94",
-        "color": "2.5",
+        "r_non_routed": "0.505145927126",
+        "color": "2.52572963563",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28129,7 +30292,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.92864",
         "fftt": "3.9",
-        "color": "1.25",
+        "r_non_routed": "0.433243769332",
+        "color": "2.16621884666",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28142,7 +30306,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28155,7 +30320,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.86765",
         "fftt": "3.83",
-        "color": "1.5",
+        "r_non_routed": "0.349377655007",
+        "color": "1.74688827504",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28168,7 +30334,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "3.8192",
         "fftt": "5.19",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28181,7 +30348,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "3.111",
         "fftt": "4.05",
-        "color": "2.75",
+        "r_non_routed": "0.63025545809",
+        "color": "3.15127729045",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28194,7 +30362,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.9946",
         "fftt": "3.94",
-        "color": "2.5",
+        "r_non_routed": "0.407900958731",
+        "color": "2.03950479366",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28207,7 +30376,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28220,7 +30390,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "0.682",
         "fftt": "1.3",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28233,7 +30404,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "3.1116",
         "fftt": "4.13",
-        "color": "1.5",
+        "r_non_routed": "0.379000872983",
+        "color": "1.89500436492",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28246,7 +30418,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "3.05061",
         "fftt": "4.05",
-        "color": "2.0",
+        "r_non_routed": "0.432350606411",
+        "color": "2.16175303206",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28259,7 +30432,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.80666",
         "fftt": "3.38",
-        "color": "1.0",
+        "r_non_routed": "0.694137108796",
+        "color": "3.47068554398",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28272,7 +30446,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28285,7 +30460,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "2.86765",
         "fftt": "4.01",
-        "color": "3.0",
+        "r_non_routed": "0.707943798737",
+        "color": "3.53971899369",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28298,7 +30474,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.05061",
         "fftt": "5.21",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28311,7 +30488,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "3.05061",
         "fftt": "4.05",
-        "color": "2.0",
+        "r_non_routed": "0.382116447466",
+        "color": "1.91058223733",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28324,7 +30502,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.867",
         "fftt": "4.01",
-        "color": "1.5",
+        "r_non_routed": "0.743958642777",
+        "color": "3.71979321388",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28337,7 +30516,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28350,7 +30530,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "1.47539",
         "fftt": "2.62",
-        "color": "1.0",
+        "r_non_routed": "0.798123887136",
+        "color": "3.99061943568",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28363,7 +30544,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "3.172",
         "fftt": "4.97",
-        "color": "1.25",
+        "r_non_routed": "0.622482779653",
+        "color": "3.11241389826",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28376,7 +30558,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.80666",
         "fftt": "3.38",
-        "color": "1.0",
+        "r_non_routed": "0.680345522041",
+        "color": "3.4017276102",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28389,7 +30572,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.989",
         "fftt": "3.81",
-        "color": "1.25",
+        "r_non_routed": "0.637288342877",
+        "color": "3.18644171439",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28402,7 +30586,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28415,7 +30600,8 @@ var geojson_features = [{
         "capacity": "7500.0",
         "length": "3.111",
         "fftt": "4.76",
-        "color": "3.75",
+        "r_non_routed": "0.560016185409",
+        "color": "2.80008092705",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28428,7 +30614,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.92864",
         "fftt": "3.9",
-        "color": "1.25",
+        "r_non_routed": "0.670706194639",
+        "color": "3.3535309732",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28441,7 +30628,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.867",
         "fftt": "4.01",
-        "color": "1.5",
+        "r_non_routed": "0.697057474467",
+        "color": "3.48528737234",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28454,7 +30642,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.989",
         "fftt": "3.81",
-        "color": "1.25",
+        "r_non_routed": "0.605770613142",
+        "color": "3.02885306571",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28467,7 +30656,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28480,7 +30670,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.32995",
         "fftt": "3.72",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28493,7 +30684,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "2.95079",
         "fftt": "4.58",
-        "color": "3.0",
+        "r_non_routed": "0.540836201439",
+        "color": "2.7041810072",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28506,7 +30698,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "3.46789",
         "fftt": "4.66",
-        "color": "1.5",
+        "r_non_routed": "0.427250547128",
+        "color": "2.13625273564",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28519,7 +30712,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.95897",
         "fftt": "3.78",
-        "color": "1.25",
+        "r_non_routed": "0.602908308338",
+        "color": "3.01454154169",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28532,7 +30726,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28545,7 +30740,8 @@ var geojson_features = [{
         "capacity": "6500.0",
         "length": "2.39692",
         "fftt": "2.77",
-        "color": "3.25",
+        "r_non_routed": "0.503994795645",
+        "color": "2.51997397823",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28558,7 +30754,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "4.13587",
         "fftt": "10.64",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28571,7 +30768,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "3.46789",
         "fftt": "4.66",
-        "color": "1.5",
+        "r_non_routed": "0.427528755568",
+        "color": "2.13764377784",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28584,7 +30782,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "2.93371",
         "fftt": "5.18",
-        "color": "2.0",
+        "r_non_routed": "0.524397981908",
+        "color": "2.62198990954",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28597,7 +30796,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28610,7 +30810,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "1.73609",
         "fftt": "1.48",
-        "color": "1.0",
+        "r_non_routed": "0.767094695129",
+        "color": "3.83547347565",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28623,7 +30824,8 @@ var geojson_features = [{
         "capacity": "7000.0",
         "length": "2.57432",
         "fftt": "2.65",
-        "color": "3.5",
+        "r_non_routed": "0.475098956634",
+        "color": "2.37549478317",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28636,7 +30838,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.95897",
         "fftt": "3.78",
-        "color": "1.25",
+        "r_non_routed": "0.701308090251",
+        "color": "3.50654045126",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28649,7 +30852,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "2.93371",
         "fftt": "5.18",
-        "color": "2.0",
+        "r_non_routed": "0.588830611097",
+        "color": "2.94415305548",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28662,7 +30866,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28675,7 +30880,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "5.91731",
         "fftt": "7.09",
-        "color": "1.75",
+        "r_non_routed": "0.565191073624",
+        "color": "2.82595536812",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28688,7 +30894,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "5.734",
         "fftt": "8.54",
-        "color": "1.25",
+        "r_non_routed": "0.485220639891",
+        "color": "2.42610319945",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28701,7 +30908,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "11.5535",
         "fftt": "13.52",
-        "color": "1.0",
+        "r_non_routed": "0.496380799382",
+        "color": "2.48190399691",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28714,7 +30922,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "6.20793",
         "fftt": "7.93",
-        "color": "0.25",
+        "r_non_routed": "0.408861792521",
+        "color": "2.0443089626",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28727,7 +30936,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28740,7 +30950,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "5.91731",
         "fftt": "7.09",
-        "color": "1.75",
+        "r_non_routed": "0.51013724267",
+        "color": "2.55068621335",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28753,7 +30964,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "5.79628",
         "fftt": "6.76",
-        "color": "1.5",
+        "r_non_routed": "0.687364621499",
+        "color": "3.4368231075",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28766,7 +30978,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "5.67333",
         "fftt": "6.76",
-        "color": "1.25",
+        "r_non_routed": "0.560160654007",
+        "color": "2.80080327004",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28779,7 +30992,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "6.21901",
         "fftt": "7.44",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28792,7 +31006,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28805,7 +31020,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "5.79628",
         "fftt": "6.76",
-        "color": "1.5",
+        "r_non_routed": "0.66821640159",
+        "color": "3.34108200795",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28818,7 +31034,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "5.97831",
         "fftt": "7.02",
-        "color": "1.5",
+        "r_non_routed": "0.659475620509",
+        "color": "3.29737810254",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28831,7 +31048,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "5.551",
         "fftt": "7.12",
-        "color": "1.75",
+        "r_non_routed": "0.762697250716",
+        "color": "3.81348625358",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28844,7 +31062,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "6.89408",
         "fftt": "8.24",
-        "color": "1.5",
+        "r_non_routed": "0.606274882643",
+        "color": "3.03137441322",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28857,7 +31076,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "6.39191",
         "fftt": "9.5",
-        "color": "0.25",
+        "r_non_routed": "0.666847826087",
+        "color": "3.33423913043",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28870,7 +31090,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28883,7 +31104,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "5.97831",
         "fftt": "7.02",
-        "color": "1.5",
+        "r_non_routed": "0.724894895696",
+        "color": "3.62447447848",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28896,7 +31118,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.90829",
         "fftt": "4.94",
-        "color": "1.75",
+        "r_non_routed": "0.539802498384",
+        "color": "2.69901249192",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28909,7 +31132,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "4.62957",
         "fftt": "5.53",
-        "color": "0.75",
+        "r_non_routed": "0.38749433817",
+        "color": "1.93747169085",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28922,7 +31146,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "4.57175",
         "fftt": "5.68",
-        "color": "0.5",
+        "r_non_routed": "0.0771253444727",
+        "color": "0.385626722364",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28935,7 +31160,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "6.72689",
         "fftt": "9.98",
-        "color": "0.25",
+        "r_non_routed": "0.274653887114",
+        "color": "1.37326943557",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28948,7 +31174,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "6.33608",
         "fftt": "9.0",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28961,7 +31188,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28974,7 +31202,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.867",
         "fftt": "3.52",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -28987,7 +31216,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.90829",
         "fftt": "4.94",
-        "color": "1.75",
+        "r_non_routed": "0.676083992896",
+        "color": "3.38041996448",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29000,7 +31230,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "5.795",
         "fftt": "7.73",
-        "color": "0.5",
+        "r_non_routed": "0.423466158844",
+        "color": "2.11733079422",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29013,7 +31244,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "5.77023",
         "fftt": "7.35",
-        "color": "1.25",
+        "r_non_routed": "0.867752226986",
+        "color": "4.33876113493",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29026,7 +31258,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29039,7 +31272,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "5.734",
         "fftt": "8.54",
-        "color": "1.25",
+        "r_non_routed": "0.483490444547",
+        "color": "2.41745222274",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29052,7 +31286,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "5.856",
         "fftt": "7.03",
-        "color": "2.0",
+        "r_non_routed": "0.424915100004",
+        "color": "2.12457550002",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29065,7 +31300,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "5.79532",
         "fftt": "6.96",
-        "color": "2.0",
+        "r_non_routed": "0.499739518834",
+        "color": "2.49869759417",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29078,7 +31314,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "7.74796",
         "fftt": "9.24",
-        "color": "1.25",
+        "r_non_routed": "0.430115122473",
+        "color": "2.15057561236",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29091,7 +31328,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29104,7 +31342,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "5.67333",
         "fftt": "6.76",
-        "color": "1.25",
+        "r_non_routed": "0.644496515292",
+        "color": "3.22248257646",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29117,7 +31356,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "5.856",
         "fftt": "7.03",
-        "color": "2.0",
+        "r_non_routed": "0.436847786974",
+        "color": "2.18423893487",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29130,7 +31370,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "5.856",
         "fftt": "6.96",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29143,7 +31384,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "5.856",
         "fftt": "6.89",
-        "color": "1.5",
+        "r_non_routed": "0.5323846498",
+        "color": "2.661923249",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29156,7 +31398,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29169,7 +31412,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "5.551",
         "fftt": "7.12",
-        "color": "1.75",
+        "r_non_routed": "0.813174881623",
+        "color": "4.06587440811",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29182,7 +31426,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "5.856",
         "fftt": "6.96",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29195,7 +31440,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "4.69224",
         "fftt": "6.03",
-        "color": "0.25",
+        "r_non_routed": "0.401622628659",
+        "color": "2.0081131433",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29208,7 +31454,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "4.78452",
         "fftt": "5.74",
-        "color": "0.25",
+        "r_non_routed": "0.698353967792",
+        "color": "3.49176983896",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29221,7 +31468,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "5.91731",
         "fftt": "7.03",
-        "color": "2.25",
+        "r_non_routed": "0.729977967935",
+        "color": "3.64988983968",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29234,7 +31482,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29247,7 +31496,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "4.62957",
         "fftt": "5.53",
-        "color": "0.75",
+        "r_non_routed": "0.456519163425",
+        "color": "2.28259581713",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29260,7 +31510,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.92864",
         "fftt": "4.39",
-        "color": "1.0",
+        "r_non_routed": "0.578289855765",
+        "color": "2.89144927882",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29273,7 +31524,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.745",
         "fftt": "3.38",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29286,7 +31538,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.728",
         "fftt": "3.5",
-        "color": "1.0",
+        "r_non_routed": "0.655176605419",
+        "color": "3.27588302709",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29299,7 +31552,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29312,7 +31566,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "4.57175",
         "fftt": "5.68",
-        "color": "0.5",
+        "r_non_routed": "0.113505839418",
+        "color": "0.567529197091",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29325,7 +31580,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "4.69224",
         "fftt": "6.03",
-        "color": "0.25",
+        "r_non_routed": "0.66386690472",
+        "color": "3.3193345236",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29338,7 +31594,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.92864",
         "fftt": "4.39",
-        "color": "1.0",
+        "r_non_routed": "0.5464198779",
+        "color": "2.7320993895",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29351,7 +31608,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.867",
         "fftt": "3.45",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29364,7 +31622,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29377,7 +31636,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.745",
         "fftt": "3.38",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29390,7 +31650,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.92864",
         "fftt": "4.62",
-        "color": "1.0",
+        "r_non_routed": "0.505546664016",
+        "color": "2.52773332008",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29403,7 +31664,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.87736",
         "fftt": "3.42",
-        "color": "1.25",
+        "r_non_routed": "0.617595292137",
+        "color": "3.08797646069",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29416,7 +31678,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.989",
         "fftt": "3.98",
-        "color": "1.0",
+        "r_non_routed": "0.590773924214",
+        "color": "2.95386962107",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29429,7 +31692,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29442,7 +31706,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "4.78452",
         "fftt": "5.74",
-        "color": "0.25",
+        "r_non_routed": "0.836406205114",
+        "color": "4.18203102557",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29455,7 +31720,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.867",
         "fftt": "3.45",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29468,7 +31734,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.92864",
         "fftt": "4.62",
-        "color": "1.0",
+        "r_non_routed": "0.758611837544",
+        "color": "3.79305918772",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29481,7 +31748,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "3.05244",
         "fftt": "3.65",
-        "color": "0.75",
+        "r_non_routed": "0.0149195853189",
+        "color": "0.0745979265947",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29494,7 +31762,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29507,7 +31776,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.05",
         "fftt": "3.98",
-        "color": "0.5",
+        "r_non_routed": "0.552776110521",
+        "color": "2.76388055261",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29520,7 +31790,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "5.795",
         "fftt": "7.73",
-        "color": "0.5",
+        "r_non_routed": "0.373619364152",
+        "color": "1.86809682076",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29533,7 +31804,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.728",
         "fftt": "3.5",
-        "color": "1.0",
+        "r_non_routed": "0.684382630783",
+        "color": "3.42191315391",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29546,7 +31818,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.87736",
         "fftt": "3.42",
-        "color": "1.25",
+        "r_non_routed": "0.613779685121",
+        "color": "3.0688984256",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29559,7 +31832,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "5.795",
         "fftt": "7.99",
-        "color": "0.25",
+        "r_non_routed": "0.258729593087",
+        "color": "1.29364796544",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29572,7 +31846,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29585,7 +31860,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "5.79532",
         "fftt": "6.96",
-        "color": "2.0",
+        "r_non_routed": "0.496260051113",
+        "color": "2.48130025556",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29598,7 +31874,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "5.79532",
         "fftt": "6.96",
-        "color": "1.75",
+        "r_non_routed": "0.601272090221",
+        "color": "3.00636045111",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29611,7 +31888,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "5.85632",
         "fftt": "7.03",
-        "color": "1.5",
+        "r_non_routed": "0.456595210265",
+        "color": "2.28297605133",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29624,7 +31902,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "7.3111",
         "fftt": "8.7",
-        "color": "1.0",
+        "r_non_routed": "0.554148494963",
+        "color": "2.77074247481",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29637,7 +31916,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29650,7 +31930,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "5.856",
         "fftt": "6.89",
-        "color": "1.5",
+        "r_non_routed": "0.533855637498",
+        "color": "2.66927818749",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29663,7 +31944,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "5.79532",
         "fftt": "6.96",
-        "color": "1.75",
+        "r_non_routed": "0.567546069332",
+        "color": "2.83773034666",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29676,7 +31958,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "5.91731",
         "fftt": "7.03",
-        "color": "2.0",
+        "r_non_routed": "0.614453897112",
+        "color": "3.07226948556",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29689,7 +31972,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "5.79532",
         "fftt": "7.41",
-        "color": "1.5",
+        "r_non_routed": "0.548455792825",
+        "color": "2.74227896412",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29702,7 +31986,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29715,7 +32000,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "5.91731",
         "fftt": "7.03",
-        "color": "2.25",
+        "r_non_routed": "0.783917854022",
+        "color": "3.91958927011",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29728,7 +32014,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "5.91731",
         "fftt": "7.03",
-        "color": "2.0",
+        "r_non_routed": "0.593968612364",
+        "color": "2.96984306182",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29741,7 +32028,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "4.51647",
         "fftt": "5.8",
-        "color": "0.75",
+        "r_non_routed": "0.0892934640429",
+        "color": "0.446467320214",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29754,7 +32042,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "4.73487",
         "fftt": "5.71",
-        "color": "1.25",
+        "r_non_routed": "0.727431546301",
+        "color": "3.6371577315",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29767,7 +32056,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "5.734",
         "fftt": "7.33",
-        "color": "1.25",
+        "r_non_routed": "0.687424899189",
+        "color": "3.43712449595",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29780,7 +32070,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29793,7 +32084,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.989",
         "fftt": "3.98",
-        "color": "1.0",
+        "r_non_routed": "0.461824016505",
+        "color": "2.30912008253",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29806,7 +32098,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.05244",
         "fftt": "3.58",
-        "color": "0.5",
+        "r_non_routed": "0.00884907910359",
+        "color": "0.044245395518",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29819,7 +32112,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "2.92864",
         "fftt": "4.39",
-        "color": "0.5",
+        "r_non_routed": "0.800215866848",
+        "color": "4.00107933424",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29832,7 +32126,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "2.75582",
         "fftt": "3.31",
-        "color": "0.25",
+        "r_non_routed": "0.307874370153",
+        "color": "1.53937185077",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29845,7 +32140,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29858,7 +32154,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "3.05244",
         "fftt": "3.65",
-        "color": "0.75",
+        "r_non_routed": "0.013317833592",
+        "color": "0.06658916796",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29871,7 +32168,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "4.51647",
         "fftt": "5.8",
-        "color": "0.75",
+        "r_non_routed": "0.103905200157",
+        "color": "0.519526000783",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29884,7 +32182,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.05244",
         "fftt": "3.58",
-        "color": "0.5",
+        "r_non_routed": "0.04415383021",
+        "color": "0.22076915105",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29897,7 +32196,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.05061",
         "fftt": "3.65",
-        "color": "0.5",
+        "r_non_routed": "0.0746666295851",
+        "color": "0.373333147925",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29910,7 +32210,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29923,7 +32224,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "2.92864",
         "fftt": "4.39",
-        "color": "0.5",
+        "r_non_routed": "0.708538941545",
+        "color": "3.54269470772",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29936,7 +32238,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.05974",
         "fftt": "3.66",
-        "color": "1.0",
+        "r_non_routed": "0.42162998331",
+        "color": "2.10814991655",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29949,7 +32252,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "2.89348",
         "fftt": "3.46",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29962,7 +32266,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.99149",
         "fftt": "4.48",
-        "color": "1.5",
+        "r_non_routed": "0.508586793508",
+        "color": "2.54293396754",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29975,7 +32280,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -29988,7 +32294,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "4.73487",
         "fftt": "5.71",
-        "color": "1.25",
+        "r_non_routed": "0.759146193896",
+        "color": "3.79573096948",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30001,7 +32308,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.05061",
         "fftt": "3.65",
-        "color": "0.5",
+        "r_non_routed": "0.0743814246865",
+        "color": "0.371907123432",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30014,7 +32322,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.05974",
         "fftt": "3.66",
-        "color": "1.0",
+        "r_non_routed": "0.315683567103",
+        "color": "1.57841783552",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30027,7 +32336,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "2.80666",
         "fftt": "3.6",
-        "color": "3.0",
+        "r_non_routed": "0.52699123398",
+        "color": "2.6349561699",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30040,7 +32350,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30053,7 +32364,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.93054",
         "fftt": "3.71",
-        "color": "1.5",
+        "r_non_routed": "0.329078924434",
+        "color": "1.64539462217",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30066,7 +32378,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "5.795",
         "fftt": "7.99",
-        "color": "0.25",
+        "r_non_routed": "0.29609166338",
+        "color": "1.4804583169",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30079,7 +32392,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "2.75582",
         "fftt": "3.31",
-        "color": "0.25",
+        "r_non_routed": "0.343627402341",
+        "color": "1.7181370117",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30092,7 +32406,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "2.89348",
         "fftt": "3.46",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30105,7 +32420,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "5.978",
         "fftt": "12.39",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30118,7 +32434,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30131,7 +32448,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "7.50969",
         "fftt": "9.58",
-        "color": "1.25",
+        "r_non_routed": "0.567012395039",
+        "color": "2.83506197519",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30144,7 +32462,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "5.85632",
         "fftt": "7.03",
-        "color": "1.5",
+        "r_non_routed": "0.507438965705",
+        "color": "2.53719482853",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30157,7 +32476,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "5.917",
         "fftt": "7.09",
-        "color": "1.0",
+        "r_non_routed": "0.506886375935",
+        "color": "2.53443187968",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30170,7 +32490,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "20.8982",
         "fftt": "24.92",
-        "color": "1.75",
+        "r_non_routed": "0.488106430152",
+        "color": "2.44053215076",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30183,7 +32504,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30196,7 +32518,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "4.42618",
         "fftt": "4.78",
-        "color": "1.0",
+        "r_non_routed": "0.578886344971",
+        "color": "2.89443172485",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30209,7 +32532,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "5.79532",
         "fftt": "7.41",
-        "color": "1.5",
+        "r_non_routed": "0.673022145813",
+        "color": "3.36511072907",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30222,7 +32546,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "5.917",
         "fftt": "7.09",
-        "color": "1.0",
+        "r_non_routed": "0.516363190225",
+        "color": "2.58181595113",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30235,7 +32560,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "5.856",
         "fftt": "6.96",
-        "color": "1.25",
+        "r_non_routed": "0.182546626365",
+        "color": "0.912733131827",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30248,7 +32574,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30261,7 +32588,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "6.1003",
         "fftt": "7.69",
-        "color": "1.25",
+        "r_non_routed": "0.700296911086",
+        "color": "3.50148455543",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30274,7 +32602,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "5.734",
         "fftt": "7.33",
-        "color": "1.25",
+        "r_non_routed": "0.654281544285",
+        "color": "3.27140772143",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30287,7 +32616,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "5.856",
         "fftt": "6.96",
-        "color": "1.25",
+        "r_non_routed": "0.266518448139",
+        "color": "1.33259224069",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30300,7 +32630,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "4.60136",
         "fftt": "5.9",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30313,7 +32644,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "4.758",
         "fftt": "5.74",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30326,7 +32658,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30339,7 +32672,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.99149",
         "fftt": "4.48",
-        "color": "1.5",
+        "r_non_routed": "0.471632794209",
+        "color": "2.35816397104",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30352,7 +32686,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.86765",
         "fftt": "3.6",
-        "color": "2.25",
+        "r_non_routed": "0.633865741269",
+        "color": "3.16932870634",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30365,7 +32700,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.05061",
         "fftt": "3.8",
-        "color": "1.0",
+        "r_non_routed": "0.500363293897",
+        "color": "2.50181646949",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30378,7 +32714,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.8383",
         "fftt": "3.44",
-        "color": "1.25",
+        "r_non_routed": "0.813393563428",
+        "color": "4.06696781714",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30391,7 +32728,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30404,7 +32742,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "2.80666",
         "fftt": "3.6",
-        "color": "3.0",
+        "r_non_routed": "0.568408567311",
+        "color": "2.84204283655",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30417,7 +32756,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "4.60136",
         "fftt": "5.9",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30430,7 +32770,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.86765",
         "fftt": "3.6",
-        "color": "2.25",
+        "r_non_routed": "0.68090043302",
+        "color": "3.4045021651",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30443,7 +32784,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.98962",
         "fftt": "3.81",
-        "color": "1.0",
+        "r_non_routed": "0.212036272166",
+        "color": "1.06018136083",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30456,7 +32798,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30469,7 +32812,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.867",
         "fftt": "3.52",
-        "color": "1.25",
+        "r_non_routed": "0.606774203951",
+        "color": "3.03387101975",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30482,7 +32826,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.05061",
         "fftt": "3.8",
-        "color": "1.0",
+        "r_non_routed": "0.628130466779",
+        "color": "3.1406523339",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30495,7 +32840,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.989",
         "fftt": "5.86",
-        "color": "1.0",
+        "r_non_routed": "0.344253343681",
+        "color": "1.72126671841",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30508,7 +32854,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.9784",
         "fftt": "3.62",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30521,7 +32868,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30534,7 +32882,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.74568",
         "fftt": "3.19",
-        "color": "1.25",
+        "r_non_routed": "0.0772298743445",
+        "color": "0.386149371722",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30547,7 +32896,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "4.758",
         "fftt": "5.74",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30560,7 +32910,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.98962",
         "fftt": "3.81",
-        "color": "1.0",
+        "r_non_routed": "0.38672929096",
+        "color": "1.9336464548",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30573,7 +32924,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.989",
         "fftt": "5.86",
-        "color": "1.0",
+        "r_non_routed": "0.375674220294",
+        "color": "1.87837110147",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30586,7 +32938,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30599,7 +32952,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "6.26996",
         "fftt": "10.64",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30612,7 +32966,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.928",
         "fftt": "3.59",
-        "color": "2.25",
+        "r_non_routed": "0.602458519915",
+        "color": "3.01229259957",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30625,7 +32980,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "5.978",
         "fftt": "12.39",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30638,7 +32994,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.8383",
         "fftt": "3.44",
-        "color": "1.25",
+        "r_non_routed": "0.758468489269",
+        "color": "3.79234244634",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30651,7 +33008,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.9784",
         "fftt": "3.62",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30664,7 +33022,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30677,7 +33036,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.989",
         "fftt": "3.95",
-        "color": "1.25",
+        "r_non_routed": "0.572692494618",
+        "color": "2.86346247309",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30690,7 +33050,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "2.928",
         "fftt": "4.17",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30703,7 +33064,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.989",
         "fftt": "3.95",
-        "color": "1.25",
+        "r_non_routed": "0.588478962874",
+        "color": "2.94239481437",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30716,7 +33078,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.92864",
         "fftt": "3.71",
-        "color": "1.25",
+        "r_non_routed": "0.374171403819",
+        "color": "1.8708570191",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30729,7 +33092,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30742,7 +33106,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.86765",
         "fftt": "4.67",
-        "color": "1.0",
+        "r_non_routed": "0.721578082554",
+        "color": "3.60789041277",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30755,7 +33120,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "2.928",
         "fftt": "4.17",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30768,7 +33134,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.98962",
         "fftt": "4.01",
-        "color": "1.75",
+        "r_non_routed": "0.858963610902",
+        "color": "4.29481805451",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30781,7 +33148,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "4.57663",
         "fftt": "6.49",
-        "color": "1.25",
+        "r_non_routed": "0.544195427661",
+        "color": "2.72097713831",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30794,7 +33162,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30807,7 +33176,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.989",
         "fftt": "3.95",
-        "color": "1.25",
+        "r_non_routed": "0.569093946717",
+        "color": "2.84546973359",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30820,7 +33190,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.867",
         "fftt": "3.84",
-        "color": "1.25",
+        "r_non_routed": "0.552887734014",
+        "color": "2.76443867007",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30833,7 +33204,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "3.11339",
         "fftt": "3.81",
-        "color": "1.5",
+        "r_non_routed": "0.55229410337",
+        "color": "2.76147051685",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30846,7 +33218,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.93054",
         "fftt": "3.87",
-        "color": "1.25",
+        "r_non_routed": "0.533418016313",
+        "color": "2.66709008156",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30859,7 +33232,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30872,7 +33246,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.98962",
         "fftt": "4.01",
-        "color": "1.75",
+        "r_non_routed": "0.774758007447",
+        "color": "3.87379003723",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30885,7 +33260,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.867",
         "fftt": "3.84",
-        "color": "1.25",
+        "r_non_routed": "0.534243517291",
+        "color": "2.67121758645",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30898,7 +33274,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.11339",
         "fftt": "3.89",
-        "color": "1.0",
+        "r_non_routed": "0.689342538365",
+        "color": "3.44671269183",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30911,7 +33288,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "4.53415",
         "fftt": "6.47",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30924,7 +33302,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30937,7 +33316,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "1.87122",
         "fftt": "1.39",
-        "color": "1.5",
+        "r_non_routed": "0.65290898827",
+        "color": "3.26454494135",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30950,7 +33330,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "0.7446",
         "fftt": "1.44",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30963,7 +33344,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.93054",
         "fftt": "4.43",
-        "color": "1.0",
+        "r_non_routed": "0.557340646139",
+        "color": "2.7867032307",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30976,7 +33358,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "3.05549",
         "fftt": "3.76",
-        "color": "3.0",
+        "r_non_routed": "0.437771958853",
+        "color": "2.18885979426",
     }},{
     "type": "Feature",
     "geometry": {
@@ -30989,7 +33372,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31002,7 +33386,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.92864",
         "fftt": "4.55",
-        "color": "1.75",
+        "r_non_routed": "0.459001748081",
+        "color": "2.29500874041",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31015,7 +33400,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.92864",
         "fftt": "3.71",
-        "color": "1.25",
+        "r_non_routed": "0.528724254284",
+        "color": "2.64362127142",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31028,7 +33414,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "3.05549",
         "fftt": "3.76",
-        "color": "3.0",
+        "r_non_routed": "0.445665768907",
+        "color": "2.22832884453",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31041,7 +33428,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.93371",
         "fftt": "3.95",
-        "color": "1.25",
+        "r_non_routed": "0.466489245447",
+        "color": "2.33244622724",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31054,7 +33442,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31067,7 +33456,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "3.24219",
         "fftt": "3.84",
-        "color": "1.5",
+        "r_non_routed": "0.456918149411",
+        "color": "2.28459074705",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31080,7 +33470,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "1.4461",
         "fftt": "2.22",
-        "color": "1.5",
+        "r_non_routed": "0.663306064052",
+        "color": "3.31653032026",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31093,7 +33484,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "4.39242",
         "fftt": "5.72",
-        "color": "1.0",
+        "r_non_routed": "0.654414040494",
+        "color": "3.27207020247",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31106,7 +33498,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.93054",
         "fftt": "3.58",
-        "color": "1.25",
+        "r_non_routed": "0.559101056026",
+        "color": "2.79550528013",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31119,7 +33512,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31132,7 +33526,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "0.65699",
         "fftt": "0.61",
-        "color": "1.5",
+        "r_non_routed": "0.555473362103",
+        "color": "2.77736681052",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31145,7 +33540,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "3.11339",
         "fftt": "3.81",
-        "color": "1.5",
+        "r_non_routed": "0.547340709153",
+        "color": "2.73670354576",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31158,7 +33554,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.93371",
         "fftt": "3.95",
-        "color": "1.25",
+        "r_non_routed": "0.500570937639",
+        "color": "2.50285468819",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31171,7 +33568,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.92864",
         "fftt": "3.9",
-        "color": "1.25",
+        "r_non_routed": "0.470120618002",
+        "color": "2.35060309001",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31184,7 +33582,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31197,7 +33596,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "0.61304",
         "fftt": "0.74",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31210,7 +33610,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.93054",
         "fftt": "3.87",
-        "color": "1.25",
+        "r_non_routed": "0.558855796351",
+        "color": "2.79427898175",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31223,7 +33624,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.87283",
         "fftt": "4.12",
-        "color": "1.75",
+        "r_non_routed": "0.664763745123",
+        "color": "3.32381872561",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31236,7 +33638,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.989",
         "fftt": "3.51",
-        "color": "1.75",
+        "r_non_routed": "0.66953075444",
+        "color": "3.3476537722",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31249,7 +33652,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31262,7 +33666,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.11339",
         "fftt": "3.89",
-        "color": "1.0",
+        "r_non_routed": "0.544667158456",
+        "color": "2.72333579228",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31275,7 +33680,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.87283",
         "fftt": "4.12",
-        "color": "1.75",
+        "r_non_routed": "0.547267894039",
+        "color": "2.7363394702",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31288,7 +33694,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.80865",
         "fftt": "4.26",
-        "color": "0.75",
+        "r_non_routed": "0.139337298216",
+        "color": "0.696686491079",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31301,7 +33708,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "4.44087",
         "fftt": "6.33",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31314,7 +33722,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31327,7 +33736,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "0.65982",
         "fftt": "0.34",
-        "color": "1.5",
+        "r_non_routed": "0.484826391817",
+        "color": "2.42413195908",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31340,7 +33750,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.989",
         "fftt": "3.51",
-        "color": "1.75",
+        "r_non_routed": "0.673618549155",
+        "color": "3.36809274577",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31353,7 +33764,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.745",
         "fftt": "3.52",
-        "color": "0.75",
+        "r_non_routed": "0.0298962406641",
+        "color": "0.149481203321",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31366,7 +33778,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.93815",
         "fftt": "3.79",
-        "color": "1.5",
+        "r_non_routed": "0.473658588018",
+        "color": "2.36829294009",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31379,7 +33792,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31392,7 +33806,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.80865",
         "fftt": "4.26",
-        "color": "0.75",
+        "r_non_routed": "0.0474553550932",
+        "color": "0.237276775466",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31405,7 +33820,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.745",
         "fftt": "3.52",
-        "color": "0.75",
+        "r_non_routed": "0.0973760213478",
+        "color": "0.486880106739",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31418,7 +33834,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "3.05061",
         "fftt": "4.75",
-        "color": "0.25",
+        "r_non_routed": "0.130383678952",
+        "color": "0.651918394761",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31431,7 +33848,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "4.44087",
         "fftt": "5.66",
-        "color": "0.75",
+        "r_non_routed": "0.0294997431681",
+        "color": "0.14749871584",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31444,7 +33862,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31457,7 +33876,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.93054",
         "fftt": "3.58",
-        "color": "1.25",
+        "r_non_routed": "0.737567691516",
+        "color": "3.68783845758",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31470,7 +33890,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.98962",
         "fftt": "3.95",
-        "color": "1.0",
+        "r_non_routed": "0.281324588075",
+        "color": "1.40662294037",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31483,7 +33904,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "2.928",
         "fftt": "3.73",
-        "color": "2.0",
+        "r_non_routed": "0.525366175118",
+        "color": "2.62683087559",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31496,7 +33918,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.93371",
         "fftt": "4.39",
-        "color": "1.25",
+        "r_non_routed": "0.170830225318",
+        "color": "0.854151126588",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31509,7 +33932,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31522,7 +33946,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.19596",
         "fftt": "3.36",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31535,7 +33960,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.92864",
         "fftt": "3.9",
-        "color": "1.25",
+        "r_non_routed": "0.531946801445",
+        "color": "2.65973400723",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31548,7 +33974,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.98962",
         "fftt": "3.95",
-        "color": "1.0",
+        "r_non_routed": "0.230799147264",
+        "color": "1.15399573632",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31561,7 +33988,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.98962",
         "fftt": "3.95",
-        "color": "1.0",
+        "r_non_routed": "0.534792635064",
+        "color": "2.67396317532",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31574,7 +34002,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31587,7 +34016,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "2.928",
         "fftt": "3.73",
-        "color": "2.0",
+        "r_non_routed": "0.586997018162",
+        "color": "2.93498509081",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31600,7 +34030,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.93054",
         "fftt": "3.95",
-        "color": "1.0",
+        "r_non_routed": "0.460544121557",
+        "color": "2.30272060778",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31613,7 +34044,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.928",
         "fftt": "3.84",
-        "color": "1.5",
+        "r_non_routed": "0.21296747402",
+        "color": "1.0648373701",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31626,7 +34058,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.92864",
         "fftt": "4.11",
-        "color": "1.5",
+        "r_non_routed": "0.546465592745",
+        "color": "2.73232796372",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31639,7 +34072,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31652,7 +34086,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "3.54115",
         "fftt": "4.01",
-        "color": "1.5",
+        "r_non_routed": "0.472595731389",
+        "color": "2.36297865694",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31665,7 +34100,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.98962",
         "fftt": "3.95",
-        "color": "1.0",
+        "r_non_routed": "0.529405408932",
+        "color": "2.64702704466",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31678,7 +34114,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.93054",
         "fftt": "3.95",
-        "color": "1.0",
+        "r_non_routed": "0.359584826908",
+        "color": "1.79792413454",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31691,7 +34128,8 @@ var geojson_features = [{
         "capacity": "9000.0",
         "length": "3.05061",
         "fftt": "5.01",
-        "color": "4.5",
+        "r_non_routed": "0.514997783065",
+        "color": "2.57498891532",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31704,7 +34142,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31717,7 +34156,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.0341",
         "fftt": "3.63",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31730,7 +34170,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "3.05",
         "fftt": "4.01",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31743,7 +34184,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.86765",
         "fftt": "3.68",
-        "color": "1.0",
+        "r_non_routed": "0.630620022214",
+        "color": "3.15310011107",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31756,7 +34198,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.05061",
         "fftt": "4.35",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31769,7 +34212,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31782,7 +34226,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "3.0008",
         "fftt": "4.8",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31795,7 +34240,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.93371",
         "fftt": "4.39",
-        "color": "1.25",
+        "r_non_routed": "0.594736659087",
+        "color": "2.97368329544",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31808,7 +34254,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.86765",
         "fftt": "3.68",
-        "color": "1.0",
+        "r_non_routed": "0.365158906971",
+        "color": "1.82579453486",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31821,7 +34268,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.111",
         "fftt": "3.94",
-        "color": "1.0",
+        "r_non_routed": "0.628954021098",
+        "color": "3.14477010549",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31834,7 +34282,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31847,7 +34296,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "2.93054",
         "fftt": "3.99",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31860,7 +34310,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.05061",
         "fftt": "4.35",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31873,7 +34324,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.93054",
         "fftt": "3.99",
-        "color": "1.0",
+        "r_non_routed": "0.483821740166",
+        "color": "2.41910870083",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31886,7 +34338,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.86765",
         "fftt": "3.84",
-        "color": "1.25",
+        "r_non_routed": "0.729723520846",
+        "color": "3.64861760423",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31899,7 +34352,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31912,7 +34366,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.928",
         "fftt": "3.84",
-        "color": "1.5",
+        "r_non_routed": "0.376339116076",
+        "color": "1.88169558038",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31925,7 +34380,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.111",
         "fftt": "3.94",
-        "color": "1.0",
+        "r_non_routed": "0.237101999081",
+        "color": "1.1855099954",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31938,7 +34394,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.93054",
         "fftt": "3.99",
-        "color": "1.0",
+        "r_non_routed": "0.531546657849",
+        "color": "2.65773328925",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31951,7 +34408,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "2.87283",
         "fftt": "3.63",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31964,7 +34422,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31977,7 +34436,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "3.05061",
         "fftt": "3.65",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -31990,7 +34450,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "1.66609",
         "fftt": "1.33",
-        "color": "1.25",
+        "r_non_routed": "0.593742376972",
+        "color": "2.96871188486",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32003,7 +34464,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.93815",
         "fftt": "3.79",
-        "color": "1.5",
+        "r_non_routed": "0.509947053228",
+        "color": "2.54973526614",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32016,7 +34478,8 @@ var geojson_features = [{
         "capacity": "7500.0",
         "length": "2.928",
         "fftt": "5.31",
-        "color": "3.75",
+        "r_non_routed": "0.572043036154",
+        "color": "2.86021518077",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32029,7 +34492,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32042,7 +34506,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "1.50659",
         "fftt": "2.85",
-        "color": "1.25",
+        "r_non_routed": "0.530144577136",
+        "color": "2.65072288568",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32055,7 +34520,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "3.05061",
         "fftt": "4.75",
-        "color": "0.25",
+        "r_non_routed": "0.054651499045",
+        "color": "0.273257495225",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32068,7 +34534,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "2.867",
         "fftt": "4.11",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32081,7 +34548,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "4.4979",
         "fftt": "5.96",
-        "color": "1.5",
+        "r_non_routed": "0.831245095827",
+        "color": "4.15622547913",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32094,7 +34562,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32107,7 +34576,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "0.682",
         "fftt": "0.72",
-        "color": "0.5",
+        "r_non_routed": "0.259622657234",
+        "color": "1.29811328617",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32120,7 +34590,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "2.98962",
         "fftt": "3.68",
-        "color": "0.5",
+        "r_non_routed": "0.134794389751",
+        "color": "0.673971948754",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32133,7 +34604,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "4.51647",
         "fftt": "5.97",
-        "color": "0.5",
+        "r_non_routed": "0.117494156965",
+        "color": "0.587470784823",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32146,7 +34618,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32159,7 +34632,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "1.27372",
         "fftt": "1.27",
-        "color": "1.0",
+        "r_non_routed": "0.801148847961",
+        "color": "4.0057442398",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32172,7 +34646,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "2.867",
         "fftt": "4.11",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32185,7 +34660,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "4.39962",
         "fftt": "6.29",
-        "color": "1.0",
+        "r_non_routed": "0.897260435125",
+        "color": "4.48630217562",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32198,7 +34674,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32211,7 +34688,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.14543",
         "fftt": "2.7",
-        "color": "1.5",
+        "r_non_routed": "0.571956439943",
+        "color": "2.85978219971",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32224,7 +34702,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.92864",
         "fftt": "4.11",
-        "color": "1.5",
+        "r_non_routed": "0.558465206952",
+        "color": "2.79232603476",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32237,7 +34716,8 @@ var geojson_features = [{
         "capacity": "10500.0",
         "length": "2.93815",
         "fftt": "4.89",
-        "color": "5.25",
+        "r_non_routed": "0.519477001635",
+        "color": "2.59738500818",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32250,7 +34730,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.05061",
         "fftt": "4.51",
-        "color": "1.0",
+        "r_non_routed": "0.583814405848",
+        "color": "2.91907202924",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32263,7 +34744,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32276,7 +34758,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "1.96908",
         "fftt": "2.01",
-        "color": "2.75",
+        "r_non_routed": "0.546806837009",
+        "color": "2.73403418505",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32289,7 +34772,8 @@ var geojson_features = [{
         "capacity": "9000.0",
         "length": "3.05061",
         "fftt": "5.01",
-        "color": "4.5",
+        "r_non_routed": "0.480405354374",
+        "color": "2.40202677187",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32302,7 +34786,8 @@ var geojson_features = [{
         "capacity": "7500.0",
         "length": "2.928",
         "fftt": "5.31",
-        "color": "3.75",
+        "r_non_routed": "0.653939087584",
+        "color": "3.26969543792",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32315,7 +34800,8 @@ var geojson_features = [{
         "capacity": "10500.0",
         "length": "2.93815",
         "fftt": "4.89",
-        "color": "5.25",
+        "r_non_routed": "0.538440436288",
+        "color": "2.69220218144",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32328,7 +34814,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32341,7 +34828,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "1.18441",
         "fftt": "2.85",
-        "color": "1.5",
+        "r_non_routed": "0.485386640808",
+        "color": "2.42693320404",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32354,7 +34842,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "2.928",
         "fftt": "3.73",
-        "color": "3.0",
+        "r_non_routed": "0.45314089202",
+        "color": "2.2657044601",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32367,7 +34856,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.93371",
         "fftt": "3.85",
-        "color": "1.75",
+        "r_non_routed": "0.406075788137",
+        "color": "2.03037894069",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32380,7 +34870,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "4.37885",
         "fftt": "6.96",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32393,7 +34884,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32406,7 +34898,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "1.13467",
         "fftt": "2.41",
-        "color": "2.75",
+        "r_non_routed": "0.580873556577",
+        "color": "2.90436778288",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32419,7 +34912,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "2.98962",
         "fftt": "3.68",
-        "color": "0.5",
+        "r_non_routed": "0.130198820207",
+        "color": "0.650994101034",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32432,7 +34926,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "2.928",
         "fftt": "3.73",
-        "color": "3.0",
+        "r_non_routed": "0.457704165951",
+        "color": "2.28852082976",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32445,7 +34940,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "4.41945",
         "fftt": "6.34",
-        "color": "1.25",
+        "r_non_routed": "0.6560128891",
+        "color": "3.2800644455",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32458,7 +34954,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32471,7 +34968,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.86765",
         "fftt": "3.84",
-        "color": "1.25",
+        "r_non_routed": "0.471356116664",
+        "color": "2.35678058332",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32484,7 +34982,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.80865",
         "fftt": "3.79",
-        "color": "1.5",
+        "r_non_routed": "0.590278800949",
+        "color": "2.95139400475",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32497,7 +34996,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.99149",
         "fftt": "4.94",
-        "color": "1.25",
+        "r_non_routed": "0.565784923003",
+        "color": "2.82892461501",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32510,7 +35010,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.05061",
         "fftt": "3.61",
-        "color": "1.0",
+        "r_non_routed": "0.841280076702",
+        "color": "4.20640038351",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32523,7 +35024,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32536,7 +35038,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "1.98695",
         "fftt": "1.93",
-        "color": "1.5",
+        "r_non_routed": "0.431221543511",
+        "color": "2.15610771755",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32549,7 +35052,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "2.87283",
         "fftt": "3.63",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32562,7 +35066,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.05061",
         "fftt": "4.51",
-        "color": "1.0",
+        "r_non_routed": "0.591567524254",
+        "color": "2.95783762127",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32575,7 +35080,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.80865",
         "fftt": "3.79",
-        "color": "1.5",
+        "r_non_routed": "0.594379788179",
+        "color": "2.9718989409",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32588,7 +35094,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32601,7 +35108,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.99149",
         "fftt": "4.94",
-        "color": "1.25",
+        "r_non_routed": "0.472196598264",
+        "color": "2.36098299132",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32614,7 +35122,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.92864",
         "fftt": "3.9",
-        "color": "1.0",
+        "r_non_routed": "0.226654624812",
+        "color": "1.13327312406",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32627,7 +35136,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.93054",
         "fftt": "3.95",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32640,7 +35150,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "4.49955",
         "fftt": "6.38",
-        "color": "1.0",
+        "r_non_routed": "0.754316635146",
+        "color": "3.77158317573",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32653,7 +35164,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32666,7 +35178,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "1.20311",
         "fftt": "2.45",
-        "color": "1.5",
+        "r_non_routed": "0.496522892559",
+        "color": "2.48261446279",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32679,7 +35192,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.93371",
         "fftt": "3.85",
-        "color": "1.75",
+        "r_non_routed": "0.432016538927",
+        "color": "2.16008269464",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32692,7 +35206,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.92864",
         "fftt": "3.9",
-        "color": "1.0",
+        "r_non_routed": "0.129758618492",
+        "color": "0.64879309246",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32705,7 +35220,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "4.59893",
         "fftt": "6.4",
-        "color": "1.25",
+        "r_non_routed": "0.743980602454",
+        "color": "3.71990301227",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32718,7 +35234,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32731,7 +35248,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "0.7446",
         "fftt": "1.48",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32744,7 +35262,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.05061",
         "fftt": "4.16",
-        "color": "1.75",
+        "r_non_routed": "0.730315296659",
+        "color": "3.6515764833",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32757,7 +35276,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.928",
         "fftt": "3.9",
-        "color": "1.75",
+        "r_non_routed": "0.653408039121",
+        "color": "3.2670401956",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32770,7 +35290,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "2.93371",
         "fftt": "4.18",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32783,7 +35304,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32796,7 +35318,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.93371",
         "fftt": "4.5",
-        "color": "1.0",
+        "r_non_routed": "0.713987545164",
+        "color": "3.56993772582",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32809,7 +35332,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.05061",
         "fftt": "3.61",
-        "color": "1.0",
+        "r_non_routed": "0.755650236557",
+        "color": "3.77825118278",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32822,7 +35346,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.928",
         "fftt": "3.9",
-        "color": "1.75",
+        "r_non_routed": "0.635174650976",
+        "color": "3.17587325488",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32835,7 +35360,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.928",
         "fftt": "3.9",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32848,7 +35374,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32861,7 +35388,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.928",
         "fftt": "3.73",
-        "color": "1.0",
+        "r_non_routed": "0.48604083343",
+        "color": "2.43020416715",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32874,7 +35402,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "2.93371",
         "fftt": "4.18",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32887,7 +35416,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "3.111",
         "fftt": "4.25",
-        "color": "1.5",
+        "r_non_routed": "0.243926829217",
+        "color": "1.21963414609",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32900,7 +35430,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "4.575",
         "fftt": "6.45",
-        "color": "1.0",
+        "r_non_routed": "0.720543341664",
+        "color": "3.60271670832",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32913,7 +35444,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32926,7 +35458,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.93054",
         "fftt": "3.95",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32939,7 +35472,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.928",
         "fftt": "3.9",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32952,7 +35486,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "3.111",
         "fftt": "4.25",
-        "color": "1.5",
+        "r_non_routed": "0.28601068706",
+        "color": "1.4300534353",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32965,7 +35500,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "4.758",
         "fftt": "6.0",
-        "color": "1.75",
+        "r_non_routed": "0.389171140837",
+        "color": "1.94585570418",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32978,7 +35514,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -32991,7 +35528,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.63808",
         "fftt": "7.72",
-        "color": "1.0",
+        "r_non_routed": "0.265940549126",
+        "color": "1.32970274563",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33004,7 +35542,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.20446",
         "fftt": "2.09",
-        "color": "1.25",
+        "r_non_routed": "0.733929980948",
+        "color": "3.66964990474",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33017,7 +35556,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "4.51647",
         "fftt": "5.97",
-        "color": "0.5",
+        "r_non_routed": "0.149513401838",
+        "color": "0.747567009188",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33030,7 +35570,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "5.80013",
         "fftt": "7.86",
-        "color": "1.25",
+        "r_non_routed": "0.342900113123",
+        "color": "1.71450056562",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33043,7 +35584,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "5.9808",
         "fftt": "7.14",
-        "color": "1.5",
+        "r_non_routed": "0.383843150384",
+        "color": "1.91921575192",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33056,7 +35598,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33069,7 +35612,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "4.37885",
         "fftt": "6.96",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33082,7 +35626,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "4.41945",
         "fftt": "6.34",
-        "color": "1.25",
+        "r_non_routed": "0.569685981132",
+        "color": "2.84842990566",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33095,7 +35640,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "5.80013",
         "fftt": "7.86",
-        "color": "1.25",
+        "r_non_routed": "0.334718127931",
+        "color": "1.67359063965",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33108,7 +35654,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "6.03931",
         "fftt": "7.67",
-        "color": "1.75",
+        "r_non_routed": "0.32063370515",
+        "color": "1.60316852575",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33121,7 +35668,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "5.91983",
         "fftt": "7.52",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33134,7 +35682,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33147,7 +35696,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "4.49955",
         "fftt": "6.38",
-        "color": "1.0",
+        "r_non_routed": "0.664277698429",
+        "color": "3.32138849214",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33160,7 +35710,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "4.59893",
         "fftt": "6.4",
-        "color": "1.25",
+        "r_non_routed": "0.676382586639",
+        "color": "3.38191293319",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33173,7 +35724,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "6.03931",
         "fftt": "7.67",
-        "color": "1.75",
+        "r_non_routed": "0.393714442651",
+        "color": "1.96857221325",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33186,7 +35738,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "5.97831",
         "fftt": "7.62",
-        "color": "2.5",
+        "r_non_routed": "0.495620266256",
+        "color": "2.47810133128",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33199,7 +35752,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "5.79628",
         "fftt": "8.29",
-        "color": "1.75",
+        "r_non_routed": "0.45309214266",
+        "color": "2.2654607133",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33212,7 +35766,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33225,7 +35780,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "3.81335",
         "fftt": "5.59",
-        "color": "2.0",
+        "r_non_routed": "0.381091360168",
+        "color": "1.90545680084",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33238,7 +35794,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "4.575",
         "fftt": "6.45",
-        "color": "1.0",
+        "r_non_routed": "0.572846822241",
+        "color": "2.8642341112",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33251,7 +35808,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "4.758",
         "fftt": "6.0",
-        "color": "1.75",
+        "r_non_routed": "0.310459690703",
+        "color": "1.55229845352",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33264,7 +35822,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "5.97831",
         "fftt": "7.62",
-        "color": "2.5",
+        "r_non_routed": "0.533683057667",
+        "color": "2.66841528833",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33277,7 +35836,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "5.67333",
         "fftt": "7.25",
-        "color": "1.5",
+        "r_non_routed": "0.450188241131",
+        "color": "2.25094120565",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33290,7 +35850,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33303,7 +35864,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "2.16185",
         "fftt": "1.87",
-        "color": "2.0",
+        "r_non_routed": "0.581756917928",
+        "color": "2.90878458964",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33316,7 +35878,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "4.45801",
         "fftt": "5.88",
-        "color": "2.75",
+        "r_non_routed": "0.502503697452",
+        "color": "2.51251848726",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33329,7 +35892,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "4.57663",
         "fftt": "6.48",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33342,7 +35906,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "4.55258",
         "fftt": "7.13",
-        "color": "1.0",
+        "r_non_routed": "0.545294386148",
+        "color": "2.72647193074",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33355,7 +35920,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "4.514",
         "fftt": "6.45",
-        "color": "1.25",
+        "r_non_routed": "0.160724535043",
+        "color": "0.803622675213",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33368,7 +35934,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "5.73692",
         "fftt": "7.36",
-        "color": "2.75",
+        "r_non_routed": "0.50268556781",
+        "color": "2.51342783905",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33381,7 +35948,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33394,7 +35962,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "2.989",
         "fftt": "3.84",
-        "color": "2.25",
+        "r_non_routed": "0.593726161382",
+        "color": "2.96863080691",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33407,7 +35976,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.86765",
         "fftt": "4.8",
-        "color": "1.75",
+        "r_non_routed": "0.652715061227",
+        "color": "3.26357530614",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33420,7 +35990,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.80666",
         "fftt": "3.67",
-        "color": "1.25",
+        "r_non_routed": "0.789149891839",
+        "color": "3.94574945919",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33433,7 +36004,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.67358",
         "fftt": "3.38",
-        "color": "1.25",
+        "r_non_routed": "0.674707063029",
+        "color": "3.37353531514",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33446,7 +36018,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33459,7 +36032,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "2.93054",
         "fftt": "4.62",
-        "color": "2.75",
+        "r_non_routed": "0.499518237233",
+        "color": "2.49759118616",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33472,7 +36046,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "4.55258",
         "fftt": "7.13",
-        "color": "1.0",
+        "r_non_routed": "0.741451727653",
+        "color": "3.70725863826",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33485,7 +36060,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.86765",
         "fftt": "4.8",
-        "color": "1.75",
+        "r_non_routed": "0.577075343938",
+        "color": "2.88537671969",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33498,7 +36074,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.86765",
         "fftt": "4.11",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33511,7 +36088,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33524,7 +36102,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.80666",
         "fftt": "3.67",
-        "color": "1.25",
+        "r_non_routed": "0.753480324139",
+        "color": "3.7674016207",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33537,7 +36116,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.989",
         "fftt": "3.49",
-        "color": "1.0",
+        "r_non_routed": "0.132963860563",
+        "color": "0.664819302816",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33550,7 +36130,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "2.80865",
         "fftt": "3.85",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33563,7 +36144,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "4.47592",
         "fftt": "6.08",
-        "color": "1.0",
+        "r_non_routed": "0.770483641896",
+        "color": "3.85241820948",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33576,7 +36158,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33589,7 +36172,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "4.514",
         "fftt": "6.45",
-        "color": "1.25",
+        "r_non_routed": "0.267643149172",
+        "color": "1.33821574586",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33602,7 +36186,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.86765",
         "fftt": "4.11",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33615,7 +36200,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.989",
         "fftt": "3.49",
-        "color": "1.0",
+        "r_non_routed": "0.226753383476",
+        "color": "1.13376691738",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33628,7 +36214,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "4.57663",
         "fftt": "5.77",
-        "color": "1.25",
+        "r_non_routed": "0.369948714218",
+        "color": "1.84974357109",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33641,7 +36228,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33654,7 +36242,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "5.91731",
         "fftt": "10.31",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33667,7 +36256,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "2.67358",
         "fftt": "3.38",
-        "color": "1.25",
+        "r_non_routed": "0.686004805307",
+        "color": "3.43002402653",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33680,7 +36270,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "2.80865",
         "fftt": "3.85",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33693,7 +36284,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "5.734",
         "fftt": "9.03",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33706,7 +36298,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "4.9361",
         "fftt": "8.33",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33719,7 +36312,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "4.18462",
         "fftt": "5.97",
-        "color": "1.75",
+        "r_non_routed": "0.787077674999",
+        "color": "3.93538837499",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33732,7 +36326,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33745,7 +36340,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.10339",
         "fftt": "1.67",
-        "color": "2.5",
+        "r_non_routed": "0.528219762622",
+        "color": "2.64109881311",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33758,7 +36354,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "3.79232",
         "fftt": "5.88",
-        "color": "1.25",
+        "r_non_routed": "0.68770682275",
+        "color": "3.43853411375",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33771,7 +36368,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "5.79789",
         "fftt": "7.41",
-        "color": "2.0",
+        "r_non_routed": "0.646002468782",
+        "color": "3.23001234391",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33784,7 +36382,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "5.91731",
         "fftt": "7.99",
-        "color": "1.25",
+        "r_non_routed": "0.606091873058",
+        "color": "3.03045936529",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33797,7 +36396,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33810,7 +36410,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "5.91983",
         "fftt": "7.52",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33823,7 +36424,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "5.79789",
         "fftt": "7.41",
-        "color": "2.0",
+        "r_non_routed": "0.549847769523",
+        "color": "2.74923884762",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33836,7 +36438,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "5.9808",
         "fftt": "7.62",
-        "color": "1.5",
+        "r_non_routed": "0.735816160433",
+        "color": "3.67908080217",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33849,7 +36452,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "5.92203",
         "fftt": "7.07",
-        "color": "1.0",
+        "r_non_routed": "0.694456185975",
+        "color": "3.47228092988",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33862,7 +36466,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33875,7 +36480,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "5.79628",
         "fftt": "8.29",
-        "color": "1.75",
+        "r_non_routed": "0.616497872777",
+        "color": "3.08248936389",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33888,7 +36494,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "5.9808",
         "fftt": "7.62",
-        "color": "1.5",
+        "r_non_routed": "0.52152925886",
+        "color": "2.6076462943",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33901,7 +36508,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "5.91983",
         "fftt": "7.46",
-        "color": "1.5",
+        "r_non_routed": "0.706304845085",
+        "color": "3.53152422542",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33914,7 +36522,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "6.22469",
         "fftt": "7.39",
-        "color": "1.75",
+        "r_non_routed": "0.695638821942",
+        "color": "3.47819410971",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33927,7 +36536,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33940,7 +36550,8 @@ var geojson_features = [{
         "capacity": "8500.0",
         "length": "1.41882",
         "fftt": "2.41",
-        "color": "4.25",
+        "r_non_routed": "0.743195999936",
+        "color": "3.71597999968",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33953,7 +36564,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "5.67333",
         "fftt": "7.25",
-        "color": "1.5",
+        "r_non_routed": "0.373531097148",
+        "color": "1.86765548574",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33966,7 +36578,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "5.91983",
         "fftt": "7.46",
-        "color": "1.5",
+        "r_non_routed": "0.526789448008",
+        "color": "2.63394724004",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33979,7 +36592,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "6.42356",
         "fftt": "7.67",
-        "color": "2.5",
+        "r_non_routed": "0.774157837202",
+        "color": "3.87078918601",
     }},{
     "type": "Feature",
     "geometry": {
@@ -33992,7 +36606,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34005,7 +36620,8 @@ var geojson_features = [{
         "capacity": "8500.0",
         "length": "4.74469",
         "fftt": "5.21",
-        "color": "4.25",
+        "r_non_routed": "0.320347302518",
+        "color": "1.60173651259",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34018,7 +36634,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "5.73692",
         "fftt": "7.36",
-        "color": "2.75",
+        "r_non_routed": "0.511094645471",
+        "color": "2.55547322735",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34031,7 +36648,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "5.734",
         "fftt": "8.17",
-        "color": "2.0",
+        "r_non_routed": "0.348761825299",
+        "color": "1.7438091265",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34044,7 +36662,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "6.4706",
         "fftt": "9.21",
-        "color": "2.0",
+        "r_non_routed": "0.78171131766",
+        "color": "3.9085565883",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34057,7 +36676,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34070,7 +36690,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "4.47592",
         "fftt": "6.08",
-        "color": "1.0",
+        "r_non_routed": "0.744595515039",
+        "color": "3.72297757519",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34083,7 +36704,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "4.57663",
         "fftt": "5.77",
-        "color": "1.25",
+        "r_non_routed": "0.362425179638",
+        "color": "1.81212589819",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34096,7 +36718,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "5.734",
         "fftt": "8.17",
-        "color": "2.0",
+        "r_non_routed": "0.207941345628",
+        "color": "1.03970672814",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34109,7 +36732,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "3.66203",
         "fftt": "4.69",
-        "color": "1.25",
+        "r_non_routed": "0.0485567922201",
+        "color": "0.2427839611",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34122,7 +36746,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "6.25808",
         "fftt": "8.33",
-        "color": "1.75",
+        "r_non_routed": "0.768103448276",
+        "color": "3.84051724138",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34135,7 +36760,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34148,7 +36774,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "5.734",
         "fftt": "9.03",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34161,7 +36788,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "3.66203",
         "fftt": "4.69",
-        "color": "1.25",
+        "r_non_routed": "0.0775757732669",
+        "color": "0.387878866334",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34174,7 +36802,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "6.78527",
         "fftt": "9.06",
-        "color": "2.0",
+        "r_non_routed": "0.322154911294",
+        "color": "1.61077455647",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34187,7 +36816,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "4.65922",
         "fftt": "6.57",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34200,7 +36830,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "6.75119",
         "fftt": "9.61",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34213,7 +36844,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34226,7 +36858,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "4.47426",
         "fftt": "4.5",
-        "color": "1.75",
+        "r_non_routed": "0.409544149876",
+        "color": "2.04772074938",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34239,7 +36872,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.97203",
         "fftt": "5.4",
-        "color": "2.5",
+        "r_non_routed": "0.51010133565",
+        "color": "2.55050667825",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34252,7 +36886,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "5.91983",
         "fftt": "8.47",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34265,7 +36900,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "6.28566",
         "fftt": "7.5",
-        "color": "0.25",
+        "r_non_routed": "0.390754655537",
+        "color": "1.95377327768",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34278,7 +36914,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34291,7 +36928,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "5.92203",
         "fftt": "7.07",
-        "color": "1.0",
+        "r_non_routed": "0.840566893644",
+        "color": "4.20283446822",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34304,7 +36942,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "5.91983",
         "fftt": "8.47",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34317,7 +36956,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "5.91826",
         "fftt": "7.05",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34330,7 +36970,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "6.34517",
         "fftt": "8.98",
-        "color": "1.5",
+        "r_non_routed": "0.265105249013",
+        "color": "1.32552624506",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34343,7 +36984,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34356,7 +36998,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "6.222",
         "fftt": "7.94",
-        "color": "2.0",
+        "r_non_routed": "0.126377697738",
+        "color": "0.631888488688",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34369,7 +37012,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "5.63879",
         "fftt": "6.74",
-        "color": "2.25",
+        "r_non_routed": "0.529503248846",
+        "color": "2.64751624423",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34382,7 +37026,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "6.04023",
         "fftt": "8.61",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34395,7 +37040,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "16.3991",
         "fftt": "23.35",
-        "color": "1.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34408,7 +37054,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34421,7 +37068,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "5.85886",
         "fftt": "6.95",
-        "color": "2.5",
+        "r_non_routed": "0.451359085376",
+        "color": "2.25679542688",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34434,7 +37082,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "5.63879",
         "fftt": "6.74",
-        "color": "2.25",
+        "r_non_routed": "0.548290631202",
+        "color": "2.74145315601",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34447,7 +37096,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "5.98578",
         "fftt": "7.02",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34460,7 +37110,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "6.16855",
         "fftt": "12.32",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34473,7 +37124,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34486,7 +37138,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "4.70926",
         "fftt": "6.66",
-        "color": "1.75",
+        "r_non_routed": "0.436646852519",
+        "color": "2.1832342626",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34499,7 +37152,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "4.57175",
         "fftt": "5.36",
-        "color": "1.0",
+        "r_non_routed": "0.676301352465",
+        "color": "3.38150676233",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34512,7 +37166,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "4.57663",
         "fftt": "6.49",
-        "color": "1.25",
+        "r_non_routed": "0.565907748315",
+        "color": "2.82953874158",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34525,7 +37180,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "4.53415",
         "fftt": "6.47",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34538,7 +37194,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "5.98578",
         "fftt": "7.02",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34551,7 +37208,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "8.15326",
         "fftt": "10.37",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34564,7 +37222,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "6.0467",
         "fftt": "8.23",
-        "color": "1.25",
+        "r_non_routed": "0.754219103634",
+        "color": "3.77109551817",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34577,7 +37236,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34590,7 +37250,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "6.04023",
         "fftt": "8.61",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34603,7 +37264,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "5.81071",
         "fftt": "7.39",
-        "color": "1.75",
+        "r_non_routed": "0.307839793887",
+        "color": "1.53919896944",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34616,7 +37278,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "5.85727",
         "fftt": "6.87",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34629,7 +37292,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34642,7 +37306,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "6.16855",
         "fftt": "12.32",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34655,7 +37320,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "8.15326",
         "fftt": "10.37",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34668,7 +37334,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "5.81071",
         "fftt": "7.39",
-        "color": "1.75",
+        "r_non_routed": "0.219819485897",
+        "color": "1.09909742949",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34681,7 +37348,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "5.9808",
         "fftt": "7.02",
-        "color": "1.0",
+        "r_non_routed": "0.548966994269",
+        "color": "2.74483497134",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34694,7 +37362,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "6.22469",
         "fftt": "8.29",
-        "color": "1.25",
+        "r_non_routed": "0.298014794999",
+        "color": "1.490073975",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34707,7 +37376,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34720,7 +37390,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "4.44087",
         "fftt": "6.33",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34733,7 +37404,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "4.44087",
         "fftt": "5.66",
-        "color": "0.75",
+        "r_non_routed": "0.00717750775228",
+        "color": "0.0358875387614",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34746,7 +37418,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "6.0467",
         "fftt": "8.23",
-        "color": "1.25",
+        "r_non_routed": "0.780569889177",
+        "color": "3.90284944589",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34759,7 +37432,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "5.9808",
         "fftt": "7.02",
-        "color": "1.0",
+        "r_non_routed": "0.398592928464",
+        "color": "1.99296464232",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34772,7 +37446,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "5.85727",
         "fftt": "7.96",
-        "color": "1.25",
+        "r_non_routed": "0.93517113616",
+        "color": "4.6758556808",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34785,7 +37460,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34798,7 +37474,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "5.85727",
         "fftt": "6.87",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34811,7 +37488,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "5.85632",
         "fftt": "7.78",
-        "color": "2.75",
+        "r_non_routed": "0.34287637982",
+        "color": "1.7143818991",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34824,7 +37502,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34837,7 +37516,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "6.22469",
         "fftt": "8.29",
-        "color": "1.25",
+        "r_non_routed": "0.217569650558",
+        "color": "1.08784825279",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34850,7 +37530,8 @@ var geojson_features = [{
         "capacity": "5500.0",
         "length": "5.85632",
         "fftt": "7.78",
-        "color": "2.75",
+        "r_non_routed": "0.266472586123",
+        "color": "1.33236293062",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34863,7 +37544,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "5.91983",
         "fftt": "6.94",
-        "color": "1.0",
+        "r_non_routed": "0.688249444037",
+        "color": "3.44124722018",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34876,7 +37558,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "5.91731",
         "fftt": "7.87",
-        "color": "1.25",
+        "r_non_routed": "0.230767913809",
+        "color": "1.15383956905",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34889,7 +37572,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34902,7 +37586,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "4.80508",
         "fftt": "5.86",
-        "color": "1.75",
+        "r_non_routed": "0.763675454759",
+        "color": "3.8183772738",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34915,7 +37600,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "4.4979",
         "fftt": "5.96",
-        "color": "1.5",
+        "r_non_routed": "0.745068484567",
+        "color": "3.72534242284",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34928,7 +37614,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "4.39962",
         "fftt": "6.29",
-        "color": "1.0",
+        "r_non_routed": "0.882937161886",
+        "color": "4.41468580943",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34941,7 +37628,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "5.85727",
         "fftt": "7.96",
-        "color": "1.25",
+        "r_non_routed": "0.841594639511",
+        "color": "4.20797319756",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34954,7 +37642,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "5.91983",
         "fftt": "6.94",
-        "color": "1.0",
+        "r_non_routed": "0.692553354829",
+        "color": "3.46276677414",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34967,7 +37656,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34980,7 +37670,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "3.26108",
         "fftt": "3.45",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -34993,7 +37684,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "5.795",
         "fftt": "7.7",
-        "color": "1.0",
+        "r_non_routed": "0.615446018759",
+        "color": "3.07723009379",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35006,7 +37698,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35019,7 +37712,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.42854",
         "fftt": "2.35",
-        "color": "1.0",
+        "r_non_routed": "0.230889524396",
+        "color": "1.15444762198",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35032,7 +37726,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "5.91731",
         "fftt": "7.87",
-        "color": "1.25",
+        "r_non_routed": "0.190027165027",
+        "color": "0.950135825137",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35045,7 +37740,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "5.795",
         "fftt": "7.7",
-        "color": "1.0",
+        "r_non_routed": "0.627421109902",
+        "color": "3.13710554951",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35058,7 +37754,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "5.81071",
         "fftt": "6.81",
-        "color": "2.0",
+        "r_non_routed": "0.324264209751",
+        "color": "1.62132104876",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35071,7 +37768,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35084,7 +37782,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "1.09969",
         "fftt": "2.21",
-        "color": "1.75",
+        "r_non_routed": "0.454064378694",
+        "color": "2.27032189347",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35097,7 +37796,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "5.9808",
         "fftt": "7.14",
-        "color": "1.5",
+        "r_non_routed": "0.309752480118",
+        "color": "1.54876240059",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35110,7 +37810,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "5.81071",
         "fftt": "6.81",
-        "color": "2.0",
+        "r_non_routed": "0.290891288086",
+        "color": "1.45445644043",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35123,7 +37824,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "5.73919",
         "fftt": "8.17",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35136,7 +37838,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35149,7 +37852,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "2.74025",
         "fftt": "4.35",
-        "color": "0.75",
+        "r_non_routed": "0.40089258997",
+        "color": "2.00446294985",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35162,7 +37866,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "5.80655",
         "fftt": "7.71",
-        "color": "0.75",
+        "r_non_routed": "0.486272761328",
+        "color": "2.43136380664",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35175,7 +37880,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "6.1613",
         "fftt": "8.12",
-        "color": "0.5",
+        "r_non_routed": "0.204474097331",
+        "color": "1.02237048666",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35188,7 +37894,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35201,7 +37908,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.93675",
         "fftt": "5.87",
-        "color": "1.0",
+        "r_non_routed": "0.530183690203",
+        "color": "2.65091845102",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35214,7 +37922,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "5.80655",
         "fftt": "7.71",
-        "color": "0.75",
+        "r_non_routed": "0.49006451902",
+        "color": "2.4503225951",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35227,7 +37936,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "5.74632",
         "fftt": "7.62",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35240,7 +37950,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "5.734",
         "fftt": "7.79",
-        "color": "1.0",
+        "r_non_routed": "0.647132666353",
+        "color": "3.23566333176",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35253,7 +37964,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35266,7 +37978,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "5.91731",
         "fftt": "7.99",
-        "color": "1.25",
+        "r_non_routed": "0.748971279131",
+        "color": "3.74485639566",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35279,7 +37992,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "5.73919",
         "fftt": "8.17",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35292,7 +38006,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "5.74632",
         "fftt": "7.62",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35305,7 +38020,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "6.22469",
         "fftt": "7.94",
-        "color": "2.25",
+        "r_non_routed": "0.632948842124",
+        "color": "3.16474421062",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35318,7 +38034,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35331,7 +38048,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "6.1613",
         "fftt": "8.12",
-        "color": "0.5",
+        "r_non_routed": "0.362247219922",
+        "color": "1.81123609961",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35344,7 +38062,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "5.85632",
         "fftt": "7.78",
-        "color": "0.25",
+        "r_non_routed": "0.649247716282",
+        "color": "3.24623858141",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35357,7 +38076,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "5.917",
         "fftt": "7.87",
-        "color": "0.5",
+        "r_non_routed": "0.195193008012",
+        "color": "0.975965040058",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35370,7 +38090,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35383,7 +38104,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "5.734",
         "fftt": "7.79",
-        "color": "1.0",
+        "r_non_routed": "0.742781458684",
+        "color": "3.71390729342",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35396,7 +38118,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "5.85632",
         "fftt": "7.78",
-        "color": "0.25",
+        "r_non_routed": "0.577412635964",
+        "color": "2.88706317982",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35409,7 +38132,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "5.87155",
         "fftt": "7.8",
-        "color": "1.25",
+        "r_non_routed": "0.879440485254",
+        "color": "4.39720242627",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35422,7 +38146,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "5.85632",
         "fftt": "7.01",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35435,7 +38160,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35448,7 +38174,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "1.54319",
         "fftt": "2.48",
-        "color": "1.75",
+        "r_non_routed": "0.564979682456",
+        "color": "2.82489841228",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35461,7 +38188,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "6.22469",
         "fftt": "7.94",
-        "color": "2.25",
+        "r_non_routed": "0.451587521985",
+        "color": "2.25793760992",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35474,7 +38202,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "5.87155",
         "fftt": "7.8",
-        "color": "1.25",
+        "r_non_routed": "0.956647493837",
+        "color": "4.78323746919",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35487,7 +38216,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "6.10122",
         "fftt": "7.09",
-        "color": "1.5",
+        "r_non_routed": "0.568678356033",
+        "color": "2.84339178017",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35500,7 +38230,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35513,7 +38244,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "5.917",
         "fftt": "7.87",
-        "color": "0.5",
+        "r_non_routed": "0.365626159376",
+        "color": "1.82813079688",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35526,7 +38258,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "5.79628",
         "fftt": "7.7",
-        "color": "0.5",
+        "r_non_routed": "0.604964398388",
+        "color": "3.02482199194",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35539,7 +38272,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35552,7 +38286,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.78804",
         "fftt": "3.92",
-        "color": "1.0",
+        "r_non_routed": "0.376432329648",
+        "color": "1.88216164824",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35565,7 +38300,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "5.85632",
         "fftt": "7.01",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35578,7 +38314,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "5.79628",
         "fftt": "7.7",
-        "color": "0.5",
+        "r_non_routed": "0.607170294494",
+        "color": "3.03585147247",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35591,7 +38328,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35604,7 +38342,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "3.36165",
         "fftt": "3.18",
-        "color": "1.0",
+        "r_non_routed": "0.310114895363",
+        "color": "1.55057447682",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35617,7 +38356,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "6.10122",
         "fftt": "7.09",
-        "color": "1.5",
+        "r_non_routed": "0.569014174844",
+        "color": "2.84507087422",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35630,7 +38370,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "5.91983",
         "fftt": "7.86",
-        "color": "0.75",
+        "r_non_routed": "0.309204651042",
+        "color": "1.54602325521",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35643,7 +38384,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35656,7 +38398,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "4.73644",
         "fftt": "6.37",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35669,7 +38412,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "6.22469",
         "fftt": "7.39",
-        "color": "1.75",
+        "r_non_routed": "0.56228126771",
+        "color": "2.81140633855",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35682,7 +38426,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "5.91826",
         "fftt": "7.05",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35695,7 +38440,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "6.93578",
         "fftt": "8.3",
-        "color": "0.25",
+        "r_non_routed": "0.459301843224",
+        "color": "2.29650921612",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35708,7 +38454,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35721,7 +38468,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "1.64248",
         "fftt": "1.05",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35734,7 +38482,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "6.42356",
         "fftt": "7.67",
-        "color": "2.5",
+        "r_non_routed": "0.715255609724",
+        "color": "3.57627804862",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35747,7 +38496,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "5.734",
         "fftt": "6.84",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35760,7 +38510,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "5.67136",
         "fftt": "6.8",
-        "color": "0.5",
+        "r_non_routed": "0.464097264317",
+        "color": "2.32048632158",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35773,7 +38524,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35786,7 +38538,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "6.4706",
         "fftt": "9.21",
-        "color": "2.0",
+        "r_non_routed": "0.706266551424",
+        "color": "3.53133275712",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35799,7 +38552,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "5.734",
         "fftt": "6.84",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35812,7 +38566,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "6.59506",
         "fftt": "7.89",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35825,7 +38580,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "5.79628",
         "fftt": "6.87",
-        "color": "0.25",
+        "r_non_routed": "0.482613975052",
+        "color": "2.41306987526",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35838,7 +38594,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35851,7 +38608,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "6.25808",
         "fftt": "8.33",
-        "color": "1.75",
+        "r_non_routed": "0.65874318535",
+        "color": "3.29371592675",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35864,7 +38622,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "6.78527",
         "fftt": "9.06",
-        "color": "2.0",
+        "r_non_routed": "0.114403605431",
+        "color": "0.572018027157",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35877,7 +38636,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "6.59506",
         "fftt": "7.89",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35890,7 +38650,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "5.79628",
         "fftt": "6.94",
-        "color": "0.5",
+        "r_non_routed": "0.538915454268",
+        "color": "2.69457727134",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35903,7 +38664,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "6.25183",
         "fftt": "7.51",
-        "color": "1.0",
+        "r_non_routed": "0.734382403238",
+        "color": "3.67191201619",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35916,7 +38678,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35929,7 +38692,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "6.28566",
         "fftt": "7.5",
-        "color": "0.25",
+        "r_non_routed": "0.398582787185",
+        "color": "1.99291393593",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35942,7 +38706,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "5.91983",
         "fftt": "7.86",
-        "color": "0.75",
+        "r_non_routed": "0.315432098765",
+        "color": "1.57716049383",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35955,7 +38720,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "7.15366",
         "fftt": "8.59",
-        "color": "0.25",
+        "r_non_routed": "0.0698198472428",
+        "color": "0.349099236214",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35968,7 +38734,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35981,7 +38748,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "6.34517",
         "fftt": "8.98",
-        "color": "1.5",
+        "r_non_routed": "0.730206645553",
+        "color": "3.65103322777",
     }},{
     "type": "Feature",
     "geometry": {
@@ -35994,7 +38762,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "6.26432",
         "fftt": "7.52",
-        "color": "0.5",
+        "r_non_routed": "0.0956867146983",
+        "color": "0.478433573491",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36007,7 +38776,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "6.89327",
         "fftt": "8.26",
-        "color": "1.0",
+        "r_non_routed": "0.892372757766",
+        "color": "4.46186378883",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36020,7 +38790,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36033,7 +38804,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "6.26432",
         "fftt": "7.52",
-        "color": "0.5",
+        "r_non_routed": "0.340722520657",
+        "color": "1.70361260328",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36046,7 +38818,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "7.39384",
         "fftt": "8.87",
-        "color": "0.25",
+        "r_non_routed": "0.211195928753",
+        "color": "1.05597964377",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36059,7 +38832,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "4.69105",
         "fftt": "5.63",
-        "color": "0.75",
+        "r_non_routed": "0.253504302252",
+        "color": "1.26752151126",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36072,7 +38846,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "6.00068",
         "fftt": "7.18",
-        "color": "0.5",
+        "r_non_routed": "0.0408625892421",
+        "color": "0.204312946211",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36085,7 +38860,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36098,7 +38874,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "6.93578",
         "fftt": "8.3",
-        "color": "0.25",
+        "r_non_routed": "0.256102043176",
+        "color": "1.28051021588",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36111,7 +38888,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "5.67136",
         "fftt": "6.8",
-        "color": "0.5",
+        "r_non_routed": "0.440326825653",
+        "color": "2.20163412826",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36124,7 +38902,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "4.27392",
         "fftt": "5.06",
-        "color": "0.5",
+        "r_non_routed": "0.588433942847",
+        "color": "2.94216971424",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36137,7 +38916,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36150,7 +38930,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "5.79628",
         "fftt": "6.87",
-        "color": "0.25",
+        "r_non_routed": "0.500016761791",
+        "color": "2.50008380896",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36163,7 +38944,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "6.59506",
         "fftt": "7.82",
-        "color": "1.0",
+        "r_non_routed": "0.381009831974",
+        "color": "1.90504915987",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36176,7 +38958,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "6.24617",
         "fftt": "7.48",
-        "color": "1.0",
+        "r_non_routed": "0.59255207067",
+        "color": "2.96276035335",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36189,7 +38972,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "9.5326",
         "fftt": "11.38",
-        "color": "0.25",
+        "r_non_routed": "0.637855018969",
+        "color": "3.18927509484",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36202,7 +38986,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36215,7 +39000,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "5.79628",
         "fftt": "6.94",
-        "color": "0.5",
+        "r_non_routed": "0.498206780012",
+        "color": "2.49103390006",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36228,7 +39014,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "6.59506",
         "fftt": "7.82",
-        "color": "1.0",
+        "r_non_routed": "0.500847273517",
+        "color": "2.50423636759",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36241,7 +39028,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "8.845",
         "fftt": "10.63",
-        "color": "0.25",
+        "r_non_routed": "0.405809433672",
+        "color": "2.02904716836",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36254,7 +39042,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36267,7 +39056,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "7.15366",
         "fftt": "8.59",
-        "color": "0.25",
+        "r_non_routed": "0.0560562852723",
+        "color": "0.280281426362",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36280,7 +39070,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "6.29365",
         "fftt": "7.51",
-        "color": "0.25",
+        "r_non_routed": "0.595914791051",
+        "color": "2.97957395525",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36293,7 +39084,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36306,7 +39098,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "6.89327",
         "fftt": "8.26",
-        "color": "1.0",
+        "r_non_routed": "0.895581214611",
+        "color": "4.47790607305",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36319,7 +39112,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "7.39384",
         "fftt": "8.87",
-        "color": "0.25",
+        "r_non_routed": "0.0844934969775",
+        "color": "0.422467484887",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36332,7 +39126,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "6.29365",
         "fftt": "7.51",
-        "color": "0.25",
+        "r_non_routed": "0.588702626679",
+        "color": "2.94351313339",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36345,7 +39140,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "7.72198",
         "fftt": "9.23",
-        "color": "0.25",
+        "r_non_routed": "0.457830698474",
+        "color": "2.28915349237",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36358,7 +39154,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36371,7 +39168,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "1.00973",
         "fftt": "1.3",
-        "color": "0.25",
+        "r_non_routed": "0.485053266118",
+        "color": "2.42526633059",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36384,7 +39182,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "4.69105",
         "fftt": "5.63",
-        "color": "0.75",
+        "r_non_routed": "0.443717132873",
+        "color": "2.21858566436",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36397,7 +39196,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "4.27392",
         "fftt": "5.06",
-        "color": "0.5",
+        "r_non_routed": "0.533082959368",
+        "color": "2.66541479684",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36410,7 +39210,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "5.47133",
         "fftt": "6.6",
-        "color": "0.25",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36423,7 +39224,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36436,7 +39238,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "6.25094",
         "fftt": "6.49",
-        "color": "0.25",
+        "r_non_routed": "0.0320370794483",
+        "color": "0.160185397242",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36449,7 +39252,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "3.82164",
         "fftt": "3.98",
-        "color": "0.25",
+        "r_non_routed": "0.88689485841",
+        "color": "4.43447429205",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36462,7 +39266,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "6.24617",
         "fftt": "7.48",
-        "color": "1.0",
+        "r_non_routed": "0.416227950894",
+        "color": "2.08113975447",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36475,7 +39280,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "4.67835",
         "fftt": "5.6",
-        "color": "0.75",
+        "r_non_routed": "0.416630495442",
+        "color": "2.08315247721",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36488,7 +39294,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36501,7 +39308,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "1.5444",
         "fftt": "2.78",
-        "color": "0.25",
+        "r_non_routed": "0.173685917939",
+        "color": "0.868429589693",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36514,7 +39322,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "6.00068",
         "fftt": "7.18",
-        "color": "0.5",
+        "r_non_routed": "0.0212421183401",
+        "color": "0.1062105917",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36527,7 +39336,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "7.72198",
         "fftt": "9.23",
-        "color": "0.25",
+        "r_non_routed": "0.367338958783",
+        "color": "1.83669479392",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36540,7 +39350,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "5.47133",
         "fftt": "6.6",
-        "color": "0.25",
+        "r_non_routed": "0.281040803891",
+        "color": "1.40520401946",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36553,7 +39364,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36566,7 +39378,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "4.67835",
         "fftt": "5.6",
-        "color": "0.75",
+        "r_non_routed": "0.408619863105",
+        "color": "2.04309931552",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36579,7 +39392,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "6.58404",
         "fftt": "7.89",
-        "color": "0.25",
+        "r_non_routed": "0.320037478249",
+        "color": "1.60018739125",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36592,7 +39406,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36605,7 +39420,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "9.5326",
         "fftt": "11.38",
-        "color": "0.25",
+        "r_non_routed": "0.676187782233",
+        "color": "3.38093891117",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36618,7 +39434,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "6.58404",
         "fftt": "7.89",
-        "color": "0.25",
+        "r_non_routed": "0.167600949928",
+        "color": "0.838004749642",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36631,7 +39448,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36644,7 +39462,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.14017",
         "fftt": "3.59",
-        "color": "1.75",
+        "r_non_routed": "0.572210890064",
+        "color": "2.86105445032",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36657,7 +39476,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "3.77264",
         "fftt": "8.02",
-        "color": "1.25",
+        "r_non_routed": "0.434562696352",
+        "color": "2.17281348176",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36670,7 +39490,8 @@ var geojson_features = [{
         "capacity": "10500.0",
         "length": "2.16614",
         "fftt": "4.21",
-        "color": "5.25",
+        "r_non_routed": "0.504983002284",
+        "color": "2.52491501142",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36683,7 +39504,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "3.47218",
         "fftt": "6.04",
-        "color": "2.25",
+        "r_non_routed": "0.534433618923",
+        "color": "2.67216809462",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36696,7 +39518,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.74542",
         "fftt": "7.95",
-        "color": "1.75",
+        "r_non_routed": "0.527595098823",
+        "color": "2.63797549412",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36709,7 +39532,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "6.92961",
         "fftt": "10.36",
-        "color": "0.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36722,7 +39546,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36735,7 +39560,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "2.56273",
         "fftt": "2.61",
-        "color": "1.5",
+        "r_non_routed": "0.511344038986",
+        "color": "2.55672019493",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36748,7 +39574,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "7.21375",
         "fftt": "8.96",
-        "color": "3.0",
+        "r_non_routed": "0.501031726137",
+        "color": "2.50515863069",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36761,7 +39588,8 @@ var geojson_features = [{
         "capacity": "10500.0",
         "length": "4.21298",
         "fftt": "6.14",
-        "color": "5.25",
+        "r_non_routed": "0.481251656988",
+        "color": "2.40625828494",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36774,7 +39602,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "0.90683",
         "fftt": "1.4",
-        "color": "1.75",
+        "r_non_routed": "0.815698431668",
+        "color": "4.07849215834",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36787,7 +39616,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "3.28268",
         "fftt": "5.39",
-        "color": "2.5",
+        "r_non_routed": "0.498502712963",
+        "color": "2.49251356482",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36800,7 +39630,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36813,7 +39644,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "2.51953",
         "fftt": "3.25",
-        "color": "2.5",
+        "r_non_routed": "0.503609799729",
+        "color": "2.51804899864",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36826,7 +39658,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "5.72881",
         "fftt": "8.14",
-        "color": "2.25",
+        "r_non_routed": "0.491976675125",
+        "color": "2.45988337563",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36839,7 +39672,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36852,7 +39686,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "5.8981",
         "fftt": "9.12",
-        "color": "1.75",
+        "r_non_routed": "0.571323169474",
+        "color": "2.85661584737",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36865,7 +39700,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "6.71693",
         "fftt": "11.27",
-        "color": "1.5",
+        "r_non_routed": "0.383154629726",
+        "color": "1.91577314863",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36878,7 +39714,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "4.72268",
         "fftt": "10.0",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36891,7 +39728,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "4.9361",
         "fftt": "8.33",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36904,7 +39742,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "7.74724",
         "fftt": "9.68",
-        "color": "1.5",
+        "r_non_routed": "0.414866662432",
+        "color": "2.07433331216",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36917,7 +39756,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "5.68905",
         "fftt": "7.1",
-        "color": "2.5",
+        "r_non_routed": "0.68196563171",
+        "color": "3.40982815855",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36930,7 +39770,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36943,7 +39784,8 @@ var geojson_features = [{
         "capacity": "6000.0",
         "length": "1.11981",
         "fftt": "1.62",
-        "color": "3.0",
+        "r_non_routed": "0.506822372131",
+        "color": "2.53411186066",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36956,7 +39798,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "5.72881",
         "fftt": "8.14",
-        "color": "2.25",
+        "r_non_routed": "0.485477015374",
+        "color": "2.42738507687",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36969,7 +39812,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "7.74724",
         "fftt": "9.68",
-        "color": "1.5",
+        "r_non_routed": "0.392342717922",
+        "color": "1.96171358961",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36982,7 +39826,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "6.00316",
         "fftt": "7.63",
-        "color": "1.75",
+        "r_non_routed": "0.575050751029",
+        "color": "2.87525375514",
     }},{
     "type": "Feature",
     "geometry": {
@@ -36995,7 +39840,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "6.31873",
         "fftt": "11.48",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37008,7 +39854,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "22.6543",
         "fftt": "14.78",
-        "color": "0.25",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37021,7 +39868,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37034,7 +39882,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "4.18462",
         "fftt": "5.97",
-        "color": "1.75",
+        "r_non_routed": "0.798811095274",
+        "color": "3.99405547637",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37047,7 +39896,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "4.65922",
         "fftt": "6.57",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37060,7 +39910,8 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "5.68905",
         "fftt": "7.1",
-        "color": "2.5",
+        "r_non_routed": "0.606939760636",
+        "color": "3.03469880318",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37073,7 +39924,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "5.61498",
         "fftt": "7.76",
-        "color": "1.5",
+        "r_non_routed": "0.569175029623",
+        "color": "2.84587514812",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37086,7 +39938,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "8.91122",
         "fftt": "11.06",
-        "color": "1.25",
+        "r_non_routed": "0.544942810314",
+        "color": "2.72471405157",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37099,7 +39952,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37112,7 +39966,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "1.64248",
         "fftt": "2.55",
-        "color": "1.25",
+        "r_non_routed": "0.51126337217",
+        "color": "2.55631686085",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37125,7 +39980,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "6.00316",
         "fftt": "7.63",
-        "color": "1.75",
+        "r_non_routed": "0.548617591625",
+        "color": "2.74308795812",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37138,7 +39994,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "5.61498",
         "fftt": "7.76",
-        "color": "1.5",
+        "r_non_routed": "0.561089971165",
+        "color": "2.80544985583",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37151,7 +40008,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "8.92687",
         "fftt": "11.42",
-        "color": "1.25",
+        "r_non_routed": "0.505974428093",
+        "color": "2.52987214046",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37164,7 +40022,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "8.00589",
         "fftt": "12.32",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37177,7 +40036,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37190,7 +40050,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "4.31335",
         "fftt": "4.39",
-        "color": "1.25",
+        "r_non_routed": "0.619714552488",
+        "color": "3.09857276244",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37203,7 +40064,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "6.31873",
         "fftt": "11.48",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37216,7 +40078,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "6.6291",
         "fftt": "9.83",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37229,7 +40092,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37242,7 +40106,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "6.75119",
         "fftt": "9.61",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37255,7 +40120,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "6.25183",
         "fftt": "7.51",
-        "color": "1.0",
+        "r_non_routed": "0.697365185057",
+        "color": "3.48682592528",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37268,7 +40134,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "8.845",
         "fftt": "10.63",
-        "color": "0.25",
+        "r_non_routed": "0.501666666667",
+        "color": "2.50833333333",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37281,7 +40148,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "8.91122",
         "fftt": "11.06",
-        "color": "1.25",
+        "r_non_routed": "0.55016582526",
+        "color": "2.7508291263",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37294,7 +40162,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "4.70056",
         "fftt": "7.03",
-        "color": "2.25",
+        "r_non_routed": "0.467414118715",
+        "color": "2.33707059357",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37307,7 +40176,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37320,7 +40190,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.62732",
         "fftt": "5.26",
-        "color": "1.75",
+        "r_non_routed": "0.423259399478",
+        "color": "2.11629699739",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37333,7 +40204,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "8.92687",
         "fftt": "11.42",
-        "color": "1.25",
+        "r_non_routed": "0.521471835273",
+        "color": "2.60735917637",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37346,7 +40218,8 @@ var geojson_features = [{
         "capacity": "4500.0",
         "length": "4.70056",
         "fftt": "7.03",
-        "color": "2.25",
+        "r_non_routed": "0.501668557134",
+        "color": "2.50834278567",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37359,7 +40232,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37372,7 +40246,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "2.16614",
         "fftt": "1.64",
-        "color": "1.75",
+        "r_non_routed": "0.508805731188",
+        "color": "2.54402865594",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37385,7 +40260,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "8.00589",
         "fftt": "12.32",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37398,7 +40274,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "6.6291",
         "fftt": "9.83",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37411,7 +40288,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37424,7 +40302,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "3.12711",
         "fftt": "3.45",
-        "color": "1.75",
+        "r_non_routed": "0.506441335407",
+        "color": "2.53220667704",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37437,7 +40316,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "16.7325",
         "fftt": "20.04",
-        "color": "1.5",
+        "r_non_routed": "0.485565251624",
+        "color": "2.42782625812",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37450,7 +40330,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "11.385",
         "fftt": "13.61",
-        "color": "1.75",
+        "r_non_routed": "0.54150773429",
+        "color": "2.70753867145",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37463,7 +40344,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "7.75444",
         "fftt": "9.25",
-        "color": "1.5",
+        "r_non_routed": "0.502880764175",
+        "color": "2.51440382088",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37476,7 +40358,8 @@ var geojson_features = [{
         "capacity": "4000.0",
         "length": "7.53294",
         "fftt": "9.38",
-        "color": "2.0",
+        "r_non_routed": "0.450337950923",
+        "color": "2.25168975462",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37489,7 +40372,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "20.8982",
         "fftt": "24.92",
-        "color": "1.75",
+        "r_non_routed": "0.545370435376",
+        "color": "2.72685217688",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37502,7 +40386,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "16.3991",
         "fftt": "23.35",
-        "color": "1.25",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37515,7 +40400,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37528,7 +40414,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "3.3019",
         "fftt": "3.96",
-        "color": "1.25",
+        "r_non_routed": "0.422953039638",
+        "color": "2.11476519819",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37541,7 +40428,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "11.5535",
         "fftt": "13.52",
-        "color": "1.0",
+        "r_non_routed": "0.578412241964",
+        "color": "2.89206120982",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37554,7 +40442,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "7.74796",
         "fftt": "9.24",
-        "color": "1.25",
+        "r_non_routed": "0.459238127203",
+        "color": "2.29619063601",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37567,7 +40456,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "7.3111",
         "fftt": "8.7",
-        "color": "1.0",
+        "r_non_routed": "0.558842000454",
+        "color": "2.79421000227",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37580,7 +40470,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "15.3899",
         "fftt": "21.86",
-        "color": "0.25",
+        "r_non_routed": "0.863577023499",
+        "color": "4.31788511749",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37593,7 +40484,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37606,7 +40498,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "15.3899",
         "fftt": "21.86",
-        "color": "0.25",
+        "r_non_routed": "0.697117830868",
+        "color": "3.48558915434",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37619,7 +40512,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "5.856",
         "fftt": "7.84",
-        "color": "0.25",
+        "r_non_routed": "0.186806040697",
+        "color": "0.934030203483",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37632,7 +40526,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37645,7 +40540,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "6.20793",
         "fftt": "7.93",
-        "color": "0.25",
+        "r_non_routed": "0.487699863282",
+        "color": "2.43849931641",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37658,7 +40554,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "5.856",
         "fftt": "7.84",
-        "color": "0.25",
+        "r_non_routed": "0.236054698077",
+        "color": "1.18027349039",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37671,7 +40568,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "5.795",
         "fftt": "7.64",
-        "color": "0.5",
+        "r_non_routed": "0.379672981455",
+        "color": "1.89836490727",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37684,7 +40582,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37697,7 +40596,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "6.21901",
         "fftt": "7.44",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37710,7 +40610,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "6.89408",
         "fftt": "8.24",
-        "color": "1.5",
+        "r_non_routed": "0.595128178687",
+        "color": "2.97564089343",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37723,7 +40624,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "5.795",
         "fftt": "7.64",
-        "color": "0.5",
+        "r_non_routed": "0.412031133196",
+        "color": "2.06015566598",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37736,7 +40638,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "6.1003",
         "fftt": "8.14",
-        "color": "0.25",
+        "r_non_routed": "0.285232114204",
+        "color": "1.42616057102",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37749,7 +40652,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37762,7 +40666,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "6.39191",
         "fftt": "9.5",
-        "color": "0.25",
+        "r_non_routed": "0.652486658019",
+        "color": "3.26243329009",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37775,7 +40680,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "6.72689",
         "fftt": "9.98",
-        "color": "0.25",
+        "r_non_routed": "0.32309741623",
+        "color": "1.61548708115",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37788,7 +40694,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "6.1003",
         "fftt": "8.14",
-        "color": "0.25",
+        "r_non_routed": "0.266218540475",
+        "color": "1.33109270238",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37801,7 +40708,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "5.978",
         "fftt": "7.89",
-        "color": "0.75",
+        "r_non_routed": "0.549024750009",
+        "color": "2.74512375005",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37814,7 +40722,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37827,7 +40736,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "6.33608",
         "fftt": "9.0",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37840,7 +40750,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "5.77023",
         "fftt": "7.35",
-        "color": "1.25",
+        "r_non_routed": "0.775493287627",
+        "color": "3.87746643813",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37853,7 +40764,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "5.978",
         "fftt": "7.89",
-        "color": "0.75",
+        "r_non_routed": "0.536693812599",
+        "color": "2.683469063",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37866,7 +40778,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "5.734",
         "fftt": "6.88",
-        "color": "1.5",
+        "r_non_routed": "0.701054007169",
+        "color": "3.50527003585",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37879,7 +40792,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "8.53869",
         "fftt": "10.18",
-        "color": "0.5",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37892,7 +40806,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37905,7 +40820,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "5.81551",
         "fftt": "8.24",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37918,7 +40834,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "4.84825",
         "fftt": "7.59",
-        "color": "1.0",
+        "r_non_routed": "0.937974569867",
+        "color": "4.68987284933",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37931,7 +40848,8 @@ var geojson_features = [{
         "capacity": "3000.0",
         "length": "5.734",
         "fftt": "6.88",
-        "color": "1.5",
+        "r_non_routed": "0.686359422112",
+        "color": "3.43179711056",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37944,7 +40862,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "5.97831",
         "fftt": "7.14",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37957,7 +40876,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37970,7 +40890,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "2.33798",
         "fftt": "3.86",
-        "color": "1.0",
+        "r_non_routed": "0.762443669028",
+        "color": "3.81221834514",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37983,7 +40904,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "4.60136",
         "fftt": "5.84",
-        "color": "1.0",
+        "r_non_routed": "0.709001843326",
+        "color": "3.54500921663",
     }},{
     "type": "Feature",
     "geometry": {
@@ -37996,7 +40918,8 @@ var geojson_features = [{
         "capacity": "2500.0",
         "length": "6.67441",
         "fftt": "8.94",
-        "color": "1.25",
+        "r_non_routed": "0.738396254594",
+        "color": "3.69198127297",
     }},{
     "type": "Feature",
     "geometry": {
@@ -38009,7 +40932,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "5.97831",
         "fftt": "7.14",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -38022,7 +40946,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -38035,7 +40960,8 @@ var geojson_features = [{
         "capacity": "2000.0",
         "length": "4.25297",
         "fftt": "4.77",
-        "color": "1.0",
+        "r_non_routed": "1.0",
+        "color": "5.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -38048,7 +40974,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "6.49471",
         "fftt": "9.71",
-        "color": "0.5",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -38061,7 +40988,8 @@ var geojson_features = [{
         "capacity": "1500.0",
         "length": "5.01982",
         "fftt": "6.24",
-        "color": "0.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -38074,7 +41002,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -38087,6 +41016,7 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "10.3917",
         "fftt": "8.98",
+        "r_non_routed": "0.5",
         "color": "2.5",
     }},{
     "type": "Feature",
@@ -38100,7 +41030,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -38113,7 +41044,8 @@ var geojson_features = [{
         "capacity": "1000.0",
         "length": "8.53869",
         "fftt": "10.18",
-        "color": "0.5",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -38126,7 +41058,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -38139,7 +41072,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "7.06021",
         "fftt": "6.93",
-        "color": "1.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -38152,7 +41086,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -38165,7 +41100,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "6.52016",
         "fftt": "6.29",
-        "color": "1.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -38178,7 +41114,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -38191,7 +41128,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "7.7268",
         "fftt": "7.78",
-        "color": "1.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -38204,7 +41142,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -38217,7 +41156,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "16.654",
         "fftt": "15.96",
-        "color": "1.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -38230,7 +41170,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -38243,7 +41184,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "32.8818",
         "fftt": "6.31",
-        "color": "1.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -38256,7 +41198,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -38269,7 +41212,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "38.3558",
         "fftt": "9.32",
-        "color": "1.75",
+        "r_non_routed": "0.0",
+        "color": "0.0",
     }},{
     "type": "Feature",
     "geometry": {
@@ -38282,7 +41226,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -38295,7 +41240,8 @@ var geojson_features = [{
         "capacity": "500.0",
         "length": "22.6543",
         "fftt": "14.78",
-        "color": "0.25",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -38308,7 +41254,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -38321,6 +41268,7 @@ var geojson_features = [{
         "capacity": "5000.0",
         "length": "10.4426",
         "fftt": "5.93",
+        "r_non_routed": "0.5",
         "color": "2.5",
     }},{
     "type": "Feature",
@@ -38334,7 +41282,8 @@ var geojson_features = [{
         "capacity": "49500.0",
         "length": "0.86267",
         "fftt": "0.0",
-        "color": "24.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }},{
     "type": "Feature",
     "geometry": {
@@ -38347,7 +41296,8 @@ var geojson_features = [{
         "capacity": "3500.0",
         "length": "6.10762",
         "fftt": "5.96",
-        "color": "1.75",
+        "r_non_routed": "0.5",
+        "color": "2.5",
     }}];
 
 var lat_center_map = 41.8445732401

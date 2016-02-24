@@ -85,6 +85,16 @@ function onEachFeature(feature, layer) {
             msg = msg.concat(feature.properties.length)
             msg = msg.concat("<br>")
         }
+        if (feature.properties.r_routed) {
+            msg = msg.concat("ratio routed: ")
+            msg = msg.concat(feature.properties.r_routed)
+            msg = msg.concat("<br>")
+        }
+        if (feature.properties.r_non_routed) {
+            msg = msg.concat("ratio non-routed: ")
+            msg = msg.concat(feature.properties.r_non_routed)
+            msg = msg.concat("<br>")
+        }
         layer.bindPopup(msg);
     }
 };
