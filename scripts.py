@@ -8,7 +8,7 @@ Various scripts for processing data
 import numpy as np
 from process_data import extract_features, process_links, geojson_link, \
     process_trips, process_net, process_node, array_to_trips, process_results
-from metrics import average_cost, cost_ratio
+from metrics import average_cost, cost_ratio, cost
 from frank_wolfe import solver, solver_2, solver_3
 from heterogeneous_solver import gauss_seidel, jacobi
 
@@ -173,6 +173,7 @@ def heterogeneous_demand(d, alpha):
 def chicago_parametric_study():
     '''
     parametric study of heterogeneous game on Chicago sketch network
+    save into test_*.csv files
     '''
     # graphs
     g_r = np.loadtxt('data/Chicago_net.csv', delimiter=',', skiprows=1)
@@ -180,7 +181,7 @@ def chicago_parametric_study():
     features = extract_features('data/ChicagoSketch_net.txt')
     for row in range(g_nr.shape[0]):
         if features[row,0] < 2000.:
-            g_nr[row,3] = g_nr[row,3] + 1000.
+            g_nr[row,3] = g_nr[row,3] + 100.
     # demand
     d = np.loadtxt('data/Chicago_od.csv', delimiter=',', skiprows=1)
     d[:,2] = d[:,2] / 2000 # technically, it's 2*demand/4000
@@ -191,24 +192,64 @@ def chicago_parametric_study():
     
     # print 'non-routed = .75, routed = .25'
     # d_nr, d_r = heterogeneous_demand(d, .25)
-    # fs = gauss_seidel([g_nr,g_r], [d_nr,d_r], solver_2, max_iter=1000, display=1)
-    # np.savetxt('data/test_2.csv', fs, delimiter=',')
-
-    # print 'non-routed = .5, routed = .5'
-    # d_nr, d_r = heterogeneous_demand(d, .5)
     # fs = gauss_seidel([g_nr,g_r], [d_nr,d_r], solver_3, max_iter=1000, display=1,\
     #     stop=1e-2, q=50)
-    # np.savetxt('data/test_3.csv', fs, delimiter=',')
+    # np.savetxt('data/test_2.csv', fs, delimiter=',')
 
-    print 'non-routed = .25, routed = .75'
-    d_nr, d_r = heterogeneous_demand(d, .75)
+    print 'non-routed = .5, routed = .5'
+    d_nr, d_r = heterogeneous_demand(d, .5)
     fs = gauss_seidel([g_nr,g_r], [d_nr,d_r], solver_3, max_iter=1000, display=1,\
         stop=1e-2, q=50)
-    np.savetxt('data/test_4.csv', fs, delimiter=',')
+    np.savetxt('data/test_3.csv', fs, delimiter=',')
+
+    # print 'non-routed = .25, routed = .75'
+    # d_nr, d_r = heterogeneous_demand(d, .75)
+    # fs = gauss_seidel([g_nr,g_r], [d_nr,d_r], solver_3, max_iter=1000, display=1,\
+    #     stop=1e-2, q=50)
+    # np.savetxt('data/test_4.csv', fs, delimiter=',')
 
     # print 'non-routed = 0.0, routed = 1.0'
     # fs = solver_3(g_r, d, max_iter=1000, q=100, display=1, stop=1e-2)    
     # np.savetxt('data/test_5.csv', fs, delimiter=',')
+
+
+def chicago_metrics():
+    '''
+    study the test_*.csv files
+    '''
+    net = np.loadtxt('data/Chicago_net.csv', delimiter=',', skiprows=1)
+    d = np.loadtxt('data/Chicago_od.csv', delimiter=',', skiprows=1)
+    d[:,2] = d[:,2] / 2000 # technically, it's 2*demand/4000
+
+    print 'only non-routed users'
+    f = np.loadtxt('data/test_1.csv', delimiter=',', skiprows=0)
+    print average_cost(f, net, d)
+
+    alpha = .25
+    print 'avg tt for {} non-routed and {} routed'.format(1-alpha, alpha)
+    fs = np.loadtxt('data/test_2.csv', delimiter=',', skiprows=0)
+    f = np.sum(fs, axis=1)
+    print cost(f, net).dot(fs[:,0]) / np.sum((1-alpha)*d[:,2])
+    print cost(f, net).dot(fs[:,1]) / np.sum(alpha*d[:,2])
+
+    alpha = .5
+    print 'avg tt for {} non-routed and {} routed'.format(1-alpha, alpha)
+    fs = np.loadtxt('data/test_3.csv', delimiter=',', skiprows=0)
+    f = np.sum(fs, axis=1)
+    print cost(f, net).dot(fs[:,0]) / np.sum((1-alpha)*d[:,2])
+    print cost(f, net).dot(fs[:,1]) / np.sum(alpha*d[:,2])
+
+    alpha = .75
+    print 'avg tt for {} non-routed and {} routed'.format(1-alpha, alpha)
+    fs = np.loadtxt('data/test_4.csv', delimiter=',', skiprows=0)
+    f = np.sum(fs, axis=1)
+    print cost(f, net).dot(fs[:,0]) / np.sum((1-alpha)*d[:,2])
+    print cost(f, net).dot(fs[:,1]) / np.sum(alpha*d[:,2])
+
+    print 'only routed users'
+    f = np.loadtxt('data/test_5.csv', delimiter=',', skiprows=0)
+    print average_cost(f, net, d)
+
 
 
 def main():
@@ -218,9 +259,10 @@ def main():
     # multiply_demand_by_2()
     # results_for_chicago()
     # frank_wolfe_on_chicago()
-    frank_wolfe_on_chicago_2()
+    # frank_wolfe_on_chicago_2()
     # braess_parametric_study()
     # chicago_parametric_study()
+    chicago_metrics()
 
 if __name__ == '__main__':
     main()

@@ -30,3 +30,4 @@ def average_cost(flow, net, od):
     return total_cost(flow, net) / np.sum(od[:,2])
 
 
+

@@ -3,6 +3,21 @@ __email__ = "jerome.thai@berkeley.edu"
 
 import numpy as np
 from scipy import special as sp
+from All_Or_Nothing import all_or_nothing
+
+
+def residual(graphs, demands, fs):
+    links = int(np.max(graphs[0][:,0])+1)
+    f = np.sum(fs, axis=1)
+    x = np.power(f.reshape((links,1)), np.array([0,1,2,3,4]))
+    r = 0.
+    for i, (graph, demand) in enumerate(zip(graphs, demands)):
+        g = np.copy(graph[:,:4])
+        grad = np.einsum('ij,ij->i', x, graph[:,3:])
+        g[:,3] = grad
+        L = all_or_nothing(g, demand)
+        r = r + grad.dot(fs[:,i] - L)
+    return r / np.sum([np.sum(d[:2]) for d in demands])
 
 
 def gauss_seidel(graphs, demands, solver, max_cycles=10, max_iter=100, \
@@ -25,6 +40,12 @@ def gauss_seidel(graphs, demands, solver, max_cycles=10, max_iter=100, \
             # update flow assignment for this type
             fs[:,i] = solver(g, demands[i], max_iter=max_iter, q=q, \
                 display=display, past=past, stop=stop)
+        # check if we have convergence
+        r = residual(graphs, demands, fs)
+        if display >= 1:
+            print 'error:', r
+        if r < stop:
+            return fs
     return fs
 
 
@@ -51,6 +72,12 @@ def jacobi(graphs, demands, solver, max_cycles=10, max_iter=100, \
                 display=display, past=past, stop=stop)
         # batch update
         fs = np.copy(updates)
+        # check if we have convergence
+        r = residual(graphs, demands, fs)
+        if display >= 1:
+            print 'error:', r
+        if r < stop:
+            return fs
     return fs
 
 
