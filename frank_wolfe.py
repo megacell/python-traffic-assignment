@@ -30,7 +30,6 @@ def line_search(f, res=20):
     return l*d
 
 
-
 def solver(graph, demand, max_iter=100, eps=1e-8, q=None, display=0, past=None,\
     stop=1e-8):
     # Prepares arrays for assignment

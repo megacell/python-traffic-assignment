@@ -107,18 +107,18 @@ function onEachFeature(feature, layer) {
 
 
 function getColor(x) {
-  return x < 1     ?    '#00FFFF': // blue
-         x < 2     ?   '#FFFF00': // yellow
-         x < 3     ?   '#FFA500': // orange
-         x < 4    ?   '#FF4500': // orangered
+  return x <= 1     ?    '#00FFFF': // blue
+         x <= 2     ?   '#FFFF00': // yellow
+         x <= 3     ?   '#FFA500': // orange
+         x <= 4    ?   '#FF4500': // orangered
                           '#FF0000'; // red
 };
 
 function getOpacity(x) {
-  return x < 1     ?    0.5:
-         x < 2     ?   0.5:
-         x < 3     ?   0.5:
-         x < 4    ?   0.5:
+  return x <= 1     ?    0.5:
+         x <= 2     ?   0.5:
+         x <= 3     ?   0.5:
+         x <= 4    ?   0.5:
                           0.5;
 };
 

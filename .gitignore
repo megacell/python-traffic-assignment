@@ -10,3 +10,4 @@ parameters.html
 *.xls
 data/test*.csv
 temp/
+visualization/links.js

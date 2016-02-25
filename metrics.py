@@ -7,6 +7,7 @@ compute diverse metrics
 
 
 import numpy as np
+from All_Or_Nothing import all_or_nothing
 
 
 def cost(flow, net):
@@ -30,4 +31,14 @@ def average_cost(flow, net, od):
     return total_cost(flow, net) / np.sum(od[:,2])
 
 
+def total_cost_all_or_nothing(flow, net, demand):
+    c = cost(flow, net)
+    g = np.copy(net[:,:4])
+    g[:,3] = c
+    L = all_or_nothing(g, demand)
+    return c.dot(L)
+
+
+def average_cost_all_or_nothing(flow, net, demand):
+    return total_cost_all_or_nothing(flow, net, demand) / np.sum(demand[:,2])
 
