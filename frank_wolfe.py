@@ -40,13 +40,22 @@ def search_direction(f, graph, g, demand):
     return all_or_nothing(g, demand), grad
 
 
+def total_free_flow_cost(g, demand):
+    # computes the average cost under free flow travel times
+    L = all_or_nothing(g, demand)
+    return g[:,3].dot(L)
+
+
 def solver(graph, demand, max_iter=100, eps=1e-8, q=None, display=0, past=None,\
     stop=1e-8):
     # Prepares arrays for assignment
     links = int(np.max(graph[:,0])+1)
     f = np.zeros(links,dtype="float64") # initial flow assignment is null
     g = np.copy(graph[:,:4])
-    total_demand = np.sum(demand[:,2])
+    total_demand = total_free_flow_cost(g, demand)
+    if total_demand < eps: total_demand = np.sum(demand[:,2])
+    if display >= 1:
+        print 'average free-flow travel time', total_demand / np.sum(demand[:,2])
 
     for i in range(max_iter):
         if display >= 1:
@@ -75,7 +84,10 @@ def solver_2(graph, demand, max_iter=100, eps=1e-8, q=10, display=0, past=None,\
     f = np.zeros(links,dtype="float64") # initial flow assignment is null
     g = np.copy(graph[:,:4])
     ls = max_iter/q # frequency of line search
-    total_demand = np.sum(demand[:,2])
+    total_demand = total_free_flow_cost(g, demand)
+    if total_demand < eps: total_demand = np.sum(demand[:,2])
+    if display >= 1:
+        print 'average free-flow travel time', total_demand / np.sum(demand[:,2])
 
     for i in range(max_iter):
         if display >= 1:
@@ -108,7 +120,10 @@ def solver_3(graph, demand, past=10, max_iter=100, eps=1e-8, q=50, display=0,\
     L = np.zeros(links,dtype="float64")
     fs = np.zeros((links,past),dtype="float64")
     g = np.copy(graph[:,:4])
-    total_demand = np.sum(demand[:,2])
+    total_demand =  total_free_flow_cost(g, demand)
+    if total_demand < eps: total_demand = np.sum(demand[:,2])
+    if display >= 1:
+        print 'average free-flow travel time', total_demand / np.sum(demand[:,2])
 
     for i in range(max_iter):
         if display >= 1:
