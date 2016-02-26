@@ -361,7 +361,7 @@ def chicago_parametric_study_2():
     # fs = solver_3(g_r, d, max_iter=1000, q=100, display=1, stop=1e-2)    
     # np.savetxt('data/test_100.csv', fs, delimiter=',')
 
-    alpha = 0.4
+    alpha = 0.5
     print 'non-routed = {}, routed = {}'.format(1-alpha, alpha)
     d_nr, d_r = heterogeneous_demand(d, alpha)
     fs = gauss_seidel([g_nr,g_r], [d_nr,d_r], solver_3, max_iter=1000, display=1,\

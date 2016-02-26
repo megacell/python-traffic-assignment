@@ -36,10 +36,10 @@ def gauss_seidel(graphs, demands, solver, max_cycles=10, max_iter=100, \
     g = np.copy(graphs[0])
     K =  total_ff_costs_heterogeneous(graphs, demands)
     if K < eps:
-        K = np.sum([np.sum(d[:2]) for d in demands])
+        K = np.sum([np.sum(d[:,2]) for d in demands])
     elif display >= 1:
         print 'average free-flow travel time', \
-            K / np.sum([np.sum(d[:2]) for d in demands])
+            K / np.sum([np.sum(d[:,2]) for d in demands])
 
     for cycle in range(max_cycles):
         if display >= 1: print 'cycle:', cycle
@@ -72,10 +72,10 @@ def jacobi(graphs, demands, solver, max_cycles=10, max_iter=100, \
     g = np.copy(graphs[0])
     K =  total_ff_costs_heterogeneous(graphs, demands)
     if K < eps:
-        K = np.sum([np.sum(d[:2]) for d in demands])
+        K = np.sum([np.sum(d[:,2]) for d in demands])
     elif display >= 1:
         print 'average free-flow travel time', \
-            K / np.sum([np.sum(d[:2]) for d in demands])
+            K / np.sum([np.sum(d[:,2]) for d in demands])
 
     for cycle in range(max_cycles):
         if display >= 1: print 'cycle:', cycle
