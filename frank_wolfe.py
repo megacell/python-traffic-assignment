@@ -30,12 +30,21 @@ def line_search(f, res=20):
     return l*d
 
 
+def search_direction(f, graph, g, demand):
+    # computes the Frank-Wolfe step
+    # g is just a canvas containing the link information and to be updated with 
+    # the most recent edge costs
+    x = np.power(f.reshape((f.shape[0],1)), np.array([0,1,2,3,4]))
+    grad = np.einsum('ij,ij->i', x, graph[:,3:])
+    g[:,3] = grad
+    return all_or_nothing(g, demand), grad
+
+
 def solver(graph, demand, max_iter=100, eps=1e-8, q=None, display=0, past=None,\
     stop=1e-8):
     # Prepares arrays for assignment
     links = int(np.max(graph[:,0])+1)
     f = np.zeros(links,dtype="float64") # initial flow assignment is null
-    L = np.zeros(links,dtype="float64")
     g = np.copy(graph[:,:4])
     total_demand = np.sum(demand[:,2])
 
@@ -46,12 +55,7 @@ def solver(graph, demand, max_iter=100, eps=1e-8, q=None, display=0, past=None,\
             else:
                 print 'iteration: {}, error: {}'.format(i+1, error)
         # construct weighted graph with latest flow assignment
-        x = np.power(f.reshape((links,1)), np.array([0,1,2,3,4]))
-        # import pdb; pdb.set_trace()
-        grad = np.einsum('ij,ij->i', x, graph[:,3:])
-        g[:,3] = grad
-        # flow update
-        L = all_or_nothing(g, demand)
+        L, grad = search_direction(f, graph, g, demand)
         if i >= 1:
             # w = f - L
             # norm_w = np.linalg.norm(w,1)
@@ -69,7 +73,6 @@ def solver_2(graph, demand, max_iter=100, eps=1e-8, q=10, display=0, past=None,\
     # Prepares arrays for assignment
     links = int(np.max(graph[:,0])+1)
     f = np.zeros(links,dtype="float64") # initial flow assignment is null
-    L = np.zeros(links,dtype="float64")
     g = np.copy(graph[:,:4])
     ls = max_iter/q # frequency of line search
     total_demand = np.sum(demand[:,2])
@@ -81,11 +84,7 @@ def solver_2(graph, demand, max_iter=100, eps=1e-8, q=10, display=0, past=None,\
             else:
                 print 'iteration: {}, error: {}'.format(i+1, error)
         # construct weighted graph with latest flow assignment
-        x = np.power(f.reshape((links,1)), np.array([0,1,2,3,4]))
-        grad = np.einsum('ij,ij->i', x, graph[:,3:])
-        g[:,3] = grad
-        # flow update
-        L = all_or_nothing(g, demand)
+        L, grad = search_direction(f, graph, g, demand)
         if i >= 1:
             # w = f - L
             # norm_w = np.linalg.norm(w,1)
@@ -118,10 +117,7 @@ def solver_3(graph, demand, past=10, max_iter=100, eps=1e-8, q=50, display=0,\
             else:            
                 print 'iteration: {}, error: {}'.format(i+1, error)
         # construct weighted graph with latest flow assignment
-        x = np.power(f.reshape((links,1)), np.array([0,1,2,3,4]))
-        grad = np.einsum('ij,ij->i', x, graph[:,3:])
-        g[:,3] = grad
-        L = all_or_nothing(g, demand)
+        L, grad = search_direction(f, graph, g, demand)
         fs[:,i%past] = L
         w = L - f
         if i >= 1:

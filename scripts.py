@@ -8,8 +8,8 @@ Various scripts for processing data
 import numpy as np
 from process_data import extract_features, process_links, geojson_link, \
     process_trips, process_net, process_node, array_to_trips, process_results
-from metrics import average_cost, cost_ratio, cost,\
-    total_cost_all_or_nothing, average_cost_all_or_nothing
+from metrics import average_cost, cost_ratio, cost, all_or_nothing_assignment, \
+    total_cost_all_or_nothing, average_cost_all_or_nothing, ratio_subset
 from frank_wolfe import solver, solver_2, solver_3
 from heterogeneous_solver import gauss_seidel, jacobi
 from All_Or_Nothing import all_or_nothing
@@ -224,11 +224,20 @@ def chicago_metrics():
     d = np.loadtxt('data/Chicago_od.csv', delimiter=',', skiprows=1)
     d[:,2] = d[:,2] / 2000 # technically, it's 2*demand/4000
 
+    net2 = np.copy(net)
+    features = extract_features('data/ChicagoSketch_net.txt')
+    small_capacity = np.zeros((net2.shape[0],))
+    for row in range(net2.shape[0]):
+        if features[row,0] < 2000.:
+            small_capacity[row] = 1.0
+            net2[row,3] = net2[row,3] + 100.
+
     alpha = .0 
     print 'avg tt for {} non-routed and {} routed'.format(1-alpha, alpha)
     f = np.loadtxt('data/test_1.csv', delimiter=',', skiprows=0)
     print average_cost(f, net, d)
     print average_cost_all_or_nothing(f, net, d)
+    print ratio_subset(f, net, small_capacity)
 
     alpha = .25 
     print 'avg tt for {} non-routed and {} routed'.format(1-alpha, alpha)
@@ -236,6 +245,7 @@ def chicago_metrics():
     f = np.sum(fs, axis=1)
     print cost(f, net).dot(fs[:,0]) / np.sum((1-alpha)*d[:,2])
     print cost(f, net).dot(fs[:,1]) / np.sum(alpha*d[:,2])
+    print ratio_subset(f, net, small_capacity)
 
     alpha = .5 
     print 'avg tt for {} non-routed and {} routed'.format(1-alpha, alpha)
@@ -243,6 +253,7 @@ def chicago_metrics():
     f = np.sum(fs, axis=1)
     print cost(f, net).dot(fs[:,0]) / np.sum((1-alpha)*d[:,2])
     print cost(f, net).dot(fs[:,1]) / np.sum(alpha*d[:,2])
+    print ratio_subset(f, net, small_capacity)
 
     alpha = .75 
     print 'avg tt for {} non-routed and {} routed'.format(1-alpha, alpha)
@@ -250,23 +261,15 @@ def chicago_metrics():
     f = np.sum(fs, axis=1)
     print cost(f, net).dot(fs[:,0]) / np.sum((1-alpha)*d[:,2])
     print cost(f, net).dot(fs[:,1]) / np.sum(alpha*d[:,2])
+    print ratio_subset(f, net, small_capacity)
 
     alpha = 1. 
     print 'avg tt for {} non-routed and {} routed'.format(1-alpha, alpha)
     f = np.loadtxt('data/test_5.csv', delimiter=',', skiprows=0)
-    net2 = np.copy(net)
-    features = extract_features('data/ChicagoSketch_net.txt')
-    for row in range(net2.shape[0]):
-        if features[row,0] < 2000.:
-            net2[row,3] = net2[row,3] + 100.
-    c = cost(f, net2)
-    g = np.copy(net[:,:4])
-    g[:,3] = c
-    L = all_or_nothing(g, d)
-    c = cost(f, net)
-    print c.dot(L) / np.sum(d[:,2])
+    L = all_or_nothing_assignment(cost(f, net2), net, d)
+    print cost(f, net).dot(L) / np.sum(d[:,2])
     print average_cost(f, net, d)
-
+    print ratio_subset(f, net, small_capacity)
 
 def chicago_ratio_r_nr():
     '''

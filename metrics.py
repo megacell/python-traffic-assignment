@@ -31,14 +31,25 @@ def average_cost(flow, net, od):
     return total_cost(flow, net) / np.sum(od[:,2])
 
 
-def total_cost_all_or_nothing(flow, net, demand):
-    c = cost(flow, net)
+def all_or_nothing_assignment(cost, net, demand):
+    # given vector of edge costs, graph, and demand, computes the AoN assignment
     g = np.copy(net[:,:4])
-    g[:,3] = c
-    L = all_or_nothing(g, demand)
-    return c.dot(L)
+    g[:,3] = cost
+    return all_or_nothing(g, demand)
+
+
+def total_cost_all_or_nothing(flow, net, demand):
+    # computes the total cost in an all-or-nothing assignment 
+    c = cost(flow, net)
+    return c.dot(all_or_nothing_assignment(c, net, demand))
 
 
 def average_cost_all_or_nothing(flow, net, demand):
+    # computes the average cost in an all-or-nothing assignment
     return total_cost_all_or_nothing(flow, net, demand) / np.sum(demand[:,2])
 
+
+def ratio_subset(flow, net, subset, eps=1e-8):
+    # computes the average cost ratios on a subset of links
+    tmp = np.multiply(cost(flow, net), subset)
+    return np.sum(np.divide(tmp, np.maximum(net[:,3], eps))) / np.sum(subset)
