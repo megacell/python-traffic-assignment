@@ -52,10 +52,11 @@ def solver(graph, demand, max_iter=100, eps=1e-8, q=None, display=0, past=None,\
     links = int(np.max(graph[:,0])+1)
     f = np.zeros(links,dtype="float64") # initial flow assignment is null
     g = np.copy(graph[:,:4])
-    total_demand = total_free_flow_cost(g, demand)
-    if total_demand < eps: total_demand = np.sum(demand[:,2])
-    if display >= 1:
-        print 'average free-flow travel time', total_demand / np.sum(demand[:,2])
+    K = total_free_flow_cost(g, demand)
+    if K < eps:
+        K = np.sum(demand[:,2])
+    elif display >= 1:
+        print 'average free-flow travel time', K / np.sum(demand[:,2])
 
     for i in range(max_iter):
         if display >= 1:
@@ -69,7 +70,7 @@ def solver(graph, demand, max_iter=100, eps=1e-8, q=None, display=0, past=None,\
             # w = f - L
             # norm_w = np.linalg.norm(w,1)
             # if norm_w < eps: return f
-            error = grad.dot(f - L) / total_demand
+            error = grad.dot(f - L) / K
             if error < stop: return f
         s = 2. / (i + 2.)
         f = (1.-s) * f + s * L
@@ -84,10 +85,11 @@ def solver_2(graph, demand, max_iter=100, eps=1e-8, q=10, display=0, past=None,\
     f = np.zeros(links,dtype="float64") # initial flow assignment is null
     g = np.copy(graph[:,:4])
     ls = max_iter/q # frequency of line search
-    total_demand = total_free_flow_cost(g, demand)
-    if total_demand < eps: total_demand = np.sum(demand[:,2])
-    if display >= 1:
-        print 'average free-flow travel time', total_demand / np.sum(demand[:,2])
+    K = total_free_flow_cost(g, demand)
+    if K < eps:
+        K = np.sum(demand[:,2])
+    elif display >= 1:
+        print 'average free-flow travel time', K / np.sum(demand[:,2])
 
     for i in range(max_iter):
         if display >= 1:
@@ -101,7 +103,7 @@ def solver_2(graph, demand, max_iter=100, eps=1e-8, q=10, display=0, past=None,\
             # w = f - L
             # norm_w = np.linalg.norm(w,1)
             # if norm_w < eps: return f
-            error = grad.dot(f - L) / total_demand
+            error = grad.dot(f - L) / K
             if error < stop: return f
         # s = line_search(lambda a: potential(graph, (1.-a)*f+a*L)) if i>max_iter-q \
         #     else 2./(i+2.)
@@ -120,10 +122,11 @@ def solver_3(graph, demand, past=10, max_iter=100, eps=1e-8, q=50, display=0,\
     L = np.zeros(links,dtype="float64")
     fs = np.zeros((links,past),dtype="float64")
     g = np.copy(graph[:,:4])
-    total_demand =  total_free_flow_cost(g, demand)
-    if total_demand < eps: total_demand = np.sum(demand[:,2])
-    if display >= 1:
-        print 'average free-flow travel time', total_demand / np.sum(demand[:,2])
+    K =  total_free_flow_cost(g, demand)
+    if K < eps:
+        K = np.sum(demand[:,2])
+    elif display >= 1:
+        print 'average free-flow travel time', K / np.sum(demand[:,2])
 
     for i in range(max_iter):
         if display >= 1:
@@ -136,7 +139,7 @@ def solver_3(graph, demand, past=10, max_iter=100, eps=1e-8, q=50, display=0,\
         fs[:,i%past] = L
         w = L - f
         if i >= 1:
-            error = -grad.dot(w) / total_demand
+            error = -grad.dot(w) / K
             if error < stop: return f
         if i > q:
             # step 3 of Fukushima

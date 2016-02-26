@@ -6,6 +6,10 @@ from scipy import special as sp
 from All_Or_Nothing import all_or_nothing
 
 
+def total_ff_costs_heterogeneous(graphs, demands):
+    return np.sum([g[:,3].dot(all_or_nothing(g[:,:4], d)) for g,d in zip(graphs, demands)])
+
+
 def residual(graphs, demands, fs):
     links = int(np.max(graphs[0][:,0])+1)
     f = np.sum(fs, axis=1)
@@ -17,11 +21,11 @@ def residual(graphs, demands, fs):
         g[:,3] = grad
         L = all_or_nothing(g, demand)
         r = r + grad.dot(fs[:,i] - L)
-    return r / np.sum([np.sum(d[:2]) for d in demands])
+    return r
 
 
 def gauss_seidel(graphs, demands, solver, max_cycles=10, max_iter=100, \
-    by_origin=False, q=10, display=0, past=10, stop=1e-8):
+    by_origin=False, q=10, display=0, past=10, stop=1e-8, eps=1e-8):
     # we are given a list of graphs and demands that are specific for different types of players
     # the gauss-seidel scheme updates cyclically for each type at a time
 
@@ -30,6 +34,12 @@ def gauss_seidel(graphs, demands, solver, max_cycles=10, max_iter=100, \
     links = int(np.max(graphs[0][:,0])+1)
     fs = np.zeros((links,types),dtype="float64")
     g = np.copy(graphs[0])
+    K =  total_ff_costs_heterogeneous(graphs, demands)
+    if K < eps:
+        K = np.sum([np.sum(d[:2]) for d in demands])
+    elif display >= 1:
+        print 'average free-flow travel time', \
+            K / np.sum([np.sum(d[:2]) for d in demands])
 
     for cycle in range(max_cycles):
         if display >= 1: print 'cycle:', cycle
@@ -39,9 +49,9 @@ def gauss_seidel(graphs, demands, solver, max_cycles=10, max_iter=100, \
             shift_graph(graphs[i], g, shift)
             # update flow assignment for this type
             fs[:,i] = solver(g, demands[i], max_iter=max_iter, q=q, \
-                display=display, past=past, stop=stop)
+                display=display, past=past, stop=stop, eps=eps)
         # check if we have convergence
-        r = residual(graphs, demands, fs)
+        r = residual(graphs, demands, fs) / K
         if display >= 1:
             print 'error:', r
         if r < stop:
@@ -50,7 +60,7 @@ def gauss_seidel(graphs, demands, solver, max_cycles=10, max_iter=100, \
 
 
 def jacobi(graphs, demands, solver, max_cycles=10, max_iter=100, \
-    by_origin=False, q=10, display=0, past=10, stop=1e-8):
+    by_origin=False, q=10, display=0, past=10, stop=1e-8, eps=1e-8):
     # given a list of graphs and demands specific for different types of players
     # the jacobi scheme updates simultenously for each type at the same time
 
@@ -60,6 +70,12 @@ def jacobi(graphs, demands, solver, max_cycles=10, max_iter=100, \
     fs = np.zeros((links,types),dtype="float64")
     updates = np.copy(fs)
     g = np.copy(graphs[0])
+    K =  total_ff_costs_heterogeneous(graphs, demands)
+    if K < eps:
+        K = np.sum([np.sum(d[:2]) for d in demands])
+    elif display >= 1:
+        print 'average free-flow travel time', \
+            K / np.sum([np.sum(d[:2]) for d in demands])
 
     for cycle in range(max_cycles):
         if display >= 1: print 'cycle:', cycle
@@ -69,11 +85,11 @@ def jacobi(graphs, demands, solver, max_cycles=10, max_iter=100, \
             shift_graph(graphs[i], g, shift)
             # update flow assignment for this type
             updates[:,i] = solver(g, demands[i], max_iter=max_iter, q=q, \
-                display=display, past=past, stop=stop)
+                display=display, past=past, stop=stop, eps=eps)
         # batch update
         fs = np.copy(updates)
         # check if we have convergence
-        r = residual(graphs, demands, fs)
+        r = residual(graphs, demands, fs) / K
         if display >= 1:
             print 'error:', r
         if r < stop:
