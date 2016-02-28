@@ -1,5 +1,5 @@
-__author__ = "Jerome Thai, Nicolas Laurent"
-__email__ = "jerome.thai@berkeley.edu"
+__author__ = "Jerome Thai, Nicolas Laurent-Brouty"
+__email__ = "jerome.thai@berkeley.edu, nicolas.lb@berkeley.edu"
 
 
 '''
@@ -27,7 +27,7 @@ def frank_wolfe_on_I210():
     # run solver
     f = solver_3(graph, demand, max_iter=1000, q=50, display=1, stop=1e-2)
     # display cost
-    # for a,b in zip(cost(f, graph), f*4000): print a,b
+    for a,b in zip(cost(f, graph), f*4000): print a,b
     # visualization
     node = np.loadtxt('data/I210_node.csv', delimiter=',', skiprows=1)
     # extract features: 'capacity', 'length', 'fftt'
@@ -45,7 +45,7 @@ def frank_wolfe_on_I210():
 
 
 def main():
-    # process_I210_net()
+    #process_I210_net()
     frank_wolfe_on_I210()
 
 if __name__ == '__main__':

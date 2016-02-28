@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="feat_13">
+        <GroundOverlay id="feat_14">
+            <name>I210_network</name>
+            <Icon id="link_6">
+                <href>I210_network.png</href>
+            </Icon>
+            <gx:LatLonQuad>
+                <coordinates>-118.155569,34.149521,0.0 -118.094259,34.149521,0.0 -118.094259,34.158286,0.0 -118.155569,34.158286,0.0</coordinates>
+            </gx:LatLonQuad>
+        </GroundOverlay>
+    </Document>
+</kml>
