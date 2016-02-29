@@ -140,22 +140,32 @@ def solver_3(graph, demand, past=10, max_iter=100, eps=1e-8, q=50, display=0,\
         w = L - f
         if i >= 1:
             error = -grad.dot(w) / K
-            if error < stop: return f
+            if error < stop and error > 0.0: 
+                if display >= 1: print 'stop with error: {}'.format(error)
+                return f
         if i > q:
             # step 3 of Fukushima
             v = np.sum(fs,1) / min(past,i+1) - f
             norm_v = np.linalg.norm(v,1)
-            if norm_v < eps: return f
+            if norm_v < eps: 
+                if display >= 1: print 'stop with norm_v: {}'.format(norm_v)
+                return f
             norm_w = np.linalg.norm(w,1)
-            if norm_w < eps: return f
+            if norm_w < eps: 
+                if display >= 1: print 'stop with norm_w: {}'.format(norm_w)
+                return f
             # step 4 of Fukushima
             gamma_1 = grad.dot(v) / norm_v
             gamma_2 = grad.dot(w) / norm_w
-            if gamma_2 > -eps: return f
+            if gamma_2 > -eps: 
+                if display >= 1: print 'stop with gamma_2: {}'.format(gamma_2)
+                return f
             d = v if gamma_1 < gamma_2 else w
             # step 5 of Fukushima
             s = line_search(lambda a: potential(graph, f+a*d))
-            if s < eps: return f
+            if s < eps: 
+                if display >= 1: print 'stop with step_size: {}'.format(s)
+                return f
             f = f + s*d
         else:
             f = f + 2*w/(i+2.)

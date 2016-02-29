@@ -136,7 +136,7 @@ def process_node(input, output, min_X=None, max_X=None, min_Y=None, max_Y=None):
         text_file.write(''.join(out))
 
 
-def process_links(net, node, features):
+def process_links(net, node, features, in_order=False):
     '''
     Join data from net, node, and features arrays into links file
     '''
@@ -146,11 +146,15 @@ def process_links(net, node, features):
     out = np.zeros((links, 4+num_fts))
     for i in range(links):
         a, b = net[i,1], net[i,2]
-        for j in range(nodes):
-            if node[j,0] == a:
-                lat1, lon1 = node[j,1], node[j,2]
-            if node[j,0] == b:
-                lat2, lon2 = node[j,1], node[j,2]
+        if in_order == False:
+            for j in range(nodes):
+                if node[j,0] == a:
+                    lat1, lon1 = node[j,1], node[j,2]
+                if node[j,0] == b:
+                    lat2, lon2 = node[j,1], node[j,2]
+        else:
+            lat1, lon1 = node[int(a)-1, 1], node[int(a)-1, 2]
+            lat2, lon2 = node[int(b)-1, 1], node[int(b)-1, 2]
         out[i,:4] = [lat1, lon1, lat2, lon2]
         out[i,4:] = features[i,:]
     return out

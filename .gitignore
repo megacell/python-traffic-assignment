@@ -14,3 +14,4 @@ visualization/links.js
 *.kml
 *.ipynb
 *.png
+data/LA_*.csv
