@@ -11,3 +11,6 @@ parameters.html
 data/test*.csv
 temp/
 visualization/links.js
+*.kml
+*.ipynb
+*.png
