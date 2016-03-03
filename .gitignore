@@ -15,3 +15,4 @@ visualization/links.js
 *.ipynb
 *.png
 data/LA_*.csv
+data/out.csv

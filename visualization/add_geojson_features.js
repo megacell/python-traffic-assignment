@@ -70,6 +70,11 @@ function onEachFeature(feature, layer) {
             msg = msg.concat(feature.properties.freespeed)
             msg = msg.concat("<br>")
         }
+        if (feature.properties.speed) {
+            msg = msg.concat("speed: ")
+            msg = msg.concat(feature.properties.speed)
+            msg = msg.concat("<br>")
+        }
         if (feature.properties.flow) {
             msg = msg.concat("flow: ")
             msg = msg.concat(feature.properties.flow)
@@ -93,6 +98,11 @@ function onEachFeature(feature, layer) {
         if (feature.properties.r_non_routed) {
             msg = msg.concat("ratio non-routed: ")
             msg = msg.concat(feature.properties.r_non_routed)
+            msg = msg.concat("<br>")
+        }
+        if (feature.properties.co2) {
+            msg = msg.concat("CO2: ")
+            msg = msg.concat(feature.properties.co2)
             msg = msg.concat("<br>")
         }
         layer.bindPopup(msg);

@@ -25,10 +25,12 @@ def residual(graphs, demands, fs):
 
 
 def gauss_seidel(graphs, demands, solver, max_cycles=10, max_iter=100, \
-    by_origin=False, q=10, display=0, past=10, stop=1e-8, eps=1e-8):
+    by_origin=False, q=10, display=0, past=10, stop=1e-8, eps=1e-8, \
+    stop_cycle=None):
     # we are given a list of graphs and demands that are specific for different types of players
     # the gauss-seidel scheme updates cyclically for each type at a time
-
+    if stop_cycle is None: 
+        stop_cycle = stop
     # prepare arrays for assignment by type
     types = len(graphs)
     links = int(np.max(graphs[0][:,0])+1)
@@ -54,16 +56,18 @@ def gauss_seidel(graphs, demands, solver, max_cycles=10, max_iter=100, \
         r = residual(graphs, demands, fs) / K
         if display >= 1:
             print 'error:', r
-        if r < stop:
+        if r < stop_cycle and r > 0:
             return fs
     return fs
 
 
 def jacobi(graphs, demands, solver, max_cycles=10, max_iter=100, \
-    by_origin=False, q=10, display=0, past=10, stop=1e-8, eps=1e-8):
+    by_origin=False, q=10, display=0, past=10, stop=1e-8, eps=1e-8, \
+    stop_cycle=None):
     # given a list of graphs and demands specific for different types of players
     # the jacobi scheme updates simultenously for each type at the same time
-
+    if stop_cycle is None: 
+        stop_cycle = stop
     # prepare arrays for assignment by type
     types = len(graphs)
     links = int(np.max(graphs[0][:,0])+1)
@@ -92,7 +96,7 @@ def jacobi(graphs, demands, solver, max_cycles=10, max_iter=100, \
         r = residual(graphs, demands, fs) / K
         if display >= 1:
             print 'error:', r
-        if r < stop:
+        if r < stop_cycle and r > 0:
             return fs
     return fs
 

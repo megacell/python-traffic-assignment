@@ -49,7 +49,64 @@ def average_cost_all_or_nothing(flow, net, demand):
     return total_cost_all_or_nothing(flow, net, demand) / np.sum(demand[:,2])
 
 
-def ratio_subset(flow, net, subset, eps=1e-8):
+def average_cost_subset(flow, net, od, subset, eps=1e-8):
     # computes the average cost ratios on a subset of links
-    tmp = np.multiply(cost(flow, net), subset)
-    return np.sum(np.divide(tmp, np.maximum(net[:,3], eps))) / np.sum(subset)
+    return np.multiply(cost(flow, net), subset).dot(flow) / np.sum(od[:,2])
+
+
+def gas_emission(speed):
+    return 350.*(speed>30.) + np.multiply((speed<=30.), 350.+650.*(30.-speed)/30.)
+
+
+def compute_metrics(alpha, f, net, d, feat, subset, out, row, fs=None, net2=None):
+    '''
+    Save in the numpy array 'out' at the specific 'row' the following metrics
+    - average cost for non-routed
+    - average cost for routed
+    - average cost on a subset
+    - total gas emissions
+    - total gas emissions on a subset 
+    '''
+    speed = 60.0 * np.divide(feat[:,1], np.maximum(cost(f, net), 10e-8))
+    co2 = np.multiply(gas_emission(speed), feat[:,1])
+    out[row,0] = alpha
+    out[row,3] = average_cost_subset(f, net, d, subset)
+    out[row,4] = co2.dot(f)
+    out[row,5] = np.multiply(co2, subset).dot(f)
+    if alpha == 0.0:
+        out[row,1] = average_cost(f, net, d)
+        out[row,2] = average_cost_all_or_nothing(f, net, d)
+        return
+    if alpha == 1.0:
+        L = all_or_nothing_assignment(cost(f, net2), net, d)
+        out[row,1] = cost(f, net).dot(L) / np.sum(d[:,2])
+        out[row,2] = average_cost(f, net, d)
+        return
+    out[row,1] = cost(f, net).dot(fs[:,0]) / np.sum((1-alpha)*d[:,2])
+    out[row,2] = cost(f, net).dot(fs[:,1]) / np.sum(alpha*d[:,2])
+
+
+def save_metrics(alphas, net, net2, d, features, subset, input, output):
+    out = np.zeros((len(alphas),6))
+    a = 0
+    if alphas[0] == 0.0:
+        alpha = 0.0
+        print 'compute for nr = {}, r = {}'.format(1-alphas[0], alphas[0])
+        f = np.loadtxt(input.format(int(alpha*100)), delimiter=',')
+        compute_metrics(0.0, f, net, d, features, subset, out, 0)
+        a = 1
+
+    b = 1 if alphas[-1] == 1.0 else 0
+    for i,alpha in enumerate(alphas[a:len(alphas)-b]):
+        print 'compute for nr = {}, r = {}'.format(1-alpha, alpha)
+        fs = np.loadtxt(input.format(int(alpha*100)), delimiter=',')
+        f = np.sum(fs, axis=1)
+        compute_metrics(alpha, f, net, d, features, subset, out, i+a, fs=fs)
+
+    if alphas[-1] == 1.0:
+        alpha = 1.0
+        print 'compute for nr = {}, r = {}'.format(1-alphas[-1], alphas[-1])
+        f = np.loadtxt(input.format(int(alpha*100)), delimiter=',')
+        compute_metrics(1.0, f, net, d, features, subset, out, -1, net2=net2)
+
+    np.savetxt(output, out, delimiter=',')
