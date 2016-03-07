@@ -246,25 +246,9 @@ def chicago_metrics(alphas):
         'data/out.csv')
 
 
-def chicago_gas_emissions():
-    net, d, node, feat = load_chicago()
-    alpha = .01
-    fs = np.loadtxt('data/test_{}.csv'.format(int(alpha*100)), delimiter=',')
-    speed = 60.0 * np.divide(feat[:,1], np.maximum(cost(np.sum(fs, axis=1), net), 10e-8))
-    features = np.zeros((fs.shape[0], 5))
-    features[:,:3] = feat
-    features[:,3] = np.minimum(speed, 80.)
-    co2 = gas_emission(speed)
-    features[:,4] = co2
-    links = process_links(net, node, features)
-    # color = speed / 15.
-    color = (co2<=350.) + np.multiply((co2>350.), 1.0+(co2-350.)/150.)
-    geojson_link(links, ['capacity', 'length', 'fftt', 'speed', 'co2'], color)
-
-
 def main():
     # process_chicago_network()
-    # capacities_of_chicago()
+    capacities_of_chicago()
     # visualize_equilibrium_in_chicago()
     # multiply_demand_by_2()
     # results_for_chicago()
@@ -275,7 +259,7 @@ def main():
     # chicago_tt_over_fftt()
     # chicago_flow_over_capacity()
     # chicago_parametric_study_2(1.0)
-    chicago_metrics([.0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1.0])
+    # chicago_metrics([.0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1.0])
 
 
 if __name__ == '__main__':

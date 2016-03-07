@@ -138,6 +138,7 @@ L.geoJson(geojson_features, {
         return {
          "color": getColor(feature.properties.color),
          //"opacity": 0.5,
+         "weight": 2,
          "opacity": getOpacity(feature.properties.color),
         }}
 }).addTo(map);
