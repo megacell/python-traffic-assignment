@@ -8,11 +8,13 @@ Scripts for the I-210 sketch
 
 from process_data import extract_features, process_links, geojson_link, \
     process_trips, process_net, process_node, array_to_trips, process_results,output_file
-from frank_wolfe import solver, solver_2, solver_3
+# from frank_wolfe import solver, solver_2, solver_3
+from frank_wolfe_2 import solver, solver_2, solver_3
 import numpy as np
 from metrics import average_cost, cost_ratio, cost, all_or_nothing_assignment, \
     total_cost_all_or_nothing, average_cost_all_or_nothing
-from heterogeneous_solver import gauss_seidel, jacobi
+# from heterogeneous_solver import gauss_seidel, jacobi
+from multi_types_solver import gauss_seidel
 
 
 def load_I210():
@@ -156,7 +158,7 @@ def I210_parametric_study_2():
     #divide the demand by 4000 to computationally optimize
     d[:,2] = d[:,2] / 4000 
 
-    for alpha in np.linspace(0.0, 1.0, num=2):
+    for alpha in np.linspace(0.0, 1.0, num=11):
         #special case where in fact homogeneous game
         if alpha == 0.0:
             print 'non-routed = 1.0, routed = 0.0'
@@ -165,7 +167,7 @@ def I210_parametric_study_2():
             fs[:,0]=f_nr
         elif alpha == 1.0:
             print 'non-routed = 0.0, routed = 1.0'
-            f_r = solver_3(g_r, d, max_iter=1000, q=100, display=1, stop=1e-2)    
+            f_r = solver_3(g_r, d, max_iter=1000, past=30, display=1, stop=1e-2)    
             fs=np.zeros((len(f_r),2))
             fs[:,1]=f_r            
         #run solver
@@ -199,8 +201,8 @@ def main():
     #frank_wolfe_on_I210()
     #I210_parametric_study()
     #I210_ratio_r_total()
-    #I210_parametric_study_2()
-    I210_non_routed_only()
+    I210_parametric_study_2()
+    #I210_non_routed_only()
 
 
 if __name__ == '__main__':

@@ -9,7 +9,7 @@ that can be found here: http://www.bgu.ac.il/~bargera/tntp/
 import csv
 import numpy as np
 from utils import digits, spaces
-
+import igraph
 
 def process_net(input, output):
     '''
@@ -245,14 +245,52 @@ def output_file(net_name, node_name, fs, output_name):
         fmt='%d %3.5f %2.5f %d %3.5f %2.5f %d %1.3f %1.3f %2.4e %2.4e')
 
 
+def construct_igraph(graph):
+    vertices = range(int(np.min(graph[:,1:3])), int(np.max(graph[:,1:3]))+1)
+    edges = graph[:,1:3].astype(int).tolist()
+    g = igraph.Graph(vertex_attrs={"label":vertices}, edges=edges, directed=True)
+    g.es["weight"] = graph[:,3].tolist() # feel with free-flow travel times
+    return g
+
+
+def process_demand(od_file):
+    origin = -1
+    out = {}
+    with open(od_file, 'rb') as f:
+        reader = csv.reader(f)
+        for row in reader:
+            if len(row)>0: 
+                l = row[0].split()
+                if l[0] == 'Origin':
+                    origin = int(l[1])
+                    out[origin] = ([],[])
+                elif origin != -1:
+                    for i,e in enumerate(l):
+                        if i%3 == 0:
+                            out[origin][0].append(int(e))
+                        if i%3 == 2:
+                            out[origin][1].append(float(e[:-1]))
+    return out
+
+ 
+def construct_od(demand):
+    out = {}
+    for i in range(demand.shape[0]):
+        origin = int(demand[i,0])
+        if origin not in out.keys():
+            out[origin] = ([],[])
+        out[origin][0].append(int(demand[i,1]))
+        out[origin][1].append(demand[i,2])
+    return out
+
+
 
 def main():
     # process_trips('data/SiouxFalls_trips.txt', 'data/SiouxFalls_od.csv')
     # process_trips('data/Anaheim_trips.txt', 'data/Anaheim_od.csv')
     # process_results('data/Anaheim_raw_results.csv', 'data/Anaheim_results.csv',\
     #    'data/Anaheim_net.csv')
-    process_chicago_network()
-
+    print process_demand('data/SiouxFalls_trips.txt')
 
 if __name__ == '__main__':
     main()

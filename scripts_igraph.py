@@ -23,6 +23,7 @@ out = g.get_shortest_paths(18, to=19, weights=weights, output="vpath")
 print out
 out = g.get_shortest_paths(18, to=[11,19], weights=weights, output="epath")
 print out
+print len(g.es)
 #print [e for e in g.es]
 
 g.es["weight"] = weights
@@ -35,6 +36,7 @@ L[out[1]] = 10.
 L[out[1]] = 10. + L[out[1]]
 L[[39,40,38]] =  10. + L[[39,40,38]]
 print L
+print g.es["weight"]
 # graph=np.loadtxt('data/graph.csv', delimiter=',', skiprows=1)
 # od=np.loadtxt('data/matrix.csv', delimiter=',', skiprows=1)
 # print np.max(graph[:,1:3])

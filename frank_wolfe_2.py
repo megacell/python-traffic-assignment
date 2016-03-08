@@ -2,14 +2,15 @@ __author__ = "Jerome Thai"
 __email__ = "jerome.thai@berkeley.edu"
 
 import numpy as np
-from All_Or_Nothing import all_or_nothing
+from process_data import construct_igraph, construct_od
+from AoN_igraph import all_or_nothing
 
 
 def potential(graph ,f):
     # this routine is useful for doing a line search
     # computes the potential at flow assignment f
     links = int(np.max(graph[:,0])+1)
-    g = np.copy(graph.dot(np.diag([1.,1.,1.,1.,1/2.,1/3.,1/4.,1/5.])))
+    g = graph.dot(np.diag([1.,1.,1.,1.,1/2.,1/3.,1/4.,1/5.]))
     x = np.power(f.reshape((links,1)), np.array([1,2,3,4,5]))
     return np.sum(np.einsum('ij,ij->i', x, g[:,3:]))
 
@@ -30,29 +31,27 @@ def line_search(f, res=20):
     return l*d
 
 
-def search_direction(f, graph, g, demand):
+def total_free_flow_cost(g, od):
+    return np.array(g.es["weight"]).dot(all_or_nothing(g, od))
+
+
+def search_direction(f, graph, g, od):
     # computes the Frank-Wolfe step
     # g is just a canvas containing the link information and to be updated with 
     # the most recent edge costs
     x = np.power(f.reshape((f.shape[0],1)), np.array([0,1,2,3,4]))
     grad = np.einsum('ij,ij->i', x, graph[:,3:])
-    g[:,3] = grad
-    return all_or_nothing(g, demand), grad
+    g.es["weight"] = grad.tolist()
+    return all_or_nothing(g, od), grad
 
 
-def total_free_flow_cost(g, demand):
-    # computes the total cost under free flow travel times
-    L = all_or_nothing(g, demand)
-    return g[:,3].dot(L)
+def solver(graph, demand, g=None, od=None, max_iter=100, eps=1e-8, q=None, \
+    display=0, past=None, stop=1e-8):
 
-
-def solver(graph, demand, max_iter=100, eps=1e-8, q=None, display=0, past=None,\
-    stop=1e-8):
-    # Prepares arrays for assignment
-    links = int(np.max(graph[:,0])+1)
-    f = np.zeros(links,dtype="float64") # initial flow assignment is null
-    g = np.copy(graph[:,:4])
-    K = total_free_flow_cost(g, demand)
+    if g is None: g = construct_igraph(graph)
+    if od is None: od = construct_od(demand)
+    f = np.zeros(graph.shape[0],dtype="float64") # initial flow assignment is null
+    K = total_free_flow_cost(g, od)
     if K < eps:
         K = np.sum(demand[:,2])
     elif display >= 1:
@@ -65,26 +64,22 @@ def solver(graph, demand, max_iter=100, eps=1e-8, q=None, display=0, past=None,\
             else:
                 print 'iteration: {}, error: {}'.format(i+1, error)
         # construct weighted graph with latest flow assignment
-        L, grad = search_direction(f, graph, g, demand)
+        L, grad = search_direction(f, graph, g, od)
         if i >= 1:
-            # w = f - L
-            # norm_w = np.linalg.norm(w,1)
-            # if norm_w < eps: return f
             error = grad.dot(f - L) / K
             if error < stop: return f
         f = f + 2.*(L-f)/(i+2.)
     return f
 
 
-def solver_2(graph, demand, max_iter=100, eps=1e-8, q=10, display=0, past=None,\
-    stop=1e-8):
-    # version with line search
-    # Prepares arrays for assignment
-    links = int(np.max(graph[:,0])+1)
-    f = np.zeros(links,dtype="float64") # initial flow assignment is null
-    g = np.copy(graph[:,:4])
+def solver_2(graph, demand, g=None, od=None, max_iter=100, eps=1e-8, q=10, \
+    display=0, past=None, stop=1e-8):
+    
+    if g is None: g = construct_igraph(graph)
+    if od is None: od = construct_od(demand)
+    f = np.zeros(graph.shape[0],dtype="float64") # initial flow assignment is null
     ls = max_iter/q # frequency of line search
-    K = total_free_flow_cost(g, demand)
+    K = total_free_flow_cost(g, od)
     if K < eps:
         K = np.sum(demand[:,2])
     elif display >= 1:
@@ -97,7 +92,7 @@ def solver_2(graph, demand, max_iter=100, eps=1e-8, q=10, display=0, past=None,\
             else:
                 print 'iteration: {}, error: {}'.format(i+1, error)
         # construct weighted graph with latest flow assignment
-        L, grad = search_direction(f, graph, g, demand)
+        L, grad = search_direction(f, graph, g, od)
         if i >= 1:
             # w = f - L
             # norm_w = np.linalg.norm(w,1)
@@ -113,14 +108,14 @@ def solver_2(graph, demand, max_iter=100, eps=1e-8, q=10, display=0, past=None,\
     return f
 
 
-def solver_3(graph, demand, past=10, max_iter=100, eps=1e-8, q=50, display=0,\
+def solver_3(graph, demand, g=None, od=None, past=10, max_iter=100, eps=1e-8, q=50, display=0,\
     stop=1e-8):
-    # modified Frank-Wolfe from Masao Fukushima
-    links = int(np.max(graph[:,0])+1)
-    f = np.zeros(links,dtype="float64") # initial flow assignment is null
-    fs = np.zeros((links,past),dtype="float64")
-    g = np.copy(graph[:,:4])
-    K =  total_free_flow_cost(g, demand)
+
+    if g is None: g = construct_igraph(graph)
+    if od is None: od = construct_od(demand)
+    f = np.zeros(graph.shape[0],dtype="float64") # initial flow assignment is null
+    fs = np.zeros((graph.shape[0],past),dtype="float64")
+    K = total_free_flow_cost(g, od)
     if K < eps:
         K = np.sum(demand[:,2])
     elif display >= 1:
@@ -133,7 +128,7 @@ def solver_3(graph, demand, past=10, max_iter=100, eps=1e-8, q=50, display=0,\
             else:            
                 print 'iteration: {}, error: {}'.format(i+1, error)
         # construct weighted graph with latest flow assignment
-        L, grad = search_direction(f, graph, g, demand)
+        L, grad = search_direction(f, graph, g, od)
         fs[:,i%past] = L
         w = L - f
         if i >= 1:
@@ -144,7 +139,7 @@ def solver_3(graph, demand, past=10, max_iter=100, eps=1e-8, q=50, display=0,\
                 return f
         if i > q:
             # step 3 of Fukushima
-            v = np.sum(fs,1) / min(past,i+1) - f
+            v = np.sum(fs,axis=1) / min(past,i+1) - f
             norm_v = np.linalg.norm(v,1)
             if norm_v < eps: 
                 if display >= 1: print 'stop with norm_v: {}'.format(norm_v)
@@ -169,14 +164,3 @@ def solver_3(graph, demand, past=10, max_iter=100, eps=1e-8, q=50, display=0,\
         else:
             f = f + 2. * w/(i+2.)
     return f
-
-
-def main():
-    graph = np.loadtxt('data/braess_net.csv', delimiter=',', skiprows=1)
-    demand = np.loadtxt('data/braess_od.csv', delimiter=',', skiprows=1)
-    f = solver(graph, demand)
-    print f
-
-
-if __name__ == '__main__':
-    main()
