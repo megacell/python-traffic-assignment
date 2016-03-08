@@ -7,11 +7,11 @@ Scripts for LA network
 
 import numpy as np
 from process_data import process_net, process_trips, extract_features, process_links, \
-    geojson_link
-from frank_wolfe import solver, solver_2, solver_3
-from metrics import cost, all_or_nothing_assignment, ratio_subset, average_cost, \
-    average_cost_all_or_nothing
-from heterogeneous_solver import gauss_seidel, jacobi
+    geojson_link, construct_igraph, construct_od
+from frank_wolfe_2 import solver, solver_2, solver_3
+from multi_types_solver import gauss_seidel
+from metrics import average_cost_all_or_nothing, all_or_nothing_assignment, \
+    cost_ratio, cost
 
 
 def process_LA_node():
@@ -34,18 +34,54 @@ def process_LA_od():
     process_trips('data/LA_od.txt', 'data/LA_od.csv')
 
 
+def remove_loops_in_LA_od():
+    out = ['O,D,demand\n']
+    demand = np.loadtxt('data/LA_od.csv', delimiter=',', skiprows=1)
+    for row in range(demand.shape[0]):
+        o = int(demand[row,0])
+        d = int(demand[row,1])
+        if o != d:
+            out.append('{},{},{}\n'.format(o,d,demand[row,2]))
+    with open('data/LA_od.csv', 'w') as f:
+        f.write(''.join(out))
+
+
 def load_LA():
     graph = np.loadtxt('data/LA_net.csv', delimiter=',', skiprows=1)
     demand = np.loadtxt('data/LA_od.csv', delimiter=',', skiprows=1)
     node = np.loadtxt('data/LA_node.csv', delimiter=',')
     return graph, demand, node
 
-def frank_wolfe_on_LA():
+
+def load_LA_2():
+    graph = np.loadtxt('data/LA_net.csv', delimiter=',', skiprows=1)
+    demand = np.loadtxt('data/LA_od_2.csv', delimiter=',', skiprows=1)
+    node = np.loadtxt('data/LA_node.csv', delimiter=',')
+    features = extract_features('data/LA_net.txt')
+    features[10787,0] = features[10787,0] * 1.5
+    graph[10787,-1] = graph[10787,-1] / (1.5**4)
+    features[3348,:] = features[3348,:] * 1.2
+    graph[3348,-1] = graph[3348,-1] / (1.2**4)
+    return graph, demand, node, features
+
+
+def check__LA_connectivity():
     graph, demand, node = load_LA()
-    demand[:,2] = demand[:,2] / 4000
+    print np.min(graph[:,1:3])
+    print np.max(graph[:,1:3])
+    print np.min(demand[:,:2])
+    print np.max(demand[:,:2])
+    od = construct_od(demand)
+    g = construct_igraph(graph)
+    f = np.zeros((graph.shape[0],))
+    print average_cost_all_or_nothing(f, graph, demand)
+
+
+def frank_wolfe_on_LA():
+    graph, demand, node, features = load_LA_2()
+    demand[:,2] = demand[:,2] / 4000.
     f = solver_3(graph, demand, max_iter=1000, q=50, display=1, stop=1e-2)
-    print f*4000.
-    np.savetxt('data/LA_output.csv', f*4000., delimiter=',')
+    np.savetxt('data/LA/LA_output_4.csv', f, delimiter=',')
 
 
 def visualize_LA_capacity():
@@ -71,16 +107,61 @@ def visualize_LA_result():
 
 
 def check_LA_result():
-    net, demand, node = load_LA()
-    demand[:,2] = demand[:,2] / 4000
-    f = np.loadtxt('data/LA_output.csv', delimiter=',', skiprows=0)
-    #f = np.zeros((f.shape[0],))
-    costs = cost(f/4000., net)
+    net, demand, node, features = load_LA_2()
+    demand[:,2] = demand[:,2] / 4000.
+    f = np.loadtxt('data/LA/LA_output_4.csv', delimiter=',', skiprows=0)
+    costs = cost(f, net)
+    cr = cost_ratio(f, net)
+    print np.sort(cr)[-20:]
+    for row in range(net.shape[0]):
+        if cr[row] >= 10.: 
+            print cr[row]
+            print net[row,:3], features[row,:]
     L = all_or_nothing_assignment(costs, net, demand)
     print costs.dot(L) / np.sum(demand[:,2])
-    # 1312s = 22min for free-flow travel times
-    # 2771s = 46min for equilibrium travel times (routed users only)
 
+
+def reduce_demand():
+    net, demand, node = load_LA()
+    features = extract_features('data/LA_net.txt')
+    f = np.loadtxt('data/LA/LA_output_3.csv', delimiter=',', skiprows=0)
+    cr = cost_ratio(f, net)
+    for row in range(net.shape[0]):
+        if cr[row] >= 10.: 
+            out = []
+            for i in range(demand.shape[0]):
+                if int(demand[i,0]) == int(net[row,1]):
+                    out.append(demand[i,2])
+                    demand[i,2] = demand[i,2] / 10.
+            if len(out) > 0:
+                out = np.array(out)
+                print '\nratio:', cr[row]
+                print 'origin: {}\nflow: {}'.format(int(demand[i,0]), np.sum(out))
+                print np.sort(out).tolist()
+
+    for row in range(net.shape[0]):
+        if cr[row] >= 10.: 
+            out = []
+            for i in range(demand.shape[0]):
+                if int(demand[i,1]) == int(net[row,2]):
+                    out.append(demand[i,2])
+                    demand[i,2] = demand[i,2] / 10.
+
+            if len(out) > 0:
+                out = np.array(out)
+                print '\nratio:', cr[row]
+                print 'destination: {}\nflow: {}'.format(int(demand[i,0]), np.sum(out))
+                print np.sort(out).tolist()
+
+    # np.savetxt('data/LA_od_2.csv', demand, delimiter=',', header='O,D,flow')
+
+
+def increase_capacity():
+    net, demand, node = load_LA()
+    f = np.loadtxt('data/LA/LA_output_3.csv', delimiter=',', skiprows=0)
+    cr = cost_ratio(f, net)
+
+        
 
 def heterogeneous_demand(d, alpha):
     d_nr = np.copy(d)
@@ -115,45 +196,6 @@ def LA_parametric_study():
     # np.savetxt('data/LA_result_{}.csv'.format(int(alpha*100)), fs, delimiter=',')
 
 
-def check_LA_result_heterogeneous():
-
-    net, d, node = load_LA()
-    d[:,2] = d[:,2] / 4000.
-    net2 = np.copy(net)
-    features = extract_features('data/LA_net.txt')
-    small_capacity = np.zeros((net2.shape[0],))
-    for row in range(net2.shape[0]):
-        if features[row,0] < 1000.:
-            small_capacity[row] = 1.0
-            net2[row,3] = net2[row,3] + 3000.
-
-    alpha = .0 
-    print 'non-routed = {}, routed = {}'.format(1-alpha, alpha)
-    f = np.loadtxt('data/LA_result_0.csv', delimiter=',', skiprows=0)
-    print average_cost(f, net, d)
-    print average_cost_all_or_nothing(f, net, d)
-    print ratio_subset(f, net, small_capacity)
-
-    for alpha in [.1,.2,.3,.4,.5,.6,.7,.8,.9]:
-    # for alpha in [.1,.2,.3,.4,.5]:
-        print 'non-routed = {}, routed = {}'.format(1-alpha, alpha)
-        fs = np.loadtxt('data/LA_result_{}.csv'.format(int(alpha*100)), delimiter=',', skiprows=0)
-        f = np.sum(fs, axis=1)
-        print cost(f, net).dot(fs[:,0]) / np.sum((1-alpha)*d[:,2])
-        print cost(f, net).dot(fs[:,1]) / np.sum(alpha*d[:,2])
-        print ratio_subset(f, net, small_capacity)
-
-    alpha = 1. 
-    print 'non-routed = {}, routed = {}'.format(1-alpha, alpha)
-    f = np.loadtxt('data/LA_result_100.csv', delimiter=',', skiprows=0)
-    # f = np.loadtxt('data/LA_output.csv', delimiter=',', skiprows=0) / 4000.
-    L = all_or_nothing_assignment(cost(f, net2), net, d)
-    print cost(f, net).dot(L) / np.sum(d[:,2])
-    print average_cost(f, net, d)
-    print average_cost_all_or_nothing(f, net, d)
-    print ratio_subset(f, net, small_capacity)
-
-
 def main():
     # process_LA_node()
     # process_LA_net()
@@ -161,10 +203,12 @@ def main():
     # visualize_LA_result()
     # process_LA_od()
     # frank_wolfe_on_LA()
-    # check_LA_result()
+    check_LA_result()
     # LA_parametric_study()
-    check_LA_result_heterogeneous()
-
+    # check__LA_connectivity()
+    # remove_loops_in_LA_od()
+    # reduce_demand()
+    # load_LA_2()
 
 if __name__ == '__main__':
     main()

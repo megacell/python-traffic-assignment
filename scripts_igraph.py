@@ -31,15 +31,13 @@ out = g.get_shortest_paths(18, to=19, weights="weight", output="vpath")
 print out
 out = g.get_shortest_paths(18, to=[11,19], weights="weight", output="epath")
 print out
-L = np.zeros(len(edges))
-L[out[1]] = 10.
-L[out[1]] = 10. + L[out[1]]
-L[[39,40,38]] =  10. + L[[39,40,38]]
-print L
-print g.es["weight"]
-# graph=np.loadtxt('data/graph.csv', delimiter=',', skiprows=1)
-# od=np.loadtxt('data/matrix.csv', delimiter=',', skiprows=1)
-# print np.max(graph[:,1:3])
-# print np.min(graph[:,1:3])
-# print np.max(od[:,:2])
-# print np.min(od[:,:2])
+
+vertices = range(int(np.max(graph[:,1:3]))+2)
+print vertices
+print edges
+edges.append([20,19])
+weights.append(1.0)
+g = Graph(vertex_attrs={"label":vertices}, edges=edges, directed=True)
+g.es["weight"] = weights
+out = g.get_shortest_paths(18, to=[11,19,20], weights=weights, output="vpath")
+print out

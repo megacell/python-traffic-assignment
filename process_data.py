@@ -246,6 +246,7 @@ def output_file(net_name, node_name, fs, output_name):
     np.savetxt(output_name, featuredNetwork, delimiter=',', \
         header='o_index,o_long,o_lat,d_index,d_long,d_lat,capacity,length(mi),fftt(min),f_nr,f_r')
 
+
 def construct_igraph(graph):
     vertices = range(int(np.min(graph[:,1:3])), int(np.max(graph[:,1:3]))+1)
     edges = graph[:,1:3].astype(int).tolist()
