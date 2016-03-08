@@ -9,9 +9,11 @@ import numpy as np
 from process_data import extract_features, process_links, geojson_link, \
     process_trips, process_net, process_node, array_to_trips, process_results
 from metrics import average_cost, cost_ratio, cost, save_metrics
-from frank_wolfe import solver, solver_2, solver_3
-from heterogeneous_solver import gauss_seidel, jacobi
-from All_Or_Nothing import all_or_nothing
+# from frank_wolfe import solver, solver_2, solver_3
+# from heterogeneous_solver import gauss_seidel, jacobi
+from multi_types_solver import gauss_seidel
+from frank_wolfe_2 import solver, solver_2, solver_3
+
 
 
 def process_chicago_network():
@@ -229,7 +231,7 @@ def chicago_parametric_study_2(alpha):
     d_nr, d_r = heterogeneous_demand(d, alpha)
     fs = gauss_seidel([g_nr,g_r], [d_nr,d_r], solver_3, max_iter=1000, display=1,\
         stop=1e-2, q=50, stop_cycle=1e-3)
-    np.savetxt('data/test_{}.csv'.format(int(alpha*100)), fs, delimiter=',')
+    np.savetxt('data/chicago/test_{}.csv'.format(int(alpha*100)), fs, delimiter=',')
 
 
 def chicago_metrics(alphas):
@@ -242,13 +244,13 @@ def chicago_metrics(alphas):
     net, d, node, features = load_chicago()
     d[:,2] = d[:,2] / 2000. # technically, it's 2*demand/4000
     net2, small_capacity = multiply_cognitive_cost(net, features, 2000., 100.)
-    save_metrics(alphas, net, net2, d, features, small_capacity, 'data/test_{}.csv', \
-        'data/out.csv')
+    save_metrics(alphas, net, net2, d, features, small_capacity, \
+        'data/chicago/test_{}.csv', 'data/chicago/out.csv')
 
 
 def main():
     # process_chicago_network()
-    capacities_of_chicago()
+    # capacities_of_chicago()
     # visualize_equilibrium_in_chicago()
     # multiply_demand_by_2()
     # results_for_chicago()
@@ -258,8 +260,8 @@ def main():
     # chicago_ratio_r_nr()
     # chicago_tt_over_fftt()
     # chicago_flow_over_capacity()
-    # chicago_parametric_study_2(1.0)
-    # chicago_metrics([.0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1.0])
+    # chicago_parametric_study_2(.1)
+    chicago_metrics([.0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1.0])
 
 
 if __name__ == '__main__':

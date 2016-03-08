@@ -19,3 +19,5 @@ data/out.csv
 *.xlsx
 data/I210/test*.csv
 data/braess/test*.csv
+data/chicago/test*.csv
+data/chicago/out.csv

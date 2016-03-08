@@ -7,7 +7,9 @@ compute diverse metrics
 
 
 import numpy as np
-from All_Or_Nothing import all_or_nothing
+# from All_Or_Nothing import all_or_nothing
+from AoN_igraph import all_or_nothing
+from process_data import construct_igraph, construct_od
 
 
 def cost(flow, net):
@@ -31,11 +33,19 @@ def average_cost(flow, net, od):
     return total_cost(flow, net) / np.sum(od[:,2])
 
 
+# def all_or_nothing_assignment(cost, net, demand):
+#     # given vector of edge costs, graph, and demand, computes the AoN assignment
+#     g = np.copy(net[:,:4])
+#     g[:,3] = cost
+#     return all_or_nothing(g, demand)
+
+
 def all_or_nothing_assignment(cost, net, demand):
     # given vector of edge costs, graph, and demand, computes the AoN assignment
-    g = np.copy(net[:,:4])
-    g[:,3] = cost
-    return all_or_nothing(g, demand)
+    g = construct_igraph(net)
+    od = construct_od(demand)
+    g.es["weight"] = cost.tolist()    
+    return all_or_nothing(g, od)
 
 
 def total_cost_all_or_nothing(flow, net, demand):

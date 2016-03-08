@@ -240,10 +240,11 @@ def output_file(net_name, node_name, fs, output_name):
     featuredNetwork[:,7] = network[:,3] #length
     featuredNetwork[:,8] = network[:,4] ##fftt
     featuredNetwork[:,9:] = fs
+    # np.savetxt(output_name, featuredNetwork, delimiter=',', \
+    #     header='o_index,o_long,o_lat,d_index,d_long,d_lat,capacity,length(mi),fftt(min),f_nr,f_r', \
+    #     fmt='%d %3.5f %2.5f %d %3.5f %2.5f %d %1.3f %1.3f %2.4e %2.4e')
     np.savetxt(output_name, featuredNetwork, delimiter=',', \
-        header='o_index,o_long,o_lat,d_index,d_long,d_lat,capacity,length(mi),fftt(min),f_nr,f_r', \
-        fmt='%d %3.5f %2.5f %d %3.5f %2.5f %d %1.3f %1.3f %2.4e %2.4e')
-
+        header='o_index,o_long,o_lat,d_index,d_long,d_lat,capacity,length(mi),fftt(min),f_nr,f_r')
 
 def construct_igraph(graph):
     vertices = range(int(np.min(graph[:,1:3])), int(np.max(graph[:,1:3]))+1)
