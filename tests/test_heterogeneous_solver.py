@@ -38,6 +38,7 @@ class TestHeterogeneousSolver(unittest.TestCase):
         g1 = np.copy(g2)
         g1[2,3] = 1e8
         d1 = np.loadtxt('data/braess_od.csv', delimiter=',', skiprows=1)
+        d1=np.reshape(d1, (1,3))
         d1[0,2] = demand_nr
         d2 = np.copy(d1)
         d2[0,2] = demand_r

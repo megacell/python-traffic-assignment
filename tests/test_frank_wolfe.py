@@ -20,6 +20,7 @@ class TestFrankWolfe(unittest.TestCase):
         print 'test solver'
         graph = np.loadtxt('data/braess_net.csv', delimiter=',', skiprows=1)
         demand = np.loadtxt('data/braess_od.csv', delimiter=',', skiprows=1)
+        demand=np.reshape(demand, (1,3))
         f = solver(graph, demand, max_iter=300)
         self.check(f, np.array([1.,1.,0.,1.,1.]), 1e-2)
 
@@ -35,6 +36,7 @@ class TestFrankWolfe(unittest.TestCase):
         print 'test solver_2'
         graph = np.loadtxt('data/braess_net.csv', delimiter=',', skiprows=1)
         demand = np.loadtxt('data/braess_od.csv', delimiter=',', skiprows=1)
+        demand=np.reshape(demand, (1,3))
         f = solver_2(graph, demand, max_iter=100)
         self.check(f, np.array([1.,1.,0.,1.,1.]), 1e-3)
 
@@ -48,6 +50,7 @@ class TestFrankWolfe(unittest.TestCase):
         print 'test_solver_3'
         graph = np.loadtxt('data/braess_net.csv', delimiter=',', skiprows=1)
         demand = np.loadtxt('data/braess_od.csv', delimiter=',', skiprows=1)
+        demand=np.reshape(demand, (1,3))
         f = solver_3(graph, demand, max_iter=100)
         #print f
         self.check(f, np.array([1.,1.,0.,1.,1.]), 1e-1)

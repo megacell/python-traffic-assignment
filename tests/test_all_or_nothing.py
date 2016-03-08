@@ -13,7 +13,7 @@ class TestAllOrNothing(unittest.TestCase):
         # load the data
         graph=np.loadtxt('data/braess_graph.csv', delimiter=',', skiprows=1)
         od=np.loadtxt('data/braess_od.csv', delimiter=',', skiprows=1)
-
+        od=np.reshape(od, (1,3))
         # all or nothing assignment
         L = all_or_nothing(graph, od)
         self.assertTrue(np.linalg.norm(L - np.array([2., 0., 2., 0., 2.])) < eps)

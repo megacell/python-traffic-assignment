@@ -46,6 +46,7 @@ class TestMetrics(unittest.TestCase):
         net = np.loadtxt('data/braess_net.csv', delimiter=',', skiprows=1)
         flow = np.array([.5,.5,.0,.5,.5])
         demand = np.loadtxt('data/braess_od.csv', delimiter=',', skiprows=1)
+        demand=np.reshape(demand, (1,3))
         c = average_cost_all_or_nothing(flow, net, demand)
         self.assertTrue(abs(c - 1.0) < 1e-8)
 
@@ -54,6 +55,7 @@ class TestMetrics(unittest.TestCase):
         net = np.loadtxt('data/braess_net.csv', delimiter=',', skiprows=1)
         flow = np.array([.5,.5,.0,.5,.5])
         demand = np.loadtxt('data/braess_od.csv', delimiter=',', skiprows=1)
+        demand=np.reshape(demand, (1,3))
         c = total_cost_all_or_nothing(flow, net, demand)
         self.assertTrue(abs(c - 2.0) < 1e-8)
 
@@ -70,6 +72,7 @@ class TestMetrics(unittest.TestCase):
         net = np.loadtxt('data/braess_net.csv', delimiter=',', skiprows=1)
         cost = np.array([1.,5.,1.,5.,1.])
         demand = np.loadtxt('data/braess_od.csv', delimiter=',', skiprows=1)
+        demand=np.reshape(demand, (1,3))
         L = all_or_nothing_assignment(cost, net, demand)
         self.assertTrue(np.linalg.norm(L - np.array([2.,0.,2.,0.,2.])) < 1e-8)
 
