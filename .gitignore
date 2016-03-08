@@ -16,3 +16,6 @@ visualization/links.js
 *.png
 data/LA_*.csv
 data/out.csv
+*.xlsx
+data/I210/test*.csv
+data/braess/test*.csv

@@ -43,25 +43,25 @@ def braess_parametric_study():
     parametric study of heterogeneous game on the Braess network 
     '''
     g1,g2,d1,d2 = braess_heterogeneous(.0, 1.5)
-    fs = solver_2(g1, d1)
+    fs = solver_2(g1, d1, display=1)
     print '.0, 1.5'
-    np.savetxt('data/test_1.csv', fs, delimiter=',')
+    np.savetxt('data/braess/test_1.csv', fs, delimiter=',')
     g1,g2,d1,d2 = braess_heterogeneous(.5, 1.)
-    fs = gauss_seidel([g1,g2], [d1,d2], solver_2)
+    fs = gauss_seidel([g1,g2], [d1,d2], solver_2, display=1)
     print '.5, 1.'
-    np.savetxt('data/test_2.csv', fs, delimiter=',')
+    np.savetxt('data/braess/test_2.csv', fs, delimiter=',')
     g1,g2,d1,d2 = braess_heterogeneous(.75, .75)
-    fs = gauss_seidel([g1,g2], [d1,d2], solver_2)
+    fs = gauss_seidel([g1,g2], [d1,d2], solver_2, display=1)
     print '.75, .75'
-    np.savetxt('data/test_3.csv', fs, delimiter=',')
+    np.savetxt('data/braess/test_3.csv', fs, delimiter=',')
     g1,g2,d1,d2 = braess_heterogeneous(1., .5)
-    fs = gauss_seidel([g1,g2], [d1,d2], solver_2)
+    fs = gauss_seidel([g1,g2], [d1,d2], solver_2, display=1)
     print '1., .5'
-    np.savetxt('data/test_4.csv', fs, delimiter=',')
+    np.savetxt('data/braess/test_4.csv', fs, delimiter=',')
     g1,g2,d1,d2 = braess_heterogeneous(1.5, .0)
-    fs = solver_2(g2, d2)
+    fs = solver_2(g2, d2, display=1)
     print '1.5, .0'
-    np.savetxt('data/test_5.csv', fs, delimiter=',')
+    np.savetxt('data/braess/test_5.csv', fs, delimiter=',')
 
 
 def main():

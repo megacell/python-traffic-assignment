@@ -72,8 +72,7 @@ def solver(graph, demand, max_iter=100, eps=1e-8, q=None, display=0, past=None,\
             # if norm_w < eps: return f
             error = grad.dot(f - L) / K
             if error < stop: return f
-        s = 2. / (i + 2.)
-        f = (1.-s) * f + s * L
+        f = f + 2.*(L-f)/(i+2.)
     return f
 
 
@@ -119,7 +118,6 @@ def solver_3(graph, demand, past=10, max_iter=100, eps=1e-8, q=50, display=0,\
     # modified Frank-Wolfe from Masao Fukushima
     links = int(np.max(graph[:,0])+1)
     f = np.zeros(links,dtype="float64") # initial flow assignment is null
-    L = np.zeros(links,dtype="float64")
     fs = np.zeros((links,past),dtype="float64")
     g = np.copy(graph[:,:4])
     K =  total_free_flow_cost(g, demand)
@@ -140,7 +138,8 @@ def solver_3(graph, demand, past=10, max_iter=100, eps=1e-8, q=50, display=0,\
         w = L - f
         if i >= 1:
             error = -grad.dot(w) / K
-            if error < stop and error > 0.0: 
+            # if error < stop and error > 0.0:
+            if error < stop:
                 if display >= 1: print 'stop with error: {}'.format(error)
                 return f
         if i > q:
@@ -168,7 +167,7 @@ def solver_3(graph, demand, past=10, max_iter=100, eps=1e-8, q=50, display=0,\
                 return f
             f = f + s*d
         else:
-            f = f + 2*w/(i+2.)
+            f = f + 2. * w/(i+2.)
     return f
 
 

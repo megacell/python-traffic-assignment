@@ -223,23 +223,26 @@ def geojson_link(links, features, color):
     with open('visualization/links.js', 'w') as f:
         f.write(''.join(out))
 
-def output_file(net_name,node_name,fs,output_name):
+
+def output_file(net_name, node_name, fs, output_name):
     network = np.genfromtxt(net_name,skip_header=7)
     nodes = np.genfromtxt(node_name, delimiter=',', skip_header=1)
     #create a numpy array containing informations of both I210_node and I210_net
     featuredNetwork = np.zeros((len(network),11))
-    featuredNetwork[:,0]=network[:,0] # index of origin vertex
-    featuredNetwork[:,3]=network[:,1] # index of destination vertex
+    featuredNetwork[:,0] = network[:,0] # index of origin vertex
+    featuredNetwork[:,3] = network[:,1] # index of destination vertex
     for i in range(len(featuredNetwork)):
-        featuredNetwork[i,1]=nodes[featuredNetwork[i,0]-1,2] #longitude of origin
-        featuredNetwork[i,2]=nodes[featuredNetwork[i,0]-1,1] #latitude of origin
-        featuredNetwork[i,4]=nodes[featuredNetwork[i,3]-1,2] #longitude of destination
-        featuredNetwork[i,5]=nodes[featuredNetwork[i,3]-1,1] #latitude of destination
-    featuredNetwork[:,6]=network[:,2] # capacity
-    featuredNetwork[:,7]=network[:,3] #length
-    featuredNetwork[:,8]=network[:,4] ##fftt
-    featuredNetwork[:,9:]=fs
-    np.savetxt(output_name,featuredNetwork, delimiter=',', header='o_index o_long o_lat d_index d_long d_lat capacity length(mi) fftt(min) f_nr f_r', fmt='%d %3.5f %2.5f %d %3.5f %2.5f %d %1.3f %1.3f %2.4e %2.4e')
+        featuredNetwork[i,1] = nodes[featuredNetwork[i,0]-1,2] #longitude of origin
+        featuredNetwork[i,2] = nodes[featuredNetwork[i,0]-1,1] #latitude of origin
+        featuredNetwork[i,4] = nodes[featuredNetwork[i,3]-1,2] #longitude of destination
+        featuredNetwork[i,5] = nodes[featuredNetwork[i,3]-1,1] #latitude of destination
+    featuredNetwork[:,6] = network[:,2] # capacity
+    featuredNetwork[:,7] = network[:,3] #length
+    featuredNetwork[:,8] = network[:,4] ##fftt
+    featuredNetwork[:,9:] = fs
+    np.savetxt(output_name, featuredNetwork, delimiter=',', \
+        header='o_index,o_long,o_lat,d_index,d_long,d_lat,capacity,length(mi),fftt(min),f_nr,f_r', \
+        fmt='%d %3.5f %2.5f %d %3.5f %2.5f %d %1.3f %1.3f %2.4e %2.4e')
 
 
 

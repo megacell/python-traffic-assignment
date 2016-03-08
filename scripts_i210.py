@@ -20,6 +20,11 @@ def load_I210():
     demand = np.loadtxt('data/I210_od.csv', delimiter=',', skiprows=1)
     node = np.loadtxt('data/I210_node.csv', delimiter=',', skiprows=1)
     geometry = extract_features('data/I210Sketch_net.csv')
+    net[:,1] = net[:,1]-1
+    net[:,2] = net[:,2]-1
+    demand[:,0] = demand[:,0]-1
+    demand[:,1] = demand[:,1]-1
+    demand = np.reshape(demand[0,:], (1,3))
     return net, demand, node, geometry
 
 
@@ -146,54 +151,56 @@ def I210_parametric_study_2():
     '''
     # load the network and its properties
     g_r, d, node, feat = load_I210()
-
     #modify the costs on non routed network
     g_nr, small_capacity = multiply_cognitive_cost(g_r, feat, 3000., 100.)
-
     #divide the demand by 4000 to computationally optimize
     d[:,2] = d[:,2] / 4000 
 
-    for i in range(11):
-
-        alpha=0.1*i
-
-
+    for alpha in np.linspace(0.0, 1.0, num=2):
         #special case where in fact homogeneous game
         if alpha == 0.0:
             print 'non-routed = 1.0, routed = 0.0'
             f_nr = solver_3(g_nr, d, max_iter=1000, q=100, display=1, stop=1e-2) 
             fs=np.zeros((len(f_nr),2))
             fs[:,0]=f_nr
-            
-
         elif alpha == 1.0:
             print 'non-routed = 0.0, routed = 1.0'
             f_r = solver_3(g_r, d, max_iter=1000, q=100, display=1, stop=1e-2)    
             fs=np.zeros((len(f_r),2))
             fs[:,1]=f_r            
-
         #run solver
         else:
             print 'non-routed = {}, routed = {}'.format(1-alpha, alpha)
             d_nr, d_r = heterogeneous_demand(d, alpha)
-            fs = gauss_seidel([g_nr,g_r], [d_nr,d_r], solver_3, max_iter=1000, display=1,\
-            stop=1e-2, q=50, stop_cycle=1e-3)
-
+            fs = gauss_seidel([g_nr,g_r], [d_nr,d_r], solver_3, max_iter=1000, \
+                display=1, stop=1e-2, q=50, stop_cycle=1e-3)
         #remultiply by 4000
         fs=fs*4000
-
-        #save the results
-        output_file('data/I210Sketch_net.csv','data/I210_node.csv',fs,'data/I210/test_{}.csv'.format(int(alpha*100)))
+        #save the resul
+        output_file('data/I210Sketch_net.csv', 'data/I210_node.csv', fs, \
+            'data/I210/test_{}.csv'.format(int(alpha*100)))
         #np.savetxt('data/I210/test_{}.csv'.format(int(alpha*100)), fs, delimiter=',', fmt='%1.2e')
 
 
+def I210_non_routed_only():
+    g_r, d, node, feat = load_I210()
+    g_nr, small_capacity = multiply_cognitive_cost(g_r, feat, 3000., 100.)
+    d[:,2] = d[:,2] / 4000 
+    f_nr = solver(g_nr, d, display=1, stop=1e-2)
+    # f_nr = solver_3(g_nr, d, display=1, stop=1e-2)
+    f_nr = f_nr * 4000.
+    output = np.array([[a,b] for a,b in zip(small_capacity, f_nr)])
+    # print output
+    # print small_capacity
+    #print np.sum(g_nr[:,3]) - small_capacity.dot(g_nr[:,3])
 
 def main():
     #process_I210_net()
     #frank_wolfe_on_I210()
     #I210_parametric_study()
     #I210_ratio_r_total()
-    I210_parametric_study_2()
+    #I210_parametric_study_2()
+    I210_non_routed_only()
 
 
 if __name__ == '__main__':
