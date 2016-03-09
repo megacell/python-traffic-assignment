@@ -199,11 +199,11 @@ def LA_parametric_study():
 def main():
     # process_LA_node()
     # process_LA_net()
-    # visualize_LA_capacity()
+    visualize_LA_capacity()
     # visualize_LA_result()
     # process_LA_od()
     # frank_wolfe_on_LA()
-    check_LA_result()
+    # check_LA_result()
     # LA_parametric_study()
     # check__LA_connectivity()
     # remove_loops_in_LA_od()

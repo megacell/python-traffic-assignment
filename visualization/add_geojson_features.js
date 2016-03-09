@@ -116,21 +116,38 @@ function onEachFeature(feature, layer) {
 // }).addTo(map);
 
 
+// function getColor(x) {
+//   return x <= 1     ?    '#00FFFF': // blue
+//          x <= 2     ?   '#FFFF00': // yellow
+//          x <= 3     ?   '#FFA500': // orange
+//          x <= 4    ?   '#FF4500': // orangered
+//                           '#FF0000'; // red
+// };
+
 function getColor(x) {
-  return x <= 1     ?    '#00FFFF': // blue
-         x <= 2     ?   '#FFFF00': // yellow
-         x <= 3     ?   '#FFA500': // orange
-         x <= 4    ?   '#FF4500': // orangered
+  return x <= 1     ?    '#2CC200': // green
+         x <= 2     ?   '#8CD100': // green-yellow
+         x <= 3     ?   '#E0C700': // yellow
+         x <= 4    ?   '#EF6A00': // orange
                           '#FF0000'; // red
 };
 
+// function getOpacity(x) {
+//   return x <= 1     ?    0.5:
+//          x <= 2     ?   0.5:
+//          x <= 3     ?   0.5:
+//          x <= 4    ?   0.5:
+//                           0.5;
+// };
+
 function getOpacity(x) {
-  return x <= 1     ?    0.5:
-         x <= 2     ?   0.5:
-         x <= 3     ?   0.5:
-         x <= 4    ?   0.5:
-                          0.5;
+  return x <= 1     ?    1.0:
+         x <= 2     ?   1.0:
+         x <= 3     ?   1.0:
+         x <= 4    ?   1.0:
+                          1.0;
 };
+
 
 L.geoJson(geojson_features, {
     onEachFeature: onEachFeature,
