@@ -28,10 +28,10 @@ class TestAllOrNothing(unittest.TestCase):
 
     def test_all_or_nothing_2(self):
         # load the data
-        graph=np.loadtxt('data/I210/graph.csv', delimiter=',')
+        graph=np.loadtxt('data/graph_test.csv', delimiter=',')
         g = construct_igraph(graph)
         # print graph
-        od=np.loadtxt('data/I210/od.csv', delimiter=',')
+        od=np.loadtxt('data/od_test.csv', delimiter=',')
         od={int(od[0]): ([int(od[1])],[od[2]])}
         L = all_or_nothing(g, od)
         # this should be the right L !!!

@@ -80,9 +80,12 @@ def compute_metrics(alpha, f, net, d, feat, subset, out, row, fs=None, net2=None
     speed = 60.0 * np.divide(feat[:,1], np.maximum(cost(f, net), 10e-8))
     co2 = np.multiply(gas_emission(speed), feat[:,1])
     out[row,0] = alpha
-    out[row,3] = average_cost_subset(f, net, d, subset)
-    out[row,4] = co2.dot(f)
-    out[row,5] = np.multiply(co2, subset).dot(f)
+    out[row,3] = average_cost(f, net, d)
+    out[row,4] = average_cost_subset(f, net, d, subset)
+    out[row,5] = out[row,3] - out[row,4]
+    out[row,6] = co2.dot(f) / f.dot(feat[:,1])
+    out[row,7] = np.multiply(co2, subset).dot(f) / f.dot(feat[:,1])
+    out[row,8] = out[row,6] - out[row,7]
     if alpha == 0.0:
         out[row,1] = average_cost(f, net, d)
         out[row,2] = average_cost_all_or_nothing(f, net, d)
@@ -96,27 +99,34 @@ def compute_metrics(alpha, f, net, d, feat, subset, out, row, fs=None, net2=None
     out[row,2] = cost(f, net).dot(fs[:,1]) / np.sum(alpha*d[:,2])
 
 
-def save_metrics(alphas, net, net2, d, features, subset, input, output):
-    out = np.zeros((len(alphas),6))
+def save_metrics(alphas, net, net2, d, features, subset, input, output, skiprows=0):
+    out = np.zeros((len(alphas),9))
     a = 0
     if alphas[0] == 0.0:
         alpha = 0.0
         print 'compute for nr = {}, r = {}'.format(1-alphas[0], alphas[0])
-        f = np.loadtxt(input.format(int(alpha*100)), delimiter=',')
+        fs = np.loadtxt(input.format(int(alpha*100)), delimiter=',', \
+            skiprows=skiprows)
+        f = np.sum(fs, axis=1)
         compute_metrics(0.0, f, net, d, features, subset, out, 0)
         a = 1
 
     b = 1 if alphas[-1] == 1.0 else 0
     for i,alpha in enumerate(alphas[a:len(alphas)-b]):
         print 'compute for nr = {}, r = {}'.format(1-alpha, alpha)
-        fs = np.loadtxt(input.format(int(alpha*100)), delimiter=',')
+        fs = np.loadtxt(input.format(int(alpha*100)), delimiter=',', \
+            skiprows=skiprows)
         f = np.sum(fs, axis=1)
         compute_metrics(alpha, f, net, d, features, subset, out, i+a, fs=fs)
 
     if alphas[-1] == 1.0:
         alpha = 1.0
         print 'compute for nr = {}, r = {}'.format(1-alphas[-1], alphas[-1])
-        f = np.loadtxt(input.format(int(alpha*100)), delimiter=',')
+        fs = np.loadtxt(input.format(int(alpha*100)), delimiter=',', \
+            skiprows=skiprows)
+        f = np.sum(fs, axis=1)
         compute_metrics(1.0, f, net, d, features, subset, out, -1, net2=net2)
 
-    np.savetxt(output, out, delimiter=',')
+    np.savetxt(output, out, delimiter=',', \
+        header='ratio_routed,tt_non_routed,tt_routed,tt,tt_local,tt_non_local,gas,gas_local,gas_non_local', \
+        comments='')

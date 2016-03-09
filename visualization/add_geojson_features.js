@@ -1,16 +1,9 @@
-/*
-orange: #FFA500
-aqua: #00FFFF GOOD
-orangered: #FF4500
-fushia: #FF00FF GOOD
-*/
 
 // var myStyle = {
 //     color: "#00FFFF",
 //     weight: 1,
 //     opacity: 0.5
 // };
-
 
 var highlightStyle = {
     color: '#FF00FF', 
@@ -109,36 +102,25 @@ function onEachFeature(feature, layer) {
     }
 };
 
-
 // L.geoJson(geojson_features, {
 //     onEachFeature: onEachFeature,
 //     style: myStyle
 // }).addTo(map);
 
 
-// function getColor(x) {
-//   return x <= 1     ?    '#00FFFF': // blue
-//          x <= 2     ?   '#FFFF00': // yellow
-//          x <= 3     ?   '#FFA500': // orange
-//          x <= 4    ?   '#FF4500': // orangered
-//                           '#FF0000'; // red
-// };
+// blue, yellow, orange, orange-red, red
+// var colors = ['#00FFFF', '#FFFF00', '#FFA500', '#FF4500', '#FF0000']
+// green, green-yellow, yellow, orange, red
+var colors = ['#2CC200', '#8CD100', '#E0C700', '#EF6A00', '#FF0000'];
+
 
 function getColor(x) {
-  return x <= 1     ?    '#2CC200': // green
-         x <= 2     ?   '#8CD100': // green-yellow
-         x <= 3     ?   '#E0C700': // yellow
-         x <= 4    ?   '#EF6A00': // orange
-                          '#FF0000'; // red
+  return x <= 1     ?    colors[0]:
+         x <= 2     ?   colors[1]:
+         x <= 3     ?   colors[2]:
+         x <= 4    ?   colors[3]:
+                          colors[4];
 };
-
-// function getOpacity(x) {
-//   return x <= 1     ?    0.5:
-//          x <= 2     ?   0.5:
-//          x <= 3     ?   0.5:
-//          x <= 4    ?   0.5:
-//                           0.5;
-// };
 
 function getOpacity(x) {
   return x <= 1     ?    1.0:
@@ -148,6 +130,13 @@ function getOpacity(x) {
                           1.0;
 };
 
+function getWeight(x) {
+  return x <= 1     ?    1:
+         x <= 2     ?   2:
+         x <= 3     ?   3:
+         x <= 4    ?   4:
+                          5;
+};
 
 L.geoJson(geojson_features, {
     onEachFeature: onEachFeature,
@@ -155,7 +144,8 @@ L.geoJson(geojson_features, {
         return {
          "color": getColor(feature.properties.color),
          //"opacity": 0.5,
-         "weight": 2,
+         //"weight": 2,
+         "weight": getWeight(feature.properties.weight),
          "opacity": getOpacity(feature.properties.color),
         }}
 }).addTo(map);

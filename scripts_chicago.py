@@ -47,7 +47,17 @@ def capacities_of_chicago():
     net, demand, node, features = load_chicago()
     links = process_links(net, node, features)
     color = features[:,0] / 2000. # we choose the capacity
-    geojson_link(links, ['capacity', 'length', 'fftt'], color)
+    new_links = []
+    new_color = []
+    # remove the high capacity links
+    for row in range(links.shape[0]):
+        if features[row,0] < 49500.:
+            new_links.append(links[row,:].tolist())
+            new_color.append(color[row])
+    color = np.array(new_color)
+    weight = (color <= 1.0) + 4.*(color > 1.0)
+    geojson_link(np.array(new_links), ['capacity', 'length', 'fftt'], \
+        color, weight)
 
 
 def multiply_demand_by_2():
@@ -217,21 +227,21 @@ def chicago_parametric_study_2(alpha):
 
     if alpha == 0.0:
         print 'non-routed = 1.0, routed = 0.0'
-        fs = solver_3(g_nr, d, max_iter=1000, q=100, display=1, stop=1e-2)    
-        np.savetxt('data/test_0.csv', fs, delimiter=',')
-        return
-
-    if alpha == 1.0:
+        f_nr = solver_3(g_nr, d, max_iter=1000, q=100, display=1, stop=1e-2)
+        fs = np.zeros((f_nr.shape[0],2))
+        fs[:,0]=f_nr
+    elif alpha == 1.0:
         print 'non-routed = 0.0, routed = 1.0'
-        fs = solver_3(g_r, d, max_iter=1000, q=100, display=1, stop=1e-2)    
-        np.savetxt('data/test_100.csv', fs, delimiter=',')
-        return
-
-    print 'non-routed = {}, routed = {}'.format(1-alpha, alpha)
-    d_nr, d_r = heterogeneous_demand(d, alpha)
-    fs = gauss_seidel([g_nr,g_r], [d_nr,d_r], solver_3, max_iter=1000, display=1,\
-        stop=1e-2, q=50, stop_cycle=1e-3)
-    np.savetxt('data/chicago/test_{}.csv'.format(int(alpha*100)), fs, delimiter=',')
+        f_r = solver_3(g_r, d, max_iter=1000, q=100, display=1, stop=1e-2)
+        fs = np.zeros((f_r.shape[0],2))
+        fs[:,1]=f_r
+    else:
+        print 'non-routed = {}, routed = {}'.format(1-alpha, alpha)
+        d_nr, d_r = heterogeneous_demand(d, alpha)
+        fs = gauss_seidel([g_nr,g_r], [d_nr,d_r], solver_3, max_iter=1000, display=1,\
+            stop=1e-2, q=50, stop_cycle=1e-3)
+    np.savetxt('data/chicago/test_{}.csv'.format(int(alpha*100)), fs, \
+        delimiter=',', header='f_nr,f_r', comments='')
 
 
 def chicago_metrics(alphas):
@@ -242,9 +252,9 @@ def chicago_metrics(alphas):
     out = np.zeros((len(alphas),6))
     net, d, node, features = load_chicago()
     d[:,2] = d[:,2] / 2000. # technically, it's 2*demand/4000
-    net2, small_capacity = multiply_cognitive_cost(net, features, 2000., 100.)
+    net2, small_capacity = multiply_cognitive_cost(net, features, 2000., 1000.)
     save_metrics(alphas, net, net2, d, features, small_capacity, \
-        'data/chicago/test_{}.csv', 'data/chicago/out.csv')
+        'data/chicago/test_{}.csv', 'data/chicago/out.csv', skiprows=1)
 
 
 def main():
@@ -259,7 +269,7 @@ def main():
     # chicago_ratio_r_nr()
     # chicago_tt_over_fftt()
     # chicago_flow_over_capacity()
-    # chicago_parametric_study_2(.1)
+    # chicago_parametric_study_2(1.)
     chicago_metrics([.0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1.0])
 
 

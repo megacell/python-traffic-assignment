@@ -90,8 +90,10 @@ def visualize_LA_capacity():
     links = process_links(graph, node, features, in_order=True)
     color = features[:,0] # we choose the capacities
     names = ['capacity', 'length', 'fftt']
-    color = 2.1 * features[:,0] / 2000.
-    geojson_link(links, names, color)
+    # color = 2.1 * features[:,0] / 2000.
+    color = 2.*(features[:,0] <= 900.) + 5.*(features[:,0] > 900.)
+    weight = (features[:,0] <= 900.) + 2.*(features[:,0] > 900.)
+    geojson_link(links, names, color, weight)
 
 
 def visualize_LA_result():

@@ -21,7 +21,7 @@ def load_I210():
     demand = np.loadtxt('data/I210_od.csv', delimiter=',', skiprows=1)
     node = np.loadtxt('data/I210_node.csv', delimiter=',', skiprows=1)
     geometry = extract_features('data/I210Sketch_net.csv')
-    demand = np.reshape(demand[0,:], (1,3))
+    demand = np.reshape(demand, (1,3))
     return net, demand, node, geometry
 
 
@@ -188,27 +188,28 @@ def I210_parametric_study_3(alphas):
     #modify the costs on non routed network
     g_nr, small_capacity = multiply_cognitive_cost(g_r, feat, 3000., 100.)
     #divide the demand by 4000 to computationally optimize
-    d[:,2] = d[:,2] / (4000.)
+    d[:,2] = d[:,2] / 4000.
 
     for alpha in alphas:
         #special case where in fact homogeneous game
         if alpha == 0.0:
             print 'non-routed = 1.0, routed = 0.0'
-            f_nr = solver_3(g_nr, d, max_iter=1000, q=100, display=1, stop=1e-3) 
-            fs=np.zeros((len(f_nr),2))
-            fs=f_nr
+            f_nr = solver_3(g_nr, d, max_iter=1000, display=1, stop=1e-3)     
+            fs=np.zeros((f_nr.shape[0],2))
+            fs[:,0]=f_nr 
         elif alpha == 1.0:
             print 'non-routed = 0.0, routed = 1.0'
-            f_r = solver_3(g_r, d, max_iter=1000, past=30, display=1, stop=1e-3)    
-            fs=np.zeros((len(f_r),2))
-            fs=f_r            
+            f_r = solver_3(g_r, d, max_iter=1000, display=1, stop=1e-3)    
+            fs=np.zeros((f_r.shape[0],2))
+            fs[:,1]=f_r            
         #run solver
         else:
             print 'non-routed = {}, routed = {}'.format(1-alpha, alpha)
             d_nr, d_r = heterogeneous_demand(d, alpha)
             fs = gauss_seidel([g_nr,g_r], [d_nr,d_r], solver_3, max_iter=1000, \
-                display=1, stop=1e-3, q=50, stop_cycle=1e-3)
-        np.savetxt('data/I210/test_{}.csv'.format(int(alpha*100)), fs, delimiter=',')
+                display=1, stop=1e-3, stop_cycle=1e-3, q=50, past=20)
+        np.savetxt('data/I210/test_{}.csv'.format(int(alpha*100)), fs, \
+            delimiter=',', header='f_nr,f_r')
 
 
 def I210_metrics(alphas):
@@ -218,10 +219,23 @@ def I210_metrics(alphas):
     '''
     out = np.zeros((len(alphas),6))
     net, d, node, features = load_I210()
-    d[:,2] = d[:,2] / (1.9*4000.) 
+    d[:,2] = d[:,2] / 4000. 
     net2, small_capacity = multiply_cognitive_cost(net, features, 3000., 100.)
     save_metrics(alphas, net, net2, d, features, small_capacity, \
-        'data/I210/test_{}.csv', 'data/I210/out.csv')
+        'data/I210/test_{}.csv', 'data/I210/out.csv', skiprows=1)
+
+
+def I210_path_choices(alphas):
+    out = np.zeros((len(alphas),4))
+    for i, alpha in enumerate(alphas):
+        f_r = np.loadtxt('data/I210/test_{}.csv'.format(int(alpha*100)), delimiter=',', \
+            skiprows=1)[:,1]
+        out[i,0] = alpha
+        if f_r[12] > 0.: out[i,3] = f_r[12] * 4000. # flow middle path
+        if f_r[0] > 0.: out[i,2] = f_r[0] * 4000. # flow up path
+        if f_r[13] > 0.: out[i,1] = f_r[13] * 4000. # flow low path
+    np.savetxt('data/I210/path_flows_routed.csv', out, delimiter=',',\
+        header='ratio_routed,low_path,hi_path,mid_path', comments='')
 
 
 def check_results():
@@ -292,7 +306,12 @@ def visual(alpha):
     geojson_link(links, ['capacity', 'length', 'fftt', 'r_non_routed'], color)
 
 
-
+def I210_capacities():
+    net, demand, node, features = load_I210()
+    links = process_links(net, node, features)
+    color = features[:,0] / 2000. # we choose the capacity
+    weight = features[:,0] / 700.
+    geojson_link(links, ['capacity', 'length', 'fftt'], color, weight)
 
 
 def main():
@@ -301,11 +320,13 @@ def main():
     #I210_parametric_study()
     #I210_ratio_r_total()
     #I210_parametric_study_2()
-    #I210_parametric_study_3(np.linspace(0,1,11))
+    #I210_parametric_study_3(np.linspace(0,.25,26))
+    #I210_metrics(np.linspace(0,.25,26))
     #210_ratio_r_nr(0.9)
-    visual(0.5)
-    #I210_metrics(np.linspace(0,.2,21))
+    #visual(0.5)
     # check_results()
+    #I210_path_choices(np.linspace(0,.25,26))
+    I210_capacities()
 
 
 if __name__ == '__main__':

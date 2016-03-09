@@ -195,7 +195,7 @@ def prop_numeric(name, value):
     return '        "{}": {},\n'.format(name, value)
 
 
-def geojson_link(links, features, color):
+def geojson_link(links, features, color, weight=None):
     """
     from array of link coordinates and features, generate geojson file
     links is numpy array where each row has [lat1, lon1, lat2, lon2, features]
@@ -206,6 +206,8 @@ def geojson_link(links, features, color):
     if 3 <= color < 4: orange-red
     if 5 <= color    : red
     """
+    if weight is None: 
+        weight = 2. * np.ones((color.shape[0],))
     type = 'LineString'
     out = [begin]
     for i in range(links.shape[0]):
@@ -216,6 +218,7 @@ def geojson_link(links, features, color):
         for j,f in enumerate(features):
             out.append(prop(f, links[i,j+4]))
         out.append(prop('color', color[i]))
+        out.append(prop('weight', weight[i]))
         out.append('    }},{\n')
     out[-1] = '    }}];\n\n'
     out.append('var lat_center_map = {}\n'.format(np.mean(links[:,0])))
