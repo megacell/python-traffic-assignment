@@ -6,9 +6,10 @@ source('multiplot.R')
 # source("graphs.R", print.eval=TRUE)
 # source("I210_pathflows.R", print.eval=TRUE)
 
-#data <- read.csv(file="../data/I210/out.csv", header=TRUE)
-data <- read.csv(file="../data/chicago/out.csv", header=TRUE)
-
+data <- read.csv(file="../data/I210/out.csv", header=TRUE)
+#data <- read.csv(file="../data/chicago/out.csv", header=TRUE)
+#data <- read.csv(file="../data/LA/out.csv", header=TRUE)
+data$ratio_routed <- data$ratio_routed * 100.
 long <- melt(data, id='ratio_routed')
 size = 16
 xlabel <- "percentage of navigation app users"
@@ -19,8 +20,8 @@ g1 <- ggplot(long[long$variable %in% c('tt_non_routed', 'tt_routed'),], aes(x=ra
   geom_line(size=1) + 
   xlab(xlabel) +
   ylab("time (min)") +
-  ggtitle("Average travel time for one vehicle ") +
-  scale_colour_discrete(name="", labels=c("without nav", "with nav")) +
+  ggtitle("Average travel time") +
+  scale_colour_discrete(name="", labels=c("without navigation", "with navigation")) +
   theme(axis.text.x=element_text(size=size), 
         axis.title.x=element_text(size=size),
         axis.text.y=element_text(size=size), 
@@ -118,6 +119,6 @@ g7 <- ggplot(long[long$variable=='gas_local',], aes(x=ratio_routed, y=value, col
         axis.title.y=element_text(size=size),
         legend.position="none")
 
-#plot(g1)#g2 g3
+plot(g1)#g1 g2 g3
 #multiplot(g4,g5)
-multiplot(g6,g7)
+#multiplot(g6,g7)

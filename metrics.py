@@ -68,7 +68,8 @@ def gas_emission(speed):
     return 350.*(speed>30.) + np.multiply((speed<=30.), 350.+650.*(30.-speed)/30.)
 
 
-def compute_metrics(alpha, f, net, d, feat, subset, out, row, fs=None, net2=None):
+def compute_metrics(alpha, f, net, d, feat, subset, out, row, fs=None, net2=None, \
+    length_unit='Mile', time_unit='Minute'):
     '''
     Save in the numpy array 'out' at the specific 'row' the following metrics
     - average cost for non-routed
@@ -77,29 +78,39 @@ def compute_metrics(alpha, f, net, d, feat, subset, out, row, fs=None, net2=None
     - total gas emissions
     - total gas emissions on a subset 
     '''
-    speed = 60.0 * np.divide(feat[:,1], np.maximum(cost(f, net), 10e-8))
-    co2 = np.multiply(gas_emission(speed), feat[:,1])
+    if length_unit == 'Meter':
+        lengths = feat[:,1] / 1609.34 # convert into miles
+    elif length_unit == 'Mile':
+        lengths = feat[:,1]
+    if time_unit == 'Minute':
+        a = 60.0
+    elif time_unit == 'Second':
+        a = 3600.
+    b = 60./a
+    speed = a * np.divide(lengths, np.maximum(cost(f, net), 10e-8))
+    co2 = np.multiply(gas_emission(speed), lengths)
     out[row,0] = alpha
-    out[row,3] = average_cost(f, net, d)
-    out[row,4] = average_cost_subset(f, net, d, subset)
+    out[row,3] = b * average_cost(f, net, d)
+    out[row,4] = b * average_cost_subset(f, net, d, subset)
     out[row,5] = out[row,3] - out[row,4]
-    out[row,6] = co2.dot(f) / f.dot(feat[:,1])
-    out[row,7] = np.multiply(co2, subset).dot(f) / f.dot(feat[:,1])
+    out[row,6] = co2.dot(f) / f.dot(lengths)
+    out[row,7] = np.multiply(co2, subset).dot(f) / f.dot(lengths)
     out[row,8] = out[row,6] - out[row,7]
     if alpha == 0.0:
-        out[row,1] = average_cost(f, net, d)
-        out[row,2] = average_cost_all_or_nothing(f, net, d)
+        out[row,1] = b * average_cost(f, net, d)
+        out[row,2] = b * average_cost_all_or_nothing(f, net, d)
         return
     if alpha == 1.0:
         L = all_or_nothing_assignment(cost(f, net2), net, d)
-        out[row,1] = cost(f, net).dot(L) / np.sum(d[:,2])
-        out[row,2] = average_cost(f, net, d)
+        out[row,1] = b * cost(f, net).dot(L) / np.sum(d[:,2])
+        out[row,2] = b * average_cost(f, net, d)
         return
-    out[row,1] = cost(f, net).dot(fs[:,0]) / np.sum((1-alpha)*d[:,2])
-    out[row,2] = cost(f, net).dot(fs[:,1]) / np.sum(alpha*d[:,2])
+    out[row,1] = b * cost(f, net).dot(fs[:,0]) / np.sum((1-alpha)*d[:,2])
+    out[row,2] = b * cost(f, net).dot(fs[:,1]) / np.sum(alpha*d[:,2])
 
 
-def save_metrics(alphas, net, net2, d, features, subset, input, output, skiprows=0):
+def save_metrics(alphas, net, net2, d, features, subset, input, output, skiprows=0, \
+    length_unit='Mile', time_unit='Minute'):
     out = np.zeros((len(alphas),9))
     a = 0
     if alphas[0] == 0.0:
@@ -108,7 +119,8 @@ def save_metrics(alphas, net, net2, d, features, subset, input, output, skiprows
         fs = np.loadtxt(input.format(int(alpha*100)), delimiter=',', \
             skiprows=skiprows)
         f = np.sum(fs, axis=1)
-        compute_metrics(0.0, f, net, d, features, subset, out, 0)
+        compute_metrics(0.0, f, net, d, features, subset, out, 0, \
+            length_unit=length_unit, time_unit=time_unit)
         a = 1
 
     b = 1 if alphas[-1] == 1.0 else 0
@@ -117,7 +129,8 @@ def save_metrics(alphas, net, net2, d, features, subset, input, output, skiprows
         fs = np.loadtxt(input.format(int(alpha*100)), delimiter=',', \
             skiprows=skiprows)
         f = np.sum(fs, axis=1)
-        compute_metrics(alpha, f, net, d, features, subset, out, i+a, fs=fs)
+        compute_metrics(alpha, f, net, d, features, subset, out, i+a, fs=fs, \
+            length_unit=length_unit, time_unit=time_unit)
 
     if alphas[-1] == 1.0:
         alpha = 1.0
@@ -125,7 +138,8 @@ def save_metrics(alphas, net, net2, d, features, subset, input, output, skiprows
         fs = np.loadtxt(input.format(int(alpha*100)), delimiter=',', \
             skiprows=skiprows)
         f = np.sum(fs, axis=1)
-        compute_metrics(1.0, f, net, d, features, subset, out, -1, net2=net2)
+        compute_metrics(1.0, f, net, d, features, subset, out, -1, net2=net2, \
+            length_unit=length_unit, time_unit=time_unit)
 
     np.savetxt(output, out, delimiter=',', \
         header='ratio_routed,tt_non_routed,tt_routed,tt,tt_local,tt_non_local,gas,gas_local,gas_non_local', \

@@ -14,6 +14,7 @@ import numpy as np
 from metrics import average_cost, cost_ratio, cost, save_metrics
 # from heterogeneous_solver import gauss_seidel, jacobi
 from multi_types_solver import gauss_seidel
+from utils import multiply_cognitive_cost, heterogeneous_demand
 
 
 def load_I210():
@@ -54,14 +55,6 @@ def frank_wolfe_on_I210():
     color = features[:,3] # we choose the costs
     names = ['capacity', 'length', 'fftt', 'tt_over_fftt']
     geojson_link(links, names, color)
-
-
-def heterogeneous_demand(d, alpha):
-    d_nr = np.copy(d)
-    d_r = np.copy(d)
-    d_nr[:,2] = (1-alpha) * d_nr[:,2]
-    d_r[:,2] = alpha * d_r[:,2]
-    return d_nr, d_r
 
 
 def I210_parametric_study():
@@ -129,15 +122,6 @@ def I210_ratio_r_total():
     geojson_link(links, ['capacity', 'length', 'fftt', 'r_routed'], color)
     #print(fs)
     #for a,b in zip(cost(f, graph), f*4000): print a,b
-
-def multiply_cognitive_cost(net, feat, thres, cog_cost):
-    net2 = np.copy(net)
-    small_capacity = np.zeros((net2.shape[0],))
-    for row in range(net2.shape[0]):
-        if feat[row,0] < thres:
-            small_capacity[row] = 1.0
-            net2[row,3:] = net2[row,3:] * cog_cost
-    return net2, small_capacity
 
 
 def I210_parametric_study_2():
@@ -309,9 +293,9 @@ def visual(alpha):
 def I210_capacities():
     net, demand, node, features = load_I210()
     links = process_links(net, node, features)
-    color = features[:,0] / 2000. # we choose the capacity
-    weight = features[:,0] / 700.
-    geojson_link(links, ['capacity', 'length', 'fftt'], color, weight)
+    color = 2.*(features[:,0] <= 3000.) + 5.*(features[:,0] > 3000.)
+    weight = (features[:,0] <= 3000.) + 2.*(features[:,0] > 3000.)
+    geojson_link(links, ['capacity', 'length', 'fftt'], color, 2.*weight)
 
 
 def main():

@@ -11,7 +11,8 @@ from process_data import process_net, process_trips, extract_features, process_l
 from frank_wolfe_2 import solver, solver_2, solver_3
 from multi_types_solver import gauss_seidel
 from metrics import average_cost_all_or_nothing, all_or_nothing_assignment, \
-    cost_ratio, cost
+    cost_ratio, cost, save_metrics
+from utils import multiply_cognitive_cost, heterogeneous_demand
 
 
 def process_LA_node():
@@ -58,6 +59,8 @@ def load_LA_2():
     demand = np.loadtxt('data/LA_od_2.csv', delimiter=',', skiprows=1)
     node = np.loadtxt('data/LA_node.csv', delimiter=',')
     features = extract_features('data/LA_net.txt')
+    # increase capacities of these two links because they have a travel time
+    # in equilibrium that that is too big
     features[10787,0] = features[10787,0] * 1.5
     graph[10787,-1] = graph[10787,-1] / (1.5**4)
     features[3348,:] = features[3348,:] * 1.2
@@ -163,54 +166,54 @@ def increase_capacity():
     f = np.loadtxt('data/LA/LA_output_3.csv', delimiter=',', skiprows=0)
     cr = cost_ratio(f, net)
 
-        
 
-def heterogeneous_demand(d, alpha):
-    d_nr = np.copy(d)
-    d_r = np.copy(d)
-    d_nr[:,2] = (1-alpha) * d_nr[:,2]
-    d_r[:,2] = alpha * d_r[:,2]
-    return d_nr, d_r
-
-
-def LA_parametric_study():
-    g_r, d, node = load_LA()
+def LA_parametric_study(alpha):
+    g_r, d, node, feat = load_LA_2()
+    g_nr, small_capacity = multiply_cognitive_cost(g_r, feat, 1000., 3000.)
     d[:,2] = d[:,2] / 4000.
-    g_nr = np.copy(g_r)
-    features = extract_features('data/LA_net.txt')
-    for row in range(g_nr.shape[0]):
-        if features[row,0] < 1000.:
-            g_nr[row,3] = g_nr[row,3] + 3000.
 
-    # print 'non-routed = 1.0, routed = 0.0'
-    # fs = solver_3(g_nr, d, max_iter=1000, q=100, display=1, stop=1e-2)    
-    # np.savetxt('data/LA_result_0.csv', fs, delimiter=',')
+    if alpha == 0.0:
+        print 'non-routed = 1.0, routed = 0.0'
+        f_nr = solver_3(g_nr, d, max_iter=1000, q=100, display=1, stop=1e-2)
+        fs = np.zeros((f_nr.shape[0],2))
+        fs[:,0]=f_nr
+    elif alpha == 1.0:
+        print 'non-routed = 0.0, routed = 1.0'
+        f_r = solver_3(g_r, d, max_iter=1000, q=100, display=1, stop=1e-2)
+        fs = np.zeros((f_r.shape[0],2))
+        fs[:,1]=f_r
+    else:
+        print 'non-routed = {}, routed = {}'.format(1-alpha, alpha)
+        d_nr, d_r = heterogeneous_demand(d, alpha)
+        fs = gauss_seidel([g_nr,g_r], [d_nr,d_r], solver_3, max_iter=1000, display=1,\
+            stop=1e-2, q=50, stop_cycle=1e-2)
+    np.savetxt('data/LA/test_{}.csv'.format(int(alpha*100)), fs, \
+        delimiter=',', header='f_nr,f_r', comments='')
 
-    print 'non-routed = 0.0, routed = 1.0'
-    fs = solver_3(g_r, d, max_iter=1000, q=100, display=1, stop=1e-2)    
-    np.savetxt('data/LA_result_100.csv', fs, delimiter=',')
 
-    # alpha = 0.9
-    # print 'non-routed = {}, routed = {}'.format(1-alpha, alpha)
-    # d_nr, d_r = heterogeneous_demand(d, alpha)
-    # fs = gauss_seidel([g_nr,g_r], [d_nr,d_r], solver_3, max_iter=1000, display=1,\
-    #     stop=1e-2, q=50, stop_cycle=1e-3)
-    # np.savetxt('data/LA_result_{}.csv'.format(int(alpha*100)), fs, delimiter=',')
+def LA_metrics(alphas):
+    net, d, node, features = load_LA_2()
+    d[:,2] = d[:,2] / 4000.
+    net2, small_capacity = multiply_cognitive_cost(net, features, 1000., 3000.)
+    save_metrics(alphas, net, net2, d, features, small_capacity, \
+        'data/LA/test_{}.csv', 'data/LA/out.csv', skiprows=1, \
+        length_unit='Meter', time_unit='Second')
 
 
 def main():
     # process_LA_node()
     # process_LA_net()
-    visualize_LA_capacity()
+    # visualize_LA_capacity()
     # visualize_LA_result()
     # process_LA_od()
     # frank_wolfe_on_LA()
     # check_LA_result()
-    # LA_parametric_study()
+    # LA_parametric_study(1.)
     # check__LA_connectivity()
     # remove_loops_in_LA_od()
     # reduce_demand()
     # load_LA_2()
+    LA_metrics([.0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1.0])
 
 if __name__ == '__main__':
     main()
