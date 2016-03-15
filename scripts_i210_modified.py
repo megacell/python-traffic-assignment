@@ -11,24 +11,7 @@ from process_data import extract_features
 from frank_wolfe_2 import solver_3
 from multi_types_solver import gauss_seidel
 from utils import multiply_cognitive_cost, heterogeneous_demand
-
-
-def multiply_cognitive_cost(net, feat, thres, cog_cost):
-    net2 = np.copy(net)
-    small_capacity = np.zeros((net2.shape[0],))
-    for row in range(net2.shape[0]):
-        if feat[row,0] < thres:
-            small_capacity[row] = 1.0
-            net2[row,3:] = net2[row,3:] * cog_cost
-    return net2, small_capacity
-
-
-def heterogeneous_demand(d, alpha):
-    d_nr = np.copy(d)
-    d_r = np.copy(d)
-    d_nr[:,2] = (1-alpha) * d_nr[:,2]
-    d_r[:,2] = alpha * d_r[:,2]
-    return d_nr, d_r
+from metrics import save_metrics
 
 
 def load_I210_modified():
@@ -73,7 +56,7 @@ def I210_parametric_study(alphas):
 
 def I210_metrics(alphas):
     out = np.zeros((len(alphas),6))
-    net, d, node, features = load_I210()
+    net, d, node, features = load_I210_modified()
     d[:,2] = d[:,2] / 4000. 
     net2, small_capacity = multiply_cognitive_cost(net, features, 3000., 100.)
     save_metrics(alphas, net, net2, d, features, small_capacity, \
@@ -81,8 +64,8 @@ def I210_metrics(alphas):
 
 
 def main():
-    I210_parametric_study(np.linspace(0,.25,26))
-    I210_metrics(np.linspace(0,.25,26))
+    I210_parametric_study(np.linspace(.51,1.,50))
+    I210_metrics(np.linspace(0.,1.,101))
 
 
 if __name__ == '__main__':

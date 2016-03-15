@@ -6,9 +6,11 @@ source('multiplot.R')
 # source("graphs.R", print.eval=TRUE)
 # source("I210_pathflows.R", print.eval=TRUE)
 
-data <- read.csv(file="../data/I210/out.csv", header=TRUE)
+#data <- read.csv(file="../data/I210/out.csv", header=TRUE)
 #data <- read.csv(file="../data/chicago/out.csv", header=TRUE)
-#data <- read.csv(file="../data/LA/out.csv", header=TRUE)
+data <- read.csv(file="../data/LA/out.csv", header=TRUE)
+#data <- read.csv(file="../data/I210_modified/out.csv", header=TRUE)
+
 data$ratio_routed <- data$ratio_routed * 100.
 long <- melt(data, id='ratio_routed')
 size = 16
@@ -118,6 +120,22 @@ g7 <- ggplot(long[long$variable=='gas_local',], aes(x=ratio_routed, y=value, col
         axis.text.y=element_text(size=size), 
         axis.title.y=element_text(size=size),
         legend.position="none")
+
+g8 <- ggplot(long[long$variable %in% c('tt_non_routed', 'tt_routed'),], aes(x=ratio_routed, y=value, colour=variable)) + 
+  #geom_point(size=3) + 
+  theme(panel.grid.minor =   element_line(size=1),
+        panel.grid.major =   element_line(size=1.5)) +
+  geom_line(size=2) + 
+  xlab(xlabel) +
+  ylab("time (min)") +
+  scale_colour_discrete(name="", labels=c("without navigation", "with navigation")) +
+  theme(axis.text.x=element_blank(), 
+        axis.title.x=element_blank(),
+        axis.text.y=element_blank(), 
+        axis.title.y=element_blank(),
+        legend.position="none",
+        legend.text = element_blank())
+
 
 plot(g1)#g1 g2 g3
 #multiplot(g4,g5)
