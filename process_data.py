@@ -11,6 +11,7 @@ import numpy as np
 from utils import digits, spaces
 import igraph
 
+
 def process_net(input, output):
     '''
     process *_net.txt files of Bar-Gera to get *_net.csv file in the format of
@@ -251,7 +252,9 @@ def output_file(net_name, node_name, fs, output_name):
 
 
 def construct_igraph(graph):
+    # 'vertices' contains the range of the vertices' indices in the graph
     vertices = range(int(np.min(graph[:,1:3])), int(np.max(graph[:,1:3]))+1)
+    # 'edges' is a list of the edges (to_id, from_id) in the graph
     edges = graph[:,1:3].astype(int).tolist()
     g = igraph.Graph(vertex_attrs={"label":vertices}, edges=edges, directed=True)
     g.es["weight"] = graph[:,3].tolist() # feel with free-flow travel times

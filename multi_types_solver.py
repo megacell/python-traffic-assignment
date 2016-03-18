@@ -5,6 +5,8 @@ import numpy as np
 from scipy import special as sp
 from AoN_igraph import all_or_nothing
 from process_data import construct_igraph, construct_od
+from utils import multiply_cognitive_cost, heterogeneous_demand
+from frank_wolfe_2 import solver, solver_2, solver_3
 
 
 def total_ff_costs_heterogeneous(graphs, g, ods):
@@ -80,3 +82,27 @@ def gauss_seidel(graphs, demands, solver, max_cycles=10, max_iter=100, \
         if r < stop_cycle and r > 0:
             return fs
     return fs
+
+
+def parametric_study(alphas, g, d, node, geometry, thres, cog_cost, output, stop=1e-2, stop_cycle=1e-2):
+    g_nr, small_capacity = multiply_cognitive_cost(g, geometry, thres, cog_cost)
+    for alpha in alphas:
+        #special case where in fact homogeneous game
+        if alpha == 0.0:
+            print 'non-routed = 1.0, routed = 0.0'
+            f_nr = solver_3(g_nr, d, max_iter=1000, display=1, stop=stop)     
+            fs=np.zeros((f_nr.shape[0],2))
+            fs[:,0]=f_nr 
+        elif alpha == 1.0:
+            print 'non-routed = 0.0, routed = 1.0'
+            f_r = solver_3(g, d, max_iter=1000, display=1, stop=stop)    
+            fs=np.zeros((f_r.shape[0],2))
+            fs[:,1]=f_r            
+        #run solver
+        else:
+            print 'non-routed = {}, routed = {}'.format(1-alpha, alpha)
+            d_nr, d_r = heterogeneous_demand(d, alpha)
+            fs = gauss_seidel([g_nr,g], [d_nr,d_r], solver_3, max_iter=1000, \
+                display=1, stop=stop, stop_cycle=stop_cycle, q=50, past=20)
+        np.savetxt(output.format(int(alpha*100)), fs, \
+            delimiter=',', header='f_nr,f_r')

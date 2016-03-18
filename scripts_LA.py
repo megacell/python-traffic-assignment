@@ -9,9 +9,9 @@ import numpy as np
 from process_data import process_net, process_trips, extract_features, process_links, \
     geojson_link, construct_igraph, construct_od
 from frank_wolfe_2 import solver, solver_2, solver_3
-from multi_types_solver import gauss_seidel
+from multi_types_solver import parametric_study
 from metrics import average_cost_all_or_nothing, all_or_nothing_assignment, \
-    cost_ratio, cost, save_metrics
+    cost_ratio, cost, save_metrics, path_cost
 from utils import multiply_cognitive_cost, heterogeneous_demand
 
 
@@ -168,27 +168,9 @@ def increase_capacity():
 
 
 def LA_parametric_study(alpha):
-    g_r, d, node, feat = load_LA_2()
-    g_nr, small_capacity = multiply_cognitive_cost(g_r, feat, 1000., 3000.)
+    g, d, node, feat = load_LA_2()
     d[:,2] = d[:,2] / 4000.
-
-    if alpha == 0.0:
-        print 'non-routed = 1.0, routed = 0.0'
-        f_nr = solver_3(g_nr, d, max_iter=1000, q=100, display=1, stop=1e-2)
-        fs = np.zeros((f_nr.shape[0],2))
-        fs[:,0]=f_nr
-    elif alpha == 1.0:
-        print 'non-routed = 0.0, routed = 1.0'
-        f_r = solver_3(g_r, d, max_iter=1000, q=100, display=1, stop=1e-2)
-        fs = np.zeros((f_r.shape[0],2))
-        fs[:,1]=f_r
-    else:
-        print 'non-routed = {}, routed = {}'.format(1-alpha, alpha)
-        d_nr, d_r = heterogeneous_demand(d, alpha)
-        fs = gauss_seidel([g_nr,g_r], [d_nr,d_r], solver_3, max_iter=1000, display=1,\
-            stop=1e-2, q=50, stop_cycle=1e-2)
-    np.savetxt('data/LA/test_{}.csv'.format(int(alpha*100)), fs, \
-        delimiter=',', header='f_nr,f_r', comments='')
+    parametric_study([alpha], g, d, node, geom, 1000., 3000., 'data/LA/test_{}.csv')
 
 
 def LA_metrics(alphas):
@@ -200,10 +182,24 @@ def LA_metrics(alphas):
         length_unit='Meter', time_unit='Second')
 
 
+def OD_routed_costs(alphas):
+    net, d, node, features = load_LA_2()
+    od = construct_od(d)
+    num_ods = d.shape[0]
+    out = np.zeros((num_ods, len(alphas)+2))
+    out[:,:2] = d[:,:2]
+    g = construct_igraph(net)
+    for i, alpha in enumerate(alphas):
+        fs = np.loadtxt('data/LA/test_{}.csv'.format(int(alpha*100)), delimiter=',', \
+            skiprows=1)
+        g.es["weight"] = cost(np.sum(fs, axis=1), net).tolist()    
+        costs = path_cost(net, cost, d, g, od)
+
+
 def main():
     # process_LA_node()
     # process_LA_net()
-    visualize_LA_capacity()
+    # visualize_LA_capacity()
     # visualize_LA_result()
     # process_LA_od()
     # frank_wolfe_on_LA()
@@ -214,6 +210,7 @@ def main():
     # reduce_demand()
     # load_LA_2()
     # LA_metrics([.0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1.0])
+    OD_routed_costs([.0])
 
 if __name__ == '__main__':
     main()

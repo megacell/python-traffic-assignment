@@ -6,9 +6,9 @@ source('multiplot.R')
 # source("graphs.R", print.eval=TRUE)
 # source("I210_pathflows.R", print.eval=TRUE)
 
-#data <- read.csv(file="../data/I210/out.csv", header=TRUE)
+data <- read.csv(file="../data/I210/out.csv", header=TRUE)
 #data <- read.csv(file="../data/chicago/out.csv", header=TRUE)
-data <- read.csv(file="../data/LA/out.csv", header=TRUE)
+#data <- read.csv(file="../data/LA/out.csv", header=TRUE)
 #data <- read.csv(file="../data/I210_modified/out.csv", header=TRUE)
 
 data$ratio_routed <- data$ratio_routed * 100.
