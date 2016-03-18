@@ -24,3 +24,6 @@ data/chicago/out.csv
 data/I210/out.csv
 data/LA/test*.csv
 data/I210_modified/test*.csv
+visualization/.RData
+visualization/.Rapp.history
+visualization/.Rhistory

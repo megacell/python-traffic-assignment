@@ -203,7 +203,7 @@ def LA_metrics(alphas):
 def main():
     # process_LA_node()
     # process_LA_net()
-    # visualize_LA_capacity()
+    visualize_LA_capacity()
     # visualize_LA_result()
     # process_LA_od()
     # frank_wolfe_on_LA()
@@ -213,7 +213,7 @@ def main():
     # remove_loops_in_LA_od()
     # reduce_demand()
     # load_LA_2()
-    LA_metrics([.0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1.0])
+    # LA_metrics([.0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1.0])
 
 if __name__ == '__main__':
     main()
