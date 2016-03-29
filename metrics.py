@@ -147,9 +147,11 @@ def save_metrics(alphas, net, net2, d, features, subset, input, output, skiprows
 
 
 def path_cost(net, cost, d, g=None, od=None):
-    # given vector of edge costs, graph, demand
-    # returns shortest path cost for all ODs in d (or od) in the format
-    # {(o, d): path_cost}
+    '''
+    given vector of edge costs, graph, demand
+    returns shortest path cost for all ODs in d (or od) in the format
+    {(o, d): path_cost}
+    '''
     if g is None: 
         g = construct_igraph(net)
         g.es["weight"] = cost.tolist()
@@ -157,18 +159,29 @@ def path_cost(net, cost, d, g=None, od=None):
         od = construct_od(d)
     out = {}
     for o in od.keys():
-        # print o
         c = g.shortest_paths_dijkstra(o, target=od[o][0], weights="weight")
         for i,d in enumerate(od[o][0]):
             out[(o,d)] = c[0][i]
     return out
 
 
-def shortest_path(net, cost, o, d, g=None):
-    # given vector of edge costs, graph, gets shortest path from O to D
-    if g is None: g = construct_igraph(net)
-    g.es["weight"] = cost.tolist()    
-    return g.get_shortest_paths(int(o), int(d), weights="weight", output="epath")
+def path_cost_non_routed(net, nr_cost, tt, d, g=None, od=None):
+    '''
+    given vector of edge costs, graph, demand
+    returns travel time cost for non-routed users for all ODs in d (or od) in the format
+    {(o, d): path_cost}
+    '''
+    if g is None: 
+        g = construct_igraph(net)
+        g.es["weight"] = nr_cost.tolist()
+    if od is None:
+        od = construct_od(d)
+    out = {}
+    for o in od.keys():
+        p = g.get_shortest_paths(o, to=od[o][0], weights="weight", output="epath")
+        for i,d in enumerate(od[o][0]):
+            out[(o,d)] = np.sum(tt[p[i]])
+    return out
 
 
 def all_or_nothing_assignment(cost, net, demand):

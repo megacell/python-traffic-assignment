@@ -9,7 +9,8 @@ import numpy as np
 from process_data import extract_features, process_links, geojson_link, \
     process_trips, process_net, process_node, array_to_trips, process_results, \
     construct_igraph, construct_od
-from metrics import average_cost, cost_ratio, cost, save_metrics, path_cost
+from metrics import average_cost, cost_ratio, cost, save_metrics, path_cost, \
+    path_cost_non_routed
 # from frank_wolfe import solver, solver_2, solver_3
 # from heterogeneous_solver import gauss_seidel, jacobi
 from multi_types_solver import gauss_seidel
@@ -249,8 +250,9 @@ def OD_routed_costs(alphas):
     for i, alpha in enumerate(alphas):
         fs = np.loadtxt('data/chicago/test_{}.csv'.format(int(alpha*100)), delimiter=',', \
             skiprows=1)
-        g.es["weight"] = cost(np.sum(fs, axis=1), net).tolist()    
-        costs = path_cost(net, cost, d, g, od)
+        c = cost(np.sum(fs, axis=1), net)
+        g.es["weight"] = c.tolist()    
+        costs = path_cost(net, c, d, g, od)
         for j in range(num_ods):
             out[j,i+2] = costs[(int(out[j,0]), int(out[j,1]))]
     header = ['o,d']
@@ -259,6 +261,31 @@ def OD_routed_costs(alphas):
     np.savetxt('data/chicago/routed_costs.csv', out, \
         delimiter=',', header=','.join(header), comments='')
     # (240,59) and (240,64) seem pretty parabolic to me...
+
+
+def OD_non_routed_costs(alphas):
+    net, d, node, features = load_chicago()
+    net2, small_capacity = multiply_cognitive_cost(net, features, 2000., 1000.)
+    od = construct_od(d)
+    num_ods = d.shape[0]
+    out = np.zeros((num_ods, len(alphas)+2))
+    out[:,:2] = d[:,:2]
+    g = construct_igraph(net)
+    for i, alpha in enumerate(alphas):
+        fs = np.loadtxt('data/chicago/test_{}.csv'.format(int(alpha*100)), delimiter=',', \
+            skiprows=1)
+        c = cost(np.sum(fs, axis=1), net2) # non-routed cost
+        g.es["weight"] = c.tolist() 
+        tt = cost(np.sum(fs, axis=1), net) # travel times
+        costs = path_cost_non_routed(net2, c, tt, d, g, od)
+        for j in range(num_ods):
+            out[j,i+2] = costs[(int(out[j,0]), int(out[j,1]))]
+    header = ['o,d']
+    for alpha in alphas: 
+        header.append(str(int(alpha*100)))
+    np.savetxt('data/chicago/non_routed_costs.csv', out, \
+        delimiter=',', header=','.join(header), comments='')
+
 
 
 def main():
@@ -275,7 +302,8 @@ def main():
     # chicago_flow_over_capacity()
     # chicago_parametric_study_2(1.)
     # chicago_metrics([.0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1.0])
-    OD_routed_costs([.0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1.0])
+    #OD_routed_costs([.0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1.0])
+    OD_non_routed_costs([.0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1.0])
 
 
 if __name__ == '__main__':
