@@ -13,9 +13,10 @@ from metrics import average_cost, cost_ratio, cost, save_metrics, path_cost, \
     path_cost_non_routed
 # from frank_wolfe import solver, solver_2, solver_3
 # from heterogeneous_solver import gauss_seidel, jacobi
-from multi_types_solver import gauss_seidel
+from multi_types_solver import gauss_seidel, parametric_study
 from frank_wolfe_2 import solver, solver_2, solver_3
 from utils import multiply_cognitive_cost, heterogeneous_demand
+from metrics import OD_routed_costs, OD_non_routed_costs
 
 
 def process_chicago_network():
@@ -204,28 +205,9 @@ def chicago_parametric_study_2(alpha):
     alpha = 0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0
     '''
     # graphs
-    g_r, d, node, feat = load_chicago()
-    # g_nr, small_capacity = add_cognitive_cost(g_r, feat, 2000., 1000.)
-    g_nr, small_capacity = multiply_cognitive_cost(g_r, feat, 2000., 1000.)
+    g, d, node, feat = load_chicago()
     d[:,2] = d[:,2] / 2000 # technically, it's 2*demand/4000
-
-    if alpha == 0.0:
-        print 'non-routed = 1.0, routed = 0.0'
-        f_nr = solver_3(g_nr, d, max_iter=1000, q=100, display=1, stop=1e-2)
-        fs = np.zeros((f_nr.shape[0],2))
-        fs[:,0]=f_nr
-    elif alpha == 1.0:
-        print 'non-routed = 0.0, routed = 1.0'
-        f_r = solver_3(g_r, d, max_iter=1000, q=100, display=1, stop=1e-2)
-        fs = np.zeros((f_r.shape[0],2))
-        fs[:,1]=f_r
-    else:
-        print 'non-routed = {}, routed = {}'.format(1-alpha, alpha)
-        d_nr, d_r = heterogeneous_demand(d, alpha)
-        fs = gauss_seidel([g_nr,g_r], [d_nr,d_r], solver_3, max_iter=1000, display=1,\
-            stop=1e-2, q=50, stop_cycle=1e-3)
-    np.savetxt('data/chicago/test_{}.csv'.format(int(alpha*100)), fs, \
-        delimiter=',', header='f_nr,f_r', comments='')
+    parametric_study(alpha, g, d, node, feat, 2000., 1000., 'data/chicago/test_{}.csv')
 
 
 def chicago_metrics(alphas):
@@ -240,52 +222,18 @@ def chicago_metrics(alphas):
         'data/chicago/test_{}.csv', 'data/chicago/out.csv', skiprows=1)
 
 
-def OD_routed_costs(alphas):
-    net, d, node, features = load_chicago()
-    od = construct_od(d)
-    num_ods = d.shape[0]
-    out = np.zeros((num_ods, len(alphas)+2))
-    out[:,:2] = d[:,:2]
-    g = construct_igraph(net)
-    for i, alpha in enumerate(alphas):
-        fs = np.loadtxt('data/chicago/test_{}.csv'.format(int(alpha*100)), delimiter=',', \
-            skiprows=1)
-        c = cost(np.sum(fs, axis=1), net)
-        g.es["weight"] = c.tolist()    
-        costs = path_cost(net, c, d, g, od)
-        for j in range(num_ods):
-            out[j,i+2] = costs[(int(out[j,0]), int(out[j,1]))]
-    header = ['o,d']
-    for alpha in alphas: 
-        header.append(str(int(alpha*100)))
-    np.savetxt('data/chicago/routed_costs.csv', out, \
-        delimiter=',', header=','.join(header), comments='')
+def chicago_routed_costs(alphas):
+    net, demand, node, features = load_chicago()
+    OD_routed_costs(alphas, net, demand, 'data/chicago/test_{}.csv',\
+        'data/chicago/routed_costs.csv')
     # (240,59) and (240,64) seem pretty parabolic to me...
 
 
-def OD_non_routed_costs(alphas):
-    net, d, node, features = load_chicago()
+def chicago_non_routed_costs(alphas):
+    net, demand, node, features = load_chicago()
     net2, small_capacity = multiply_cognitive_cost(net, features, 2000., 1000.)
-    od = construct_od(d)
-    num_ods = d.shape[0]
-    out = np.zeros((num_ods, len(alphas)+2))
-    out[:,:2] = d[:,:2]
-    g = construct_igraph(net)
-    for i, alpha in enumerate(alphas):
-        fs = np.loadtxt('data/chicago/test_{}.csv'.format(int(alpha*100)), delimiter=',', \
-            skiprows=1)
-        c = cost(np.sum(fs, axis=1), net2) # non-routed cost
-        g.es["weight"] = c.tolist() 
-        tt = cost(np.sum(fs, axis=1), net) # travel times
-        costs = path_cost_non_routed(net2, c, tt, d, g, od)
-        for j in range(num_ods):
-            out[j,i+2] = costs[(int(out[j,0]), int(out[j,1]))]
-    header = ['o,d']
-    for alpha in alphas: 
-        header.append(str(int(alpha*100)))
-    np.savetxt('data/chicago/non_routed_costs.csv', out, \
-        delimiter=',', header=','.join(header), comments='')
-
+    OD_non_routed_costs(alphas, net, net2, demand, 'data/chicago/test_{}.csv',\
+        'data/chicago/non_routed_costs.csv')
 
 
 def main():
@@ -300,10 +248,10 @@ def main():
     # chicago_ratio_r_nr()
     # chicago_tt_over_fftt()
     # chicago_flow_over_capacity()
-    # chicago_parametric_study_2(1.)
+    # chicago_parametric_study_2([.0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1.0])
     # chicago_metrics([.0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1.0])
-    #OD_routed_costs([.0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1.0])
-    OD_non_routed_costs([.0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1.0])
+    # chicago_routed_costs([.0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1.0])
+    chicago_non_routed_costs([.0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1.0])
 
 
 if __name__ == '__main__':

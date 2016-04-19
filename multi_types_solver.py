@@ -86,6 +86,8 @@ def gauss_seidel(graphs, demands, solver, max_cycles=10, max_iter=100, \
 
 def parametric_study(alphas, g, d, node, geometry, thres, cog_cost, output, stop=1e-2, stop_cycle=1e-2):
     g_nr, small_capacity = multiply_cognitive_cost(g, geometry, thres, cog_cost)
+    if (type(alphas) is float) or (type(alphas) is int):
+        alphas = [alphas]
     for alpha in alphas:
         #special case where in fact homogeneous game
         if alpha == 0.0:

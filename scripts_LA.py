@@ -167,10 +167,10 @@ def increase_capacity():
     cr = cost_ratio(f, net)
 
 
-def LA_parametric_study(alpha):
+def LA_parametric_study(alphas):
     g, d, node, feat = load_LA_2()
     d[:,2] = d[:,2] / 4000.
-    parametric_study([alpha], g, d, node, geom, 1000., 3000., 'data/LA/test_{}.csv')
+    parametric_study(alphas, g, d, node, feat, 1000., 3000., 'data/LA/test_{}.csv')
 
 
 def LA_metrics(alphas):

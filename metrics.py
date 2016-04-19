@@ -190,3 +190,51 @@ def all_or_nothing_assignment(cost, net, demand):
     od = construct_od(demand)
     g.es["weight"] = cost.tolist()    
     return all_or_nothing(g, od)
+
+
+def OD_routed_costs(alphas, net, demand, inputs, output):
+    '''
+    from input files of equilibrium flows for the heterogeneous game
+    outputs the travel times of routes users
+    '''
+    od = construct_od(demand) # od is a dict {origin: ([destination],[demand])}
+    num_ods = demand.shape[0]
+    out = np.zeros((num_ods, len(alphas)+2))
+    out[:,:2] = demand[:,:2]
+    g = construct_igraph(net) # construct igraph object
+    for i, alpha in enumerate(alphas):
+        fs = np.loadtxt(inputs.format(int(alpha*100)), delimiter=',', skiprows=1)
+        c = cost(np.sum(fs, axis=1), net)
+        g.es["weight"] = c.tolist()    
+        # get shortest path and returns {(o, d): path_cost}
+        costs = path_cost(net, c, demand, g, od) 
+        for j in range(num_ods):
+            out[j,i+2] = costs[(int(out[j,0]), int(out[j,1]))]
+    header = ['o,d']
+    for alpha in alphas: 
+        header.append(str(int(alpha*100)))
+    np.savetxt(output, out, delimiter=',', header=','.join(header), comments='')
+
+
+def OD_non_routed_costs(alphas, net, net2, demand, inputs, output):
+    '''
+    from input files of equilibrium flows for the heterogeneous game
+    outputs the travel times of non-routed users
+    '''
+    od = construct_od(demand)
+    num_ods = demand.shape[0]
+    out = np.zeros((num_ods, len(alphas)+2))
+    out[:,:2] = demand[:,:2]
+    g = construct_igraph(net)
+    for i, alpha in enumerate(alphas):
+        fs = np.loadtxt(inputs.format(int(alpha*100)), delimiter=',', skiprows=1)
+        c = cost(np.sum(fs, axis=1), net2) # non-routed cost
+        g.es["weight"] = c.tolist() 
+        tt = cost(np.sum(fs, axis=1), net) # travel times
+        costs = path_cost_non_routed(net2, c, tt, demand, g, od)
+        for j in range(num_ods):
+            out[j,i+2] = costs[(int(out[j,0]), int(out[j,1]))]
+    header = ['o,d']
+    for alpha in alphas: 
+        header.append(str(int(alpha*100)))
+    np.savetxt(output, out, delimiter=',', header=','.join(header), comments='')

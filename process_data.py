@@ -282,6 +282,8 @@ def process_demand(od_file):
 
  
 def construct_od(demand):
+    # construct a dictionary of the form 
+    # origin: ([destination],[demand])
     out = {}
     for i in range(demand.shape[0]):
         origin = int(demand[i,0])
