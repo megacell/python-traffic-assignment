@@ -192,7 +192,7 @@ def all_or_nothing_assignment(cost, net, demand):
     return all_or_nothing(g, od)
 
 
-def OD_routed_costs(alphas, net, demand, inputs, output):
+def OD_routed_costs(alphas, net, demand, inputs, output, verbose=0):
     '''
     from input files of equilibrium flows for the heterogeneous game
     outputs the travel times of routes users
@@ -207,6 +207,8 @@ def OD_routed_costs(alphas, net, demand, inputs, output):
         c = cost(np.sum(fs, axis=1), net)
         g.es["weight"] = c.tolist()    
         # get shortest path and returns {(o, d): path_cost}
+        if verbose >= 1: 
+            print 'computing OD costs for alpha = {} ...'.format(alpha)
         costs = path_cost(net, c, demand, g, od) 
         for j in range(num_ods):
             out[j,i+2] = costs[(int(out[j,0]), int(out[j,1]))]
@@ -216,7 +218,7 @@ def OD_routed_costs(alphas, net, demand, inputs, output):
     np.savetxt(output, out, delimiter=',', header=','.join(header), comments='')
 
 
-def OD_non_routed_costs(alphas, net, net2, demand, inputs, output):
+def OD_non_routed_costs(alphas, net, net2, demand, inputs, output, verbose=0):
     '''
     from input files of equilibrium flows for the heterogeneous game
     outputs the travel times of non-routed users
@@ -231,6 +233,8 @@ def OD_non_routed_costs(alphas, net, net2, demand, inputs, output):
         c = cost(np.sum(fs, axis=1), net2) # non-routed cost
         g.es["weight"] = c.tolist() 
         tt = cost(np.sum(fs, axis=1), net) # travel times
+        if verbose >= 1: 
+            print 'computing OD costs for alpha = {} ...'.format(alpha)
         costs = path_cost_non_routed(net2, c, tt, demand, g, od)
         for j in range(num_ods):
             out[j,i+2] = costs[(int(out[j,0]), int(out[j,1]))]

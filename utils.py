@@ -35,3 +35,16 @@ def heterogeneous_demand(d, alpha):
     d_nr[:,2] = (1-alpha) * d_nr[:,2]
     d_r[:,2] = alpha * d_r[:,2]
     return d_nr, d_r
+
+
+def braess_heterogeneous(demand_r, demand_nr):
+    # generate heteregenous game on Braess network
+    g2 = np.loadtxt('data/braess_net.csv', delimiter=',', skiprows=1)
+    g1 = np.copy(g2)
+    g1[2,3] = 1e8
+    d1 = np.loadtxt('data/braess_od.csv', delimiter=',', skiprows=1)
+    d1=np.reshape(d1, (1,3))
+    d1[0,2] = demand_nr
+    d2 = np.copy(d1)
+    d2[0,2] = demand_r
+    return g1, g2, d1, d2

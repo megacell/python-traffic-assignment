@@ -9,10 +9,14 @@ import numpy as np
 from process_data import process_net, process_trips, extract_features, process_links, \
     geojson_link, construct_igraph, construct_od
 from frank_wolfe_2 import solver, solver_2, solver_3
+
 from multi_types_solver import parametric_study
+from frank_wolfe_heterogeneous import parametric_study_2
+
 from metrics import average_cost_all_or_nothing, all_or_nothing_assignment, \
     cost_ratio, cost, save_metrics, path_cost
 from utils import multiply_cognitive_cost, heterogeneous_demand
+from metrics import OD_routed_costs, OD_non_routed_costs
 
 
 def process_LA_node():
@@ -170,30 +174,35 @@ def increase_capacity():
 def LA_parametric_study(alphas):
     g, d, node, feat = load_LA_2()
     d[:,2] = d[:,2] / 4000.
-    parametric_study(alphas, g, d, node, feat, 1000., 3000., 'data/LA/test_{}.csv')
+    parametric_study(alphas, g, d, node, feat, 1000., 3000., 'data/LA/test_{}.csv',\
+        stop=1e-3, stop_cycle=1e-3)
 
 
-def LA_metrics(alphas):
+def LA_parametric_study_2(alphas):
+    g, d, node, feat = load_LA_2()
+    d[:,2] = d[:,2] / 4000.
+    parametric_study_2(alphas, g, d, node, feat, 1000., 3000., 'data/LA/test_{}.csv',\
+        stop=1e-2)
+
+
+def LA_metrics(alphas, input, output):
     net, d, node, features = load_LA_2()
     d[:,2] = d[:,2] / 4000.
     net2, small_capacity = multiply_cognitive_cost(net, features, 1000., 3000.)
-    save_metrics(alphas, net, net2, d, features, small_capacity, \
-        'data/LA/test_{}.csv', 'data/LA/out.csv', skiprows=1, \
+    save_metrics(alphas, net, net2, d, features, small_capacity, input, \
+        output, skiprows=1, \
         length_unit='Meter', time_unit='Second')
 
 
-def OD_routed_costs(alphas):
-    net, d, node, features = load_LA_2()
-    od = construct_od(d)
-    num_ods = d.shape[0]
-    out = np.zeros((num_ods, len(alphas)+2))
-    out[:,:2] = d[:,:2]
-    g = construct_igraph(net)
-    for i, alpha in enumerate(alphas):
-        fs = np.loadtxt('data/LA/test_{}.csv'.format(int(alpha*100)), delimiter=',', \
-            skiprows=1)
-        g.es["weight"] = cost(np.sum(fs, axis=1), net).tolist()    
-        costs = path_cost(net, cost, d, g, od)
+def LA_routed_costs(alphas, input, output):
+    net, demand, node, features = load_LA_2()
+    OD_routed_costs(alphas, net, demand, input, output, verbose=1)
+
+
+def LA_non_routed_costs(alphas, input, output):
+    net, demand, node, features = load_LA_2()
+    net2, small_capacity = multiply_cognitive_cost(net, features, 1000., 3000.)
+    OD_non_routed_costs(alphas, net, net2, demand, input, output, verbose=1)
 
 
 def main():
@@ -204,13 +213,24 @@ def main():
     # process_LA_od()
     # frank_wolfe_on_LA()
     # check_LA_result()
-    # LA_parametric_study(1.)
+    # LA_parametric_study(.9)
+    LA_parametric_study_2(.9)
     # check__LA_connectivity()
     # remove_loops_in_LA_od()
     # reduce_demand()
     # load_LA_2()
-    # LA_metrics([.0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1.0])
-    OD_routed_costs([.0])
+    #LA_metrics(np.linspace(0,1,11), 'data/LA/test_{}.csv', 'data/LA/out.csv')
+    # LA_metrics(np.linspace(0,1,11), 'data/LA/copy_2/test_{}.csv', \
+    #     'data/LA/copy_2/out.csv')
+    # LA_routed_costs(np.linspace(0,1,11), 'data/LA/test_{}.csv', \
+    #     'data/LA/routed_costs.csv')
+    # LA_routed_costs(np.linspace(0,1,11), 'data/LA/copy_2/test_{}.csv', \
+    #     'data/LA/copy_2/routed_costs.csv')
+    # LA_non_routed_costs(np.linspace(0,1,11), 'data/LA/test_{}.csv', \
+    #     'data/LA/non_routed_costs.csv')    
+    # LA_non_routed_costs(np.linspace(0,1,11), 'data/LA/copy_2/test_{}.csv', \
+    #     'data/LA/copy_2/non_routed_costs.csv') 
+
 
 if __name__ == '__main__':
     main()

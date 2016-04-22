@@ -29,3 +29,5 @@ data/I210_modified/test*.csv
 visualization/.RData
 visualization/.Rapp.history
 visualization/.Rhistory
+data/LA/copy
+data/LA/copy_2

@@ -1,6 +1,9 @@
 __author__ = "Jerome Thai"
 __email__ = "jerome.thai@berkeley.edu"
 
+'''
+all-or-nothing assignment using igraph
+'''
 
 import numpy as np
 

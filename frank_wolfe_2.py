@@ -108,9 +108,22 @@ def solver_2(graph, demand, g=None, od=None, max_iter=100, eps=1e-8, q=10, \
     return f
 
 
-def solver_3(graph, demand, g=None, od=None, past=10, max_iter=100, eps=1e-8, q=50, display=0,\
-    stop=1e-8):
-
+def solver_3(graph, demand, g=None, od=None, past=10, max_iter=100, eps=1e-8, \
+    q=50, display=0, stop=1e-8):
+    '''
+    this is an adaptation of Fukushima's algorithm
+    graph:    numpy array of the format [[link_id from to a0 a1 a2 a3 a4]]
+    demand:   mumpy arrau of the format [[o d flow]]
+    g:        igraph object constructed from graph
+    od:       od in the format {from: ([to], [rate])}
+    past:     search direction is the mean over the last 'past' directions
+    max_iter: maximum number of iterations
+    esp:      used as a stopping criterium if some quantities are too close to 0
+    q:        first 'q' iterations uses open loop step sizes 2/(i+2)
+    display:  controls the display of information in the terminal
+    stop:     stops the algorithm if the error is less than 'stop'
+    '''
+    assert past <= q, "'q' must be bigger or equal to 'past'"
     if g is None: g = construct_igraph(graph)
     if od is None: od = construct_od(demand)
     f = np.zeros(graph.shape[0],dtype="float64") # initial flow assignment is null
@@ -164,3 +177,4 @@ def solver_3(graph, demand, g=None, od=None, past=10, max_iter=100, eps=1e-8, q=
         else:
             f = f + 2. * w/(i+2.)
     return f
+

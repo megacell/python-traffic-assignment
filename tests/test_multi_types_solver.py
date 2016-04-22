@@ -5,8 +5,7 @@ import unittest
 import numpy as np
 from multi_types_solver import shift_polynomial, shift_graph, gauss_seidel
 from frank_wolfe_2 import solver, solver_2, solver_3
-
-
+from utils import braess_heterogeneous
 
 
 class TestMultiTypesSolver(unittest.TestCase):
@@ -30,33 +29,19 @@ class TestMultiTypesSolver(unittest.TestCase):
         graph2 = np.copy(graph1)
         d = np.array([0.,1.,2.,3.,4.])
         shift_graph(graph1, graph2, d)
-        #print graph1
-        #print graph2
-
-    def braess_heterogeneous(self, demand_r, demand_nr):
-        # generate heteregenous game on Braess network
-        g2 = np.loadtxt('data/braess_net.csv', delimiter=',', skiprows=1)
-        g1 = np.copy(g2)
-        g1[2,3] = 1e8
-        d1 = np.loadtxt('data/braess_od.csv', delimiter=',', skiprows=1)
-        d1=np.reshape(d1, (1,3))
-        d1[0,2] = demand_nr
-        d2 = np.copy(d1)
-        d2[0,2] = demand_r
-        return g1, g2, d1, d2
 
 
     def test_gauss_seidel(self):
         print 'test gauss_seidel'
-        g1,g2,d1,d2 = self.braess_heterogeneous(.25, .25)
+        g1,g2,d1,d2 = braess_heterogeneous(.25, .25)
         fs = gauss_seidel([g1,g2], [d1,d2], solver, max_iter=200)
         a = np.array([[.125,.25],[.125,.0],[.0, .25],[.125, .0],[.125, .25]])
         self.check(fs, a, 1e-2)
-        g1,g2,d1,d2 = self.braess_heterogeneous(1., 1.)
+        g1,g2,d1,d2 = braess_heterogeneous(1., 1.)
         a = np.array([[.5,.5],[.5,.5],[.0, .0],[.5, .5],[.5, .5]])
         fs = gauss_seidel([g1,g2], [d1,d2], solver, max_iter=200) 
         self.check(fs, a, 1e-2)      
-        g1,g2,d1,d2 = self.braess_heterogeneous(.75, .75)
+        g1,g2,d1,d2 = braess_heterogeneous(.75, .75)
         fs = gauss_seidel([g1,g2], [d1,d2], solver, max_iter=200)
         a = np.array([[.375, .625],[.375, .125],[.0, .5],[.375, .125],[.375, .625]])
         self.check(fs, a, 1e-1)
@@ -64,15 +49,15 @@ class TestMultiTypesSolver(unittest.TestCase):
 
     def test_gauss_seidel_2(self):
         print 'test gauss_seidel 2'
-        g1,g2,d1,d2 = self.braess_heterogeneous(.25, .25)
+        g1,g2,d1,d2 = braess_heterogeneous(.25, .25)
         fs = gauss_seidel([g1,g2], [d1,d2], solver_2)
         a = np.array([[.125,.25],[.125,.0],[.0, .25],[.125, .0],[.125, .25]])
         self.check(fs, a, 1e-3)
-        g1,g2,d1,d2 = self.braess_heterogeneous(1., 1.)
+        g1,g2,d1,d2 = braess_heterogeneous(1., 1.)
         a = np.array([[.5,.5],[.5,.5],[.0, .0],[.5, .5],[.5, .5]])
         fs = gauss_seidel([g1,g2], [d1,d2], solver_2) 
         self.check(fs, a, 1e-3)      
-        g1,g2,d1,d2 = self.braess_heterogeneous(.75, .75)
+        g1,g2,d1,d2 = braess_heterogeneous(.75, .75)
         fs = gauss_seidel([g1,g2], [d1,d2], solver_2, max_iter=200)
         a = np.array([[.375, .625],[.375, .125],[.0, .5],[.375, .125],[.375, .625]])
         self.check(fs, a, 1e-3)
@@ -80,15 +65,17 @@ class TestMultiTypesSolver(unittest.TestCase):
 
     def test_gauss_seidel_3(self):
         print 'test gauss_seidel 3'
-        g1,g2,d1,d2 = self.braess_heterogeneous(.25, .25)
+        g1,g2,d1,d2 = braess_heterogeneous(.25, .25)
         fs = gauss_seidel([g1,g2], [d1,d2], solver_3)
         a = np.array([[.125,.25],[.125,.0],[.0, .25],[.125, .0],[.125, .25]])
+        #print fs
+        #print a
         self.check(fs, a, 1e-3)
-        g1,g2,d1,d2 = self.braess_heterogeneous(1., 1.)
+        g1,g2,d1,d2 = braess_heterogeneous(1., 1.)
         a = np.array([[.5,.5],[.5,.5],[.0, .0],[.5, .5],[.5, .5]])
         fs = gauss_seidel([g1,g2], [d1,d2], solver_3) 
         self.check(fs, a, 1e-3)      
-        g1,g2,d1,d2 = self.braess_heterogeneous(.75, .75)
+        g1,g2,d1,d2 = braess_heterogeneous(.75, .75)
         fs = gauss_seidel([g1,g2], [d1,d2], solver_3, q=50)
         a = np.array([[.375, .625],[.375, .125],[.0, .5],[.375, .125],[.375, .625]])
         self.check(fs, a, 1e-3)
