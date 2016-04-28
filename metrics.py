@@ -74,9 +74,15 @@ def compute_metrics(alpha, f, net, d, feat, subset, out, row, fs=None, net2=None
     Save in the numpy array 'out' at the specific 'row' the following metrics
     - average cost for non-routed
     - average cost for routed
-    - average cost on a subset
+    - average cost
+    - average cost on a subset (e.g. local routes)
+    - average cost outside of a subset (e.g. non-local routes)
     - total gas emissions
-    - total gas emissions on a subset 
+    - total gas emissions on a subset (e.g. local routes)
+    - total gas emissions outside of a subset (e.g. non-local routes)
+    - total flow in the network
+    - total flow in the network on a subset (e.g. local routes)
+    - total flow in the network outside of a subset (e.g. non-local routes)
     '''
     if length_unit == 'Meter':
         lengths = feat[:,1] / 1609.34 # convert into miles
@@ -96,6 +102,9 @@ def compute_metrics(alpha, f, net, d, feat, subset, out, row, fs=None, net2=None
     out[row,6] = co2.dot(f) / f.dot(lengths)
     out[row,7] = np.multiply(co2, subset).dot(f) / f.dot(lengths)
     out[row,8] = out[row,6] - out[row,7]
+    out[row,9] = np.sum(f) * 4000.
+    out[row,10] = np.sum(np.multiply(f, subset)) * 4000.
+    out[row,11] = out[row,9] - out[row,10]
     if alpha == 0.0:
         out[row,1] = b * average_cost(f, net, d)
         out[row,2] = b * average_cost_all_or_nothing(f, net, d)
@@ -111,7 +120,7 @@ def compute_metrics(alpha, f, net, d, feat, subset, out, row, fs=None, net2=None
 
 def save_metrics(alphas, net, net2, d, features, subset, input, output, skiprows=0, \
     length_unit='Mile', time_unit='Minute'):
-    out = np.zeros((len(alphas),9))
+    out = np.zeros((len(alphas),12))
     a = 0
     if alphas[0] == 0.0:
         alpha = 0.0
@@ -141,8 +150,9 @@ def save_metrics(alphas, net, net2, d, features, subset, input, output, skiprows
         compute_metrics(1.0, f, net, d, features, subset, out, -1, net2=net2, \
             length_unit=length_unit, time_unit=time_unit)
 
+    colnames = 'ratio_routed,tt_non_routed,tt_routed,tt,tt_local,tt_non_local,gas,gas_local,gas_non_local,flow,flow_local,flow_non_local'
     np.savetxt(output, out, delimiter=',', \
-        header='ratio_routed,tt_non_routed,tt_routed,tt,tt_local,tt_non_local,gas,gas_local,gas_non_local', \
+        header=colnames, \
         comments='')
 
 
@@ -242,3 +252,4 @@ def OD_non_routed_costs(alphas, net, net2, demand, inputs, output, verbose=0):
     for alpha in alphas: 
         header.append(str(int(alpha*100)))
     np.savetxt(output, out, delimiter=',', header=','.join(header), comments='')
+
