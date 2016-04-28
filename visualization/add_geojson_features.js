@@ -98,6 +98,31 @@ function onEachFeature(feature, layer) {
             msg = msg.concat(feature.properties.co2)
             msg = msg.concat("<br>")
         }
+        if (feature.properties.local) {
+            msg = msg.concat("local: ")
+            msg = msg.concat(feature.properties.local)
+            msg = msg.concat("<br>")
+        }
+        if (feature.properties.link_id) {
+            msg = msg.concat("link id: ")
+            msg = msg.concat(feature.properties.link_id)
+            msg = msg.concat("<br>")
+        }
+        if (feature.properties.max_id) {
+            msg = msg.concat("max id: ")
+            msg = msg.concat(feature.properties.max_id)
+            msg = msg.concat("<br>")
+        }
+        if (feature.properties.inc) {
+            msg = msg.concat("increase: ")
+            msg = msg.concat(feature.properties.inc)
+            msg = msg.concat("<br>")
+        }
+        if (feature.properties.dec) {
+            msg = msg.concat("decrease: ")
+            msg = msg.concat(feature.properties.dec)
+            msg = msg.concat("<br>")
+        }
         layer.bindPopup(msg);
     }
 };
@@ -109,9 +134,9 @@ function onEachFeature(feature, layer) {
 
 
 // blue, yellow, orange, orange-red, red
-// var colors = ['#00FFFF', '#FFFF00', '#FFA500', '#FF4500', '#FF0000']
+var colors = ['#00FFFF', '#FFFF00', '#FFA500', '#FF4500', '#FF0000']
 // green, green-yellow, yellow, orange, red
-var colors = ['#2CC200', '#8CD100', '#E0C700', '#EF6A00', '#FF0000'];
+// var colors = ['#2CC200', '#8CD100', '#E0C700', '#EF6A00', '#FF0000'];
 
 
 function getColor(x) {

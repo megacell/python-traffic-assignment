@@ -140,6 +140,8 @@ def process_node(input, output, min_X=None, max_X=None, min_Y=None, max_Y=None):
 def process_links(net, node, features, in_order=False):
     '''
     Join data from net, node, and features arrays into links file
+    returns out, a numpy array with columns
+    [lat1, lon1, lat2, lon2, capacity, length, FreeFlowTime]
     '''
     links = net.shape[0]
     nodes = node.shape[0]
@@ -161,7 +163,25 @@ def process_links(net, node, features, in_order=False):
     return out
 
 
+def join_node_demand(node, demand):
+    '''
+    Join data from node and demand and return our, a numpy array with columns
+    [lat1, lon1, lat2, lon2, demand]
+    '''
+    ods = demand.shape[0]
+    out = np.zeros((ods, 5))
+    for i in range(ods):
+        a, b = demand[i,0], demand[i,1]
+        lat1, lon1 = node[int(a)-1, 1], node[int(a)-1, 2]
+        lat2, lon2 = node[int(b)-1, 1], node[int(b)-1, 2]
+        out[i,:4] = [lat1, lon1, lat2, lon2]
+        out[i,4] = demand[i,2]
+    return out
+
+
+
 def extract_features(input):
+    # features = table in the format [[capacity, length, FreeFlowTime]]
     flag = False
     out = []
     with open(input, 'rb') as f:
@@ -208,7 +228,7 @@ def geojson_link(links, features, color, weight=None):
     if 5 <= color    : red
     """
     if weight is None: 
-        weight = 2. * np.ones((color.shape[0],))
+        weight = 2. * np.ones((color.shape[0],)) # uniform weight
     type = 'LineString'
     out = [begin]
     for i in range(links.shape[0]):

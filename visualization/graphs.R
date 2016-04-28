@@ -4,7 +4,7 @@ source('multiplot.R')
 
 getwd()
 #setwd("python-traffic-assignment/visualization")
-#setwd("../../../visualization")
+#setwd("../../visualization")
 
 #data <- read.csv(file="../data/I210/out.csv", header=TRUE)
 #data <- read.csv(file="../data/chicago/out.csv", header=TRUE)
@@ -12,6 +12,10 @@ getwd()
 #data <- read.csv(file="../data/I210_modified/out.csv", header=TRUE)
 #data <- read.csv(file="../data/LA/copy_2/out.csv", header=TRUE)
 data <- read.csv(file="../data/LA/out.csv", header=TRUE)
+
+data$flow <- data$flow / 1000000.
+data$flow_local <- data$flow_local / 1000000.
+data$flow_non_local <- data$flow_non_local / 1000000.
 
 data$ratio_routed <- data$ratio_routed * 100.
 long <- melt(data, id='ratio_routed')
@@ -80,7 +84,7 @@ g4 <- ggplot(long[long$variable=='tt',], aes(x=ratio_routed, y=value, colour=var
         legend.position="none")
 
 
-# average cotal travel time
+# average total travel time
 g5 <- ggplot(long[long$variable=='tt_local',], aes(x=ratio_routed, y=value, colour=variable)) + 
   #geom_point(size=3) + 
   geom_line(size=1) + 
@@ -109,7 +113,7 @@ g6 <- ggplot(long[long$variable=='gas',], aes(x=ratio_routed, y=value, colour=va
         legend.position="none")
 
 
-# average cotal travel time
+# average total travel time
 g7 <- ggplot(long[long$variable=='gas_local',], aes(x=ratio_routed, y=value, colour=variable)) + 
   #geom_point(size=3) + 
   geom_line(size=1) + 
@@ -138,7 +142,22 @@ g8 <- ggplot(long[long$variable %in% c('tt_non_routed', 'tt_routed'),], aes(x=ra
         legend.position="none",
         legend.text = element_blank())
 
+# total flow 
+g9 <- ggplot(long[long$variable %in% c('flow_non_local', 'flow_local'),], aes(x=ratio_routed, y=value, colour=variable)) +
+  #geom_point(size=3) + 
+  geom_area(aes(colour=variable, fill=variable)) +
+  xlab(xlabel) +
+  ylab("flow (M veh/hour)") +
+  ggtitle("Total flow") +
+  scale_fill_manual(name="", values=c('red', 'blue'), labels=c("on local roads", "on non-local roads")) +
+  scale_color_manual(name="", values=c('red', 'blue'), labels=c("on local roads", "on non-local roads")) +
+  theme(axis.text.x=element_text(size=size), 
+        axis.title.x=element_text(size=size),
+        axis.text.y=element_text(size=size), 
+        axis.title.y=element_text(size=size),
+        plot.title = element_text(size = size))
 
-plot(g1)#g1 g2 g3
+
+plot(g9)#g1 g2 g3
 #multiplot(g4,g5)
 #multiplot(g6,g7)

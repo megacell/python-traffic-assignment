@@ -239,7 +239,7 @@ def chicago_non_routed_costs(alphas):
 def main():
     # process_chicago_network()
     # capacities_of_chicago()
-    # visualize_equilibrium_in_chicago()
+    visualize_equilibrium_in_chicago()
     # multiply_demand_by_2()
     # results_for_chicago()
     # frank_wolfe_on_chicago()
@@ -251,7 +251,7 @@ def main():
     # chicago_parametric_study_2([.0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1.0])
     # chicago_metrics([.0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1.0])
     # chicago_routed_costs([.0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1.0])
-    chicago_non_routed_costs([.0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1.0])
+    # chicago_non_routed_costs([.0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1.0])
 
 
 if __name__ == '__main__':

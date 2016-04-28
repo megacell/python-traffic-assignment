@@ -7,7 +7,7 @@ Scripts for LA network
 
 import numpy as np
 from process_data import process_net, process_trips, extract_features, process_links, \
-    geojson_link, construct_igraph, construct_od
+    geojson_link, construct_igraph, construct_od, join_node_demand
 from frank_wolfe_2 import solver, solver_2, solver_3
 
 from multi_types_solver import parametric_study
@@ -62,6 +62,7 @@ def load_LA_2():
     graph = np.loadtxt('data/LA_net.csv', delimiter=',', skiprows=1)
     demand = np.loadtxt('data/LA_od_2.csv', delimiter=',', skiprows=1)
     node = np.loadtxt('data/LA_node.csv', delimiter=',')
+    # features = table in the format [[capacity, length, FreeFlowTime]]
     features = extract_features('data/LA_net.txt')
     # increase capacities of these two links because they have a travel time
     # in equilibrium that that is too big
@@ -99,8 +100,60 @@ def visualize_LA_capacity():
     names = ['capacity', 'length', 'fftt']
     # color = 2.1 * features[:,0] / 2000.
     color = 2.*(features[:,0] <= 900.) + 5.*(features[:,0] > 900.)
-    weight = (features[:,0] <= 900.) + 2.*(features[:,0] > 900.)
+    weight = (features[:,0] <= 900.) + 3.*(features[:,0] > 900.)
     geojson_link(links, names, color, weight)
+
+
+def visualize_LA_demand():
+    net, demand, node, features = load_LA_2()
+    ods = join_node_demand(node, demand)
+    B = np.random.randint(ods.shape[0], size=100)
+    ods = ods[B,:]
+    color = ods[:,4] / 10. # for demand
+    geojson_link(ods, ['demand'], color)
+
+
+def visualize_LA_total_flows(alpha, only_local=False):
+    '''
+    visualize total flow in L.A. using total_link_flows.csv as input
+    '''
+    net, demand, node, geom = load_LA_2()
+    f = np.loadtxt('data/LA/total_link_flows.csv', delimiter=',', \
+        skiprows=1)
+    names = ['link_id', 'capacity', 'length', 'fftt', 'local', 'flow']
+    features = np.zeros((f.shape[0], 6))
+    features[:,0] = net[:,0]
+    features[:,1:4] = geom
+    features[:,4] = f[:,6]
+    features[:,5] = f[:,7+int(alpha/10.)]
+    links = process_links(net, node, features, in_order=True)
+    color = features[:,5] * 10.
+    color = color + (color > 0.0)
+    weight = (features[:,1] <= 900.) + 2.*(features[:,1] > 900.)
+    if only_local:
+        links = links[weight==1.0, :]
+        color = color[weight==1.0]
+        weight = weight[weight==1.0]
+    geojson_link(links, names, color, weight)
+
+
+def visualize_LA_flow_variation(only_local=False):
+    '''
+    visualize the variations in link flows
+    '''
+    net, demand, node, geom = load_LA_2()
+    data = np.loadtxt("data/LA/link_variation.csv", delimiter=',', skiprows=1)
+    links = process_links(data[:,:3], node, data[:,[0,3,4,5,6,19,20,21]], \
+        in_order=True)
+    names = ['link_id','capacity','length','fftt','local','max_id','inc','dec']
+    color = (data[:,19] - 1.) / 2.
+    weight = (data[:,6] == 1.) + 3.*(data[:,6] == 0.)
+    if only_local:
+        links = links[weight==1.0, :]
+        color = color[weight==1.0]
+        weight = weight[weight==1.0]
+    geojson_link(links, names, color, weight)
+
 
 
 def visualize_LA_result():
@@ -182,7 +235,7 @@ def LA_parametric_study_2(alphas):
     g, d, node, feat = load_LA_2()
     d[:,2] = d[:,2] / 4000.
     parametric_study_2(alphas, g, d, node, feat, 1000., 3000., 'data/LA/test_{}.csv',\
-        stop=1e-2)
+        stop=1e-3)
 
 
 def LA_metrics(alphas, input, output):
@@ -205,21 +258,39 @@ def LA_non_routed_costs(alphas, input, output):
     OD_non_routed_costs(alphas, net, net2, demand, input, output, verbose=1)
 
 
+def total_link_flows(alphas, input, output):
+    net, demand, node, features = load_LA_2()
+    net2, small_capacity = multiply_cognitive_cost(net, features, 1000., 3000.)
+    links = net.shape[0]
+    n_alpha = len(alphas)
+    out = np.zeros((links, 7+n_alpha))
+    out[:,:3] = net[:,:3]
+    out[:,3:6] = features
+    out[:,6] = small_capacity
+    col_alphas = ','.join(['X'+str(int(alpha*100)) for alpha in alphas])
+    columns = 'link_id,from,to,capacity,length,fftt,local,' + col_alphas
+    for i,alpha in enumerate(alphas):
+        fs = np.loadtxt(input.format(int(alpha*100)), delimiter=',', skiprows=1)
+        out[:,i+7] = np.sum(fs,1)
+    np.savetxt(output, out, delimiter=',', header=columns, comments='')
+
+
 def main():
     # process_LA_node()
     # process_LA_net()
-    # visualize_LA_capacity()
+    visualize_LA_capacity()
+    # visualize_LA_demand()
     # visualize_LA_result()
     # process_LA_od()
     # frank_wolfe_on_LA()
     # check_LA_result()
     # LA_parametric_study(.9)
-    LA_parametric_study_2(.9)
+    # LA_parametric_study_2(1.)
     # check__LA_connectivity()
     # remove_loops_in_LA_od()
     # reduce_demand()
     # load_LA_2()
-    #LA_metrics(np.linspace(0,1,11), 'data/LA/test_{}.csv', 'data/LA/out.csv')
+    # LA_metrics(np.linspace(0,1,11), 'data/LA/test_{}.csv', 'data/LA/out.csv')
     # LA_metrics(np.linspace(0,1,11), 'data/LA/copy_2/test_{}.csv', \
     #     'data/LA/copy_2/out.csv')
     # LA_routed_costs(np.linspace(0,1,11), 'data/LA/test_{}.csv', \
@@ -230,6 +301,9 @@ def main():
     #     'data/LA/non_routed_costs.csv')    
     # LA_non_routed_costs(np.linspace(0,1,11), 'data/LA/copy_2/test_{}.csv', \
     #     'data/LA/copy_2/non_routed_costs.csv') 
+    # total_link_flows(np.linspace(0,1,11), 'data/LA/test_{}.csv', 'data/LA/total_link_flows.csv')
+    # visualize_LA_total_flows(10, only_local=True)
+    # visualize_LA_flow_variation(only_local=False)
 
 
 if __name__ == '__main__':

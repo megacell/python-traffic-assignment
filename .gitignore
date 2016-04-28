@@ -30,3 +30,4 @@ visualization/.RData
 visualization/.Rapp.history
 visualization/.Rhistory
 data/LA/
+data/LA/out.csv
