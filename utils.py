@@ -48,3 +48,16 @@ def braess_heterogeneous(demand_r, demand_nr):
     d2 = np.copy(d1)
     d2[0,2] = demand_r
     return g1, g2, d1, d2
+
+
+def net_with_marginal_cost(net):
+    '''
+    from net = [[link_id, from, to, a0, a1, a2, ...]]
+    compute network with marginal costs 
+    net = [[link_id, from, to, a0, a1 + a1, a2 + 2*a2, a3 + 3*a3, ...]]
+    '''
+    degree = net.shape[1] - 4
+    net2 = np.copy(net)
+    for i in range(degree+1):
+        net2[:,i+3] = net[:,i+3] * (1.+i)
+    return net2

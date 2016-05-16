@@ -8,15 +8,17 @@ Scripts for LA network
 import numpy as np
 from process_data import process_net, process_trips, extract_features, process_links, \
     geojson_link, construct_igraph, construct_od, join_node_demand
-from frank_wolfe_2 import solver, solver_2, solver_3
+from frank_wolfe_2 import solver, solver_2, solver_3, single_class_parametric_study
 
 from multi_types_solver import parametric_study
 from frank_wolfe_heterogeneous import parametric_study_2
 
 from metrics import average_cost_all_or_nothing, all_or_nothing_assignment, \
     cost_ratio, cost, save_metrics, path_cost
-from utils import multiply_cognitive_cost, heterogeneous_demand
-from metrics import OD_routed_costs, OD_non_routed_costs
+from utils import multiply_cognitive_cost, heterogeneous_demand, \
+    net_with_marginal_cost
+from metrics import OD_routed_costs, OD_non_routed_costs, free_flow_OD_costs
+from AoN_igraph import all_or_nothing
 
 
 def process_LA_node():
@@ -51,6 +53,18 @@ def remove_loops_in_LA_od():
         f.write(''.join(out))
 
 
+def remove_doublons_in_LA_od():
+    demand = np.loadtxt('data/LA_od_2.csv', delimiter=',', skiprows=1)
+    out = [demand[0,:]]
+    for i in range(1,demand.shape[0]):
+        if demand[i,1] == demand[i-1,1]:
+            out[-1][2] = out[-1][2] + demand[i,2]
+        else:
+            out.append(demand[i,:])
+    np.savetxt('data/LA_od_3.csv', np.array(out), delimiter=',', \
+        header='O,D,flow', comments='')
+
+
 def load_LA():
     graph = np.loadtxt('data/LA_net.csv', delimiter=',', skiprows=1)
     demand = np.loadtxt('data/LA_od.csv', delimiter=',', skiprows=1)
@@ -70,6 +84,25 @@ def load_LA_2():
     graph[10787,-1] = graph[10787,-1] / (1.5**4)
     features[3348,:] = features[3348,:] * 1.2
     graph[3348,-1] = graph[3348,-1] / (1.2**4)
+    return graph, demand, node, features
+
+
+def load_LA_3():
+    graph = np.loadtxt('data/LA_net.csv', delimiter=',', skiprows=1)
+    demand = np.loadtxt('data/LA_od_3.csv', delimiter=',', skiprows=1)
+    node = np.loadtxt('data/LA_node.csv', delimiter=',')
+    # features = table in the format [[capacity, length, FreeFlowTime]]
+    features = extract_features('data/LA_net.txt')
+    # increase capacities of these two links because they have a travel time
+    # in equilibrium that that is too big
+    features[10787,0] = features[10787,0] * 1.5
+    graph[10787,-1] = graph[10787,-1] / (1.5**4)
+    features[3348,:] = features[3348,:] * 1.2
+    graph[3348,-1] = graph[3348,-1] / (1.2**4)
+    # divide demand going to node 106 by 10 because too large
+    for i in range(demand.shape[0]):
+        if demand[i,1] == 106.:
+            demand[i,2] = demand[i,2] / 10.
     return graph, demand, node, features
 
 
@@ -239,7 +272,8 @@ def LA_parametric_study_2(alphas):
 
 
 def LA_metrics(alphas, input, output):
-    net, d, node, features = load_LA_2()
+    net, d, node, features = load_LA_3()
+    # import pdb; pdb.set_trace()
     d[:,2] = d[:,2] / 4000.
     net2, small_capacity = multiply_cognitive_cost(net, features, 1000., 3000.)
     save_metrics(alphas, net, net2, d, features, small_capacity, input, \
@@ -248,17 +282,21 @@ def LA_metrics(alphas, input, output):
 
 
 def LA_routed_costs(alphas, input, output):
-    net, demand, node, features = load_LA_2()
+    net, demand, node, features = load_LA_3()
     OD_routed_costs(alphas, net, demand, input, output, verbose=1)
 
 
 def LA_non_routed_costs(alphas, input, output):
-    net, demand, node, features = load_LA_2()
+    net, demand, node, features = load_LA_3()
     net2, small_capacity = multiply_cognitive_cost(net, features, 1000., 3000.)
     OD_non_routed_costs(alphas, net, net2, demand, input, output, verbose=1)
 
 
 def total_link_flows(alphas, input, output):
+    '''
+    output numpy array with total link flows (non-routed + routed) of the form:
+    link_id,from,to,capacity,length,fftt,local,X0,...,X100
+    '''
     net, demand, node, features = load_LA_2()
     net2, small_capacity = multiply_cognitive_cost(net, features, 1000., 3000.)
     links = net.shape[0]
@@ -275,10 +313,124 @@ def total_link_flows(alphas, input, output):
     np.savetxt(output, out, delimiter=',', header=columns, comments='')
 
 
+def LA_free_flow_costs(thres, cog_costs):
+    '''
+    study aiming at comparing the OD costs of all-or-nothing assignment
+    between costs = travel times, and costs with multiplicative cognitive costs
+    '''
+    net, demand, node, geom = load_LA_2()
+    g = construct_igraph(net)
+    g2 = construct_igraph(net)
+    od = construct_od(demand)
+    print np.array(g.es["weight"]).dot(all_or_nothing(g, od))/ (np.sum(demand[:,2])*60.)
+    for K in cog_costs:
+        net2, small_capacity = multiply_cognitive_cost(net, geom, thres, K)
+        g2.es["weight"] = net2[:,3]
+        print np.array(g.es["weight"]).dot(all_or_nothing(g2, od))/ (np.sum(demand[:,2])*60.)
+
+
+def LA_OD_free_flow_costs(thres, cog_costs, output, verbose=0):
+    '''
+    computes OD costs (free-flow travel times) for non-routed users
+    under different levels of cognitive costs for links with capacity under thres
+    '''
+    net, demand, node, geom = load_LA_3()
+    costs = []
+    for K in cog_costs:
+        net2, small_capacity = multiply_cognitive_cost(net, geom, thres, K)
+        costs.append(net2[:,3])
+    free_flow_OD_costs(net, costs, demand, output, verbose)
+
+
+def LA_ue_K(factors, thres, cog_cost, output):
+    '''
+    parametric study for computing equilibrium flows with different demand factors
+    and cognitive cost
+    '''
+    net, demand, node, geom = load_LA_3()
+    demand[:,2] = demand[:,2] / 4000.
+    net2, small_capacity = multiply_cognitive_cost(net, geom, thres, cog_cost)
+    single_class_parametric_study(factors, output, net2, demand)
+
+
+def LA_ue(factors, output):
+    '''
+    parametric study for computing equilibrium flows with different demand factors
+    '''
+    net, demand, node, geom = load_LA_3()
+    demand[:,2] = demand[:,2] / 4000.
+    single_class_parametric_study(factors, output, net, demand)
+
+  
+def LA_so(factors, output):
+    '''
+    parametric study for computing social optimum with different demand factors
+    '''
+    net, demand, node, geom = load_LA_3()
+    demand[:,2] = demand[:,2] / 4000.
+    net2 = net_with_marginal_cost(net)
+    single_class_parametric_study(factors, output, net2, demand) 
+
+
+def LA_od_costs(factors, output, verbose=0):
+    '''
+    compute the OD costs for UE, SO, and UE-K 
+    where the cognitive cost is K=3000
+    and with different demand: alpha * demand for demand in factors
+    save OD costs into csv array with columns
+    demand, X1_so, X1_ue_k, X1_ue, X2_so, X2_ue_k, X2_ue, ...
+    '''
+    net, demand, node, geom = load_LA_3()
+    demand[:,2] = demand[:,2] / 4000.
+    fs_so = np.loadtxt('data/LA/so_single_class.csv', delimiter=',', skiprows=1)
+    fs_ue_k = np.loadtxt('data/LA/ue_k_single_class.csv', delimiter=',', skiprows=1)
+    fs_ue = np.loadtxt('data/LA/ue_single_class.csv', delimiter=',', skiprows=1)
+    costs = []
+    for i in range(len(factors)):
+        costs.append(cost(fs_so[:,i],net))
+        costs.append(cost(fs_ue_k[:,i],net))
+        costs.append(cost(fs_ue[:,i],net))
+    free_flow_OD_costs(net, costs, demand, output, verbose)
+
+
+def export_demand():
+    net, demand, node, geom = load_LA_3()
+    demand[:,2] = demand[:,2] / 4000.
+    np.savetxt('data/LA/LA_demand.csv', demand, delimiter=',', header='O,D,flow', \
+        comments='')
+
+
+def LA_local_routed_costs(alphas, input, output):
+    net, demand, node, features = load_LA_3()
+    small_capacity = multiply_cognitive_cost(net, features, 1000., 3000.)[1]
+    net_local = np.copy(net)
+    for row in range(net.shape[0]):
+        if small_capacity[row] == 0.0:
+            net_local[row,3:] = net_local[row,3:] * 0.
+    OD_non_routed_costs(alphas, net_local, net, demand, input, output, verbose=1)
+
+
+def LA_local_non_routed_costs(alphas, input, output):
+    net, demand, node, features = load_LA_3()
+    net2, small_capacity = multiply_cognitive_cost(net, features, 1000., 3000.)
+    net_local = np.copy(net)
+    for row in range(net.shape[0]):
+        if small_capacity[row] == 0.0:
+            net_local[row,3:] = net_local[row,3:] * 0.
+    OD_non_routed_costs(alphas, net_local, net2, demand, input, output, verbose=1)
+
+
+def LA_parametric_study_3(alphas):
+    g, d, node, feat = load_LA_3()
+    d[:,2] = d[:,2] / 4000.
+    parametric_study_2(alphas, g, d, node, feat, 1000., 3000., 'data/LA/test_{}.csv',\
+        stop=1e-3)
+
+
 def main():
     # process_LA_node()
     # process_LA_net()
-    visualize_LA_capacity()
+    # visualize_LA_capacity()
     # visualize_LA_demand()
     # visualize_LA_result()
     # process_LA_od()
@@ -304,7 +456,67 @@ def main():
     # total_link_flows(np.linspace(0,1,11), 'data/LA/test_{}.csv', 'data/LA/total_link_flows.csv')
     # visualize_LA_total_flows(10, only_local=True)
     # visualize_LA_flow_variation(only_local=False)
+    # LA_free_flow_costs(1000., [3., 10., 30., 100., 300., 1000., 3000.])
+    # LA_OD_free_flow_costs(1000., [1., 3., 10., 30., 100., 300., 1000., 3000.], \
+    #     'data/LA/OD_free_flow_costs.csv', verbose=1)
+    # LA_ue_K(np.linspace(.1,1,5), 1000., 3000., \
+    #     'data/LA/ue_K_single_class.csv')
+    # LA_ue(np.linspace(.1,1,5), 'data/LA/ue_single_class.csv')
+    # LA_so(np.linspace(.1,1,5), 'data/LA/so_single_class.csv')
+    # LA_od_costs(np.linspace(.1,1,5), 'data/LA/OD_costs.csv', verbose=1)
+    # LA_local_routed_costs(np.linspace(0,1,11), 'data/LA/test_{}.csv', \
+    #     'data/LA/local_routed_costs.csv')
+    # LA_local_non_routed_costs(np.linspace(0,1,11), 'data/LA/test_{}.csv',\
+    #     'data/LA/local_non_routed_costs.csv')
+    # remove_doublons_in_LA_od()
 
+    # ======================================================================
+
+    # final scripts
+
+    # LA_parametric_study_3(1.)
+
+    # compute the OD costs under free-flow travel times and 
+    # with different values of cognitive costs
+
+    # LA_OD_free_flow_costs(1000., [1., 3., 10., 30., 100., 300., 1000., 3000.], \
+    #     'data/LA/OD_free_flow_costs.csv', verbose=1)
+
+    # ======================================================================
+
+    # compute equilibria for single class games
+
+    # LA_ue_K(np.linspace(.1,1,5), 1000., 3000., \
+    #     'data/LA/ue_K_single_class.csv')
+    # LA_ue(np.linspace(.1,1,5), 'data/LA/ue_single_class.csv')
+    # LA_so(np.linspace(.1,1,5), 'data/LA/so_single_class.csv')
+
+    # ======================================================================
+
+    # compute the OD costs 
+
+    LA_od_costs(np.linspace(.1,1,5), 'data/LA/OD_costs.csv', verbose=1)
+
+    # ======================================================================
+
+    # compute general metrics such as VMT etc.
+
+    # LA_metrics(np.linspace(0,1,11), 'data/LA/test_{}.csv', 'data/LA/out.csv')
+
+    # ======================================================================
+
+    # compute local and non-local routed and non-routed costs
+
+    # export_demand()
+
+    # LA_routed_costs(np.linspace(0,1,11), 'data/LA/test_{}.csv', \
+    #     'data/LA/routed_costs.csv')    
+    # LA_non_routed_costs(np.linspace(0,1,11), 'data/LA/test_{}.csv', \
+    #     'data/LA/non_routed_costs.csv')  
+    # LA_local_routed_costs(np.linspace(0,1,11), 'data/LA/test_{}.csv', \
+    #     'data/LA/local_routed_costs.csv')
+    # LA_local_non_routed_costs(np.linspace(0,1,11), 'data/LA/test_{}.csv',\
+    #     'data/LA/local_non_routed_costs.csv')
 
 if __name__ == '__main__':
     main()

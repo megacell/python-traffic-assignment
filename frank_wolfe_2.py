@@ -1,6 +1,12 @@
 __author__ = "Jerome Thai"
 __email__ = "jerome.thai@berkeley.edu"
 
+
+'''
+This module is frank-wolfe algorithm using an all-or-nothing assignment
+based on igraph package
+'''
+
 import numpy as np
 from process_data import construct_igraph, construct_od
 from AoN_igraph import all_or_nothing
@@ -124,8 +130,10 @@ def solver_3(graph, demand, g=None, od=None, past=10, max_iter=100, eps=1e-8, \
     stop:     stops the algorithm if the error is less than 'stop'
     '''
     assert past <= q, "'q' must be bigger or equal to 'past'"
-    if g is None: g = construct_igraph(graph)
-    if od is None: od = construct_od(demand)
+    if g is None: 
+        g = construct_igraph(graph)
+    if od is None: 
+        od = construct_od(demand)
     f = np.zeros(graph.shape[0],dtype="float64") # initial flow assignment is null
     fs = np.zeros((graph.shape[0],past),dtype="float64")
     K = total_free_flow_cost(g, od)
@@ -178,3 +186,22 @@ def solver_3(graph, demand, g=None, od=None, past=10, max_iter=100, eps=1e-8, \
             f = f + 2. * w/(i+2.)
     return f
 
+
+def single_class_parametric_study(factors, output, net, demand, \
+    max_iter=100, display=1):
+    '''
+    parametric study where the equilibrium flow is computed under different
+    demand levels alpha*demand for alpha in factors
+    '''
+    g = construct_igraph(net)
+    d = np.copy(demand)
+    fs = np.zeros((net.shape[0], len(factors)))
+    header = ','.join(['X{}'.format(i) for i in range(len(factors))])
+    for i,alpha in enumerate(factors):
+        if display >= 1: 
+            print 'computing equilibrium {}/{}'.format(i+1, len(factors))
+        d[:,2] = alpha * demand[:,2]
+        f = solver_3(net, d, g=g, past=20, q=50, stop=1e-3, display=display, \
+            max_iter=max_iter)
+        fs[:,i] = f
+    np.savetxt(output, fs, delimiter=',', header=header, comments='')

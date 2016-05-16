@@ -13,9 +13,9 @@ getwd()
 #data <- read.csv(file="../data/LA/copy_2/out.csv", header=TRUE)
 data <- read.csv(file="../data/LA/out.csv", header=TRUE)
 
-data$flow <- data$flow / 1000000.
-data$flow_local <- data$flow_local / 1000000.
-data$flow_non_local <- data$flow_non_local / 1000000.
+data$vmt <- data$vmt / 1000000.
+data$vmt_local <- data$vmt_local / 1000000.
+data$vmt_non_local <- data$vmt_non_local / 1000000.
 
 data$ratio_routed <- data$ratio_routed * 100.
 long <- melt(data, id='ratio_routed')
@@ -143,21 +143,50 @@ g8 <- ggplot(long[long$variable %in% c('tt_non_routed', 'tt_routed'),], aes(x=ra
         legend.text = element_blank())
 
 # total flow 
-g9 <- ggplot(long[long$variable %in% c('flow_non_local', 'flow_local'),], aes(x=ratio_routed, y=value, colour=variable)) +
+g9 <- ggplot(long[long$variable %in% c('vmt_non_local', 'vmt_local'),], aes(x=ratio_routed, y=value, colour=variable)) +
   #geom_point(size=3) + 
   geom_area(aes(colour=variable, fill=variable)) +
   xlab(xlabel) +
-  ylab("flow (M veh/hour)") +
-  ggtitle("Total flow") +
+  ylab("VMT (million miles / hour)") +
   scale_fill_manual(name="", values=c('red', 'blue'), labels=c("on local roads", "on non-local roads")) +
   scale_color_manual(name="", values=c('red', 'blue'), labels=c("on local roads", "on non-local roads")) +
   theme(axis.text.x=element_text(size=size), 
         axis.title.x=element_text(size=size),
         axis.text.y=element_text(size=size), 
         axis.title.y=element_text(size=size),
-        plot.title = element_text(size = size))
+        plot.title = element_text(size = size),
+        legend.position="top",
+        legend.title=element_text(size=size),
+        legend.text=element_text(size=size))
 
+# total VMT in the network
+g10 <- ggplot(data, aes(x=ratio_routed, y=vmt, colour='red')) + 
+  scale_color_manual(values=c("blue")) +
+  #geom_point(size=3) + 
+  geom_line(size=1) + 
+  xlab(xlabel) +
+  ylab("VMT (M miles/hour)") +
+  theme(axis.text.x=element_text(size=size), 
+        axis.title.x=element_text(size=size),
+        axis.text.y=element_text(size=size), 
+        axis.title.y=element_text(size=size),
+        legend.position="none",
+        legend.text = element_text(size = size))
 
-plot(g9)#g1 g2 g3
+g11 <- ggplot(data, aes(x=ratio_routed, y=vmt_local, colour='blue')) + 
+  scale_color_manual(values=c("red")) +
+  #geom_point(size=3) + 
+  geom_line(size=1) + 
+  xlab(xlabel) +
+  ylab("VMT (M miles/hour)") +
+  theme(axis.text.x=element_text(size=size), 
+        axis.title.x=element_text(size=size),
+        axis.text.y=element_text(size=size), 
+        axis.title.y=element_text(size=size),
+        legend.position="none",
+        legend.text = element_text(size = size))
+
+#plot(g9)#g1 g2 g3, g9
 #multiplot(g4,g5)
 #multiplot(g6,g7)
+multiplot(g10,g11)

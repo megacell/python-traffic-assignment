@@ -102,8 +102,8 @@ def compute_metrics(alpha, f, net, d, feat, subset, out, row, fs=None, net2=None
     out[row,6] = co2.dot(f) / f.dot(lengths)
     out[row,7] = np.multiply(co2, subset).dot(f) / f.dot(lengths)
     out[row,8] = out[row,6] - out[row,7]
-    out[row,9] = np.sum(f) * 4000.
-    out[row,10] = np.sum(np.multiply(f, subset)) * 4000.
+    out[row,9] = np.sum(np.multiply(f, lengths)) * 4000.
+    out[row,10] = np.sum(np.multiply(np.multiply(f, lengths), subset)) * 4000.
     out[row,11] = out[row,9] - out[row,10]
     if alpha == 0.0:
         out[row,1] = b * average_cost(f, net, d)
@@ -150,7 +150,8 @@ def save_metrics(alphas, net, net2, d, features, subset, input, output, skiprows
         compute_metrics(1.0, f, net, d, features, subset, out, -1, net2=net2, \
             length_unit=length_unit, time_unit=time_unit)
 
-    colnames = 'ratio_routed,tt_non_routed,tt_routed,tt,tt_local,tt_non_local,gas,gas_local,gas_non_local,flow,flow_local,flow_non_local'
+    colnames = 'ratio_routed,tt_non_routed,tt_routed,tt,tt_local,tt_non_local,gas,gas_local,gas_non_local,'
+    colnames = colnames + 'vmt,vmt_local,vmt_non_local'
     np.savetxt(output, out, delimiter=',', \
         header=colnames, \
         comments='')
@@ -158,7 +159,7 @@ def save_metrics(alphas, net, net2, d, features, subset, input, output, skiprows
 
 def path_cost(net, cost, d, g=None, od=None):
     '''
-    given vector of edge costs, graph, demand
+    given graph, vector of edge costs, demand
     returns shortest path cost for all ODs in d (or od) in the format
     {(o, d): path_cost}
     '''
@@ -177,12 +178,18 @@ def path_cost(net, cost, d, g=None, od=None):
 
 def path_cost_non_routed(net, nr_cost, tt, d, g=None, od=None):
     '''
-    given vector of edge costs, graph, demand
+    given 
+    net:     graph
+    nr_cost: vector of edge costs
+    tt:      vector of free-flow travel times
+    d:       demand
     returns travel time cost for non-routed users for all ODs in d (or od) in the format
     {(o, d): path_cost}
     '''
     if g is None: 
         g = construct_igraph(net)
+        g.es["weight"] = nr_cost.tolist()
+    else:
         g.es["weight"] = nr_cost.tolist()
     if od is None:
         od = construct_od(d)
@@ -232,6 +239,8 @@ def OD_non_routed_costs(alphas, net, net2, demand, inputs, output, verbose=0):
     '''
     from input files of equilibrium flows for the heterogeneous game
     outputs the travel times of non-routed users
+    net  : network with travel time cost functions
+    net2 : network with perseived cost functions
     '''
     od = construct_od(demand)
     num_ods = demand.shape[0]
@@ -240,9 +249,10 @@ def OD_non_routed_costs(alphas, net, net2, demand, inputs, output, verbose=0):
     g = construct_igraph(net)
     for i, alpha in enumerate(alphas):
         fs = np.loadtxt(inputs.format(int(alpha*100)), delimiter=',', skiprows=1)
-        c = cost(np.sum(fs, axis=1), net2) # non-routed cost
+        c = cost(np.sum(fs, axis=1), net2) # vector of non-routed edge costs
         g.es["weight"] = c.tolist() 
-        tt = cost(np.sum(fs, axis=1), net) # travel times
+        tt = cost(np.sum(fs, axis=1), net) # vector of edge travel times
+        # import pdb; pdb.set_trace()
         if verbose >= 1: 
             print 'computing OD costs for alpha = {} ...'.format(alpha)
         costs = path_cost_non_routed(net2, c, tt, demand, g, od)
@@ -251,5 +261,26 @@ def OD_non_routed_costs(alphas, net, net2, demand, inputs, output, verbose=0):
     header = ['o,d']
     for alpha in alphas: 
         header.append(str(int(alpha*100)))
+    np.savetxt(output, out, delimiter=',', header=','.join(header), comments='')
+
+
+def free_flow_OD_costs(net, costs, demand, output, verbose=0):
+    '''
+    do all-or-nothing assignments following list of arc costs 'costs'
+    output OD costs under arc costs contained in 'net'
+    '''
+    od = construct_od(demand)
+    num_ods = demand.shape[0]
+    out = np.zeros((num_ods, len(costs)+3))
+    out[:,:2] = demand[:,:2]
+    g = construct_igraph(net)
+    out[:,2] = demand[:,2]
+    for i,c in enumerate(costs):
+        if verbose >= 1: 
+            print 'computing OD costs for {}-eme cost vector ...'.format(i+1)
+        cost = path_cost_non_routed(net, c, net[:,3], demand, g, od)
+        for j in range(num_ods):
+            out[j,i+3] = cost[(int(out[j,0]), int(out[j,1]))]
+    header = ['o,d,demand'] + [str(i) for i in range(len(costs))]
     np.savetxt(output, out, delimiter=',', header=','.join(header), comments='')
 
