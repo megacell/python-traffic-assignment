@@ -8,7 +8,7 @@ that can be found here: http://www.bgu.ac.il/~bargera/tntp/
 
 import csv
 import numpy as np
-from utils import digits, spaces
+from utils import digits, spaces, areInside
 import igraph
 
 
@@ -200,12 +200,15 @@ begin = 'var geojson_features = [{\n'
 
 def begin_feature(type):
     string = '    "type": "Feature",\n    "geometry": {\n'
-    begin_coord = '        "coordinates": [\n'
+    if type == 'Point':
+        begin_coord = '        "coordinates": ['
+    else:
+        begin_coord = '        "coordinates": [\n'
     return string + '        "type": "{}",\n'.format(type) + begin_coord
 
 def coord(lat,lon,type):
     if type == "LineString": return '            [{}, {}],\n'.format(lon,lat)
-    if type == "Point": return '            [{}, {}]'.format(lon,lat)
+    if type == "Point": return '{}, {}'.format(lon,lat)
 
 begin_prop = '            ]},\n    "properties": {\n'
 
@@ -244,7 +247,7 @@ def geojson_link(links, features, color, weight=None):
     out[-1] = '    }}];\n\n'
     out.append('var lat_center_map = {}\n'.format(np.mean(links[:,0])))
     out.append('var lon_center_map = {}\n'.format(np.mean(links[:,1])))
-    with open('visualization/links.js', 'w') as f:
+    with open('visualization/geojson_features.js', 'w') as f:
         f.write(''.join(out))
 
 
@@ -314,13 +317,93 @@ def construct_od(demand):
     return out
 
 
+def cities_to_js(file, by_county, color, weight):
+    # only keep cities in California that are in Los Angeles County
+    # create a suitable collection of geojson objects
+    out = ['var geojson_features = [']
+    with open(file, 'rb') as f:
+        reader = csv.reader(f)
+        for i,row in enumerate(reader):
+            if len(row) >= 8 and row[7][12:-1] == by_county:
+                row[1] = ' "properties": { "city": ' + row[1][25:]
+                row[7] = '"county": "Los Angeles"'
+                row.insert(2, '"weight": "{}"'.format(weight))
+                row.insert(2, '"color": "{}"'.format(color))
+                out.append(','.join(row))
+    out.append('];')
+    out.append('\nvar lat_center_map = 34.0374876369')
+    out.append('var lon_center_map = -118.130124211')
+    with open('visualization/geojson_features.js', 'w') as f:
+        f.write('\n'.join(out))
+
+
+def map_nodes_to_one_city(city, city_file, node):
+    # return a .cvs file with the name of the city in which a node is
+    # first, compute the bounding box around the city
+    polygon = []
+    with open(city_file, 'rb') as f:
+        reader = csv.reader(f)
+        for i,row in enumerate(reader):
+            if len(row) >= 2 and row[1][26:-1] == city:
+                line = row[13:]
+                for j,e in enumerate(line):
+                    if len(e) > 0:
+                        if j == 0:
+                            polygon.append([float(e.split(' ')[-1])])
+                        else:
+                            if j%2 == 1:
+                                polygon[-1].append(float(e.split(' ')[1]))
+                            else:
+                                polygon.append([float(e.split(' ')[-1])])
+                break
+    ps = [[node[i,1:3][1], node[i,1:3][0]] for i in range(node.shape[0])]
+    return areInside(polygon, len(polygon), ps)
+
+
+def map_nodes_to_cities(cities, city_file, node_file, output_file):
+    # save into a file mapping from node id to city the node belongs to
+    node = np.loadtxt(node_file, delimiter=',')
+    out = ['other'] * node.shape[0]
+    for city in cities:
+        print 'process {}'.format(city)
+        tmp = np.array(map_nodes_to_one_city(city, city_file, node)).nonzero()[0]
+        print 'found {} nodes'.format(len(tmp))
+        for i in tmp: 
+            out[i] = city
+    out = np.reshape(np.array(out), (node.shape[0],1))
+    ids = np.reshape(node[:,0], (node.shape[0],1))
+    out2 = np.concatenate((ids,out), axis=1)
+    np.savetxt(output_file, out2, delimiter=',', header='id,city', \
+        comments='', fmt="%s")
+
+
+def map_links_to_cities(nodeToCity_file, net_file, output_file):
+    # save into a file mapping from link id to city it belongs to
+    # a link is assumed to be in a city if both of its nodes are inside it
+    nodeToCity = np.genfromtxt(nodeToCity_file, delimiter=',', \
+        skiprows=1, dtype='str')
+    graph = np.loadtxt(net_file, delimiter=',', skiprows=1)
+    #print nodeToCity
+    #print graph
+    out = ['other'] * graph.shape[0]
+    for i in range(graph.shape[0]):
+        fr, to = int(graph[i,1]), int(graph[i,2])
+        if (nodeToCity[fr-1,1] != 'other') and (nodeToCity[fr-1,1] == nodeToCity[to-1,1]):
+            out[i] = nodeToCity[fr-1,1]
+    out = np.reshape(np.array(out), (graph.shape[0],1))
+    ids = np.reshape(graph[:,0], (graph.shape[0],1))
+    out2 = np.concatenate((ids,out), axis=1)
+    np.savetxt(output_file, out2, delimiter=',', header='id,city', \
+        comments='', fmt="%s")
 
 def main():
     # process_trips('data/SiouxFalls_trips.txt', 'data/SiouxFalls_od.csv')
     # process_trips('data/Anaheim_trips.txt', 'data/Anaheim_od.csv')
     # process_results('data/Anaheim_raw_results.csv', 'data/Anaheim_results.csv',\
     #    'data/Anaheim_net.csv')
-    print process_demand('data/SiouxFalls_trips.txt')
+    # print process_demand('data/SiouxFalls_trips.txt')
+    # cities_to_js('data/cities.js', 'Los Angeles', 0, 1)
+    pass
 
 if __name__ == '__main__':
     main()

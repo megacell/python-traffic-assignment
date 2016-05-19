@@ -123,6 +123,16 @@ function onEachFeature(feature, layer) {
             msg = msg.concat(feature.properties.dec)
             msg = msg.concat("<br>")
         }
+        if (feature.properties.city) {
+            msg = msg.concat("city: ")
+            msg = msg.concat(feature.properties.city)
+            msg = msg.concat("<br>")
+        }
+        if (feature.properties.county) {
+            msg = msg.concat("county: ")
+            msg = msg.concat(feature.properties.county)
+            msg = msg.concat("<br>")
+        }
         layer.bindPopup(msg);
     }
 };

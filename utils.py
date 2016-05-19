@@ -61,3 +61,110 @@ def net_with_marginal_cost(net):
     for i in range(degree+1):
         net2[:,i+3] = net[:,i+3] * (1.+i)
     return net2
+
+
+def orientation(p, q, r):
+    '''
+    returns 0 if p, q, and r are colinear
+    return 1 if clockwise
+    return 2 if counterclockwise
+    '''
+    val = (q[1] - p[1]) * (r[0] - q[0]) - (q[0] - p[0]) * (r[1] - q[1])
+    if val == 0: return 0
+    if val > 0: return 1
+    return 2
+
+
+def onSegment(p, q, r):
+    '''
+    given three colinear points p, q, r, the function checks if
+    point q lies on line segment 'pr'
+    '''
+    return (q[0] <= max(p[0], r[0])) \
+        and (q[0] >= min(p[0], r[0])) \
+            and (q[1] <= max(p[1], r[1])) \
+            and (q[1] >= min(p[1], r[1]))
+
+
+def doIntersect(p1, q1, p2, q2):
+    '''
+    return true if line segment p1q1 and p2q2 intersect
+    '''
+    # find the four orientations needed for general and special cases
+    o1 = orientation(p1, q1, p2)
+    o2 = orientation(p1, q1, q2)
+    o3 = orientation(p2, q2, p1)
+    o4 = orientation(p2, q2, q1)
+
+    # general case
+    if (o1 != o2) and (o3 != o4): return True
+
+    # special cases
+    # p1, q1, and p2 are colinear and p2 lies on segment p1q1
+    if (o1 == 0) and onSegment(p1, p2, q1): return True
+    # p1, q1 and p2 are colinear and q2 lies on segment p1q1
+    if (o2 == 0) and onSegment(p1, q2, q1): return True
+    # p2, q2 and p1 are colinear and p1 lies on segment p2q2
+    if (o3 == 0) and onSegment(p2, p1, q2): return True
+    # p2, q2 and q1 are colinear and q1 lies on segment p2q2
+    if (o4 == 0) and onSegment(p2, q1, q2): return True
+
+    return False
+
+
+def isInside(polygon, n, p, infinity=10e8):
+    '''
+    Returns True if the point p lies inside the polygon[] with n vertices
+    '''
+    # there must be at least 3 vertices in polygon
+    if n < 3: return False
+    # Create a point for line segment from p to infinite
+    extreme = [infinity, p[1]]
+    # count intersections of the above line with sides of polygon
+    count = 0
+    for i in range(n):
+        next = (i+1)%n
+        # Check if the line segment from 'p' to 'extreme' intersects
+        # with the line segment from 'polygon[i]' to 'polygon[next]'
+        if doIntersect(polygon[i], polygon[next], p, extreme):
+            # If the point 'p' is colinear with line segment 'i-next',
+            # then check if it lies on segment. If it lies, return true,
+            # otherwise false
+            if orientation(polygon[i], p, polygon[next]) == 0:
+                return onSegment(polygon[i], p, polygon[next])
+            count = count + 1
+    return (count%2 == 1)
+
+
+def isInsideBox(box, p):
+    '''
+    Returns True if the point p lies inside the box
+    box = [p,q]
+    '''
+    return (p[0] <= max(box[0][0], box[1][0])) \
+        and (p[0] >= min(box[0][0], box[1][0])) \
+            and (p[1] <= max(box[0][1], box[1][1])) \
+            and (p[1] >= min(box[0][1], box[1][1]))
+
+
+def areInside(polygon, n, ps, infinity=10e8):
+    '''
+    Returns a list of 1 or 0 depending on whether point p in ps
+    is inside the polygon or not
+    '''
+    tmp = np.array(polygon)
+    # bounding box for the polygon
+    box = [[min(tmp[:,0]), min(tmp[:,1])],[max(tmp[:,0]), max(tmp[:,1])]]
+    out = []
+    # check if each point is inside the polygon
+    for p in ps:
+        # check if the point is inside the bounding box
+        if isInsideBox(box, p):
+            if isInside(polygon, n, p, infinity=infinity):
+                out.append(1)
+            else:
+                out.append(0)
+        else:
+            out.append(0)
+    return out
+

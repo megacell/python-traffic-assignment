@@ -20,7 +20,7 @@ data$vmt_non_local <- data$vmt_non_local / 1000000.
 data$ratio_routed <- data$ratio_routed * 100.
 long <- melt(data, id='ratio_routed')
 size = 16
-xlabel <- "percentage of navigation app users"
+xlabel <- "percentage of routed users"
 
 # average travel times for routed and non-routed
 g1 <- ggplot(long[long$variable %in% c('tt_non_routed', 'tt_routed'),], aes(x=ratio_routed, y=value, colour=variable)) + 
@@ -186,7 +186,59 @@ g11 <- ggplot(data, aes(x=ratio_routed, y=vmt_local, colour='blue')) +
         legend.position="none",
         legend.text = element_text(size = size))
 
-#plot(g9)#g1 g2 g3, g9
+# compute marginal costs
+
+delta <- data.frame(matrix(ncol = 6, nrow = 11))
+colnames(delta) <- c('ratio_routed', 'd_vmt','d_vmt_local','zero','r_vmt','r_vmt_local')
+delta[,1] <- data$ratio_routed
+delta[,4] <- 0.
+delta[1,2] <- 1000. * 0.1 * (data[2,]$vmt - data[1,]$vmt)
+delta[1,3] <- 1000. * 0.1 * (data[2,]$vmt_local - data[1,]$vmt_local)
+delta[11,2] <- 1000. * 0.1 * (data[11,]$vmt - data[10,]$vmt)
+delta[11,3] <- 1000. * 0.1 * (data[11,]$vmt_local - data[10,]$vmt_local)
+for (i in 2:10) {
+  delta[i,2] <- 1000. * .05 * (data[i+1,]$vmt - data[i-1,]$vmt)
+  delta[i,3] <- 1000. * .05 * (data[i+1,]$vmt_local - data[i-1,]$vmt_local)
+  delta[i,5] <- 100.*(data[i+1,]$vmt - data[i,]$vmt) / data[i,]$vmt
+  delta[i,6] <- 100.*(data[i+1,]$vmt_local - data[i,]$vmt_local) / data[i,]$vmt_local
+}
+
+long_d <- melt(delta[,1:4], id="ratio_routed")
+
+# marginal cost of VMT in the network
+g12 <- ggplot(long_d, aes(x=ratio_routed, y=value, colour=variable, linetype=variable)) + 
+  scale_color_manual(values=c("blue", "red", "black"), labels=c("global", "low-cap", "x=0")) +
+  scale_linetype_manual(values=c("solid", "solid", "dotted")) +
+  #geom_point(size=3) + 
+  geom_line(size=1) + 
+  xlab(xlabel) +
+  ylab("VMT (1K/hour/percent)") +
+  ylim(-15,15) +
+  theme(axis.text.x=element_text(size=1.5*size), 
+        axis.title.x=element_text(size=1.5*size),
+        axis.text.y=element_text(size=1.5*size), 
+        axis.title.y=element_text(size=1.5*size),
+        legend.position="top",
+        legend.text = element_text(size = 1.5*size))
+
+# relative variation in VMT
+long_r <- melt(delta[2:10,c(1,5,6)], id="ratio_routed")
+long_r_1 <- long_r[long_r$variable=='r_vmt',]
+long_r_2 <- long_r[long_r$variable=='r_vmt_local',]
+g14 <- ggplot() + geom_bar(data=long_r_1, aes(x=ratio_routed, y=value, fill=variable), stat="identity") +
+  geom_bar(data=long_r_2, aes(x=ratio_routed, y=value, fill=variable), stat="identity") +
+  ylab("relative variation") +
+  scale_fill_manual(name="", values=c("blue","red"), labels=c("global", "low-cap")) +
+  scale_x_discrete("percentage of routed users", 
+                   breaks = c("10","20","30","40","50","60","70","80","90")) +
+  theme(axis.text.x=element_text(size=1.5*size), 
+        axis.title.x=element_text(size=1.5*size),
+        axis.text.y=element_text(size=1.5*size), 
+        axis.title.y=element_text(size=1.5*size),
+        legend.position="top",
+        legend.text = element_text(size = 1.5*size))
+
+plot(g14)#g1 g2 g3, g9, g12, g14
 #multiplot(g4,g5)
 #multiplot(g6,g7)
-multiplot(g10,g11)
+#multiplot(g10,g11)

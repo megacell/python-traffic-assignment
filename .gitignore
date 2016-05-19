@@ -19,3 +19,6 @@ visualization/.Rapp.history
 visualization/.Rhistory
 data/*
 !data/.gitkeep
+visualization/cities.js
+visualization/geojson_features.js
+visualization/geojson_multipoint_example.js

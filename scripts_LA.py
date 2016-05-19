@@ -129,7 +129,7 @@ def visualize_LA_capacity():
     graph, demand, node = load_LA()
     features = extract_features('data/LA_net.txt')
     links = process_links(graph, node, features, in_order=True)
-    color = features[:,0] # we choose the capacities
+    color = features[:,0] # we choose to color by the capacities
     names = ['capacity', 'length', 'fftt']
     # color = 2.1 * features[:,0] / 2000.
     color = 2.*(features[:,0] <= 900.) + 5.*(features[:,0] > 900.)
@@ -430,7 +430,7 @@ def LA_parametric_study_3(alphas):
 def main():
     # process_LA_node()
     # process_LA_net()
-    # visualize_LA_capacity()
+    visualize_LA_capacity()
     # visualize_LA_demand()
     # visualize_LA_result()
     # process_LA_od()
@@ -495,7 +495,7 @@ def main():
 
     # compute the OD costs 
 
-    LA_od_costs(np.linspace(.1,1,5), 'data/LA/OD_costs.csv', verbose=1)
+    # LA_od_costs(np.linspace(.1,1,5), 'data/LA/OD_costs.csv', verbose=1)
 
     # ======================================================================
 
