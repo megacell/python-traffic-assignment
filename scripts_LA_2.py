@@ -3,7 +3,7 @@ __email__ = "jerome.thai@berkeley.edu"
 
 import numpy as np
 from process_data import map_nodes_to_cities, map_links_to_cities, process_links, \
-    geojson_link
+    geojson_link, cities_to_js
 from scripts_LA import load_LA_3
 
 
@@ -56,8 +56,8 @@ def main():
     #     'data/LA/node_to_cities.csv')
     # map_links_to_cities('data/LA/node_to_cities.csv', 'data/LA_net.csv', \
     #     'data/LA/link_to_cities.csv')
-    # visualize_links_by_city('Glendale')
-    visualize_cities()
+    visualize_links_by_city('Glendale')
+    #visualize_cities()
 
 
 if __name__ == '__main__':
