@@ -20,6 +20,12 @@ def spaces(n):
 
 
 def multiply_cognitive_cost(net, feat, thres, cog_cost):
+    '''
+    given a numpy array 'net' of the form [[link_id, from, to, a0, a1, ..]]
+    and numpy array 'feat' containing [[capacity, length, FreeFlowTime]]
+    multiply all coefficients a0, a1, .. by a factor 'cog_cost'
+    if capcacity in feat under a threshold
+    '''
     net2 = np.copy(net)
     small_capacity = np.zeros((net2.shape[0],))
     for row in range(net2.shape[0]):
@@ -27,6 +33,21 @@ def multiply_cognitive_cost(net, feat, thres, cog_cost):
             small_capacity[row] = 1.0
             net2[row,3:] = net2[row,3:] * cog_cost
     return net2, small_capacity
+
+
+def modify_capacity(net, links_affected, beta):
+    '''
+    given a numpy array 'net' of the form [[link_id, from, to, a0, a1, ..]]
+    and given a list of booleans such that 'links_affected'
+    multiply the capcacity of links with entry True in 'links_affected' by beta
+    equivalent to
+    '''
+    net2 = np.copy(net)
+    for row in range(net2.shape[0]):
+        if links_affected[row]:
+            for j in range(4,net2.shape[1]):
+                net2[row,j] = net2[row,j] / (beta**(j-3))
+    return net2
 
 
 def heterogeneous_demand(d, alpha):

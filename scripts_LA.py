@@ -6,7 +6,7 @@ Scripts for LA network
 '''
 
 import numpy as np
-from process_data import process_net, process_net_attack, process_trips, extract_features, process_links, \
+from process_data import process_net, process_trips, extract_features, process_links, \
     geojson_link, construct_igraph, construct_od, join_node_demand
 from frank_wolfe_2 import solver, solver_2, solver_3, single_class_parametric_study
 
@@ -36,8 +36,6 @@ def process_LA_node():
 def process_LA_net():
     process_net('data/LA_net.txt', 'data/LA_net.csv')
 
-def process_LA_net_attack(thres,beta):
-    process_net_attack('data/LA_net.txt', 'data/LA_net_attack.csv',thres,beta)
 
 def process_LA_od():
     process_trips('data/LA_od.txt', 'data/LA_od.csv')
@@ -107,23 +105,6 @@ def load_LA_3():
             demand[i,2] = demand[i,2] / 10.
     return graph, demand, node, features
 
-def load_LA_4():
-    graph = np.loadtxt('data/LA_net_attack.csv', delimiter=',', skiprows=1)
-    demand = np.loadtxt('data/LA_od_3.csv', delimiter=',', skiprows=1)
-    node = np.loadtxt('data/LA_node.csv', delimiter=',')
-    # features = table in the format [[capacity, length, FreeFlowTime]]
-    features = extract_features('data/LA_net.txt')
-    # increase capacities of these two links because they have a travel time
-    # in equilibrium that that is too big
-    features[10787,0] = features[10787,0] * 1.5
-    graph[10787,-1] = graph[10787,-1] / (1.5**4)
-    features[3348,:] = features[3348,:] * 1.2
-    graph[3348,-1] = graph[3348,-1] / (1.2**4)
-    # divide demand going to node 106 by 10 because too large
-    for i in range(demand.shape[0]):
-        if demand[i,1] == 106.:
-            demand[i,2] = demand[i,2] / 10.
-    return graph, demand, node, features
 
 def check__LA_connectivity():
     graph, demand, node = load_LA()
@@ -299,23 +280,6 @@ def LA_metrics(alphas, input, output):
         output, skiprows=1, \
         length_unit='Meter', time_unit='Second')
 
-def LA_parametric_study_attack(alphas,thres,beta):
-    process_LA_net_attack(thres,beta)
-    g, d, node, feat = load_LA_4()
-    d[:,2] = d[:,2] / 4000.
-    parametric_study_2(alphas, g, d, node, feat, 1000., 3000., 'data/LA/test_attack_{}.csv',\
-        stop=1e-3)
-
-#beta is the coefficient of reduction of capacity: capacity = beta*capacity
-#load_LA_4() loads the modified network
-def LA_metrics_attack(alphas, input, output, beta):
-    net, d, node, features = load_LA_4()
-    # import pdb; pdb.set_trace()
-    d[:,2] = d[:,2] / 4000.
-    net2, small_capacity = multiply_cognitive_cost_attack(net, features,beta, 1000., 3000.)
-    save_metrics(alphas, net, net2, d, features, small_capacity, input, \
-        output, skiprows=1, \
-        length_unit='Meter', time_unit='Second')
 
 
 def LA_routed_costs(alphas, input, output):
@@ -465,6 +429,7 @@ def LA_parametric_study_3(alphas):
 
 
 def main():
+    pass
     # process_LA_node()
     # process_LA_net()
     #visualize_LA_capacity()
@@ -506,14 +471,6 @@ def main():
     # LA_local_non_routed_costs(np.linspace(0,1,11), 'data/LA/test_{}.csv',\
     #     'data/LA/local_non_routed_costs.csv')
     # remove_doublons_in_LA_od()
-
-
-    #=================================Attack================================
-    LA_parametric_study_attack(.9,1000.,1.)
-
-    #LA_metrics_attack(np.linspace(0,1,11), 'data/LA/test_{}.csv', 'data/LA/out_attack.csv',1.0)
-
-
 
     # ======================================================================
 
