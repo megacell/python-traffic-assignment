@@ -96,7 +96,7 @@ def LA_metrics_attack(alphas, input, output, beta):
         length_unit='Meter', time_unit='Second')
 
 
-def LA_metrics_attacks_2(beta, thres):
+def LA_metrics_attacks_2(beta, thres, city):
     net, d, node, features = load_LA_3()
     # import pdb; pdb.set_trace()
     d[:,2] = d[:,2] / 4000.
@@ -109,7 +109,7 @@ def LA_metrics_attacks_2(beta, thres):
     linkToCity = np.genfromtxt('data/LA/link_to_cities.csv', delimiter=',', \
         skiprows=1, dtype='str')
     print linkToCity
-    links_affected = np.logical_and(linkToCity[:,1] == 'Glendale', features[:,0] < thres)
+    links_affected = np.logical_and(linkToCity[:,1] == city, features[:,0] < thres)
     print np.sum(links_affected)
     # modify all small capacity links in GLendale
     net2 = modify_capacity(net, links_affected, beta)
@@ -126,7 +126,7 @@ def main():
 
 
     #=================================Attack================================
-    LA_metrics_attacks_2(0.5, 1000.)
+    LA_metrics_attacks_2(0.5, 1000.,'Glendale')
     #LA_parametric_study_attack(.9,1000.,1.)
     #LA_metrics_attack(np.linspace(0,1,11), 'data/LA/test_{}.csv', 'data/LA/out_attack.csv',1.0)
 
