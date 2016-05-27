@@ -34,6 +34,31 @@ def process_net(input, output):
     with open(output, "w") as text_file:
         text_file.write(''.join(out))
 
+def process_net_attack(input, output,thres,beta):
+    '''
+    process *_net.txt files of Bar-Gera to get *_net.csv file in the format of
+    our Frank-Wolfe algorithm
+    '''
+    flag = False
+    i = 0
+    out = ['LINK,A,B,a0,a1,a2,a3,a4\n']
+    with open(input, 'rb') as f:
+        reader = csv.reader(f)
+        for row in reader:
+            if len(row)>0:
+                if flag == False:
+                    if row[0].split()[0] == '~': flag = True
+                else:
+                    l = row[0].split()[:-1]
+                    if float(l[2]) < thres:
+                        capacity=beta*float(l[2])
+                    else:
+                        capacity = float(l[2])
+                    a4 = float(l[4]) * float(l[5]) / (capacity/4000)**4
+                    out.append('{},{},{},{},0,0,0,{}\n'.format(i,l[0],l[1],l[4],a4))
+                    i = i+1
+    with open(output, "w") as text_file:
+        text_file.write(''.join(out))
 
 
 def process_trips(input, output):

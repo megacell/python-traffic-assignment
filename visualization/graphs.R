@@ -1,17 +1,24 @@
+
 library(ggplot2)
 require(reshape2)
 source('multiplot.R')
 
-getwd()
+#<<<<<<< Updated upstream
+#getwd()
 #setwd("python-traffic-assignment/visualization")
 #setwd("../../visualization")
+#=======
+#setwd("Documents/python-traffic-assignment/visualization")
+# source("graphs.R", print.eval=TRUE)
+# source("I210_pathflows.R", print.eval=TRUE)
+#>>>>>>> Stashed changes
 
-#data <- read.csv(file="../data/I210/out.csv", header=TRUE)
+data <- read.csv(file="../data/I210/out.csv", header=TRUE)
 #data <- read.csv(file="../data/chicago/out.csv", header=TRUE)
 #data <- read.csv(file="../data/LA/copy/out.csv", header=TRUE)
 #data <- read.csv(file="../data/I210_modified/out.csv", header=TRUE)
 #data <- read.csv(file="../data/LA/copy_2/out.csv", header=TRUE)
-data <- read.csv(file="../data/LA/out.csv", header=TRUE)
+#data <- read.csv(file="../data/LA/out.csv", header=TRUE)
 
 data$vmt <- data$vmt / 1000000.
 data$vmt_local <- data$vmt_local / 1000000.
@@ -186,6 +193,7 @@ g11 <- ggplot(data, aes(x=ratio_routed, y=vmt_local, colour='blue')) +
         legend.position="none",
         legend.text = element_text(size = size))
 
+<<<<<<< Updated upstream
 # compute marginal costs
 
 delta <- data.frame(matrix(ncol = 6, nrow = 11))
@@ -239,6 +247,9 @@ g14 <- ggplot() + geom_bar(data=long_r_1, aes(x=ratio_routed, y=value, fill=vari
         legend.text = element_text(size = 1.5*size))
 
 plot(g14)#g1 g2 g3, g9, g12, g14
+=======
+plot(g3)#g1 g2 g3
+>>>>>>> Stashed changes
 #multiplot(g4,g5)
 #multiplot(g6,g7)
 #multiplot(g10,g11)

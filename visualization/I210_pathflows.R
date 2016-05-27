@@ -1,7 +1,8 @@
 library(ggplot2)
 require(reshape2)
+size=10
 
-data <- read.csv(file="../data/I210/path_flows_routed.csv", header=TRUE)
+data <- read.csv(file="../data/I210_attack/path_flows_routed.csv", header=TRUE)
 
 long <- melt(data, id='ratio_routed')
 
