@@ -40,7 +40,7 @@ def modify_capacity(net, links_affected, beta):
     given a numpy array 'net' of the form [[link_id, from, to, a0, a1, ..]]
     and given a list of booleans such that 'links_affected'
     multiply the capcacity of links with entry True in 'links_affected' by beta
-    equivalent to
+    equivalent to dividing the coefficients a1,a2,... by beta^1,beta^2,...
     '''
     net2 = np.copy(net)
     for row in range(net2.shape[0]):

@@ -100,10 +100,20 @@ def LA_metrics_attacks_2(beta, thres):
     net, d, node, features = load_LA_3()
     # import pdb; pdb.set_trace()
     d[:,2] = d[:,2] / 4000.
-    print net
+
+    # modify all small capacity links
     links_affected = (features[:,0] < thres)
     net2 = modify_capacity(net, links_affected, beta)
-    print net2
+
+    # extract the mapping from links to cities
+    linkToCity = np.genfromtxt('data/LA/link_to_cities.csv', delimiter=',', \
+        skiprows=1, dtype='str')
+    print linkToCity
+    links_affected = np.logical_and(linkToCity[:,1] == 'Glendale', features[:,0] < thres)
+    print np.sum(links_affected)
+    # modify all small capacity links in GLendale
+    net2 = modify_capacity(net, links_affected, beta)
+
 
 
 def main():
