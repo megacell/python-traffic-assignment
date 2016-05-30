@@ -1,11 +1,16 @@
-__author__ = "Jerome Thai"
-__email__ = "jerome.thai@berkeley.edu"
+__author__ = "Jerome Thai, Nicolas Laurent-Brouty"
+__email__ = "jerome.thai@berkeley.edu, nicolas.lb@berkeley.edu"
 
 import numpy as np
 from process_data import map_nodes_to_cities, map_links_to_cities, process_links, \
     geojson_link, cities_to_js, process_net_attack
 from scripts_LA import load_LA_3
-from utils import modify_capacity
+from utils import modify_capacity,multiply_cognitive_cost
+from frank_wolfe_heterogeneous import parametric_study_2
+from metrics import average_cost_all_or_nothing, all_or_nothing_assignment, \
+    cost_ratio, cost, save_metrics, path_cost
+
+
 
 
 cities = ['Burbank',
@@ -76,13 +81,10 @@ def load_LA_4():
 
 
 def LA_parametric_study_attack(alphas,thres,beta):
-    process_LA_net_attack(thres,beta)
-    g, d, node, feat = load_LA_4()
-    d[:,2] = d[:,2] / 4000.
-    parametric_study_2(alphas, g, d, node, feat, 1000., 3000., 'data/LA/test_attack_{}.csv',\
+    net2, d, node, features = LA_metrics_attacks_all(beta, thres)
+    parametric_study_2(alphas, net2, d, node, features, 1000., 3000., 'data/LA/test_attack_80.csv',\
         stop=1e-3)
-
-
+#'data/LA/test_attack_{}.csv'
 
 #beta is the coefficient of reduction of capacity: capacity = beta*capacity
 #load_LA_4() loads the modified network
@@ -90,20 +92,26 @@ def LA_metrics_attack(alphas, input, output, beta):
     net, d, node, features = load_LA_4()
     # import pdb; pdb.set_trace()
     d[:,2] = d[:,2] / 4000.
-    net2, small_capacity = multiply_cognitive_cost_attack(net, features,beta, 1000., 3000.)
+    net2, small_capacity = multiply_cognitive_cost(net, features,beta, 1000., 3000.)
+    save_metrics(alphas, net, net2, d, features, small_capacity, input, \
+        output, skiprows=1, \
+        length_unit='Meter', time_unit='Second')
+
+def LA_metrics_attack_2(alphas, input, output, thres, beta):
+    net, d, node, features = LA_metrics_attacks_all(beta, thres)
+    net2, small_capacity = multiply_cognitive_cost(net, features, 1000., 3000.)
     save_metrics(alphas, net, net2, d, features, small_capacity, input, \
         output, skiprows=1, \
         length_unit='Meter', time_unit='Second')
 
 
-def LA_metrics_attacks_2(beta, thres, city):
+
+
+
+def LA_metrics_attacks_city(beta, thres, city):
     net, d, node, features = load_LA_3()
     # import pdb; pdb.set_trace()
     d[:,2] = d[:,2] / 4000.
-
-    # modify all small capacity links
-    links_affected = (features[:,0] < thres)
-    net2 = modify_capacity(net, links_affected, beta)
 
     # extract the mapping from links to cities
     linkToCity = np.genfromtxt('data/LA/link_to_cities.csv', delimiter=',', \
@@ -113,6 +121,18 @@ def LA_metrics_attacks_2(beta, thres, city):
     print np.sum(links_affected)
     # modify all small capacity links in GLendale
     net2 = modify_capacity(net, links_affected, beta)
+
+def LA_metrics_attacks_all(beta, thres):
+    net, d, node, features = load_LA_3()
+    # import pdb; pdb.set_trace()
+    d[:,2] = d[:,2] / 4000.
+
+    # modify all small capacity links
+    links_affected = (features[:,0] < thres)
+    net2 = modify_capacity(net, links_affected, beta)
+    return net2, d, node, features
+
+
 
 
 
@@ -126,8 +146,10 @@ def main():
 
 
     #=================================Attack================================
-    LA_metrics_attacks_2(0.5, 1000.,'Glendale')
-    #LA_parametric_study_attack(.9,1000.,1.)
+    #LA_metrics_attacks_city(0.5, 1000.,'Glendale')
+    #LA_parametric_study_attack(.5,1000.,0.80)
+    LA_metrics_attack_2(np.array([0.5]), 'data/LA/test_attack_90.csv', 'data/LA/out_attack_90.csv',1000., 0.90)
+
     #LA_metrics_attack(np.linspace(0,1,11), 'data/LA/test_{}.csv', 'data/LA/out_attack.csv',1.0)
 
 
