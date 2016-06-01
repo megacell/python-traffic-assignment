@@ -80,9 +80,10 @@ def load_LA_4():
     return graph, demand, node, features
 
 
-def LA_parametric_study_attack(alphas,thres,beta):
-    net2, d, node, features = LA_metrics_attacks_all(beta, thres)
-    parametric_study_2(alphas, net2, d, node, features, 1000., 3000., 'data/LA/test_attack_80.csv',\
+def LA_parametric_study_attack(alphas,thres,betas):
+    for beta in betas:
+        net2, d, node, features = LA_metrics_attacks_all(beta, thres)
+        parametric_study_2(alphas, net2, d, node, features, 1000., 3000., 'data/LA/test_attack_{}.csv',\
         stop=1e-3)
 #'data/LA/test_attack_{}.csv'
 
@@ -103,10 +104,6 @@ def LA_metrics_attack_2(alphas, input, output, thres, beta):
     save_metrics(alphas, net, net2, d, features, small_capacity, input, \
         output, skiprows=1, \
         length_unit='Meter', time_unit='Second')
-
-
-
-
 
 def LA_metrics_attacks_city(beta, thres, city):
     net, d, node, features = load_LA_3()
@@ -147,8 +144,8 @@ def main():
 
     #=================================Attack================================
     #LA_metrics_attacks_city(0.5, 1000.,'Glendale')
-    #LA_parametric_study_attack(.5,1000.,0.80)
-    LA_metrics_attack_2(np.array([0.5]), 'data/LA/test_attack_90.csv', 'data/LA/out_attack_90.csv',1000., 0.90)
+    LA_parametric_study_attack(.5,1000.,np.array([0.60]))
+    #LA_metrics_attack_2(np.array([0.5]), 'data/LA/test_attack_80.csv', 'data/LA/out_attack_80.csv',1000., 0.80)
 
     #LA_metrics_attack(np.linspace(0,1,11), 'data/LA/test_{}.csv', 'data/LA/out_attack.csv',1.0)
 
