@@ -181,3 +181,28 @@ def parametric_study_2(alphas, g, d, node, geometry, thres, cog_cost, output, \
         np.savetxt(output.format(int(alpha*100)), fs, \
             delimiter=',', header='f_nr,f_r')
 
+def parametric_study_3(alphas, beta, g, d, node, geometry, thres, cog_cost, output, \
+    stop=1e-2):
+    g_nr, small_capacity = multiply_cognitive_cost(g, geometry, thres, cog_cost)
+    if (type(alphas) is float) or (type(alphas) is int):
+        alphas = [alphas]
+    for alpha in alphas:
+        #special case where in fact homogeneous game
+        if alpha == 0.0:
+            print 'non-routed = 1.0, routed = 0.0'
+            f_nr = solver_3(g_nr, d, max_iter=1000, display=1, stop=stop)     
+            fs=np.zeros((f_nr.shape[0],2))
+            fs[:,0]=f_nr 
+        elif alpha == 1.0:
+            print 'non-routed = 0.0, routed = 1.0'
+            f_r = solver_3(g, d, max_iter=1000, display=1, stop=stop)    
+            fs=np.zeros((f_r.shape[0],2))
+            fs[:,1]=f_r            
+        #run solver
+        else:
+            print 'non-routed = {}, routed = {}'.format(1-alpha, alpha)
+            d_nr, d_r = heterogeneous_demand(d, alpha)
+            fs = fw_heterogeneous_1([g_nr,g], [d_nr,d_r], max_iter=1000, \
+                display=1, stop=stop)
+        np.savetxt(output.format(int(alpha*100),int(beta*100)), fs, \
+            delimiter=',', header='f_nr,f_r')

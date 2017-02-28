@@ -13,11 +13,13 @@ Test the compiled code with:
 
 	python -m unittest discover
 
+<!---
 Run on Chicago sketch network
 -----
 Then Frank-Wolfe can be runned on Chicago sketch network (387 zones; 933 nodes; 2950 links):
 
 	python tests/frank_wolfe_large_networks.py
+-->
 
 Running on networks from Bar-Gera's test problems
 -----
@@ -32,6 +34,6 @@ Visualization
 
 You can visualize:
 
-	python scripts.py
+	python scripts_chicago.py
 
-'capacities_of_chicago()' routines generates geojson file 'visualization/links.js'. Then view the network with view_network.html.
+'visualize_equilibrium_in_chicago()' routines generates geojson file 'visualization/links.js'. Then view the network with view_network.html.
