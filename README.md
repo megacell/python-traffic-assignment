@@ -34,6 +34,6 @@ Visualization
 
 You can visualize:
 
-	python scripts.py
+	python scripts_chicago.py
 
-'capacities_of_chicago()' routines generates geojson file 'visualization/links.js'. Then view the network with view_network.html.
+'visualize_equilibrium_in_chicago()' routines generates geojson file 'visualization/links.js'. Then view the network with view_network.html.
