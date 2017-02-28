@@ -32,6 +32,7 @@ def braess_heterogeneous(demand_r, demand_nr):
     g_nr = np.copy(g_r)
     g_nr[2,3] = 1e8
     d_nr = np.loadtxt('data/braess_od.csv', delimiter=',', skiprows=1)
+    d_nr = d_nr.reshape((1, 3))
     d_nr[0,2] = demand_nr
     d_r = np.copy(d_nr)
     d_r[0,2] = demand_r
