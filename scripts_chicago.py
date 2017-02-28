@@ -120,7 +120,7 @@ def visualize_equilibrium_in_chicago():
     net, demand, node, f = load_chicago()
     flow = np.loadtxt('data/Chicago_results_2.csv', delimiter=',')
     # flow = np.loadtxt('data/Chicago_results.csv', delimiter=',', skiprows=1)[:,2]
-    print average_cost(flow/4000., net)
+    print average_cost(flow/4000., net, demand)
     costs = cost_ratio(flow/4000., net)
     features = np.zeros((f.shape[0],4))
     features[:,:3] = f
