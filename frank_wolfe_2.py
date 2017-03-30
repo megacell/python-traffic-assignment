@@ -1,3 +1,7 @@
+import numpy as np
+from process_data import construct_igraph, construct_od
+from AoN_igraph import all_or_nothing
+
 __author__ = "Jerome Thai"
 __email__ = "jerome.thai@berkeley.edu"
 
@@ -6,10 +10,6 @@ __email__ = "jerome.thai@berkeley.edu"
 This module is frank-wolfe algorithm using an all-or-nothing assignment
 based on igraph package
 '''
-
-import numpy as np
-from process_data import construct_igraph, construct_od
-from AoN_igraph import all_or_nothing
 
 
 def potential(graph, f):
@@ -75,8 +75,6 @@ def solver(graph, demand, g=None, od=None, max_iter=100, eps=1e-8, q=None,
         if display >= 1:
             if i <= 1:
                 print 'iteration: {}'.format(i + 1)
-            else:
-                print 'iteration: {}, error: {}'.format(i + 1, error)
         # construct weighted graph with latest flow assignment
         L, grad = search_direction(f, graph, g, od)
         if i >= 1:
@@ -107,8 +105,6 @@ def solver_2(graph, demand, g=None, od=None, max_iter=100, eps=1e-8, q=10,
         if display >= 1:
             if i <= 1:
                 print 'iteration: {}'.format(i + 1)
-            else:
-                print 'iteration: {}, error: {}'.format(i + 1, error)
         # construct weighted graph with latest flow assignment
         L, grad = search_direction(f, graph, g, od)
         if i >= 1:
@@ -118,9 +114,7 @@ def solver_2(graph, demand, g=None, od=None, max_iter=100, eps=1e-8, q=10,
             error = grad.dot(f - L) / K
             if error < stop:
                 return f
-        # s = line_search(lambda a: potential(graph, (1.-a)*f+a*L)) if i>max_iter-q \
-        #     else 2./(i+2.)
-        s = line_search(lambda a: potential(graph, (1. - a) * \
+        s = line_search(lambda a: potential(graph, (1. - a) *
                         f + a * L)) if i % ls == (ls - 1) else 2. / (i + 2.)
         if s < eps:
             return f
@@ -138,7 +132,7 @@ def solver_3(graph, demand, g=None, od=None, past=10, max_iter=100, eps=1e-8,
     od:       od in the format {from: ([to], [rate])}
     past:     search direction is the mean over the last 'past' directions
     max_iter: maximum number of iterations
-    esp:      used as a stopping criterium if some quantities are too close to 0
+    eps:      used as stopping criteria if some quantities are too close to 0
     q:        first 'q' iterations uses open loop step sizes 2/(i+2)
     display:  controls the display of information in the terminal
     stop:     stops the algorithm if the error is less than 'stop'
@@ -161,8 +155,6 @@ def solver_3(graph, demand, g=None, od=None, past=10, max_iter=100, eps=1e-8,
         if display >= 1:
             if i <= 1:
                 print 'iteration: {}'.format(i + 1)
-            else:
-                print 'iteration: {}, error: {}'.format(i + 1, error)
         # construct weighted graph with latest flow assignment
         L, grad = search_direction(f, graph, g, od)
         fs[:, i % past] = L
