@@ -1,12 +1,9 @@
-__author__ = "Jerome Thai"
-__email__ = "jerome.thai@berkeley.edu"
-
 import numpy as np
 from scipy import special as sp
 from AoN_igraph import all_or_nothing
 from process_data import construct_igraph, construct_od
 from utils import multiply_cognitive_cost, heterogeneous_demand
-from frank_wolfe_2 import solver, solver_2, solver_3
+from frank_wolfe_2 import solver_3
 
 
 def total_ff_costs_heterogeneous(graphs, g, ods):
@@ -47,9 +44,10 @@ def shift_polynomial(coef, d):
 
 
 def gauss_seidel(graphs, demands, solver, max_cycles=10, max_iter=100,
-                 by_origin=False, q=10, display=0, past=10, stop=1e-8, eps=1e-8,
-                 stop_cycle=None):
-    # we are given a list of graphs and demands that are specific for different types of players
+                 by_origin=False, q=10, display=0, past=10, stop=1e-8,
+                 eps=1e-8, stop_cycle=None):
+    # we are given a list of graphs and demands that are specific
+    # for different types of players
     # the gauss-seidel scheme updates cyclically for each type at a time
     if stop_cycle is None:
         stop_cycle = stop
@@ -74,7 +72,8 @@ def gauss_seidel(graphs, demands, solver, max_cycles=10, max_iter=100,
             shift_graph(graphs[i], g2, shift)
             g.es["weight"] = g2[:, 3].tolist()
             # update flow assignment for this type
-            fs[:, i] = solver(g2, demands[i], g, ods[i], max_iter=max_iter, q=q,
+            fs[:, i] = solver(g2, demands[i], g, ods[i],
+                              max_iter=max_iter, q=q,
                               display=display, past=past, stop=stop, eps=eps)
         # check if we have convergence
         r = residual(graphs, demands, g, ods, fs) / K
@@ -108,6 +107,7 @@ def parametric_study(alphas, g, d, node, geometry, thres, cog_cost, output,
             print 'non-routed = {}, routed = {}'.format(1 - alpha, alpha)
             d_nr, d_r = heterogeneous_demand(d, alpha)
             fs = gauss_seidel([g_nr, g], [d_nr, d_r], solver_3, max_iter=1000,
-                              display=1, stop=stop, stop_cycle=stop_cycle, q=50, past=20)
+                              display=1, stop=stop, stop_cycle=stop_cycle,
+                              q=50, past=20)
         np.savetxt(output.format(int(alpha * 100)), fs,
                    delimiter=',', header='f_nr,f_r')

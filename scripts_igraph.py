@@ -1,7 +1,3 @@
-__author__ = "Jerome Thai"
-__email__ = "jerome.thai@berkeley.edu"
-
-
 from igraph import Graph
 import numpy as np
 

@@ -1,15 +1,12 @@
-__author__ = "Jerome Thai, Nicolas Laurent-Brouty"
-__email__ = "jerome.thai@berkeley.edu, nicolas.lb@berkeley.edu"
-
-'''
-This module processes the *.txt files from Bar-Gera 
-that can be found here: http://www.bgu.ac.il/~bargera/tntp/
-'''
-
 import csv
 import numpy as np
 from utils import digits, spaces, areInside
 import igraph
+
+'''
+This module processes the *.txt files from Bar-Gera
+that can be found here: http://www.bgu.ac.il/~bargera/tntp/
+'''
 
 
 def process_net(input, output):

@@ -14,14 +14,11 @@ import Cython.Compiler.Options
 Cython.Compiler.Options.annotate = True
 
 
-
-
 setup(
-      cmdclass={'build_ext': build_ext},
-      ext_modules = [
-              Extension("AoN",
-                        ["AoN.pyx"],
-                        include_dirs=[np.get_include()])
-                    ]
-     )
-
+    cmdclass={'build_ext': build_ext},
+    ext_modules=[
+        Extension("AoN",
+                  ["AoN.pyx"],
+                  include_dirs=[np.get_include()])
+    ]
+)

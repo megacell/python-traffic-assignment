@@ -1,10 +1,3 @@
-__author__ = "Jerome Thai"
-__email__ = "jerome.thai@berkeley.edu"
-
-'''
-various scripts for sensitivity analysis
-'''
-
 import numpy as np
 
 delta = np.array([[1, 0, 1, 0, 1, 0, 1, 0],

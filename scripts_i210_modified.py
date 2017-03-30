@@ -1,11 +1,3 @@
-__author__ = "Jerome Thai, Nicolas Laurent-Brouty"
-__email__ = "jerome.thai@berkeley.edu, nicolas.lb@berkeley.edu"
-
-
-'''
-Scripts for the I-210 sketch with modified 
-'''
-
 import numpy as np
 from process_data import extract_features
 from frank_wolfe_2 import solver_3

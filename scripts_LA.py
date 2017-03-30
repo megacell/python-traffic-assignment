@@ -1,36 +1,29 @@
-__author__ = "Jerome Thai, Nicolas Laurent-Brouty"
-__email__ = "jerome.thai@berkeley.edu, nicolas.lb@berkeley.edu"
-
-'''
-Scripts for LA network
-'''
-
 import numpy as np
-from process_data import process_net, process_trips, extract_features, process_links, \
+from process_data import process_net, process_trips, extract_features, \
+    process_links, \
     geojson_link, construct_igraph, construct_od, join_node_demand
-from frank_wolfe_2 import solver, solver_2, solver_3, single_class_parametric_study
+from frank_wolfe_2 import solver_3, single_class_parametric_study
 
 from multi_types_solver import parametric_study
 from frank_wolfe_heterogeneous import parametric_study_2
 
 from metrics import average_cost_all_or_nothing, all_or_nothing_assignment, \
-    cost_ratio, cost, save_metrics, path_cost
-from utils import multiply_cognitive_cost, heterogeneous_demand, \
-    net_with_marginal_cost
+    cost_ratio, cost, save_metrics
+from utils import multiply_cognitive_cost, net_with_marginal_cost
 from metrics import OD_routed_costs, OD_non_routed_costs, free_flow_OD_costs
 from AoN_igraph import all_or_nothing
 
 
-def process_LA_node():
-    lines = open("data/LA_node.txt", "r").readlines()
-    code = 'data=' + lines[0]
-    exec code
-    array = np.zeros((len(data), 3))
-    for node in data:
-        array[int(node[1]['nid']) - 1, 0] = node[1]['nid']
-        array[int(node[1]['nid']) - 1, 1] = node[1]['coords'][1]
-        array[int(node[1]['nid']) - 1, 2] = node[1]['coords'][0]
-    np.savetxt('data/LA_node.csv', array, delimiter=',')
+# def process_LA_node():
+#     lines = open("data/LA_node.txt", "r").readlines()
+#     code = 'data=' + lines[0]
+#     exec code
+#     array = np.zeros((len(data), 3))
+#     for node in data:
+#         array[int(node[1]['nid']) - 1, 0] = node[1]['nid']
+#         array[int(node[1]['nid']) - 1, 1] = node[1]['coords'][1]
+#         array[int(node[1]['nid']) - 1, 2] = node[1]['coords'][0]
+#     np.savetxt('data/LA_node.csv', array, delimiter=',')
 
 
 def process_LA_net():
@@ -112,8 +105,8 @@ def check__LA_connectivity():
     print np.max(graph[:, 1:3])
     print np.min(demand[:, :2])
     print np.max(demand[:, :2])
-    od = construct_od(demand)
-    g = construct_igraph(graph)
+    # od = construct_od(demand)
+    # g = construct_igraph(graph)
     f = np.zeros((graph.shape[0],))
     print average_cost_all_or_nothing(f, graph, demand)
 
@@ -176,8 +169,8 @@ def visualize_LA_flow_variation(only_local=False):
     '''
     net, demand, node, geom = load_LA_2()
     data = np.loadtxt("data/LA/link_variation.csv", delimiter=',', skiprows=1)
-    links = process_links(data[:, :3], node, data[:, [0, 3, 4, 5, 6, 19, 20, 21]],
-                          in_order=True)
+    links = process_links(
+        data[:, :3], node, data[:, [0, 3, 4, 5, 6, 19, 20, 21]], in_order=True)
     names = ['link_id', 'capacity', 'length',
              'fftt', 'local', 'max_id', 'inc', 'dec']
     color = (data[:, 19] - 1.) / 2.
@@ -219,7 +212,7 @@ def check_LA_result():
 
 def reduce_demand():
     net, demand, node = load_LA()
-    features = extract_features('data/LA_net.txt')
+    # features = extract_features('data/LA_net.txt')
     f = np.loadtxt('data/LA/LA_output_3.csv', delimiter=',', skiprows=0)
     cr = cost_ratio(f, net)
     for row in range(net.shape[0]):
@@ -232,7 +225,8 @@ def reduce_demand():
             if len(out) > 0:
                 out = np.array(out)
                 print '\nratio:', cr[row]
-                print 'origin: {}\nflow: {}'.format(int(demand[i, 0]), np.sum(out))
+                print 'origin: {}\nflow: {}'.format(
+                    int(demand[i, 0]), np.sum(out))
                 print np.sort(out).tolist()
 
     for row in range(net.shape[0]):
@@ -246,29 +240,32 @@ def reduce_demand():
             if len(out) > 0:
                 out = np.array(out)
                 print '\nratio:', cr[row]
-                print 'destination: {}\nflow: {}'.format(int(demand[i, 0]), np.sum(out))
+                print 'destination: {}\nflow: {}'.format(
+                    int(demand[i, 0]), np.sum(out))
                 print np.sort(out).tolist()
 
     # np.savetxt('data/LA_od_2.csv', demand, delimiter=',', header='O,D,flow')
 
 
-def increase_capacity():
-    net, demand, node = load_LA()
-    f = np.loadtxt('data/LA/LA_output_3.csv', delimiter=',', skiprows=0)
-    cr = cost_ratio(f, net)
+# def increase_capacity():
+#     net, demand, node = load_LA()
+#     f = np.loadtxt('data/LA/LA_output_3.csv', delimiter=',', skiprows=0)
+#     cr = cost_ratio(f, net)
 
 
 def LA_parametric_study(alphas):
     g, d, node, feat = load_LA_2()
     d[:, 2] = d[:, 2] / 4000.
-    parametric_study(alphas, g, d, node, feat, 1000., 3000., 'data/LA/test_{}.csv',
+    parametric_study(alphas, g, d, node, feat, 1000., 3000.,
+                     'data/LA/test_{}.csv',
                      stop=1e-3, stop_cycle=1e-3)
 
 
 def LA_parametric_study_2(alphas):
     g, d, node, feat = load_LA_2()
     d[:, 2] = d[:, 2] / 4000.
-    parametric_study_2(alphas, g, d, node, feat, 1000., 3000., 'data/LA/test_{}.csv',
+    parametric_study_2(alphas, g, d, node, feat, 1000., 3000.,
+                       'data/LA/test_{}.csv',
                        stop=1e-3)
 
 
@@ -324,17 +321,20 @@ def LA_free_flow_costs(thres, cog_costs):
     g = construct_igraph(net)
     g2 = construct_igraph(net)
     od = construct_od(demand)
-    print np.array(g.es["weight"]).dot(all_or_nothing(g, od)) / (np.sum(demand[:, 2]) * 60.)
+    print np.array(g.es["weight"]).dot(
+        all_or_nothing(g, od)) / (np.sum(demand[:, 2]) * 60.)
     for K in cog_costs:
         net2, small_capacity = multiply_cognitive_cost(net, geom, thres, K)
         g2.es["weight"] = net2[:, 3]
-        print np.array(g.es["weight"]).dot(all_or_nothing(g2, od)) / (np.sum(demand[:, 2]) * 60.)
+        print np.array(g.es["weight"]).dot(
+            all_or_nothing(g2, od)) / (np.sum(demand[:, 2]) * 60.)
 
 
 def LA_OD_free_flow_costs(thres, cog_costs, output, verbose=0):
     '''
     computes OD costs (free-flow travel times) for non-routed users
-    under different levels of cognitive costs for links with capacity under thres
+    under different levels of cognitive costs
+    for links with capacity under thres
     '''
     net, demand, node, geom = load_LA_3()
     costs = []
@@ -346,7 +346,8 @@ def LA_OD_free_flow_costs(thres, cog_costs, output, verbose=0):
 
 def LA_ue_K(factors, thres, cog_cost, output):
     '''
-    parametric study for computing equilibrium flows with different demand factors
+    parametric study for computing equilibrium flows
+    with different demand factors
     and cognitive cost
     '''
     net, demand, node, geom = load_LA_3()
@@ -357,7 +358,8 @@ def LA_ue_K(factors, thres, cog_cost, output):
 
 def LA_ue(factors, output):
     '''
-    parametric study for computing equilibrium flows with different demand factors
+    parametric study for computing equilibrium flows
+    with different demand factors
     '''
     net, demand, node, geom = load_LA_3()
     demand[:, 2] = demand[:, 2] / 4000.
@@ -366,7 +368,8 @@ def LA_ue(factors, output):
 
 def LA_so(factors, output):
     '''
-    parametric study for computing social optimum with different demand factors
+    parametric study for computing social optimum
+    with different demand factors
     '''
     net, demand, node, geom = load_LA_3()
     demand[:, 2] = demand[:, 2] / 4000.
@@ -376,7 +379,7 @@ def LA_so(factors, output):
 
 def LA_od_costs(factors, output, verbose=0):
     '''
-    compute the OD costs for UE, SO, and UE-K 
+    compute the OD costs for UE, SO, and UE-K
     where the cognitive cost is K=3000
     and with different demand: alpha * demand for demand in factors
     save OD costs into csv array with columns
@@ -401,8 +404,8 @@ def LA_od_costs(factors, output, verbose=0):
 def export_demand():
     net, demand, node, geom = load_LA_3()
     demand[:, 2] = demand[:, 2] / 4000.
-    np.savetxt('data/LA/LA_demand.csv', demand, delimiter=',', header='O,D,flow',
-               comments='')
+    np.savetxt('data/LA/LA_demand.csv', demand, delimiter=',',
+               header='O,D,flow', comments='')
 
 
 def LA_local_routed_costs(alphas, input, output):
@@ -430,7 +433,8 @@ def LA_local_non_routed_costs(alphas, input, output):
 def LA_parametric_study_3(alphas):
     g, d, node, feat = load_LA_3()
     d[:, 2] = d[:, 2] / 4000.
-    parametric_study_2(alphas, g, d, node, feat, 1000., 3000., 'data/LA/test_{}.csv',
+    parametric_study_2(alphas, g, d, node, feat, 1000., 3000.,
+                       'data/LA/test_{}.csv',
                        stop=1e-3)
 
 
@@ -461,11 +465,13 @@ def main():
     #     'data/LA/non_routed_costs.csv')
     # LA_non_routed_costs(np.linspace(0,1,11), 'data/LA/copy_2/test_{}.csv', \
     #     'data/LA/copy_2/non_routed_costs.csv')
-    # total_link_flows(np.linspace(0,1,11), 'data/LA/test_{}.csv', 'data/LA/total_link_flows.csv')
+    # total_link_flows(np.linspace(0,1,11), 'data/LA/test_{}.csv',
+    #                  'data/LA/total_link_flows.csv')
     # visualize_LA_total_flows(10, only_local=True)
     # visualize_LA_flow_variation(only_local=False)
     # LA_free_flow_costs(1000., [3., 10., 30., 100., 300., 1000., 3000.])
-    # LA_OD_free_flow_costs(1000., [1., 3., 10., 30., 100., 300., 1000., 3000.], \
+    # LA_OD_free_flow_costs(
+    #      1000., [1., 3., 10., 30., 100., 300., 1000., 3000.],
     #     'data/LA/OD_free_flow_costs.csv', verbose=1)
     # LA_ue_K(np.linspace(.1,1,5), 1000., 3000., \
     #     'data/LA/ue_K_single_class.csv')
@@ -487,7 +493,8 @@ def main():
     # compute the OD costs under free-flow travel times and
     # with different values of cognitive costs
 
-    # LA_OD_free_flow_costs(1000., [1., 3., 10., 30., 100., 300., 1000., 3000.], \
+    # LA_OD_free_flow_costs(
+    #     1000., [1., 3., 10., 30., 100., 300., 1000., 3000.],
     #     'data/LA/OD_free_flow_costs.csv', verbose=1)
 
     # ======================================================================
