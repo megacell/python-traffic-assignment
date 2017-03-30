@@ -436,7 +436,7 @@ def main():
     # visualize_LA_demand()
     # visualize_LA_result()
     # process_LA_od()
-    # frank_wolfe_on_LA()
+    frank_wolfe_on_LA()
     # check_LA_result()
     # LA_parametric_study(.9)
     # LA_parametric_study_2(1.)

@@ -63,7 +63,7 @@ def process_net_attack(input, output,thres,beta):
 
 def process_trips(input, output):
     '''
-    process *_trips files of Bar-Gera to get *_od.csv file in the format of
+    process *_trips.txt files of Bar-Gera to get *_od.csv file in the format of
     our Frank-Wolfe algorithm
     '''
     origin = -1
