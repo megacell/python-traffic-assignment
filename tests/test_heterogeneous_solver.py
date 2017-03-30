@@ -1,9 +1,7 @@
-__author__ = "Jerome Thai"
-__email__ = "jerome.thai@berkeley.edu"
-
 import unittest
 import numpy as np
-from heterogeneous_solver import shift_polynomial, shift_graph, gauss_seidel, jacobi
+from heterogeneous_solver import shift_polynomial, shift_graph, gauss_seidel, \
+     jacobi
 from frank_wolfe import solver, solver_2, solver_3
 
 

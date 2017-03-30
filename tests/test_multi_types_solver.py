@@ -1,6 +1,3 @@
-__author__ = "Jerome Thai"
-__email__ = "jerome.thai@berkeley.edu"
-
 import unittest
 import numpy as np
 from multi_types_solver import shift_polynomial, shift_graph, gauss_seidel

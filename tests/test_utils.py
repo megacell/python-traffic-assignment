@@ -1,6 +1,3 @@
-__author__ = "Jerome Thai"
-__email__ = "jerome.thai@berkeley.edu"
-
 import unittest
 from utils import doIntersect, isInside, isInsideBox, areInside
 

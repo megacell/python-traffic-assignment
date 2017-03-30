@@ -1,6 +1,3 @@
-__author__ = "Jerome Thai"
-__email__ = "jerome.thai@berkeley.edu"
-
 import unittest
 import numpy as np
 from frank_wolfe_heterogeneous import fw_heterogeneous_1, fw_heterogeneous_2

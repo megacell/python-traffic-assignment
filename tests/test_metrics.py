@@ -1,9 +1,6 @@
-__author__ = "Jerome Thai"
-__email__ = "jerome.thai@berkeley.edu"
-
 import unittest
 from metrics import cost, cost_ratio, total_cost, average_cost,\
-    total_cost_all_or_nothing, average_cost_all_or_nothing, average_cost_subset, \
+    total_cost_all_or_nothing, average_cost_all_or_nothing, \
     all_or_nothing_assignment
 import numpy as np
 

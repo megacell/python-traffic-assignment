@@ -1,6 +1,3 @@
-__author__ = "Jerome Thai"
-__email__ = "jerome.thai@berkeley.edu"
-
 import unittest
 import numpy as np
 from frank_wolfe import solver, potential, line_search, solver_2, solver_3

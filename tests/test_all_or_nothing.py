@@ -1,6 +1,3 @@
-__author__ = "Jerome Thai"
-__email__ = "jerome.thai@berkeley.edu"
-
 import unittest
 import numpy as np
 from All_Or_Nothing import all_or_nothing
@@ -34,7 +31,7 @@ class TestAllOrNothing(unittest.TestCase):
         od = np.loadtxt('data/od_test.csv', delimiter=',')
         od = np.reshape(od, (1, 3))
         L = all_or_nothing(graph, od)
-        # print L
+        print L
         # this L is wrong!! :(
 
 

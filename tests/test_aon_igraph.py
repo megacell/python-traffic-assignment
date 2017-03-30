@@ -1,6 +1,3 @@
-__author__ = "Jerome Thai"
-__email__ = "jerome.thai@berkeley.edu"
-
 import unittest
 import numpy as np
 from AoN_igraph import all_or_nothing
@@ -36,6 +33,7 @@ class TestAllOrNothing(unittest.TestCase):
         od = np.loadtxt('data/od_test.csv', delimiter=',')
         od = {int(od[0]): ([int(od[1])], [od[2]])}
         L = all_or_nothing(g, od)
+        print L
         # this should be the right L !!!
 
 
