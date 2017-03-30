@@ -40,19 +40,22 @@ def I210_parametric_study(alphas):
         else:
             print 'non-routed = {}, routed = {}'.format(1 - alpha, alpha)
             d_nr, d_r = heterogeneous_demand(d, alpha)
-            fs = gauss_seidel([g_nr, g_r], [d_nr, d_r], solver_3, max_iter=1000,
+            fs = gauss_seidel([g_nr, g_r], [d_nr, d_r],
+                              solver_3, max_iter=1000,
                               stop=1e-3, stop_cycle=1e-3, q=50, past=20)
-        np.savetxt('data/I210_modified/test_{}.csv'.format(int(alpha * 100)), fs,
+        np.savetxt('data/I210_modified/test_{}.csv'.format(int(alpha * 100)),
+                   fs,
                    delimiter=',', header='f_nr,f_r')
 
 
 def I210_metrics(alphas):
-    out = np.zeros((len(alphas), 6))
+    # out = np.zeros((len(alphas), 6))
     net, d, node, features = load_I210_modified()
     d[:, 2] = d[:, 2] / 4000.
     net2, small_capacity = multiply_cognitive_cost(net, features, 3000., 100.)
     save_metrics(alphas, net, net2, d, features, small_capacity,
-                 'data/I210_modified/test_{}.csv', 'data/I210_modified/out.csv', skiprows=1)
+                 'data/I210_modified/test_{}.csv',
+                 'data/I210_modified/out.csv', skiprows=1)
 
 
 def main():

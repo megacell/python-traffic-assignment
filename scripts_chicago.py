@@ -1,14 +1,12 @@
 import numpy as np
 from process_data import extract_features, process_links, geojson_link, \
-    process_trips, process_net, process_node, array_to_trips, process_results, \
-    construct_igraph, construct_od
-from metrics import average_cost, cost_ratio, cost, save_metrics, path_cost, \
-    path_cost_non_routed
+    process_trips, process_net, process_node, array_to_trips, process_results
+from metrics import average_cost, cost_ratio, save_metrics
 # from frank_wolfe import solver, solver_2, solver_3
 # from heterogeneous_solver import gauss_seidel, jacobi
-from multi_types_solver import gauss_seidel, parametric_study
-from frank_wolfe_2 import solver, solver_2, solver_3
-from utils import multiply_cognitive_cost, heterogeneous_demand
+from multi_types_solver import parametric_study
+from frank_wolfe_2 import solver, solver_3
+from utils import multiply_cognitive_cost
 from metrics import OD_routed_costs, OD_non_routed_costs
 
 
@@ -67,9 +65,11 @@ def multiply_demand_by_2():
 
 def results_for_chicago():
     '''
-    Take Bar-gera results and check the link flows are aligned with Chicago_net.csv
+    Take Bar-gera results and check the link flows
+    are aligned with Chicago_net.csv
     '''
-    process_results('data/Chicago_raw_results_2.csv', 'data/Chicago_results_2.csv',
+    process_results('data/Chicago_raw_results_2.csv',
+                    'data/Chicago_results_2.csv',
                     'data/Chicago_net.csv')
 
 
@@ -87,7 +87,8 @@ def frank_wolfe_on_chicago():
     # error: 0.00646125552755, time: 664.678s
     # f = solver_3(graph, demand, max_iter=1000, q=200, display=1)
     # error: 0.00648532089623, time: 665.074s
-    print np.linalg.norm(f * 4000 - results[:, 2]) / np.linalg.norm(results[:, 2])
+    print np.linalg.norm(f * 4000 - results[:, 2]) / np.linalg.norm(
+        results[:, 2])
 
 
 def frank_wolfe_on_chicago_2():
@@ -112,7 +113,8 @@ def visualize_equilibrium_in_chicago():
     '''
     net, demand, node, f = load_chicago()
     flow = np.loadtxt('data/Chicago_results_2.csv', delimiter=',')
-    # flow = np.loadtxt('data/Chicago_results.csv', delimiter=',', skiprows=1)[:,2]
+    # flow = np.loadtxt(
+    #     'data/Chicago_results.csv', delimiter=',', skiprows=1)[:,2]
     print average_cost(flow / 4000., net, demand)
     costs = cost_ratio(flow / 4000., net)
     features = np.zeros((f.shape[0], 4))
@@ -215,7 +217,8 @@ def chicago_metrics(alphas):
     d[:, 2] = d[:, 2] / 2000.  # technically, it's 2*demand/4000
     net2, small_capacity = multiply_cognitive_cost(net, features, 2000., 1000.)
     save_metrics(alphas, net, net2, d, features, small_capacity,
-                 'data/chicago/test_{}.csv', 'data/chicago/out.csv', skiprows=1)
+                 'data/chicago/test_{}.csv', 'data/chicago/out.csv',
+                 skiprows=1)
 
 
 def chicago_routed_costs(alphas):

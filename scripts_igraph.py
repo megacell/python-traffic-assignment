@@ -3,9 +3,11 @@ import numpy as np
 
 graph = np.loadtxt('data/I210/graph.csv', delimiter=',')
 od = np.loadtxt('data/I210/od.csv', delimiter=',')
-#vertices = [i for i in range(7)]
-#edges = [(0,2),(0,1),(0,3),(1,0),(1,2),(1,3),(2,0),(2,1),(2,3),(3,0),(3,1),(3,2),(2,4),(4,5),(4,6),(5,4),(5,6),(6,4),(6,5)]
-#g = Graph(vertex_attrs={"label":vertices}, edges=edges, directed=True)
+# vertices = [i for i in range(7)]
+# edges = [(0, 2), (0, 1), (0, 3), (1, 0), (1, 2), (1, 3), (2, 0), (2, 1),
+#          (2, 3), (3, 0), (3, 1), (3, 2), (2, 4), (4, 5), (4, 6), (5, 4),
+#          (5, 6), (6, 4), (6, 5)]
+# g = Graph(vertex_attrs={"label":vertices}, edges=edges, directed=True)
 
 
 vertices = range(int(np.max(graph[:, 1:3])) + 1)

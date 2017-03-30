@@ -1,10 +1,3 @@
-__author__ = "Jerome Thai"
-__email__ = "jerome.thai@berkeley.edu"
-
-'''
-Some function that can be useful
-'''
-
 import numpy as np
 
 
@@ -75,7 +68,7 @@ def braess_heterogeneous(demand_r, demand_nr):
 def net_with_marginal_cost(net):
     '''
     from net = [[link_id, from, to, a0, a1, a2, ...]]
-    compute network with marginal costs 
+    compute network with marginal costs
     net = [[link_id, from, to, a0, a1 + a1, a2 + 2*a2, a3 + 3*a3, ...]]
     '''
     degree = net.shape[1] - 4

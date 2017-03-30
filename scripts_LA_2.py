@@ -6,7 +6,7 @@ from scripts_LA import load_LA_3
 from utils import modify_capacity, multiply_cognitive_cost
 from frank_wolfe_heterogeneous import parametric_study_3
 from metrics import average_cost_all_or_nothing, all_or_nothing_assignment, \
-    cost, save_metrics
+    cost, save_metrics, average_cost, average_cost_subset, gas_emission
 
 
 cities = ['Burbank',
@@ -121,6 +121,7 @@ def LA_metrics_attacks_city(beta, thres, city):
     print np.sum(links_affected)
     # modify all small capacity links in GLendale
     net2 = modify_capacity(net, links_affected, beta)
+    print net2
 
 
 def LA_metrics_attacks_all(beta, thres):
@@ -201,12 +202,14 @@ def save_metrics_beta_LA(alphas, betas, thres, input, output, skiprows=0,
         a = 0
         if alphas[0] == 0.0:
             alpha = 0.0
-            print 'compute for nr = {}, r = {}'.format(1 - alphas[0], alphas[0])
+            print 'compute for nr = {}, r = {}'.format(
+                1 - alphas[0], alphas[0])
             fs = np.loadtxt(input.format(int(alpha * 100),
                             int(beta * 100)), delimiter=',',
                             skiprows=skiprows)
             f = np.sum(fs, axis=1)
-            compute_metrics_beta(0.0, beta, f, net, d, features, subset, out, 0,
+            compute_metrics_beta(0.0, beta, f, net, d, features,
+                                 subset, out, 0,
                                  length_unit=length_unit, time_unit=time_unit)
             a = 1
 
@@ -223,16 +226,19 @@ def save_metrics_beta_LA(alphas, betas, thres, input, output, skiprows=0,
 
         if alphas[-1] == 1.0:
             alpha = 1.0
-            print 'compute for nr = {}, r = {}'.format(1 - alphas[-1], alphas[-1])
+            print 'compute for nr = {}, r = {}'.format(
+                1 - alphas[-1], alphas[-1])
             fs = np.loadtxt(input.format(int(alpha * 100),
                             int(beta * 100)), delimiter=',',
                             skiprows=skiprows)
             f = np.sum(fs, axis=1)
             compute_metrics_beta(1.0, beta, f, net, d, features, subset,
                                  out, -1, net2=net2,
-                                 length_unit=length_unit, time_unit=time_unit)
+                                 length_unit=length_unit,
+                                 time_unit=time_unit)
 
-    colnames = 'ratio_routed,beta,tt_non_routed,tt_routed,tt,tt_local,tt_non_local,'
+    colnames = 'ratio_routed,beta,tt_non_routed,tt_routed,tt,'
+    colnames = colnames + 'tt_local,tt_non_local,'
     colnames = colnames + 'gas,gas_local,gas_non_local,'
     colnames = colnames + 'vmt,vmt_local,vmt_non_local'
     np.savetxt(output, out, delimiter=',',
@@ -246,7 +252,8 @@ def LA_metrics_attack_3(alphas, betas, input, output, thres):
 
 
 def main():
-    # map_nodes_to_cities(cities, 'visualization/cities.js', 'data/LA_node.csv', \
+    # map_nodes_to_cities(
+    #      cities, 'visualization/cities.js', 'data/LA_node.csv',
     #     'data/LA/node_to_cities.csv')
     # map_links_to_cities('data/LA/node_to_cities.csv', 'data/LA_net.csv', \
     #     'data/LA/link_to_cities.csv')

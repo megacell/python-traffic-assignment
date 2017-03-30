@@ -1,17 +1,6 @@
-__author__ = "Jerome Thai"
-__email__ = "jerome.thai@berkeley.edu"
-
-'''
-Various scripts for processing data
-'''
-
 import numpy as np
-from process_data import extract_features, process_links, geojson_link, \
-    process_trips, process_net, process_node, array_to_trips, process_results
-from metrics import average_cost, cost_ratio, cost, save_metrics
-from frank_wolfe import solver, solver_2, solver_3
-from heterogeneous_solver import gauss_seidel, jacobi
-from All_Or_Nothing import all_or_nothing
+from frank_wolfe import solver, solver_2
+from heterogeneous_solver import gauss_seidel
 
 
 def test_anaheim(self):
@@ -41,7 +30,7 @@ def braess_heterogeneous(demand_r, demand_nr):
 
 def braess_parametric_study():
     '''
-    parametric study of heterogeneous game on the Braess network 
+    parametric study of heterogeneous game on the Braess network
     '''
     g1, g2, d1, d2 = braess_heterogeneous(.0, 1.5)
     fs = solver_2(g1, d1, display=1)
