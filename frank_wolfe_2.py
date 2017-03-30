@@ -64,6 +64,7 @@ def solver(graph, demand, g=None, od=None, max_iter=100, eps=1e-8, q=None,
     if od is None:
         od = construct_od(demand)
     # initial flow assignment is null
+    error = 'N/A'
     f = np.zeros(graph.shape[0], dtype="float64")
     K = total_free_flow_cost(g, od)
     if K < eps:
@@ -73,8 +74,7 @@ def solver(graph, demand, g=None, od=None, max_iter=100, eps=1e-8, q=None,
 
     for i in range(max_iter):
         if display >= 1:
-            if i <= 1:
-                print 'iteration: {}'.format(i + 1)
+            print 'iteration: {}, error: {}'.format(i + 1, error)
         # construct weighted graph with latest flow assignment
         L, grad = search_direction(f, graph, g, od)
         if i >= 1:
@@ -93,6 +93,7 @@ def solver_2(graph, demand, g=None, od=None, max_iter=100, eps=1e-8, q=10,
     if od is None:
         od = construct_od(demand)
     # initial flow assignment is null
+    error = 'N/A'
     f = np.zeros(graph.shape[0], dtype="float64")
     ls = max_iter / q  # frequency of line search
     K = total_free_flow_cost(g, od)
@@ -103,8 +104,7 @@ def solver_2(graph, demand, g=None, od=None, max_iter=100, eps=1e-8, q=10,
 
     for i in range(max_iter):
         if display >= 1:
-            if i <= 1:
-                print 'iteration: {}'.format(i + 1)
+            print 'iteration: {}, error: {}'.format(i + 1, error)
         # construct weighted graph with latest flow assignment
         L, grad = search_direction(f, graph, g, od)
         if i >= 1:
@@ -114,8 +114,10 @@ def solver_2(graph, demand, g=None, od=None, max_iter=100, eps=1e-8, q=10,
             error = grad.dot(f - L) / K
             if error < stop:
                 return f
-        s = line_search(lambda a: potential(graph, (1. - a) *
-                        f + a * L)) if i % ls == (ls - 1) else 2. / (i + 2.)
+        if i % ls == (ls - 1):
+            s = line_search(lambda a: potential(graph, (1. - a) * f + a * L))
+        else:
+            s = 2. / (i + 2.)
         if s < eps:
             return f
         f = (1. - s) * f + s * L
@@ -143,6 +145,7 @@ def solver_3(graph, demand, g=None, od=None, past=10, max_iter=100, eps=1e-8,
     if od is None:
         od = construct_od(demand)
     # initial flow assignment is null
+    error = 'N/A'
     f = np.zeros(graph.shape[0], dtype="float64")
     fs = np.zeros((graph.shape[0], past), dtype="float64")
     K = total_free_flow_cost(g, od)
@@ -153,8 +156,7 @@ def solver_3(graph, demand, g=None, od=None, past=10, max_iter=100, eps=1e-8,
 
     for i in range(max_iter):
         if display >= 1:
-            if i <= 1:
-                print 'iteration: {}'.format(i + 1)
+            print 'iteration: {}, error: {}'.format(i + 1, error)
         # construct weighted graph with latest flow assignment
         L, grad = search_direction(f, graph, g, od)
         fs[:, i % past] = L

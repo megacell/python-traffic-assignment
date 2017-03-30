@@ -23,18 +23,21 @@ def process_net(input, output):
     with open(input, 'rb') as f:
         reader = csv.reader(f)
         for row in reader:
-            if len(row)>0:
+            if len(row) > 0:
                 if flag == False:
-                    if row[0].split()[0] == '~': flag = True
+                    if row[0].split()[0] == '~':
+                        flag = True
                 else:
                     l = row[0].split()[:-1]
-                    a4 = float(l[4]) * float(l[5]) / (float(l[2])/4000)**4
-                    out.append('{},{},{},{},0,0,0,{}\n'.format(i,l[0],l[1],l[4],a4))
-                    i = i+1
+                    a4 = float(l[4]) * float(l[5]) / (float(l[2]) / 4000)**4
+                    out.append('{},{},{},{},0,0,0,{}\n'.format(
+                        i, l[0], l[1], l[4], a4))
+                    i = i + 1
     with open(output, "w") as text_file:
         text_file.write(''.join(out))
 
-def process_net_attack(input, output,thres,beta):
+
+def process_net_attack(input, output, thres, beta):
     '''
     process *_net.txt files of Bar-Gera to get *_net.csv file in the format of
     our Frank-Wolfe algorithm
@@ -45,18 +48,20 @@ def process_net_attack(input, output,thres,beta):
     with open(input, 'rb') as f:
         reader = csv.reader(f)
         for row in reader:
-            if len(row)>0:
+            if len(row) > 0:
                 if flag == False:
-                    if row[0].split()[0] == '~': flag = True
+                    if row[0].split()[0] == '~':
+                        flag = True
                 else:
                     l = row[0].split()[:-1]
                     if float(l[2]) < thres:
-                        capacity=beta*float(l[2])
+                        capacity = beta * float(l[2])
                     else:
                         capacity = float(l[2])
-                    a4 = float(l[4]) * float(l[5]) / (capacity/4000)**4
-                    out.append('{},{},{},{},0,0,0,{}\n'.format(i,l[0],l[1],l[4],a4))
-                    i = i+1
+                    a4 = float(l[4]) * float(l[5]) / (capacity / 4000)**4
+                    out.append('{},{},{},{},0,0,0,{}\n'.format(
+                        i, l[0], l[1], l[4], a4))
+                    i = i + 1
     with open(output, "w") as text_file:
         text_file.write(''.join(out))
 
@@ -72,15 +77,15 @@ def process_trips(input, output):
         reader = csv.reader(f)
         for row in reader:
             #before, keyword, after = row.partition('Origin')
-            if len(row)>0: 
+            if len(row) > 0:
                 l = row[0].split()
                 if l[0] == 'Origin':
                     origin = l[1]
                 elif origin != -1:
-                    for i,e in enumerate(l):
-                        if i%3 == 0:
-                            out.append('{},{},'.format(origin,e))
-                        if i%3 == 2:
+                    for i, e in enumerate(l):
+                        if i % 3 == 0:
+                            out.append('{},{},'.format(origin, e))
+                        if i % 3 == 2:
                             out.append('{}\n'.format(e[:-1]))
     with open(output, "w") as text_file:
         text_file.write(''.join(out))
@@ -91,23 +96,23 @@ def array_to_trips(demand, output):
     convert numpy array into _trips.txt input file for Matthew Steele's solver
     '''
     row = 0
-    zones = int(np.max(demand[:,0]))
+    zones = int(np.max(demand[:, 0]))
     out = ['<NUMBER OF ZONES> {}\n'.format(zones)]
-    out.append('<TOTAL OD FLOW> {}\n'.format(np.sum(demand[:,2])))
+    out.append('<TOTAL OD FLOW> {}\n'.format(np.sum(demand[:, 2])))
     out.append('<END OF METADATA>\n\n\n')
     for i in range(zones):
         out.append('Origin')
-        out.append(spaces(10-digits(i+1)))
-        out.append('{}\n'.format(i+1))
+        out.append(spaces(10 - digits(i + 1)))
+        out.append('{}\n'.format(i + 1))
 
         count = 0
-        while (row < demand.shape[0]) and (demand[row,0] == i+1):
+        while (row < demand.shape[0]) and (demand[row, 0] == i + 1):
             count = count + 1
-            d = int(demand[row,1])
-            out.append(spaces(5-digits(d)))
+            d = int(demand[row, 1])
+            out.append(spaces(5 - digits(d)))
             out.append('{} :'.format(d))
-            out.append(spaces(8-digits(demand[row,2])))
-            out.append('{:.2f}; '.format(demand[row,2]))
+            out.append(spaces(8 - digits(demand[row, 2])))
+            out.append('{:.2f}; '.format(demand[row, 2]))
             row = row + 1
             if count % 5 == 0:
                 out.append('\n')
@@ -127,8 +132,8 @@ def process_results(input, output, network):
     out = np.zeros(graph.shape[0])
     for i in range(graph.shape[0]):
         for j in range(raw.shape[0]):
-            if (graph[i,1] == raw[j,0]) and (graph[i,2] == raw[j,1]):
-                out[i] = raw[j,2]
+            if (graph[i, 1] == raw[j, 0]) and (graph[i, 2] == raw[j, 1]):
+                out[i] = raw[j, 2]
                 continue
     np.savetxt(output, out, delimiter=",")
 
@@ -142,10 +147,10 @@ def process_node(input, output, min_X=None, max_X=None, min_Y=None, max_Y=None):
     out = ['node,lat,lon\n']
     nodes = np.loadtxt(input, delimiter=',', skiprows=1)
     num_nodes = nodes.shape[0]
-    argmin_X = np.argmin(nodes[:,1])
-    argmax_X = np.argmax(nodes[:,1])
-    argmin_Y = np.argmin(nodes[:,2])
-    argmax_Y = np.argmax(nodes[:,2])
+    argmin_X = np.argmin(nodes[:, 1])
+    argmax_X = np.argmax(nodes[:, 1])
+    argmin_Y = np.argmin(nodes[:, 2])
+    argmax_Y = np.argmax(nodes[:, 2])
 
     # print 'min X', nodes[argmin_X,1:]
     # print 'max X', nodes[argmax_X,1:]
@@ -153,11 +158,13 @@ def process_node(input, output, min_X=None, max_X=None, min_Y=None, max_Y=None):
     # print 'max Y', nodes[argmax_Y,1:]
     # do simple interpolation
     for i in range(num_nodes):
-        alpha = (nodes[i,1]-nodes[argmin_X,1]) / (nodes[argmax_X,1]-nodes[argmin_X,1])
-        beta = (nodes[i,2]-nodes[argmin_Y,2]) / (nodes[argmax_Y,2]-nodes[argmin_Y,2])
+        alpha = (nodes[i, 1] - nodes[argmin_X, 1]) / \
+            (nodes[argmax_X, 1] - nodes[argmin_X, 1])
+        beta = (nodes[i, 2] - nodes[argmin_Y, 2]) / \
+            (nodes[argmax_Y, 2] - nodes[argmin_Y, 2])
         lon = min_X + alpha * (max_X - min_X)
         lat = min_Y + beta * (max_Y - min_Y)
-        out.append('{},{},{}\n'.format(nodes[i,0],lat,lon))
+        out.append('{},{},{}\n'.format(nodes[i, 0], lat, lon))
     with open(output, "w") as text_file:
         text_file.write(''.join(out))
 
@@ -171,20 +178,20 @@ def process_links(net, node, features, in_order=False):
     links = net.shape[0]
     nodes = node.shape[0]
     num_fts = features.shape[1]
-    out = np.zeros((links, 4+num_fts))
+    out = np.zeros((links, 4 + num_fts))
     for i in range(links):
-        a, b = net[i,1], net[i,2]
+        a, b = net[i, 1], net[i, 2]
         if in_order == False:
             for j in range(nodes):
-                if node[j,0] == a:
-                    lat1, lon1 = node[j,1], node[j,2]
-                if node[j,0] == b:
-                    lat2, lon2 = node[j,1], node[j,2]
+                if node[j, 0] == a:
+                    lat1, lon1 = node[j, 1], node[j, 2]
+                if node[j, 0] == b:
+                    lat2, lon2 = node[j, 1], node[j, 2]
         else:
-            lat1, lon1 = node[int(a)-1, 1], node[int(a)-1, 2]
-            lat2, lon2 = node[int(b)-1, 1], node[int(b)-1, 2]
-        out[i,:4] = [lat1, lon1, lat2, lon2]
-        out[i,4:] = features[i,:]
+            lat1, lon1 = node[int(a) - 1, 1], node[int(a) - 1, 2]
+            lat2, lon2 = node[int(b) - 1, 1], node[int(b) - 1, 2]
+        out[i, :4] = [lat1, lon1, lat2, lon2]
+        out[i, 4:] = features[i, :]
     return out
 
 
@@ -196,13 +203,12 @@ def join_node_demand(node, demand):
     ods = demand.shape[0]
     out = np.zeros((ods, 5))
     for i in range(ods):
-        a, b = demand[i,0], demand[i,1]
-        lat1, lon1 = node[int(a)-1, 1], node[int(a)-1, 2]
-        lat2, lon2 = node[int(b)-1, 1], node[int(b)-1, 2]
-        out[i,:4] = [lat1, lon1, lat2, lon2]
-        out[i,4] = demand[i,2]
+        a, b = demand[i, 0], demand[i, 1]
+        lat1, lon1 = node[int(a) - 1, 1], node[int(a) - 1, 2]
+        lat2, lon2 = node[int(b) - 1, 1], node[int(b) - 1, 2]
+        out[i, :4] = [lat1, lon1, lat2, lon2]
+        out[i, 4] = demand[i, 2]
     return out
-
 
 
 def extract_features(input):
@@ -212,9 +218,10 @@ def extract_features(input):
     with open(input, 'rb') as f:
         reader = csv.reader(f)
         for row in reader:
-            if len(row)>0:
+            if len(row) > 0:
                 if flag == False:
-                    if row[0].split()[0] == '~': flag = True
+                    if row[0].split()[0] == '~':
+                        flag = True
                 else:
                     out.append([float(e) for e in row[0].split()[2:5]])
     return np.array(out)
@@ -231,14 +238,20 @@ def begin_feature(type):
         begin_coord = '        "coordinates": [\n'
     return string + '        "type": "{}",\n'.format(type) + begin_coord
 
-def coord(lat,lon,type):
-    if type == "LineString": return '            [{}, {}],\n'.format(lon,lat)
-    if type == "Point": return '{}, {}'.format(lon,lat)
+
+def coord(lat, lon, type):
+    if type == "LineString":
+        return '            [{}, {}],\n'.format(lon, lat)
+    if type == "Point":
+        return '{}, {}'.format(lon, lat)
+
 
 begin_prop = '            ]},\n    "properties": {\n'
 
+
 def prop(name, value):
     return '        "{}": "{}",\n'.format(name, value)
+
 
 def prop_numeric(name, value):
     return '        "{}": {},\n'.format(name, value)
@@ -255,57 +268,64 @@ def geojson_link(links, features, color, weight=None):
     if 3 <= color < 4: orange-red
     if 5 <= color    : red
     """
-    if weight is None: 
-        weight = 2. * np.ones((color.shape[0],)) # uniform weight
+    if weight is None:
+        weight = 2. * np.ones((color.shape[0],))  # uniform weight
     type = 'LineString'
     out = [begin]
     for i in range(links.shape[0]):
         out.append(begin_feature(type))
-        out.append(coord(links[i,0], links[i,1], type))
-        out.append(coord(links[i,2], links[i,3], type))
+        out.append(coord(links[i, 0], links[i, 1], type))
+        out.append(coord(links[i, 2], links[i, 3], type))
         out.append(begin_prop)
-        for j,f in enumerate(features):
-            out.append(prop(f, links[i,j+4]))
+        for j, f in enumerate(features):
+            out.append(prop(f, links[i, j + 4]))
         out.append(prop('color', color[i]))
         out.append(prop('weight', weight[i]))
         out.append('    }},{\n')
     out[-1] = '    }}];\n\n'
-    out.append('var lat_center_map = {}\n'.format(np.mean(links[:,0])))
-    out.append('var lon_center_map = {}\n'.format(np.mean(links[:,1])))
+    out.append('var lat_center_map = {}\n'.format(np.mean(links[:, 0])))
+    out.append('var lon_center_map = {}\n'.format(np.mean(links[:, 1])))
     with open('visualization/geojson_features.js', 'w') as f:
         f.write(''.join(out))
 
 
 def output_file(net_name, node_name, fs, output_name):
-    network = np.genfromtxt(net_name,skip_header=7)
+    network = np.genfromtxt(net_name, skip_header=7)
     nodes = np.genfromtxt(node_name, delimiter=',', skip_header=1)
-    #create a numpy array containing informations of both I210_node and I210_net
-    featuredNetwork = np.zeros((len(network),11))
-    featuredNetwork[:,0] = network[:,0] # index of origin vertex
-    featuredNetwork[:,3] = network[:,1] # index of destination vertex
+    # create a numpy array containing informations of both I210_node and
+    # I210_net
+    featuredNetwork = np.zeros((len(network), 11))
+    featuredNetwork[:, 0] = network[:, 0]  # index of origin vertex
+    featuredNetwork[:, 3] = network[:, 1]  # index of destination vertex
     for i in range(len(featuredNetwork)):
-        featuredNetwork[i,1] = nodes[featuredNetwork[i,0]-1,2] #longitude of origin
-        featuredNetwork[i,2] = nodes[featuredNetwork[i,0]-1,1] #latitude of origin
-        featuredNetwork[i,4] = nodes[featuredNetwork[i,3]-1,2] #longitude of destination
-        featuredNetwork[i,5] = nodes[featuredNetwork[i,3]-1,1] #latitude of destination
-    featuredNetwork[:,6] = network[:,2] # capacity
-    featuredNetwork[:,7] = network[:,3] #length
-    featuredNetwork[:,8] = network[:,4] ##fftt
-    featuredNetwork[:,9:] = fs
+        # longitude of origin
+        featuredNetwork[i, 1] = nodes[featuredNetwork[i, 0] - 1, 2]
+        # latitude of origin
+        featuredNetwork[i, 2] = nodes[featuredNetwork[i, 0] - 1, 1]
+        # longitude of destination
+        featuredNetwork[i, 4] = nodes[featuredNetwork[i, 3] - 1, 2]
+        # latitude of destination
+        featuredNetwork[i, 5] = nodes[featuredNetwork[i, 3] - 1, 1]
+    featuredNetwork[:, 6] = network[:, 2]  # capacity
+    featuredNetwork[:, 7] = network[:, 3]  # length
+    featuredNetwork[:, 8] = network[:, 4]  # fftt
+    featuredNetwork[:, 9:] = fs
     # np.savetxt(output_name, featuredNetwork, delimiter=',', \
     #     header='o_index,o_long,o_lat,d_index,d_long,d_lat,capacity,length(mi),fftt(min),f_nr,f_r', \
     #     fmt='%d %3.5f %2.5f %d %3.5f %2.5f %d %1.3f %1.3f %2.4e %2.4e')
-    np.savetxt(output_name, featuredNetwork, delimiter=',', \
-        header='o_index,o_long,o_lat,d_index,d_long,d_lat,capacity,length(mi),fftt(min),f_nr,f_r')
+    np.savetxt(output_name, featuredNetwork, delimiter=',',
+               header='o_index,o_long,o_lat,d_index,d_long,d_lat,capacity,length(mi),fftt(min),f_nr,f_r')
 
 
 def construct_igraph(graph):
     # 'vertices' contains the range of the vertices' indices in the graph
-    vertices = range(int(np.min(graph[:,1:3])), int(np.max(graph[:,1:3]))+1)
+    vertices = range(int(np.min(graph[:, 1:3])),
+                     int(np.max(graph[:, 1:3])) + 1)
     # 'edges' is a list of the edges (to_id, from_id) in the graph
-    edges = graph[:,1:3].astype(int).tolist()
-    g = igraph.Graph(vertex_attrs={"label":vertices}, edges=edges, directed=True)
-    g.es["weight"] = graph[:,3].tolist() # feel with free-flow travel times
+    edges = graph[:, 1:3].astype(int).tolist()
+    g = igraph.Graph(
+        vertex_attrs={"label": vertices}, edges=edges, directed=True)
+    g.es["weight"] = graph[:, 3].tolist()  # feel with free-flow travel times
     return g
 
 
@@ -315,30 +335,30 @@ def process_demand(od_file):
     with open(od_file, 'rb') as f:
         reader = csv.reader(f)
         for row in reader:
-            if len(row)>0: 
+            if len(row) > 0:
                 l = row[0].split()
                 if l[0] == 'Origin':
                     origin = int(l[1])
-                    out[origin] = ([],[])
+                    out[origin] = ([], [])
                 elif origin != -1:
-                    for i,e in enumerate(l):
-                        if i%3 == 0:
+                    for i, e in enumerate(l):
+                        if i % 3 == 0:
                             out[origin][0].append(int(e))
-                        if i%3 == 2:
+                        if i % 3 == 2:
                             out[origin][1].append(float(e[:-1]))
     return out
 
- 
+
 def construct_od(demand):
-    # construct a dictionary of the form 
+    # construct a dictionary of the form
     # origin: ([destination],[demand])
     out = {}
     for i in range(demand.shape[0]):
-        origin = int(demand[i,0])
+        origin = int(demand[i, 0])
         if origin not in out.keys():
-            out[origin] = ([],[])
-        out[origin][0].append(int(demand[i,1]))
-        out[origin][1].append(demand[i,2])
+            out[origin] = ([], [])
+        out[origin][0].append(int(demand[i, 1]))
+        out[origin][1].append(demand[i, 2])
     return out
 
 
@@ -348,7 +368,7 @@ def cities_to_js(file, by_county, color, weight):
     out = ['var geojson_features = [']
     with open(file, 'rb') as f:
         reader = csv.reader(f)
-        for i,row in enumerate(reader):
+        for i, row in enumerate(reader):
             if len(row) >= 8 and row[7][12:-1] == by_county:
                 row[1] = ' "properties": { "city": ' + row[1][25:]
                 row[7] = '"county": "Los Angeles"'
@@ -368,20 +388,20 @@ def map_nodes_to_one_city(city, city_file, node):
     polygon = []
     with open(city_file, 'rb') as f:
         reader = csv.reader(f)
-        for i,row in enumerate(reader):
+        for i, row in enumerate(reader):
             if len(row) >= 2 and row[1][26:-1] == city:
                 line = row[13:]
-                for j,e in enumerate(line):
+                for j, e in enumerate(line):
                     if len(e) > 0:
                         if j == 0:
                             polygon.append([float(e.split(' ')[-1])])
                         else:
-                            if j%2 == 1:
+                            if j % 2 == 1:
                                 polygon[-1].append(float(e.split(' ')[1]))
                             else:
                                 polygon.append([float(e.split(' ')[-1])])
                 break
-    ps = [[node[i,1:3][1], node[i,1:3][0]] for i in range(node.shape[0])]
+    ps = [[node[i, 1:3][1], node[i, 1:3][0]] for i in range(node.shape[0])]
     return areInside(polygon, len(polygon), ps)
 
 
@@ -391,35 +411,37 @@ def map_nodes_to_cities(cities, city_file, node_file, output_file):
     out = ['other'] * node.shape[0]
     for city in cities:
         print 'process {}'.format(city)
-        tmp = np.array(map_nodes_to_one_city(city, city_file, node)).nonzero()[0]
+        tmp = np.array(map_nodes_to_one_city(
+            city, city_file, node)).nonzero()[0]
         print 'found {} nodes'.format(len(tmp))
-        for i in tmp: 
+        for i in tmp:
             out[i] = city
-    out = np.reshape(np.array(out), (node.shape[0],1))
-    ids = np.reshape(node[:,0], (node.shape[0],1))
-    out2 = np.concatenate((ids,out), axis=1)
-    np.savetxt(output_file, out2, delimiter=',', header='id,city', \
-        comments='', fmt="%s")
+    out = np.reshape(np.array(out), (node.shape[0], 1))
+    ids = np.reshape(node[:, 0], (node.shape[0], 1))
+    out2 = np.concatenate((ids, out), axis=1)
+    np.savetxt(output_file, out2, delimiter=',', header='id,city',
+               comments='', fmt="%s")
 
 
 def map_links_to_cities(nodeToCity_file, net_file, output_file):
     # save into a file mapping from link id to city it belongs to
     # a link is assumed to be in a city if both of its nodes are inside it
-    nodeToCity = np.genfromtxt(nodeToCity_file, delimiter=',', \
-        skiprows=1, dtype='str')
+    nodeToCity = np.genfromtxt(nodeToCity_file, delimiter=',',
+                               skiprows=1, dtype='str')
     graph = np.loadtxt(net_file, delimiter=',', skiprows=1)
-    #print nodeToCity
-    #print graph
+    # print nodeToCity
+    # print graph
     out = ['other'] * graph.shape[0]
     for i in range(graph.shape[0]):
-        fr, to = int(graph[i,1]), int(graph[i,2])
-        if (nodeToCity[fr-1,1] != 'other') and (nodeToCity[fr-1,1] == nodeToCity[to-1,1]):
-            out[i] = nodeToCity[fr-1,1]
-    out = np.reshape(np.array(out), (graph.shape[0],1))
-    ids = np.reshape(graph[:,0], (graph.shape[0],1))
-    out2 = np.concatenate((ids,out), axis=1)
-    np.savetxt(output_file, out2, delimiter=',', header='id,city', \
-        comments='', fmt="%s")
+        fr, to = int(graph[i, 1]), int(graph[i, 2])
+        if (nodeToCity[fr - 1, 1] != 'other') and (nodeToCity[fr - 1, 1] == nodeToCity[to - 1, 1]):
+            out[i] = nodeToCity[fr - 1, 1]
+    out = np.reshape(np.array(out), (graph.shape[0], 1))
+    ids = np.reshape(graph[:, 0], (graph.shape[0], 1))
+    out2 = np.concatenate((ids, out), axis=1)
+    np.savetxt(output_file, out2, delimiter=',', header='id,city',
+               comments='', fmt="%s")
+
 
 def main():
     # process_trips('data/SiouxFalls_trips.txt', 'data/SiouxFalls_od.csv')
@@ -429,6 +451,7 @@ def main():
     # print process_demand('data/SiouxFalls_trips.txt')
     # cities_to_js('data/cities.js', 'Los Angeles', 0, 1)
     pass
+
 
 if __name__ == '__main__':
     main()

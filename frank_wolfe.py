@@ -1,6 +1,3 @@
-__author__ = "Jerome Thai"
-__email__ = "jerome.thai@berkeley.edu"
-
 import numpy as np
 from All_Or_Nothing import all_or_nothing
 
@@ -55,6 +52,7 @@ def total_free_flow_cost(g, demand):
 def solver(graph, demand, max_iter=100, eps=1e-8, q=None, display=0, past=None,
            stop=1e-8):
     # Prepares arrays for assignment
+    error = 'N/A'
     links = int(np.max(graph[:, 0]) + 1)
     f = np.zeros(links, dtype="float64")  # initial flow assignment is null
     g = np.copy(graph[:, :4])
@@ -66,10 +64,7 @@ def solver(graph, demand, max_iter=100, eps=1e-8, q=None, display=0, past=None,
 
     for i in range(max_iter):
         if display >= 1:
-            if i <= 1:
-                print 'iteration: {}'.format(i + 1)
-            else:
-                print 'iteration: {}, error: {}'.format(i + 1, error)
+            print 'iteration: {}, error: {}'.format(i + 1, error)
         # construct weighted graph with latest flow assignment
         L, grad = search_direction(f, graph, g, demand)
         if i >= 1:
@@ -87,6 +82,7 @@ def solver_2(graph, demand, max_iter=100, eps=1e-8, q=10, display=0, past=None,
              stop=1e-8):
     # version with line search
     # Prepares arrays for assignment
+    error = 'N/A'
     links = int(np.max(graph[:, 0]) + 1)
     f = np.zeros(links, dtype="float64")  # initial flow assignment is null
     g = np.copy(graph[:, :4])
@@ -99,10 +95,7 @@ def solver_2(graph, demand, max_iter=100, eps=1e-8, q=10, display=0, past=None,
 
     for i in range(max_iter):
         if display >= 1:
-            if i <= 1:
-                print 'iteration: {}'.format(i + 1)
-            else:
-                print 'iteration: {}, error: {}'.format(i + 1, error)
+            print 'iteration: {}, error: {}'.format(i + 1, error)
         # construct weighted graph with latest flow assignment
         L, grad = search_direction(f, graph, g, demand)
         if i >= 1:
@@ -112,10 +105,13 @@ def solver_2(graph, demand, max_iter=100, eps=1e-8, q=10, display=0, past=None,
             error = grad.dot(f - L) / K
             if error < stop:
                 return f
-        # s = line_search(lambda a: potential(graph, (1.-a)*f+a*L)) if i>max_iter-q \
+        # s = line_search(lambda a: potential(graph, (1.-a)*f+a*L))
+        # if i>max_iter-q \
         #     else 2./(i+2.)
-        s = line_search(lambda a: potential(graph, (1. - a) * \
-                        f + a * L)) if i % ls == (ls - 1) else 2. / (i + 2.)
+        if i % ls == (ls - 1):
+            s = line_search(lambda a: potential(graph, (1. - a) * f + a * L))
+        else:
+            s = 2. / (i + 2.)
         if s < eps:
             return f
         f = (1. - s) * f + s * L
@@ -125,6 +121,7 @@ def solver_2(graph, demand, max_iter=100, eps=1e-8, q=10, display=0, past=None,
 def solver_3(graph, demand, past=10, max_iter=100, eps=1e-8, q=50, display=0,
              stop=1e-8):
     # modified Frank-Wolfe from Masao Fukushima
+    error = 'N/A'
     links = int(np.max(graph[:, 0]) + 1)
     f = np.zeros(links, dtype="float64")  # initial flow assignment is null
     fs = np.zeros((links, past), dtype="float64")
@@ -137,10 +134,7 @@ def solver_3(graph, demand, past=10, max_iter=100, eps=1e-8, q=50, display=0,
 
     for i in range(max_iter):
         if display >= 1:
-            if i <= 1:
-                print 'iteration: {}'.format(i + 1)
-            else:
-                print 'iteration: {}, error: {}'.format(i + 1, error)
+            print 'iteration: {}, error: {}'.format(i + 1, error)
         # construct weighted graph with latest flow assignment
         L, grad = search_direction(f, graph, g, demand)
         fs[:, i % past] = L
