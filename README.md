@@ -3,6 +3,8 @@ This is a Python implementation of the equilibrium assignment using the traditio
 
 Our Python implementation has been tested against Matthew Steel's C++ implementation of Bar-Gera's and Dial's origin-based solver: http://www.repsilat.com/EquilibriumSolver.html. Both yield same edge flow assignment on some of the test problems in: http://www.bgu.ac.il/~bargera/tntp/
 
+Transportation networks have been moved to this repository: https://github.com/bstabler/TransportationNetworks
+
 Setup
 -----
 Compile the Cython code with the following command:
